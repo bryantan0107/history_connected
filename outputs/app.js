@@ -137,6 +137,7 @@ const I18N = {
     exploreKnowledgeTree: "Explore Knowledge Tree",
     lensTreeHint: "Browse lenses and reference places.",
     exploreLensTree: "Open Knowledge Tree",
+    allTracks: "All tracks",
     selectedFocuses: "Selected focuses",
     focusTrack: "Focus / Track",
     phases: "Phases",
@@ -253,6 +254,7 @@ const I18N = {
     exploreKnowledgeTree: "探索知识树",
     lensTreeHint: "浏览视角与参照地点。",
     exploreLensTree: "打开知识树",
+    allTracks: "全部专题",
     selectedFocuses: "已选专题",
     focusTrack: "专题 / 轨道",
     phases: "阶段",
@@ -2021,25 +2023,17 @@ function renderLensTreeDrawer() {
       renderLensTreeDrawer();
     });
   });
-  els.lensTreeContent.querySelector("[data-tree-clear-lenses]")?.addEventListener("click", () => {
-    setSelectedLensIds([]);
-    state.selectedTrackIds = [];
-    syncSelectedTrackAlias();
-    state.selectedItem = null;
-    state.selectedEventId = null;
-    state.detail = { type: "empty" };
-    state.view = "time-slice";
-    state.deepDiveOpen = true;
-    renderAll();
+  els.lensTreeContent.querySelector("[data-tree-toggle-all-lenses]")?.addEventListener("click", () => {
+    toggleAllLensTreeItems();
   });
-  els.lensTreeContent.querySelector("[data-tree-clear-places]")?.addEventListener("click", () => {
-    setSelectedPlaceIds([]);
-    state.selectedItem = null;
-    state.selectedEventId = null;
-    state.detail = { type: "empty" };
-    state.view = "time-slice";
-    state.deepDiveOpen = true;
-    renderAll();
+  els.lensTreeContent.querySelector("[data-tree-toggle-all-places]")?.addEventListener("click", () => {
+    toggleAllPlaces();
+  });
+  els.lensTreeContent.querySelectorAll("[data-tree-toggle-all-tracks]").forEach((button) => {
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
+      toggleAllTracksForLens(button.dataset.treeToggleAllTracks);
+    });
   });
   els.lensTreeContent.querySelectorAll("[data-tree-toggle]").forEach((button) => {
     button.addEventListener("click", (event) => {
@@ -2075,8 +2069,9 @@ function toggleKnowledgeTreeTab(tab) {
 }
 
 function renderLensTreeContent() {
+  const selectionState = getLensTreeSelectionState();
   return `
-    <button class="lens-tree-clear ${!getSelectedLensIds().length && !getSelectedTrackIds().length ? "active" : ""}" type="button" data-tree-clear-lenses>
+    <button class="lens-tree-clear ${selectionState.all ? "active" : ""} ${selectionState.partial ? "partial" : ""}" type="button" data-tree-toggle-all-lenses aria-pressed="${selectionState.all}">
       ${t("all")}
     </button>
     ${HISTORY_DATA.lenses.map((lens) => renderLensTreeLensNode(lens)).join("")}
@@ -2085,9 +2080,10 @@ function renderLensTreeContent() {
 
 function renderPlaceTreeContent() {
   ensurePlaceMacroAreasExpanded();
+  const selectionState = getPlaceTreeSelectionState();
   return `
     <div class="place-reference-note">${t("placeReferenceNote")}</div>
-    <button class="lens-tree-clear ${!getSelectedPlaceIds().length ? "active" : ""}" type="button" data-tree-clear-places>
+    <button class="lens-tree-clear ${selectionState.all ? "active" : ""} ${selectionState.partial ? "partial" : ""}" type="button" data-tree-toggle-all-places aria-pressed="${selectionState.all}">
       ${t("all")}
     </button>
     ${(HISTORY_DATA.macroAreas || []).map((area) => renderPlaceTreeMacroArea(area)).join("")}
@@ -2142,6 +2138,7 @@ function renderLensTreeLensNode(lens) {
   const expanded = isLensTreeNodeExpanded(getLensTreeKey("lens", lens.id));
   const selected = state.selectedLensIds.includes(lens.id);
   const hasSelectedChild = tracks.some((track) => getSelectedTrackIds().includes(track.id));
+  const trackSelectionState = getTrackSelectionStateForLens(lens.id);
   return `
     <section class="lens-tree-node lens-tree-lens ${selected || hasSelectedChild ? "selected" : ""}">
       <div class="lens-tree-row">
@@ -2155,7 +2152,12 @@ function renderLensTreeLensNode(lens) {
       ${expanded ? `
         <div class="lens-tree-children">
           ${tracks.length ? `
-            <div class="lens-tree-group-label">${t("focusTrack")}</div>
+            <div class="lens-tree-group-header">
+              <div class="lens-tree-group-label">${t("focusTrack")}</div>
+              <button class="lens-tree-track-all ${trackSelectionState.all ? "active" : ""} ${trackSelectionState.partial ? "partial" : ""}" type="button" data-tree-toggle-all-tracks="${lens.id}" aria-pressed="${trackSelectionState.all}">
+                ${t("allTracks")}
+              </button>
+            </div>
             ${tracks.map((track) => renderLensTreeTrackNode(track)).join("")}
           ` : ""}
         </div>
@@ -2185,6 +2187,85 @@ function renderLensTreePhaseNode(node) {
       <strong>${localizedItemTitle(node)}</strong>
     </button>
   `;
+}
+
+function getLensTreeSelectionState() {
+  const lensIds = (HISTORY_DATA.lenses || []).map((lens) => lens.id).filter(Boolean);
+  const trackIds = (HISTORY_DATA.lensTracks || []).map((track) => track.id).filter(Boolean);
+  const allIds = [...lensIds, ...trackIds];
+  const selected = new Set([...getSelectedLensIds(), ...getSelectedTrackIds()]);
+  const selectedCount = allIds.filter((id) => selected.has(id)).length;
+  return {
+    all: allIds.length > 0 && selectedCount === allIds.length,
+    partial: selectedCount > 0 && selectedCount < allIds.length
+  };
+}
+
+function getPlaceTreeSelectionState() {
+  const placeIds = getAllPlaceIds();
+  const selected = new Set(getSelectedPlaceIds());
+  const selectedCount = placeIds.filter((id) => selected.has(id)).length;
+  return {
+    all: placeIds.length > 0 && selectedCount === placeIds.length,
+    partial: selectedCount > 0 && selectedCount < placeIds.length
+  };
+}
+
+function getTrackSelectionStateForLens(lensId) {
+  const trackIds = getTracksForLens(lensId).map((track) => track.id);
+  const selected = new Set(getSelectedTrackIds());
+  const selectedCount = trackIds.filter((id) => selected.has(id)).length;
+  return {
+    all: trackIds.length > 0 && selectedCount === trackIds.length,
+    partial: selectedCount > 0 && selectedCount < trackIds.length
+  };
+}
+
+function toggleAllLensTreeItems() {
+  const selectionState = getLensTreeSelectionState();
+  if (selectionState.all) {
+    setSelectedLensIds([]);
+    state.selectedTrackIds = [];
+  } else {
+    setSelectedLensIds((HISTORY_DATA.lenses || []).map((lens) => lens.id));
+    state.selectedTrackIds = (HISTORY_DATA.lensTracks || []).map((track) => track.id);
+  }
+  syncSelectedTrackAlias();
+  resetSelectionDetail();
+  renderAll();
+}
+
+function toggleAllPlaces() {
+  const selectionState = getPlaceTreeSelectionState();
+  setSelectedPlaceIds(selectionState.all ? [] : getAllPlaceIds());
+  resetSelectionDetail();
+  renderAll();
+}
+
+function toggleAllTracksForLens(lensId) {
+  const trackIds = getTracksForLens(lensId).map((track) => track.id);
+  if (!trackIds.length) return;
+  const selectionState = getTrackSelectionStateForLens(lensId);
+  const selected = new Set(getSelectedTrackIds());
+  trackIds.forEach((trackId) => {
+    if (selectionState.all) {
+      selected.delete(trackId);
+    } else {
+      selected.add(trackId);
+    }
+  });
+  state.selectedTrackIds = [...selected];
+  syncSelectedTrackAlias();
+  resetSelectionDetail();
+  renderAll();
+}
+
+function resetSelectionDetail() {
+  state.selectedItem = null;
+  state.selectedEventId = null;
+  state.detail = { type: "empty" };
+  state.view = "time-slice";
+  state.deepDiveOpen = true;
 }
 
 function getLensTreeKey(type, id) {
@@ -5590,6 +5671,10 @@ function getDefaultPlaceIds() {
     "west-africa",
     "egypt-north-africa"
   ].filter((placeId) => getPlaceById(placeId));
+}
+
+function getAllPlaceIds() {
+  return (HISTORY_DATA.places || []).map((place) => place.id).filter((placeId) => getPlaceById(placeId));
 }
 
 function getSelectedPlaceIds() {
