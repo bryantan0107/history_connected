@@ -1,0 +1,13 @@
+{
+  "name": "history-connected-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static prototype for exploring historical time slices, lenses, regions, phases, and exact events.",
+  "scripts": {
+    "serve": "python3 -m http.server 8081 -d outputs",
+    "check": "node --check outputs/app.js && node --check outputs/data.js && node --check outputs/generated-content.js",
+    "content:validate": "node scripts/content/validate-content.mjs",
+    "content:promote": "node scripts/content/promote-approved-content.mjs",
+    "content:audit": "node scripts/content/audit-coverage.mjs"
+  }
+}
