@@ -1715,7 +1715,7 @@ function renderTimeSliceView() {
             return `
               <button class="matrix-mobile-row ${cell.hasData ? "" : "empty"} ${cell.matchKind || ""}" data-region="${cell.region}" data-lens-id="${cell.lensId}" data-track-id="${cell.trackId || ""}" data-item-type="${cell.itemType || ""}" data-item-id="${cell.itemId || ""}">
                 <span>${getMatrixRowLabel(row)}</span>
-                <strong><small>${cell.matchKindLabel || localizedTypeLabel(cell.typeLabel)}</small>${cell.title}${cell.supportCount ? `<em>+${cell.supportCount} context</em>` : ""}</strong>
+                <strong><small>${cell.matchKindLabel || localizedTypeLabel(cell.typeLabel)}</small>${cell.title}${cell.supportCount ? `<em>${formatMatrixEventCount(cell.supportCount)}</em>` : ""}</strong>
               </button>
             `;
           }).join("")}
@@ -2853,9 +2853,14 @@ function renderTimeSliceCell(cell, options = {}) {
       <strong>${cell.title}</strong>
       ${cell.sourceTypeLabel && cell.sourceTypeLabel !== cell.typeLabel ? `<span class="matrix-source-type">${localizedTypeLabel(cell.sourceTypeLabel)}</span>` : ""}
       <span>${cell.period || ""}</span>
-      ${cell.supportCount ? `<span class="matrix-context-count">+${cell.supportCount} context</span>` : ""}
+      ${cell.supportCount ? `<span class="matrix-context-count">${formatMatrixEventCount(cell.supportCount)}</span>` : ""}
     </button>
   `;
+}
+
+function formatMatrixEventCount(count) {
+  if (state.locale === "zh") return `+${count} 事件`;
+  return `+${count} ${count === 1 ? "event" : "events"}`;
 }
 
 function getMatrixRowLabel(rowOrLens) {
@@ -4941,11 +4946,9 @@ function timeSliceCellFromMatch(year, region, lens, match, track = null) {
 }
 
 function decorateTimeSliceCellWithContext(cell, buckets) {
-  const supportCount = [
-    ...buckets.exactEvents,
-    ...buckets.regionalPhases,
-    ...buckets.relatedLensPhases
-  ].filter((item) => item.itemId !== cell.itemId || item.itemType !== cell.itemType).length;
+  const supportCount = buckets.exactEvents
+    .filter((item) => item.itemId !== cell.itemId || item.itemType !== cell.itemType)
+    .length;
   return {
     ...cell,
     supportCount: cell.hasData ? supportCount : 0
