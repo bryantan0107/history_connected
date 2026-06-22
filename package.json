@@ -4,6 +4,8 @@
   "private": true,
   "description": "Static prototype for exploring historical time slices, lenses, regions, phases, and exact events.",
   "scripts": {
+    "build": "node scripts/vercel-build.mjs",
+    "vercel-build": "node scripts/vercel-build.mjs",
     "serve": "python3 -m http.server 8081 -d outputs",
     "check": "node --check outputs/app.js && node --check outputs/data.js && node --check outputs/generated-content.js",
     "content:validate": "node scripts/content/validate-content.mjs",
