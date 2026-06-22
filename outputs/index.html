@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>History Connected</title>
+    <link rel="stylesheet" href="styles.css?v=section-navigator-popover-20260622">
+  </head>
+  <body class="is-workspace">
+    <section id="landingLayer" class="landing-layer" aria-label="Cinematic timeline landing" tabindex="0">
+      <div class="cosmic-field" aria-hidden="true"></div>
+      <div class="landing-copy">
+        <div class="landing-brand">History Connected</div>
+        <h1>Every point in time contains a world.</h1>
+        <p>A timeline where every moment opens into the world.</p>
+      </div>
+      <div id="landingTimeline" class="landing-timeline" role="slider" aria-label="Choose a year" aria-valuemin="1453" aria-valuemax="1914" aria-valuenow="1453" tabindex="0">
+        <div class="landing-line"></div>
+        <div id="landingActivePoint" class="landing-active-point" style="--point-x: 0%"></div>
+        <div id="landingAnchors" class="landing-anchors"></div>
+        <div id="landingActiveYear" class="landing-active-year" style="--point-x: 0%">1453</div>
+      </div>
+      <div id="landingKeywords" class="landing-keywords" aria-live="polite"></div>
+      <div class="landing-hint">Move along the line. Click a year to open it.</div>
+    </section>
+
+    <div class="app-shell">
+      <nav id="compactYearNavigator" class="compact-year-navigator" aria-label="Compact year navigator" hidden style="display: none;">
+        <button id="backToLandingBtn" class="secondary-btn small">Back to Timeline</button>
+        <div id="compactYearTrack" class="compact-year-track"></div>
+      </nav>
+
+      <section id="topControlCenter" class="top-control-center" aria-label="Top control center">
+        <header class="command-bar" aria-label="Command bar">
+          <div class="brand-block">
+            <div class="brand-mark">HC</div>
+            <div>
+              <h1>History Connected</h1>
+              <p>Time, space, and mechanisms in one historical workspace.</p>
+            </div>
+          </div>
+          <div class="search-cluster">
+            <div class="search-wrap">
+              <input id="searchInput" type="search" placeholder="Search a year, event, place, or category..." aria-label="Search a year, event, place, or category">
+              <div id="searchResults" class="search-results" hidden></div>
+            </div>
+            <div class="recommended-row" hidden>
+              <span class="recommended-label" data-i18n="recommendedPaths">Recommended paths</span>
+              <nav class="quick-starts" aria-label="Quick starts">
+                <button class="quick-btn" data-quick="1453">1453 Constantinople</button>
+                <button class="quick-btn" data-quick="1879">1879 Light Bulb</button>
+                <button class="quick-btn" data-quick="1914">1914 World War I</button>
+                <button class="quick-btn accent" data-quick="art" data-i18n="artLens">Art Lens</button>
+              </nav>
+            </div>
+          </div>
+          <div class="header-actions">
+            <div class="year-pill" aria-live="polite">
+              <span data-i18n="year">Year</span>
+              <strong id="currentYearLabel">1453</strong>
+            </div>
+            <button id="localeToggle" class="secondary-btn small locale-toggle" type="button" aria-label="Switch language">中文</button>
+          </div>
+        </header>
+
+        <div id="controlsPanel" class="controls-panel">
+          <section class="control-panel" aria-label="Timeline">
+            <div class="timeline-row">
+              <div class="control-label-group">
+                <div class="section-kicker" data-i18n="timeline">Timeline</div>
+              </div>
+              <div class="timeline-main">
+                <div class="slider-row">
+                  <button id="minYearLabel" class="timeline-boundary-btn" type="button" data-boundary="min">1453</button>
+                  <input id="yearSlider" type="range" min="0" max="2" step="1" value="0" aria-label="Year slider">
+                  <button id="maxYearLabel" class="timeline-boundary-btn" type="button" data-boundary="max">1914</button>
+                </div>
+                <div class="year-ticks" id="yearTicks"></div>
+                <div id="timelineHoverLabel" class="timeline-hover-label" hidden>1453</div>
+                <div id="timelineRangeEditor" class="timeline-range-editor" hidden>
+                  <div class="range-editor-title" id="timelineRangeEditorTitle">Edit timeline range</div>
+                  <div class="range-editor-controls">
+                    <input id="timelineRangeInput" type="number" min="1" step="1" inputmode="numeric" aria-label="Timeline boundary year">
+                    <select id="timelineRangeEra" aria-label="Era">
+                      <option value="BCE">BCE</option>
+                      <option value="CE">CE</option>
+                    </select>
+                    <button id="timelineRangeApplyBtn" class="primary-btn small" type="button">Apply</button>
+                    <button id="timelineRangeResetBtn" class="secondary-btn small" type="button">Reset range</button>
+                  </div>
+                  <p id="timelineRangeError" class="range-editor-error" hidden></p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div id="lensChips" class="chips hidden-control" role="list" hidden></div>
+          <div id="trackFocusPanel" class="track-focus-panel" hidden></div>
+          <button id="openLensLineageBtn" class="secondary-btn small lens-lineage-btn" hidden>Open Lens Lineage</button>
+          <div class="mode-control hidden-control" aria-label="Category mode" hidden>
+            <button id="connectionModeBtn" class="active" data-mode="Connection Lens" data-i18n="connectionLens">Connection Lens</button>
+            <button id="strictModeBtn" data-mode="Only this category" data-i18n="onlyThisCategory">Only this category</button>
+          </div>
+          <div id="viewModeSwitcher" class="view-switcher hidden-control" role="group" aria-label="View mode" hidden>
+            <button class="view-mode-btn active" data-view="time-slice" data-i18n="timeSlice">Time Slice</button>
+            <button class="view-mode-btn" data-view="local" data-i18n="localExplorer">Local Explorer</button>
+            <button class="view-mode-btn secondary-view" data-view="lineage" hidden>Lens Lineage</button>
+            <button class="view-mode-btn" data-view="connections" data-i18n="connectionExplorer">Connection Explorer</button>
+          </div>
+        </div>
+      </section>
+
+      <div class="workspace-body">
+        <div id="lensTreeBackdrop" class="lens-tree-backdrop" hidden></div>
+        <aside id="lensTreeDrawer" class="lens-tree-drawer" aria-label="Lens tree drawer" aria-hidden="true">
+          <div class="lens-tree-header">
+            <div>
+              <div class="section-kicker" data-i18n="lensTree">Lens Tree</div>
+              <h2 data-i18n="exploreKnowledgeTree">Explore Knowledge Tree</h2>
+              <p data-i18n="lensTreeHint">Browse lenses and places.</p>
+            </div>
+            <button id="closeLensTreeBtn" class="controls-toggle" type="button" aria-label="Close lens tree">×</button>
+          </div>
+          <div id="lensTreeContent" class="lens-tree-content"></div>
+        </aside>
+
+        <main>
+        <section id="yearCapsuleSection" class="year-capsule-section" hidden>
+          <div class="capsule-hero">
+            <div>
+              <div class="section-kicker">Year Capsule</div>
+              <h2 id="yearCapsuleTitle">World at 1453</h2>
+              <p id="yearCapsuleSubtitle">Same moment, different worlds.</p>
+            </div>
+            <div class="capsule-actions">
+              <button id="viewFullTimeSliceBtn" class="primary-btn">View full time slice</button>
+              <button id="exploreMomentBtn" class="secondary-btn">Explore this moment</button>
+            </div>
+          </div>
+          <div id="yearCapsuleKeywords" class="capsule-keywords"></div>
+          <div id="yearCapsuleCards" class="capsule-card-grid"></div>
+        </section>
+
+        <section id="timeSliceSection" class="time-slice-section">
+          <div class="panel-heading time-slice-heading">
+            <div>
+              <div class="step-badge" data-i18n="worldAtThisMoment">WORLD AT THIS MOMENT</div>
+              <div class="section-kicker" data-i18n="timeSliceView">Time Slice View</div>
+              <h2 id="timeSliceTitle">World at 1453</h2>
+              <p id="timeSliceSubtitle">A time slice of regions, lenses, and events happening at the same moment.</p>
+            </div>
+            <div class="time-slice-heading-actions">
+              <p class="time-slice-slogan" data-i18n="sameMoment">Same moment, different worlds.</p>
+              <div class="time-slice-actions" aria-label="Time slice controls">
+                <button class="secondary-btn small" type="button" data-open-tree-tab="lenses" data-i18n="addLens">Add Lens</button>
+                <button class="secondary-btn small" type="button" data-open-tree-tab="places" data-i18n="addRegion">Add Region</button>
+                <button class="secondary-btn small" type="button" data-reset-defaults data-i18n="resetDefaults">Reset defaults</button>
+              </div>
+            </div>
+          </div>
+          <div id="timeSliceMatrix" class="time-slice-matrix" aria-label="Time slice matrix"></div>
+        </section>
+
+        <section id="lineagePreviewSection" class="lineage-preview-section" hidden></section>
+        <section id="regionPhasesSection" class="lineage-preview-section region-phases-section" hidden></section>
+
+        <section class="map-snapshot-grid">
+          <article class="map-panel">
+            <div class="panel-heading">
+              <div>
+                <div class="step-badge">02 WHERE</div>
+                <div class="section-kicker">Map</div>
+                <h2>World Regions</h2>
+              </div>
+              <p>Clickable simplified map. Labels show this year's local context.</p>
+            </div>
+            <div id="mapCanvas" class="map-canvas" aria-label="Simplified clickable world map"></div>
+          </article>
+
+          <aside class="snapshot-panel">
+            <div class="panel-heading">
+              <div>
+                <div class="step-badge">03 WORLD CONTEXT</div>
+                <div class="section-kicker">Same-Year</div>
+                <h2>World Snapshot</h2>
+              </div>
+            </div>
+            <div id="snapshotCards" class="snapshot-list"></div>
+          </aside>
+        </section>
+
+        <section id="deepDivePanel" class="deep-dive-panel" aria-label="Deep dive">
+          <div class="deep-dive-header">
+            <div>
+              <div class="section-kicker">Deep Dive</div>
+              <h2 data-i18n="deepDiveTitle">Local Explorer / Connections</h2>
+              <p data-i18n="deepDiveHint">Click a time-slice cell to inspect local context and possible bridges.</p>
+            </div>
+            <button id="toggleDeepDiveBtn" class="secondary-btn small" type="button">Show deep dive</button>
+          </div>
+
+          <div id="deepDiveContent" class="deep-dive-content">
+            <section class="context-bar" aria-live="polite">
+              <span id="contextText">Viewing: 1453 · Constantinople / Eastern Mediterranean · Lens: All</span>
+            </section>
+
+            <section id="localContextSection" class="events-section">
+              <div class="panel-heading">
+                <div>
+                  <div class="step-badge" data-i18n="localEvents">04 LOCAL EVENTS</div>
+                  <div class="section-kicker" data-i18n="localContext">Local Context</div>
+                  <h2 data-i18n="eventsHere">Events Here</h2>
+                </div>
+              <p id="eventsHint" data-i18n="eventsHint">Select an event to update the explorer below.</p>
+              </div>
+              <div id="eventCards" class="event-grid"></div>
+            </section>
+
+            <section class="explorer-layout">
+              <article class="explorer-panel">
+                <div class="explorer-topline">
+                  <div>
+                    <div class="step-badge">05 CONNECTION PATHS</div>
+                    <div class="section-kicker" id="explorerKicker" data-i18n="connectionExplorer">Connection Explorer</div>
+                    <h2 id="explorerTitle" data-i18n="connectionExplorer">Connection Explorer</h2>
+                    <p id="explorerSubtitle" data-i18n="followBridges">Follow historical bridges from left to right.</p>
+                    <p class="onboarding-hint">Nodes show moments. Arrows explain why they connect.</p>
+                  </div>
+                  <div class="explorer-actions">
+                    <button id="openExplorerLineageBtn" class="secondary-btn" hidden>Open Lens Lineage</button>
+                    <button id="exitLineageBtn" class="secondary-btn" hidden>Back to event bridges</button>
+                  </div>
+                </div>
+
+                <div id="selectedEventBanner" class="selected-event"></div>
+
+                <div class="bridge-toolbar">
+                  <div>
+                    <div class="section-kicker">Bridge Overview</div>
+                    <div id="bridgeChips" class="chips"></div>
+                  </div>
+                  <button id="showAllBridgesBtn" class="secondary-btn small" hidden>Show all bridges</button>
+                </div>
+
+                <div id="connectionPaths" class="path-list"></div>
+
+                <div class="progressive-actions">
+                  <button id="showMoreBtn" class="primary-btn">Show more bridges</button>
+                  <button id="extendPathBtn" class="secondary-btn">Extend path</button>
+                </div>
+              </article>
+
+              <aside class="detail-panel" aria-live="polite">
+                <div class="section-kicker" id="detailKicker">Node Detail</div>
+                <div id="detailContent"></div>
+              </aside>
+            </section>
+          </div>
+        </section>
+        </main>
+      </div>
+    </div>
+
+    <nav id="sectionNavigator" class="section-navigator" aria-label="Section navigation" aria-hidden="true">
+      <button id="sectionNavigatorToggle" class="section-navigator-toggle" type="button" aria-label="Open section navigation" aria-expanded="false">HC</button>
+      <div class="section-navigator-panel">
+        <button type="button" data-section-target="top" data-i18n="navTop">Top</button>
+        <button type="button" data-section-target="timeSliceSection" data-i18n="navTimeSlice">Slice</button>
+        <button type="button" data-section-target="lineagePreviewSection" data-i18n="navLensPhases">Lens</button>
+        <button type="button" data-section-target="regionPhasesSection" data-i18n="navRegionPhases">Regions</button>
+        <button type="button" data-section-target="localContextSection" data-i18n="navLocalContext">Events</button>
+      </div>
+    </nav>
+
+    <div id="phaseModal" class="phase-modal" hidden>
+      <div class="phase-modal-backdrop" data-phase-modal-close></div>
+      <article class="phase-modal-card" role="dialog" aria-modal="true" aria-labelledby="phaseModalTitle">
+        <button id="phaseModalCloseBtn" class="phase-modal-close" type="button" aria-label="Close phase detail">×</button>
+        <div id="phaseModalContent"></div>
+      </article>
+    </div>
+
+    <div id="eventModal" class="phase-modal event-modal" hidden>
+      <div class="phase-modal-backdrop" data-event-modal-close></div>
+      <article class="phase-modal-card event-modal-card" role="dialog" aria-modal="true" aria-labelledby="eventModalTitle">
+        <button id="eventModalCloseBtn" class="phase-modal-close" type="button" aria-label="Close event detail">×</button>
+        <div id="eventModalContent"></div>
+      </article>
+    </div>
+
+    <script src="generated-content.js?v=war-global-conflicts-20260622"></script>
+    <script src="data.js?v=war-global-conflicts-20260622"></script>
+    <script src="app.js?v=section-navigator-popover-20260622"></script>
+  </body>
+</html>

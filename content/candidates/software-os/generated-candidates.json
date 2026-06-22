@@ -1,0 +1,317 @@
+{
+  "batchId": "software-os-generated-candidates",
+  "trackId": "software-os",
+  "reviewStatus": "candidate",
+  "events": [
+    {
+      "id": "candidate-multics-development-begins-1964",
+      "year": 1964,
+      "title": "Multics development begins",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "software-os"
+      ],
+      "phaseIds": [
+        "software-os-02"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "software-os",
+      "primaryPhaseId": "software-os-02",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-smalltalk-environment-developed-at-xerox-parc-1972",
+      "year": 1972,
+      "title": "Smalltalk environment developed at Xerox PARC",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "software-os"
+      ],
+      "phaseIds": [
+        "software-os-04"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "software-os",
+      "primaryPhaseId": "software-os-04",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-gnu-project-announced-1983",
+      "year": 1983,
+      "title": "GNU Project announced",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "software-os"
+      ],
+      "phaseIds": [
+        "software-os-05"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "software-os",
+      "primaryPhaseId": "software-os-05",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-posix-standardization-begins-1988",
+      "year": 1988,
+      "title": "POSIX standardization begins",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "global-transregional"
+      ],
+      "primaryPlaceId": "global-transregional",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "software-os"
+      ],
+      "phaseIds": [
+        "software-os-05"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "software-os",
+      "primaryPhaseId": "software-os-05",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-java-released-1995",
+      "year": 1995,
+      "title": "Java released",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "software-os"
+      ],
+      "phaseIds": [
+        "software-os-05"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "software-os",
+      "primaryPhaseId": "software-os-05",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-node-js-released-2009",
+      "year": 2009,
+      "title": "Node.js released",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "software-os"
+      ],
+      "phaseIds": [
+        "software-os-05"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "software-os",
+      "primaryPhaseId": "software-os-05",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-react-released-as-open-source-2013",
+      "year": 2013,
+      "title": "React released as open source",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "software-os"
+      ],
+      "phaseIds": [
+        "software-os-07"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "software-os",
+      "primaryPhaseId": "software-os-07",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-visual-studio-code-released-2015",
+      "year": 2015,
+      "title": "Visual Studio Code released",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "software-os"
+      ],
+      "phaseIds": [
+        "software-os-07"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "software-os",
+      "primaryPhaseId": "software-os-07",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-webassembly-reaches-mvp-2017",
+      "year": 2017,
+      "title": "WebAssembly reaches MVP",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "global-transregional"
+      ],
+      "primaryPlaceId": "global-transregional",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "software-os"
+      ],
+      "phaseIds": [
+        "software-os-07"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "software-os",
+      "primaryPhaseId": "software-os-07",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-github-copilot-generally-available-2022",
+      "year": 2022,
+      "title": "GitHub Copilot generally available",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "software-os"
+      ],
+      "phaseIds": [
+        "software-os-08"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "software-os",
+      "primaryPhaseId": "software-os-08",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    }
+  ]
+}

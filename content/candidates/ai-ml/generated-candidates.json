@@ -1,0 +1,317 @@
+{
+  "batchId": "ai-ml-generated-candidates",
+  "trackId": "ai-ml",
+  "reviewStatus": "candidate",
+  "events": [
+    {
+      "id": "candidate-logic-theorist-demonstrated-1956",
+      "year": 1956,
+      "title": "Logic Theorist demonstrated",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "ai-ml-02"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "ai-ml",
+      "primaryPhaseId": "ai-ml-02",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-lisp-language-introduced-1958",
+      "year": 1958,
+      "title": "LISP language introduced",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "ai-ml-02"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "ai-ml",
+      "primaryPhaseId": "ai-ml-02",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-shakey-robot-project-begins-1966",
+      "year": 1966,
+      "title": "Shakey robot project begins",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "ai-ml-02"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "ai-ml",
+      "primaryPhaseId": "ai-ml-02",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-backpropagation-popularized-for-neural-networks-1986",
+      "year": 1986,
+      "title": "Backpropagation popularized for neural networks",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "global-transregional"
+      ],
+      "primaryPlaceId": "global-transregional",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "ai-ml-04"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "ai-ml",
+      "primaryPhaseId": "ai-ml-04",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-ibm-watson-wins-jeopardy-2011",
+      "year": 2011,
+      "title": "IBM Watson wins Jeopardy",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "ai-ml-04"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "ai-ml",
+      "primaryPhaseId": "ai-ml-04",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-tensorflow-released-as-open-source-2015",
+      "year": 2015,
+      "title": "TensorFlow released as open source",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "ai-ml-05"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "ai-ml",
+      "primaryPhaseId": "ai-ml-05",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-pytorch-released-2016",
+      "year": 2016,
+      "title": "PyTorch released",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "ai-ml-05"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "ai-ml",
+      "primaryPhaseId": "ai-ml-05",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-stable-diffusion-released-publicly-2022",
+      "year": 2022,
+      "title": "Stable Diffusion released publicly",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "global-transregional"
+      ],
+      "primaryPlaceId": "global-transregional",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "ai-ml-07"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "ai-ml",
+      "primaryPhaseId": "ai-ml-07",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-llama-model-weights-released-2023",
+      "year": 2023,
+      "title": "Llama model weights released",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "ai-ml-07"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "ai-ml",
+      "primaryPhaseId": "ai-ml-07",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    },
+    {
+      "id": "candidate-retrieval-augmented-generation-becomes-mainstream-2023",
+      "year": 2023,
+      "title": "Retrieval-augmented generation becomes mainstream",
+      "titleZh": "",
+      "summary": "",
+      "summaryZh": "",
+      "placeIds": [
+        "global-transregional"
+      ],
+      "primaryPlaceId": "global-transregional",
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "ai-ml-07"
+      ],
+      "primaryLensId": "science-technology",
+      "primaryTrackId": "ai-ml",
+      "primaryPhaseId": "ai-ml-07",
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Candidate generated from local curated IT milestone list; requires Codex review before approval."
+      ],
+      "reviewStatus": "candidate"
+    }
+  ]
+}
