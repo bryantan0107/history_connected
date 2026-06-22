@@ -10,6 +10,7 @@
     "check": "node --check outputs/app.js && node --check outputs/data.js && node --check outputs/generated-content.js",
     "content:validate": "node scripts/content/validate-content.mjs",
     "content:promote": "node scripts/content/promote-approved-content.mjs",
-    "content:audit": "node scripts/content/audit-coverage.mjs"
+    "content:audit": "node scripts/content/audit-coverage.mjs",
+    "content:audit-legacy": "node scripts/content/audit-legacy-events.mjs"
   }
 }
