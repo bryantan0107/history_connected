@@ -39,6 +39,10 @@ function validateEvent(event, strictDetail = false, strictLocalized = true) {
 }
 
 approved.events.forEach((event) => validateEvent(event, Boolean(event.eventIntro || event.whyMatters), true));
+approved.events.forEach((event) => {
+  ["eventIntro", "eventIntroZh", "whyMatters", "whyMattersZh", "phaseRelation", "phaseRelationZh", "connectionHint", "connectionHintZh"].forEach((field) => requireField(event, field));
+  ["image", "imageAlt", "imageCaption", "imageCaptionZh", "imageCredit", "imageSourceUrl"].forEach((field) => requireField(event, field));
+});
 candidates.events.forEach((event) => validateEvent(event, false, false));
 
 const approvedIds = new Set();

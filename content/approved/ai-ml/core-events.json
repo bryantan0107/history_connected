@@ -27,7 +27,13 @@
       "phaseRelation": "This event belongs to the Symbolic AI and early laboratories phase because it turned scattered work in logic, cybernetics, computation, and psychology into a recognizable AI research community.",
       "phaseRelationZh": "它属于“符号 AI 与早期实验室”阶段，因为它把逻辑、控制论、计算和心理学中的分散工作，转化为一个可识别的 AI 研究共同体。",
       "connectionHint": "It connects naturally to later expert systems, because early AI inherited the belief that intelligence could be represented as symbols, rules, and explicit problem-solving procedures.",
-      "connectionHintZh": "它自然连接到后来的专家系统，因为早期 AI 继承了一种信念：智能可以被表示为符号、规则和明确的问题求解过程。"
+      "connectionHintZh": "它自然连接到后来的专家系统，因为早期 AI 继承了一种信念：智能可以被表示为符号、规则和明确的问题求解过程。",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dartmouth%20College%20campus%202007-10-20%2009.JPG",
+      "imageAlt": "Dartmouth College campus, where the 1956 artificial intelligence workshop convened.",
+      "imageCaption": "Dartmouth College gives the AI workshop a concrete institutional setting rather than treating it as an abstract origin myth.",
+      "imageCaptionZh": "达特茅斯学院让 1956 年 AI 研讨会有了具体制度地点，而不是只作为抽象的起源神话。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dartmouth_College_campus_2007-10-20_09.JPG"
     },
     {
       "id": "event-alexnet-wins-imagenet-2012",
@@ -53,7 +59,13 @@
       "phaseRelation": "This event belongs to the Deep learning phase because it showed that data, GPUs, and neural architectures could outperform hand-designed feature pipelines at scale.",
       "phaseRelationZh": "它属于“深度学习”阶段，因为它证明数据、GPU 和神经网络结构可以在规模化条件下超越手工设计的特征流程。",
       "connectionHint": "It also links to semiconductor and hardware history: modern AI depended not just on algorithms, but on GPU acceleration and the economics of large-scale computation.",
-      "connectionHintZh": "它也连接到半导体和硬件史：现代 AI 不只是算法史，也依赖 GPU 加速和大规模计算的经济条件。"
+      "connectionHintZh": "它也连接到半导体和硬件史：现代 AI 不只是算法史，也依赖 GPU 加速和大规模计算的经济条件。",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Convolutional%20Neural%20Network%20NeuralNetworkFilter.png",
+      "imageAlt": "Diagram of convolutional neural network filtering used to explain the kind of vision architecture AlexNet popularized.",
+      "imageCaption": "Convolutional networks became the visual-recognition architecture associated with AlexNet's ImageNet breakthrough.",
+      "imageCaptionZh": "卷积网络成为与 AlexNet 的 ImageNet 突破相关联的视觉识别架构。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Convolutional_Neural_Network_NeuralNetworkFilter.png"
     },
     {
       "id": "event-transformer-paper-published-2017",
@@ -79,7 +91,13 @@
       "phaseRelation": "This event defines the Transformers and foundation models phase because it provided the architectural pattern that made large-scale pretraining unusually productive.",
       "phaseRelationZh": "它定义了“Transformer 与基础模型”阶段，因为它提供了让大规模预训练异常有效的架构模式。",
       "connectionHint": "It connects AI to software infrastructure, because transformers required new training pipelines, distributed systems, model serving, and data engineering practices.",
-      "connectionHintZh": "它把 AI 连接到软件基础设施，因为 Transformer 需要新的训练流水线、分布式系统、模型服务和数据工程实践。"
+      "connectionHintZh": "它把 AI 连接到软件基础设施，因为 Transformer 需要新的训练流水线、分布式系统、模型服务和数据工程实践。",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Transformer-architecture.png",
+      "imageAlt": "Diagram of the transformer architecture associated with attention-based sequence modeling.",
+      "imageCaption": "Transformer diagrams make visible the attention-based architecture that became a foundation for modern language models.",
+      "imageCaptionZh": "Transformer 架构图让基于注意力机制的结构可见，而这种结构成为现代语言模型的基础。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Transformer-architecture.png"
     },
     {
       "id": "event-chatgpt-released-publicly-2022",
@@ -105,7 +123,13 @@
       "phaseRelation": "This event belongs to the Generative AI products phase because it marked the moment when model capability, product design, cloud delivery, and public adoption converged.",
       "phaseRelationZh": "它属于“生成式 AI 产品”阶段，因为它标志着模型能力、产品设计、云端交付和公众采用汇合的时刻。",
       "connectionHint": "It connects to networks, cloud platforms, software engineering, and education because generative AI became a service layer used through browsers, APIs, IDEs, and workplace tools.",
-      "connectionHintZh": "它连接到网络、云平台、软件工程和教育，因为生成式 AI 成为通过浏览器、API、IDE 和办公工具使用的服务层。"
+      "connectionHintZh": "它连接到网络、云平台、软件工程和教育，因为生成式 AI 成为通过浏览器、API、IDE 和办公工具使用的服务层。",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ChatGPT_logo.svg",
+      "imageAlt": "ChatGPT logo representing the public release of OpenAI's conversational generative AI product.",
+      "imageCaption": "The ChatGPT mark represents the product layer that made large language models visible to a mass public.",
+      "imageCaptionZh": "ChatGPT 标识代表让大型语言模型进入大众视野的产品层。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ChatGPT_logo.svg"
     }
   ]
 }

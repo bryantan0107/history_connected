@@ -1,12 +1,39 @@
 import fs from "node:fs";
 import path from "node:path";
+import vm from "node:vm";
 import { collectContentEvents, repoRoot } from "./content-utils.mjs";
 
 const approvedDir = path.join(repoRoot, "content", "approved");
 const outputPath = path.join(repoRoot, "outputs", "generated-content.js");
+const backupDir = path.join(repoRoot, "content", "generated-backups");
 const { events, files } = collectContentEvents(approvedDir);
 
 const cleanEvents = events.map(({ __sourceFile, ...event }) => event);
+const approvedIds = new Set(cleanEvents.map((event) => event.id));
+
+if (fs.existsSync(outputPath)) {
+  const sandbox = {};
+  vm.createContext(sandbox);
+  vm.runInContext(fs.readFileSync(outputPath, "utf8"), sandbox);
+  const currentEvents = Array.isArray(sandbox.HISTORY_GENERATED_CONTENT?.events)
+    ? sandbox.HISTORY_GENERATED_CONTENT.events
+    : [];
+  const orphanIds = currentEvents
+    .map((event) => event.id)
+    .filter((id) => id && !approvedIds.has(id));
+
+  if (orphanIds.length) {
+    console.error("Refusing to overwrite generated content because these event id(s) are not present in content/approved:");
+    orphanIds.forEach((id) => console.error(`- ${id}`));
+    console.error("Move them into content/approved or deliberately remove them before promoting.");
+    process.exit(1);
+  }
+
+  fs.mkdirSync(backupDir, { recursive: true });
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+  fs.copyFileSync(outputPath, path.join(backupDir, `generated-content.${stamp}.js`));
+}
+
 const content = {
   metadata: {
     generatedAt: new Date().toISOString(),

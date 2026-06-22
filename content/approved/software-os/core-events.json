@@ -27,7 +27,13 @@
       "phaseRelation": "This event anchors the Unix, C, and portable software phase because Unix made operating systems feel like portable programming environments rather than machine-specific control software.",
       "phaseRelationZh": "它锚定了“Unix、C 与可移植软件”阶段，因为 Unix 让操作系统更像可移植的编程环境，而不只是特定机器的控制软件。",
       "connectionHint": "Unix connects naturally to networks and open source: many later internet servers, protocols, and developer workflows grew from Unix-like environments.",
-      "connectionHintZh": "Unix 自然连接到网络和开源：许多后来的互联网服务器、协议和开发者工作流都生长于类 Unix 环境。"
+      "connectionHintZh": "Unix 自然连接到网络和开源：许多后来的互联网服务器、协议和开发者工作流都生长于类 Unix 环境。",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pdp-11-40.jpg",
+      "imageAlt": "A PDP-11 computer, closely associated with early Unix development environments.",
+      "imageCaption": "Unix took shape around minicomputer environments like the PDP-11, where small teams could build portable software tools.",
+      "imageCaptionZh": "Unix 在 PDP-11 这类小型机环境中成形，小团队可以在其中构建可移植的软件工具。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pdp-11-40.jpg"
     },
     {
       "id": "event-linux-kernel-announced-1991",
@@ -53,7 +59,13 @@
       "phaseRelation": "This event belongs to the Open source and web software phase because it shows how internet collaboration and open licensing could produce infrastructure-grade software.",
       "phaseRelationZh": "它属于“开源与 Web 软件”阶段，因为它显示互联网协作和开放许可可以生产基础设施级软件。",
       "connectionHint": "It connects operating systems to cloud computing and cybersecurity, since Linux became a common substrate for servers, containers, permissions, and security tooling.",
-      "connectionHintZh": "它把操作系统连接到云计算和网络安全，因为 Linux 成为服务器、容器、权限和安全工具的常见底层。"
+      "connectionHintZh": "它把操作系统连接到云计算和网络安全，因为 Linux 成为服务器、容器、权限和安全工具的常见底层。",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tux.svg",
+      "imageAlt": "Tux, the Linux mascot.",
+      "imageCaption": "Tux became a widely recognized symbol for Linux and the open-source operating-system ecosystem around it.",
+      "imageCaptionZh": "Tux 成为 Linux 及其周围开源操作系统生态的广为人知的象征。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tux.svg"
     },
     {
       "id": "event-docker-released-2013",
@@ -79,7 +91,13 @@
       "phaseRelation": "This event belongs to the DevOps, containers, and platform engineering phase because it turned containerization into a standard software delivery pattern.",
       "phaseRelationZh": "它属于“DevOps、容器与平台工程”阶段，因为它把容器化变成标准的软件交付模式。",
       "connectionHint": "Docker connects to Kubernetes, cloud platforms, supply-chain security, and the rise of platform engineering teams.",
-      "connectionHintZh": "Docker 连接到 Kubernetes、云平台、供应链安全，以及平台工程团队的兴起。"
+      "connectionHintZh": "Docker 连接到 Kubernetes、云平台、供应链安全，以及平台工程团队的兴起。",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Docker%20%28container%20engine%29%20logo.svg",
+      "imageAlt": "Docker logo representing the container platform released in 2013.",
+      "imageCaption": "Docker's whale-and-containers logo became a shorthand for portable application packaging.",
+      "imageCaptionZh": "Docker 的鲸鱼与集装箱标识成为可移植应用打包的视觉缩写。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Docker_(container_engine)_logo.svg"
     },
     {
       "id": "event-kubernetes-announced-2014",
@@ -105,7 +123,13 @@
       "phaseRelation": "This event belongs to the DevOps, containers, and platform engineering phase because it made container operations a reusable infrastructure abstraction.",
       "phaseRelationZh": "它属于“DevOps、容器与平台工程”阶段，因为它把容器运维变成可复用的基础设施抽象。",
       "connectionHint": "It connects software engineering to cloud economics, reliability engineering, security policy, and the professionalization of platform teams.",
-      "connectionHintZh": "它把软件工程连接到云经济、可靠性工程、安全策略和平台团队的专业化。"
+      "connectionHintZh": "它把软件工程连接到云经济、可靠性工程、安全策略和平台团队的专业化。",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kubernetes_logo_without_workmark.svg",
+      "imageAlt": "Kubernetes logo representing the open-source container orchestration system.",
+      "imageCaption": "The Kubernetes mark represents container orchestration becoming a shared infrastructure layer.",
+      "imageCaptionZh": "Kubernetes 标识代表容器编排成为共享基础设施层。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kubernetes_logo_without_workmark.svg"
     }
   ]
 }
