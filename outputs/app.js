@@ -1,3 +1,5 @@
+const DEFAULT_TIMELINE_VIEW_MIN = -1000;
+
 const state = {
   year: 1453,
   region: "turkey-anatolia",
@@ -7,7 +9,7 @@ const state = {
   selectedTrackIds: [],
   selectedRegionIds: [],
   selectedPlaceIds: [],
-  timelineRange: { min: null, max: null },
+  timelineRange: { min: DEFAULT_TIMELINE_VIEW_MIN, max: null },
   editingTimelineBoundary: null,
   locale: "zh",
   mode: "Connection Lens",
