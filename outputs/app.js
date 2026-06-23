@@ -308,6 +308,7 @@ const DISPLAY_TRANSLATIONS = {
       "ai-ml": "AI / 机器学习",
       "semiconductors-hardware": "半导体 / 硬件",
       "film-cinema-industry": "电影 / 影视工业",
+      "music-recording-culture": "音乐与录音文化",
       "painting-visual-art": "绘画 / 视觉艺术",
       "sculpture-public-art": "雕塑 / 公共艺术",
       "photography-visual-media": "摄影 / 视觉媒介",
