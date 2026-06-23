@@ -786,12 +786,15 @@
         "entertainment-media"
       ],
       "primaryLensId": "entertainment-media",
-      "trackIds": [],
-      "primaryTrackId": "",
-      "phaseIds": [
-        "entertainment-media-06"
+      "trackIds": [
+        "music-recording-culture"
       ],
-      "primaryPhaseId": "entertainment-media-06",
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "entertainment-media-06",
+        "music-recording-culture-06"
+      ],
+      "primaryPhaseId": "music-recording-culture-06",
       "regionPhaseIds": [
         "us-digital-superpower"
       ],
@@ -1054,13 +1057,16 @@
         "science-technology"
       ],
       "primaryLensId": "entertainment-media",
-      "trackIds": [],
-      "primaryTrackId": "",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
       "phaseIds": [
         "entertainment-media-07",
-        "science-technology-07"
+        "science-technology-07",
+        "music-recording-culture-06"
       ],
-      "primaryPhaseId": "entertainment-media-07",
+      "primaryPhaseId": "music-recording-culture-06",
       "regionPhaseIds": [
         "japan-postwar"
       ],
@@ -1075,12 +1081,12 @@
       "sourceNotes": [
         "The first Sony Walkman went on sale in Japan in 1979 and became a major portable media device."
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Walkman_logo_%282000%29.svg/330px-Walkman_logo_%282000%29.svg.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Walkman_TPS-L2.jpg",
       "imageAlt": "Sony Walkman TPS-L2 portable cassette player.",
       "imageCaption": "The first Walkman made mobile private listening into a mass consumer format.",
       "imageCaptionZh": "第一代 Walkman 让移动私人聆听成为大众消费形式。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://en.wikipedia.org/wiki/Walkman"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Walkman_TPS-L2.jpg"
     },
     {
       "id": "slice-us-china-diplomatic-relations-1979",

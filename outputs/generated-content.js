@@ -2,20 +2,21 @@
 // Only approved content should be emitted here. Candidates and rejected content are never loaded by the app.
 globalThis.HISTORY_GENERATED_CONTENT = {
   "metadata": {
-    "generatedAt": "2026-06-23T18:24:09.536Z",
+    "generatedAt": "2026-06-23T18:52:25.286Z",
     "sourceFiles": [
       "content/approved/ai-ml/core-events.json",
       "content/approved/art-visual-media/core-events.json",
       "content/approved/recovered-2000/core-events.json",
       "content/approved/slice-packs/malaysia-foundation/core-events.json",
       "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "content/approved/slice-packs/music-foundation/core-events.json",
       "content/approved/software-os/core-events.json",
       "content/approved/war-global-conflicts/core-events.json"
     ],
-    "eventCount": 139,
+    "eventCount": 162,
     "detailLevelCounts": {
       "full": 94,
-      "slice": 45,
+      "slice": 68,
       "needs-review": 0,
       "missing": 0
     }
@@ -4120,12 +4121,15 @@ globalThis.HISTORY_GENERATED_CONTENT = {
         "entertainment-media"
       ],
       "primaryLensId": "entertainment-media",
-      "trackIds": [],
-      "primaryTrackId": "",
-      "phaseIds": [
-        "entertainment-media-06"
+      "trackIds": [
+        "music-recording-culture"
       ],
-      "primaryPhaseId": "entertainment-media-06",
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "entertainment-media-06",
+        "music-recording-culture-06"
+      ],
+      "primaryPhaseId": "music-recording-culture-06",
       "regionPhaseIds": [
         "us-digital-superpower"
       ],
@@ -4400,13 +4404,16 @@ globalThis.HISTORY_GENERATED_CONTENT = {
         "science-technology"
       ],
       "primaryLensId": "entertainment-media",
-      "trackIds": [],
-      "primaryTrackId": "",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
       "phaseIds": [
         "entertainment-media-07",
-        "science-technology-07"
+        "science-technology-07",
+        "music-recording-culture-06"
       ],
-      "primaryPhaseId": "entertainment-media-07",
+      "primaryPhaseId": "music-recording-culture-06",
       "regionPhaseIds": [
         "japan-postwar"
       ],
@@ -4421,12 +4428,12 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "sourceNotes": [
         "The first Sony Walkman went on sale in Japan in 1979 and became a major portable media device."
       ],
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Walkman_logo_%282000%29.svg/330px-Walkman_logo_%282000%29.svg.png",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Walkman_TPS-L2.jpg",
       "imageAlt": "Sony Walkman TPS-L2 portable cassette player.",
       "imageCaption": "The first Walkman made mobile private listening into a mass consumer format.",
       "imageCaptionZh": "第一代 Walkman 让移动私人聆听成为大众消费形式。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://en.wikipedia.org/wiki/Walkman",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Walkman_TPS-L2.jpg",
       "reviewStatus": "approved",
       "batchId": "modern-global-slice-pack-01"
     },
@@ -4907,6 +4914,1148 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageSourceUrl": "https://en.wikipedia.org/wiki/World_Wide_Web",
       "reviewStatus": "approved",
       "batchId": "modern-global-slice-pack-01"
+    },
+    {
+      "id": "slice-guidonian-hand-1025",
+      "year": 1025,
+      "title": "Guido of Arezzo's notation system spreads",
+      "titleZh": "圭多记谱体系传播",
+      "summary": "Guido of Arezzo's teaching methods and staff notation helped singers learn chant more reliably, making written music a stronger tool for memory, training, and institutional transmission.",
+      "summaryZh": "圭多·达雷佐的教学方法和谱线记谱帮助歌者更可靠地学习圣咏，让书写音乐成为记忆、训练和机构传承的更强工具。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "italian-states"
+      ],
+      "primaryPlaceId": "italian-states",
+      "lensIds": [
+        "entertainment-media",
+        "religion-belief"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-01",
+        "entertainment-media-03",
+        "religion-belief-04"
+      ],
+      "primaryPhaseId": "music-recording-culture-01",
+      "regionPhaseIds": [
+        "italy-renaissance"
+      ],
+      "primaryRegionPhaseId": "italy-renaissance",
+      "eventType": "notation",
+      "importance": "supporting",
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Guido of Arezzo is conventionally associated with staff notation and pedagogical reforms in medieval Western music."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Guidonian_hand.jpg",
+      "imageAlt": "A diagram of the Guidonian hand used to teach musical notes.",
+      "imageCaption": "The Guidonian hand visualized pitch relationships for singers learning chant.",
+      "imageCaptionZh": "圭多之手把音高关系视觉化，帮助歌者学习圣咏。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Guidonian_hand.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-euridice-opera-1600",
+      "year": 1600,
+      "title": "Peri's Euridice premieres in Florence",
+      "titleZh": "佩里的《欧律狄刻》在佛罗伦萨首演",
+      "summary": "Jacopo Peri's Euridice was performed in Florence in 1600, becoming one of the earliest surviving operas and a marker of how court spectacle, poetry, and music combined into a new staged form.",
+      "summaryZh": "雅各布·佩里的《欧律狄刻》于 1600 年在佛罗伦萨演出，是现存最早的歌剧之一，标志宫廷奇观、诗歌和音乐结合成新的舞台形式。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "italian-states"
+      ],
+      "primaryPlaceId": "italian-states",
+      "lensIds": [
+        "entertainment-media",
+        "art",
+        "literature"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-02",
+        "entertainment-media-04",
+        "art-05"
+      ],
+      "primaryPhaseId": "music-recording-culture-02",
+      "regionPhaseIds": [
+        "italy-modern"
+      ],
+      "primaryRegionPhaseId": "italy-modern",
+      "eventType": "opera-premiere",
+      "importance": "core",
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Euridice is widely treated as one of the earliest surviving operas."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Jacopo_Peri_-_L%E2%80%99Euridice_-_title_page_of_the_libretto_-_Florence_1600.png",
+      "imageAlt": "Title page of the libretto for Jacopo Peri's Euridice.",
+      "imageCaption": "The libretto title page anchors Euridice in early opera's mix of poetry, court performance, and music.",
+      "imageCaptionZh": "《欧律狄刻》脚本标题页体现了早期歌剧中诗歌、宫廷表演与音乐的结合。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jacopo_Peri_-_L%E2%80%99Euridice_-_title_page_of_the_libretto_-_Florence_1600.png",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-vivaldi-four-seasons-1725",
+      "year": 1725,
+      "title": "Vivaldi publishes The Four Seasons",
+      "titleZh": "维瓦尔第出版《四季》",
+      "summary": "Antonio Vivaldi published The Four Seasons in 1725 as part of a printed concerto collection, showing how music print, virtuoso display, and programmatic imagery could travel beyond one performance setting.",
+      "summaryZh": "安东尼奥·维瓦尔第于 1725 年把《四季》收入协奏曲集出版，显示音乐印刷、炫技演奏和标题性想象如何越过单一演出场景传播。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "italian-states"
+      ],
+      "primaryPlaceId": "italian-states",
+      "lensIds": [
+        "entertainment-media",
+        "art"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-02",
+        "entertainment-media-04",
+        "art-05"
+      ],
+      "primaryPhaseId": "music-recording-culture-02",
+      "regionPhaseIds": [
+        "italy-modern"
+      ],
+      "primaryRegionPhaseId": "italy-modern",
+      "eventType": "music-publication",
+      "importance": "supporting",
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Four Seasons appeared in Vivaldi's 1725 printed collection Il cimento dell'armonia e dell'inventione."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Cimento_dell%27_Armonia_e_dell%27_Inventione-v2-title_page.jpg",
+      "imageAlt": "Title page of Vivaldi's Il cimento dell'armonia e dell'inventione.",
+      "imageCaption": "The printed collection helped Vivaldi's concertos circulate as texts as well as performances.",
+      "imageCaptionZh": "这部印刷曲集让维瓦尔第的协奏曲以文本和演出双重形式流通。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cimento_dell%27_Armonia_e_dell%27_Inventione-v2-title_page.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-magic-flute-premiere-1791",
+      "year": 1791,
+      "title": "Mozart's The Magic Flute premieres",
+      "titleZh": "莫扎特《魔笛》首演",
+      "summary": "Mozart's The Magic Flute premiered in Vienna in 1791, joining popular theater, singspiel, Masonic imagery, virtuoso singing, and Enlightenment-era public entertainment.",
+      "summaryZh": "莫扎特的《魔笛》于 1791 年在维也纳首演，把大众剧场、德语歌唱剧、共济会意象、炫技歌唱和启蒙时代公共娱乐结合起来。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "german-lands"
+      ],
+      "primaryPlaceId": "german-lands",
+      "lensIds": [
+        "entertainment-media",
+        "art"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-02",
+        "entertainment-media-04",
+        "art-05"
+      ],
+      "primaryPhaseId": "music-recording-culture-02",
+      "regionPhaseIds": [
+        "german-holy-roman"
+      ],
+      "primaryRegionPhaseId": "german-holy-roman",
+      "eventType": "opera-premiere",
+      "importance": "core",
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Magic Flute premiered in Vienna in 1791 and remains a standard marker in opera history."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Theater_an_der_Wien.jpg",
+      "imageAlt": "Theater an der Wien, associated with early performances of Mozart's The Magic Flute.",
+      "imageCaption": "Vienna's theater culture connected opera, popular entertainment, and urban publics.",
+      "imageCaptionZh": "维也纳剧场文化把歌剧、大众娱乐和城市公众连接起来。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Theater_an_der_Wien.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-beethoven-fifth-premiere-1808",
+      "year": 1808,
+      "title": "Beethoven's Fifth Symphony premieres",
+      "titleZh": "贝多芬《第五交响曲》首演",
+      "summary": "Beethoven's Fifth Symphony premiered in Vienna in 1808, later becoming a symbol of the concert symphony as a public, dramatic, and historically durable musical form.",
+      "summaryZh": "贝多芬《第五交响曲》于 1808 年在维也纳首演，后来成为交响音乐作为公共、戏剧性且历史持久音乐形式的象征。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "german-lands"
+      ],
+      "primaryPlaceId": "german-lands",
+      "lensIds": [
+        "entertainment-media",
+        "art"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-03",
+        "entertainment-media-05",
+        "art-05"
+      ],
+      "primaryPhaseId": "music-recording-culture-03",
+      "regionPhaseIds": [
+        "german-modern"
+      ],
+      "primaryRegionPhaseId": "german-modern",
+      "eventType": "concert-premiere",
+      "importance": "core",
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1808 Vienna concert premiered Beethoven's Fifth Symphony among other works."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Good_quality_%26_copyright_printed_manuscript_for_reading_Beethoven%27s_Symphonie_-_2nd_No._5th_in_c.jpg",
+      "imageAlt": "A printed score of Beethoven's Fifth Symphony.",
+      "imageCaption": "The Fifth Symphony became a durable object of concert culture, study, and public memory.",
+      "imageCaptionZh": "《第五交响曲》成为音乐会文化、学习与公共记忆中的持久对象。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Good_quality_%26_copyright_printed_manuscript_for_reading_Beethoven%27s_Symphonie_-_2nd_No._5th_in_c.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-bayreuth-festival-opens-1876",
+      "year": 1876,
+      "title": "Bayreuth Festival opens",
+      "titleZh": "拜罗伊特音乐节开幕",
+      "summary": "The Bayreuth Festival opened in 1876 with Wagner's Ring cycle, linking national music, purpose-built theater, elite patronage, and the modern festival as a cultural institution.",
+      "summaryZh": "拜罗伊特音乐节于 1876 年以瓦格纳《尼伯龙根的指环》开幕，把民族音乐、专门剧场、精英赞助和现代音乐节制度连接起来。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "german-lands"
+      ],
+      "primaryPlaceId": "german-lands",
+      "lensIds": [
+        "entertainment-media",
+        "art"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-03",
+        "entertainment-media-05",
+        "art-06"
+      ],
+      "primaryPhaseId": "music-recording-culture-03",
+      "regionPhaseIds": [
+        "german-modern"
+      ],
+      "primaryRegionPhaseId": "german-modern",
+      "eventType": "festival-opening",
+      "importance": "supporting",
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1876 Bayreuth Festival is a standard milestone in Wagner reception and modern festival culture."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Bayreuth-Rheingold-1876.jpg",
+      "imageAlt": "A scene from Das Rheingold at Bayreuth in 1876.",
+      "imageCaption": "Bayreuth staged Wagner's music as a total cultural institution, not only a performance.",
+      "imageCaptionZh": "拜罗伊特把瓦格纳音乐塑造成一种总体文化制度，而不仅是演出。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bayreuth-Rheingold-1876.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-edison-phonograph-1877",
+      "year": 1877,
+      "title": "Edison demonstrates the phonograph",
+      "titleZh": "爱迪生展示留声机",
+      "summary": "Thomas Edison demonstrated the phonograph in 1877, making the recording and playback of sound a public technological possibility and opening a new relation between performance and media.",
+      "summaryZh": "托马斯·爱迪生于 1877 年展示留声机，使声音录制与回放成为公开可见的技术可能，并开启表演与媒介的新关系。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-04",
+        "entertainment-media-05",
+        "science-technology-06"
+      ],
+      "primaryPhaseId": "music-recording-culture-04",
+      "regionPhaseIds": [
+        "us-industrial-power"
+      ],
+      "primaryRegionPhaseId": "us-industrial-power",
+      "eventType": "recording-technology",
+      "importance": "core",
+      "sourceRefs": [
+        "library-of-congress",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Edison's 1877 phonograph demonstration is a core event in histories of recorded sound."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Edison_and_phonograph_edit2.jpg",
+      "imageAlt": "Thomas Edison with an early phonograph.",
+      "imageCaption": "The phonograph made sound reproducible and changed the economics of listening.",
+      "imageCaptionZh": "留声机让声音可以复制，也改变了聆听的经济结构。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Edison_and_phonograph_edit2.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-berliner-gramophone-patent-1887",
+      "year": 1887,
+      "title": "Emile Berliner patents the gramophone",
+      "titleZh": "埃米尔·柏林纳取得唱片机专利",
+      "summary": "Emile Berliner patented the gramophone in 1887, shifting recorded sound toward flat discs that later became easier to duplicate, sell, store, and circulate as records.",
+      "summaryZh": "埃米尔·柏林纳于 1887 年取得唱片机专利，把录音推向平面唱片，使声音更容易复制、销售、保存和流通。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-04",
+        "entertainment-media-05",
+        "science-technology-06"
+      ],
+      "primaryPhaseId": "music-recording-culture-04",
+      "regionPhaseIds": [
+        "us-industrial-power"
+      ],
+      "primaryRegionPhaseId": "us-industrial-power",
+      "eventType": "recording-technology",
+      "importance": "supporting",
+      "sourceRefs": [
+        "library-of-congress",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Berliner patented the gramophone in the United States in 1887, a key step toward disc records."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/BerlinerDisc1897.jpg",
+      "imageAlt": "An early Berliner gramophone disc.",
+      "imageCaption": "Flat discs helped recorded sound become a reproducible commodity.",
+      "imageCaptionZh": "平面唱片帮助录音变成可复制的商品。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:BerlinerDisc1897.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-first-jazz-recording-1917",
+      "year": 1917,
+      "title": "First jazz record is released",
+      "titleZh": "第一张爵士唱片发行",
+      "summary": "The Original Dixieland Jass Band's 1917 recording of Livery Stable Blues is often treated as the first jazz record, helping a New Orleans-linked style circulate through the commercial record industry.",
+      "summaryZh": "原创迪克西兰爵士乐队 1917 年录制的《Livery Stable Blues》常被视为第一张爵士唱片，帮助与新奥尔良相关的音乐风格通过商业唱片产业传播。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "fashion-daily-life"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-04",
+        "entertainment-media-05"
+      ],
+      "primaryPhaseId": "music-recording-culture-04",
+      "regionPhaseIds": [
+        "us-industrial-power"
+      ],
+      "primaryRegionPhaseId": "us-industrial-power",
+      "eventType": "record-release",
+      "importance": "core",
+      "sourceRefs": [
+        "library-of-congress",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Original Dixieland Jass Band's 1917 release is a standard landmark in jazz recording history."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/ODJBcard.JPG",
+      "imageAlt": "Promotional card for the Original Dixieland Jass Band.",
+      "imageCaption": "Commercial records helped jazz move from local performance scenes into mass circulation.",
+      "imageCaptionZh": "商业唱片帮助爵士从地方演出场景进入大众流通。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ODJBcard.JPG",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-kdka-broadcast-1920",
+      "year": 1920,
+      "title": "KDKA begins commercial radio broadcasting",
+      "titleZh": "KDKA 开始商业广播",
+      "summary": "KDKA's 1920 broadcasts in Pittsburgh helped make radio a public medium, creating new possibilities for music audiences beyond concert halls, theaters, and record players.",
+      "summaryZh": "匹兹堡 KDKA 于 1920 年开始广播，帮助无线电成为公共媒介，为音乐听众创造了超出音乐厅、剧场和唱机的新可能。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture",
+        "networks-internet"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-05",
+        "entertainment-media-06"
+      ],
+      "primaryPhaseId": "music-recording-culture-05",
+      "regionPhaseIds": [
+        "us-industrial-power"
+      ],
+      "primaryRegionPhaseId": "us-industrial-power",
+      "eventType": "broadcast",
+      "importance": "core",
+      "sourceRefs": [
+        "library-of-congress",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "KDKA is conventionally cited as an early U.S. commercial radio station, with 1920 election-night broadcasts as a landmark."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Frank_Conrad_radio_station_8XK_1920.jpg",
+      "imageAlt": "Frank Conrad's early radio station equipment.",
+      "imageCaption": "Early broadcast equipment helped move music and speech into household media space.",
+      "imageCaptionZh": "早期广播设备帮助音乐和声音进入家庭媒介空间。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Frank_Conrad_radio_station_8XK_1920.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-lp-record-introduced-1948",
+      "year": 1948,
+      "title": "Columbia introduces the LP record",
+      "titleZh": "哥伦比亚推出 LP 唱片",
+      "summary": "Columbia introduced the long-playing record in 1948, extending listening time and helping albums become an important format for classical music, jazz, and later popular music.",
+      "summaryZh": "哥伦比亚唱片于 1948 年推出长时间播放唱片，延长聆听时间，并帮助专辑成为古典、爵士和后来的流行音乐重要格式。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-05",
+        "entertainment-media-06"
+      ],
+      "primaryPhaseId": "music-recording-culture-05",
+      "regionPhaseIds": [
+        "us-coldwar-digital"
+      ],
+      "primaryRegionPhaseId": "us-coldwar-digital",
+      "eventType": "recording-format",
+      "importance": "core",
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Columbia's 1948 LP is a standard milestone in recorded music formats."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Early_Columbia_7_inch_Lp_singles.JPG",
+      "imageAlt": "Early Columbia long-playing records.",
+      "imageCaption": "The LP made longer musical programs commercially practical on disc.",
+      "imageCaptionZh": "LP 让更长的音乐节目可以通过唱片商业化发行。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Early_Columbia_7_inch_Lp_singles.JPG",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-elvis-sun-studio-recording-1954",
+      "year": 1954,
+      "title": "Elvis Presley records at Sun Studio",
+      "titleZh": "猫王在太阳录音室录音",
+      "summary": "Elvis Presley recorded That's All Right at Sun Studio in 1954, a key moment in the commercial emergence of rock and roll from regional, Black, white, country, and rhythm-and-blues currents.",
+      "summaryZh": "埃尔维斯·普雷斯利于 1954 年在太阳录音室录制《That's All Right》，是摇滚乐从地方、黑人、白人、乡村和节奏布鲁斯潮流中商业化出现的关键时刻。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "fashion-daily-life"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-06",
+        "entertainment-media-06"
+      ],
+      "primaryPhaseId": "music-recording-culture-06",
+      "regionPhaseIds": [
+        "us-coldwar-digital"
+      ],
+      "primaryRegionPhaseId": "us-coldwar-digital",
+      "eventType": "recording-session",
+      "importance": "core",
+      "sourceRefs": [
+        "rockhall",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Presley's 1954 Sun Studio recordings are core landmarks in rock and roll history."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Sun_Studio%2C_Memphis.jpg",
+      "imageAlt": "Sun Studio in Memphis.",
+      "imageCaption": "Sun Studio became a recording site where regional styles entered national popular music.",
+      "imageCaptionZh": "太阳录音室成为地方音乐风格进入全国流行音乐的录音地点。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sun_Studio,_Memphis.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-beatles-ed-sullivan-1964",
+      "year": 1964,
+      "title": "The Beatles appear on The Ed Sullivan Show",
+      "titleZh": "披头士登上《埃德·沙利文秀》",
+      "summary": "The Beatles' 1964 appearance on The Ed Sullivan Show turned British pop into a U.S. television event, showing how broadcast media could accelerate global youth music culture.",
+      "summaryZh": "披头士 1964 年登上《埃德·沙利文秀》，把英国流行乐变成美国电视事件，显示广播电视如何加速全球青年音乐文化。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states",
+        "britain-uk"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "fashion-daily-life"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-06",
+        "entertainment-media-06"
+      ],
+      "primaryPhaseId": "music-recording-culture-06",
+      "regionPhaseIds": [
+        "us-coldwar-digital",
+        "britain-worldwar-welfare"
+      ],
+      "primaryRegionPhaseId": "us-coldwar-digital",
+      "eventType": "television-performance",
+      "importance": "core",
+      "sourceRefs": [
+        "britannica",
+        "grammy",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Beatles' February 1964 Ed Sullivan appearance is a standard milestone in television and popular music history."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/The_Beatles_performing_at_The_Ed_Sullivan_Show.jpg",
+      "imageAlt": "The Beatles performing on The Ed Sullivan Show.",
+      "imageCaption": "Television made the Beatles' arrival in the United States a shared mass-media event.",
+      "imageCaptionZh": "电视让披头士进入美国成为共同观看的大众媒体事件。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Beatles_performing_at_The_Ed_Sullivan_Show.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-hip-hop-sedgwick-party-1973",
+      "year": 1973,
+      "title": "DJ Kool Herc's Bronx party marks an early hip-hop milestone",
+      "titleZh": "DJ Kool Herc 布朗克斯派对成为早期嘻哈里程碑",
+      "summary": "A 1973 party associated with DJ Kool Herc at 1520 Sedgwick Avenue became a key origin story for hip-hop, linking block parties, breakbeats, sound systems, dance, and neighborhood youth culture.",
+      "summaryZh": "1973 年 DJ Kool Herc 在 1520 Sedgwick Avenue 相关派对成为嘻哈的重要起源叙事，把街区派对、breakbeat、音响系统、舞蹈和社区青年文化连接起来。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "fashion-daily-life"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-06",
+        "entertainment-media-07"
+      ],
+      "primaryPhaseId": "music-recording-culture-06",
+      "regionPhaseIds": [
+        "us-coldwar-digital"
+      ],
+      "primaryRegionPhaseId": "us-coldwar-digital",
+      "eventType": "music-culture",
+      "importance": "core",
+      "sourceRefs": [
+        "smithsonian",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "1520 Sedgwick Avenue and DJ Kool Herc's 1973 party are conventional reference points in hip-hop origin narratives."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/1520Sedgwick_Avenue.jpg",
+      "imageAlt": "1520 Sedgwick Avenue in the Bronx.",
+      "imageCaption": "1520 Sedgwick Avenue became a landmark in hip-hop's origin story.",
+      "imageCaptionZh": "1520 Sedgwick Avenue 成为嘻哈起源叙事中的地标。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:1520Sedgwick_Avenue.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-roland-tr808-release-1980",
+      "year": 1980,
+      "title": "Roland releases the TR-808 drum machine",
+      "titleZh": "Roland 发布 TR-808 鼓机",
+      "summary": "Roland released the TR-808 in 1980, and its synthetic drum sounds later became central to hip-hop, electro, dance music, pop production, and the aesthetics of programmable rhythm.",
+      "summaryZh": "Roland 于 1980 年发布 TR-808，其合成鼓声后来成为嘻哈、电子、舞曲、流行制作和可编程节奏美学的核心。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "japan"
+      ],
+      "primaryPlaceId": "japan",
+      "lensIds": [
+        "entertainment-media",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-07",
+        "entertainment-media-07",
+        "science-technology-07"
+      ],
+      "primaryPhaseId": "music-recording-culture-07",
+      "regionPhaseIds": [
+        "japan-postwar"
+      ],
+      "primaryRegionPhaseId": "japan-postwar",
+      "eventType": "instrument-launch",
+      "importance": "core",
+      "sourceRefs": [
+        "roland",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The TR-808 is widely recognized as a landmark drum machine in popular music production."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Roland_TR-808_-_the_classic_drum_machine.jpg",
+      "imageAlt": "Roland TR-808 drum machine.",
+      "imageCaption": "The TR-808 made programmable rhythm a defining sound of late twentieth-century music.",
+      "imageCaptionZh": "TR-808 让可编程节奏成为 20 世纪后期音乐的标志性声音。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Roland_TR-808_-_the_classic_drum_machine.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-mtv-launches-1981",
+      "year": 1981,
+      "title": "MTV launches",
+      "titleZh": "MTV 开播",
+      "summary": "MTV launched in 1981, making music video a core part of promotion, celebrity image-making, youth television, and the relationship between songs and visual media.",
+      "summaryZh": "MTV 于 1981 年开播，使音乐视频成为宣传、明星形象、青年电视以及歌曲与视觉媒介关系的核心部分。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "art"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-07",
+        "entertainment-media-07",
+        "digital-new-media-art-01"
+      ],
+      "primaryPhaseId": "music-recording-culture-07",
+      "regionPhaseIds": [
+        "us-coldwar-digital"
+      ],
+      "primaryRegionPhaseId": "us-coldwar-digital",
+      "eventType": "television-launch",
+      "importance": "core",
+      "sourceRefs": [
+        "mtv",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "MTV's 1981 launch is a standard milestone in music television and cable-era media."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/MTV_logo.png",
+      "imageAlt": "Early MTV logo.",
+      "imageCaption": "MTV made visual branding and music promotion inseparable for many artists.",
+      "imageCaptionZh": "MTV 让许多艺人的视觉品牌与音乐宣传密不可分。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:MTV_logo.png",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-compact-disc-player-launch-1982",
+      "year": 1982,
+      "title": "Sony launches the first commercial CD player",
+      "titleZh": "索尼推出首款商用 CD 播放器",
+      "summary": "Sony released the CDP-101 in 1982, helping compact discs move from laboratory and industry standard into consumer music playback.",
+      "summaryZh": "索尼于 1982 年推出 CDP-101，帮助 CD 从实验室和产业标准进入消费者音乐播放。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "japan"
+      ],
+      "primaryPlaceId": "japan",
+      "lensIds": [
+        "entertainment-media",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-07",
+        "entertainment-media-07",
+        "science-technology-07"
+      ],
+      "primaryPhaseId": "music-recording-culture-07",
+      "regionPhaseIds": [
+        "japan-postwar"
+      ],
+      "primaryRegionPhaseId": "japan-postwar",
+      "eventType": "product-launch",
+      "importance": "supporting",
+      "sourceRefs": [
+        "sony",
+        "philips",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Sony CDP-101 is commonly cited as the first commercially released compact disc player."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Lettore_CD_Sony_CDP-101_-_Museo_della_Scienza_e_della_Tecnologia_Leonardo_da_Vinci.jpg",
+      "imageAlt": "Sony CDP-101 compact disc player.",
+      "imageCaption": "The CDP-101 helped make digital music playback a consumer product.",
+      "imageCaptionZh": "CDP-101 帮助数字音乐播放成为消费产品。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lettore_CD_Sony_CDP-101_-_Museo_della_Scienza_e_della_Tecnologia_Leonardo_da_Vinci.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-napster-launches-1999",
+      "year": 1999,
+      "title": "Napster launches",
+      "titleZh": "Napster 上线",
+      "summary": "Napster launched in 1999, turning peer-to-peer file sharing into a mass challenge to recorded-music distribution, copyright enforcement, and the business model of albums and labels.",
+      "summaryZh": "Napster 于 1999 年上线，把点对点文件分享变成对唱片发行、版权执行以及专辑和唱片公司商业模式的大规模挑战。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "economy-trade",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture",
+        "networks-internet"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-07",
+        "entertainment-media-07",
+        "networks-internet-05"
+      ],
+      "primaryPhaseId": "music-recording-culture-07",
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
+      "primaryRegionPhaseId": "us-digital-superpower",
+      "eventType": "platform-launch",
+      "importance": "core",
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Napster is a standard turning point in histories of digital music distribution and copyright conflict."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Napster_1999.svg",
+      "imageAlt": "Napster logo from 1999.",
+      "imageCaption": "Napster made online music sharing a public legal and industry crisis.",
+      "imageCaptionZh": "Napster 让在线音乐分享成为公开的法律和产业危机。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Napster_1999.svg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-ipod-introduced-2001",
+      "year": 2001,
+      "title": "Apple introduces the iPod",
+      "titleZh": "苹果发布 iPod",
+      "summary": "Apple introduced the iPod in 2001, pairing portable digital storage with consumer design and later tying music libraries to software, stores, and devices.",
+      "summaryZh": "苹果于 2001 年发布 iPod，把便携数字存储与消费设计结合，并在后来把音乐库连接到软件、商店和设备。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "science-technology",
+        "economy-trade"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture",
+        "computing-pc"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-07",
+        "entertainment-media-08",
+        "computing-pc-07"
+      ],
+      "primaryPhaseId": "music-recording-culture-07",
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
+      "primaryRegionPhaseId": "us-digital-superpower",
+      "eventType": "product-launch",
+      "importance": "core",
+      "sourceRefs": [
+        "apple",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Apple introduced the first iPod in October 2001."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/IPod_first_generation_click-wheel-2004-11-30.jpg",
+      "imageAlt": "First-generation iPod.",
+      "imageCaption": "The iPod made large personal music libraries portable and device-centered.",
+      "imageCaptionZh": "iPod 让大型个人音乐库变得便携，并围绕设备组织起来。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:IPod_first_generation_click-wheel-2004-11-30.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-itunes-store-launches-2003",
+      "year": 2003,
+      "title": "iTunes Music Store launches",
+      "titleZh": "iTunes 音乐商店上线",
+      "summary": "Apple launched the iTunes Music Store in 2003, creating a legal digital-download model that linked labels, devices, software, and per-track purchasing.",
+      "summaryZh": "苹果于 2003 年推出 iTunes 音乐商店，建立合法数字下载模式，把唱片公司、设备、软件和单曲购买连接起来。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "economy-trade",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture",
+        "networks-internet"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-07",
+        "entertainment-media-08",
+        "networks-internet-06"
+      ],
+      "primaryPhaseId": "music-recording-culture-07",
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
+      "primaryRegionPhaseId": "us-digital-superpower",
+      "eventType": "platform-launch",
+      "importance": "core",
+      "sourceRefs": [
+        "apple",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The iTunes Music Store launched in 2003 and became a major legal digital music marketplace."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/ITunes_Store_Songs_Sales.jpg",
+      "imageAlt": "Graph of iTunes Store song sales.",
+      "imageCaption": "The iTunes Music Store turned digital tracks into a mainstream retail format.",
+      "imageCaptionZh": "iTunes 音乐商店把数字单曲变成主流零售格式。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ITunes_Store_Songs_Sales.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-spotify-launches-2008",
+      "year": 2008,
+      "title": "Spotify launches",
+      "titleZh": "Spotify 上线",
+      "summary": "Spotify launched publicly in 2008, making licensed streaming, playlists, recommendation, and subscription access central to the next phase of music distribution.",
+      "summaryZh": "Spotify 于 2008 年公开上线，使授权流媒体、播放列表、推荐系统和订阅访问成为音乐发行下一阶段的核心。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "global-transregional"
+      ],
+      "primaryPlaceId": "global-transregional",
+      "lensIds": [
+        "entertainment-media",
+        "economy-trade",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture",
+        "networks-internet"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-08",
+        "entertainment-media-08",
+        "networks-internet-07"
+      ],
+      "primaryPhaseId": "music-recording-culture-08",
+      "regionPhaseIds": [],
+      "primaryRegionPhaseId": "",
+      "eventType": "platform-launch",
+      "importance": "core",
+      "sourceRefs": [
+        "spotify",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Spotify launched publicly in 2008 and became a leading streaming music platform."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Spotify_logo_2008%E2%80%932012.svg",
+      "imageAlt": "Early Spotify logo.",
+      "imageCaption": "Spotify helped normalize streaming access instead of music ownership.",
+      "imageCaptionZh": "Spotify 帮助把流媒体访问而非音乐所有权变成常态。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Spotify_logo_2008%E2%80%932012.svg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-gangnam-style-youtube-breakthrough-2012",
+      "year": 2012,
+      "title": "Gangnam Style becomes a global YouTube breakthrough",
+      "titleZh": "《江南 Style》成为全球 YouTube 突破事件",
+      "summary": "Psy's Gangnam Style became a global YouTube phenomenon in 2012, showing how online video platforms could turn a Korean pop song into a worldwide meme, dance, and media event.",
+      "summaryZh": "Psy 的《江南 Style》于 2012 年成为全球 YouTube 现象，显示在线视频平台如何把韩国流行歌曲变成全球迷因、舞蹈和媒体事件。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "korea"
+      ],
+      "primaryPlaceId": "korea",
+      "lensIds": [
+        "entertainment-media",
+        "fashion-daily-life"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture",
+        "networks-internet"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-08",
+        "entertainment-media-08",
+        "networks-internet-07"
+      ],
+      "primaryPhaseId": "music-recording-culture-08",
+      "regionPhaseIds": [
+        "korea-modern"
+      ],
+      "primaryRegionPhaseId": "korea-modern",
+      "eventType": "viral-video",
+      "importance": "core",
+      "sourceRefs": [
+        "youtube",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Gangnam Style's 2012 YouTube circulation is a standard marker in global platform-era music culture."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/PSY_Gangnam_Style_Seoul_05_logo.jpg",
+      "imageAlt": "Psy Gangnam Style performance branding in Seoul.",
+      "imageCaption": "Gangnam Style made online video metrics part of global pop music visibility.",
+      "imageCaptionZh": "《江南 Style》让在线视频指标成为全球流行音乐可见性的一部分。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:PSY_Gangnam_Style_Seoul_05_logo.jpg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
+    },
+    {
+      "id": "slice-tiktok-douyin-launches-2016",
+      "year": 2016,
+      "title": "Douyin launches before TikTok's global expansion",
+      "titleZh": "抖音上线并开启 TikTok 全球扩张前奏",
+      "summary": "Douyin launched in China in 2016 before TikTok's later global expansion, helping short-video platforms become major spaces for music discovery, dance challenges, and algorithmic promotion.",
+      "summaryZh": "抖音于 2016 年在中国上线，并成为后来 TikTok 全球扩张的前奏，帮助短视频平台成为音乐发现、舞蹈挑战和算法推广的重要空间。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "china"
+      ],
+      "primaryPlaceId": "china",
+      "lensIds": [
+        "entertainment-media",
+        "science-technology",
+        "economy-trade"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "music-recording-culture",
+        "networks-internet"
+      ],
+      "primaryTrackId": "music-recording-culture",
+      "phaseIds": [
+        "music-recording-culture-08",
+        "entertainment-media-08",
+        "networks-internet-07"
+      ],
+      "primaryPhaseId": "music-recording-culture-08",
+      "regionPhaseIds": [
+        "china-modern"
+      ],
+      "primaryRegionPhaseId": "china-modern",
+      "eventType": "platform-launch",
+      "importance": "core",
+      "sourceRefs": [
+        "bytedance",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Douyin launched in 2016 and became the China-market precursor to TikTok's global short-video platform."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Douyin_wordmark.svg",
+      "imageAlt": "Douyin wordmark.",
+      "imageCaption": "Douyin and TikTok made short video a major music discovery system.",
+      "imageCaptionZh": "抖音与 TikTok 让短视频成为重要的音乐发现系统。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Douyin_wordmark.svg",
+      "reviewStatus": "approved",
+      "batchId": "music-foundation"
     },
     {
       "id": "event-unix-development-begins-at-bell-labs-1969",

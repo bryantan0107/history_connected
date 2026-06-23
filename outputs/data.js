@@ -960,6 +960,14 @@ function createLensTracks() {
       bridgeMechanisms: ["projection", "studio systems", "distribution windows", "star systems", "platform networks"]
     },
     {
+      id: "music-recording-culture",
+      parentLensId: "entertainment-media",
+      title: "Music / Recording Culture",
+      shortDescription: "A focused track for music notation, public performance, recorded sound, popular music industries, music video, streaming, and algorithmic discovery.",
+      relatedLensIds: ["art", "science-technology", "economy-trade", "fashion-daily-life"],
+      bridgeMechanisms: ["recording", "broadcast", "youth culture", "platforms", "algorithmic discovery"]
+    },
+    {
       id: "painting-visual-art",
       parentLensId: "art",
       title: "Painting / Visual Art",
@@ -1134,6 +1142,16 @@ function createScienceTechnologyTrackNodes() {
       ["Digital effects, home video, and franchise cinema", 1989, 2008, "c. 1989-2008", "United States / Japan / Global", "CGI, home video, DVD, global distribution, and intellectual-property franchises changed film production and revenue models.", 1993],
       ["Streaming-era cinema and platform distribution", 2008, 2026, "2008-present", "Global", "Streaming platforms, changing release windows, global festivals, fandom, and data-driven distribution reshaped what counts as cinema.", 2013]
     ], ["projection", "studio systems", "distribution", "platform networks"]],
+    ["music-recording-culture", [
+      ["Ritual, oral, and court music cultures", -3000, 1500, "before 1500", "Multiple regions", "Music moved through ritual, memory, court ceremony, oral transmission, and early notation before modern recording or mass media existed.", 1025],
+      ["Print, notation, opera, and public music", 1500, 1800, "1500-1800", "Europe / global cities", "Music print, notation, opera, public theaters, and commercial patronage turned performance into a more portable urban culture.", 1600],
+      ["Concert publics, nationalism, and commercial music", 1800, 1900, "1800-1900", "Europe / Americas", "Concert halls, virtuoso culture, music publishing, nationalism, and urban middle-class publics reshaped music as public art and business.", 1808],
+      ["Phonograph, gramophone, and recorded sound", 1877, 1930, "1877-1930", "Americas / Europe", "Recorded sound detached performance from the moment of performance, creating new technologies, archives, stars, and record markets.", 1877],
+      ["Radio, jazz, blues, and popular music industries", 1920, 1960, "1920-1960", "Americas / global cities", "Radio, records, jazz, blues, microphones, jukeboxes, and labels turned popular music into broadcast and recording industries.", 1920],
+      ["Rock, youth culture, albums, and global pop", 1950, 1980, "1950-1980", "United States / Britain / Japan / Global", "Rock, soul, folk, pop, festivals, albums, portable listening, and youth identity made music a central mass-cultural language.", 1964],
+      ["MTV, hip-hop, electronic music, CDs, and global music video", 1980, 2005, "1980-2005", "United States / Japan / Global", "Music video, hip-hop, electronic instruments, sampling, CDs, file sharing, and global cable media remade how music circulated.", 1981],
+      ["Streaming platforms, social music, and algorithmic discovery", 2005, 2026, "2005-present", "Global", "Streaming platforms, social video, playlists, recommendation systems, and creator economies reorganized music around networked discovery.", 2008]
+    ], ["recording", "broadcast", "youth culture", "platforms"]],
     ["painting-visual-art", [
       ["Pigments, walls, and sacred images", -40000, -3000, "before c. 3000 BCE", "Europe / Africa / Asia", "Pigments on bodies, objects, and walls made image-making part of ritual, memory, and shared symbolic life long before formal art institutions.", -17000],
       ["Court, tomb, and temple painting", -3000, -500, "c. 3000-500 BCE", "Egypt / Mesopotamia / China", "Painting served rulers, temples, tombs, and ritual systems, tying images to authority, afterlife beliefs, and written cultures.", -1350],
@@ -1263,6 +1281,14 @@ function getTrackPhaseTitleZh(id) {
     "film-cinema-industry-06": "新好莱坞与全球大片电影",
     "film-cinema-industry-07": "数字特效、家庭录像与系列电影",
     "film-cinema-industry-08": "流媒体时代电影与平台发行",
+    "music-recording-culture-01": "仪式、口传与宫廷音乐文化",
+    "music-recording-culture-02": "印刷、记谱、歌剧与公共音乐",
+    "music-recording-culture-03": "音乐会公众、民族主义与商业音乐",
+    "music-recording-culture-04": "留声机、唱片机与录音",
+    "music-recording-culture-05": "广播、爵士、布鲁斯与流行音乐产业",
+    "music-recording-culture-06": "摇滚、青年文化、专辑与全球流行",
+    "music-recording-culture-07": "MTV、嘻哈、电子音乐、CD 与全球音乐视频",
+    "music-recording-culture-08": "流媒体、社交音乐与算法发现",
     "painting-visual-art-01": "颜料、墙面与神圣图像",
     "painting-visual-art-02": "宫廷、墓葬与神庙绘画",
     "painting-visual-art-03": "古典与手稿图像世界",
@@ -1356,6 +1382,14 @@ function getTrackPhaseSummaryZh(id) {
     "film-cinema-industry-06": "青年文化、导演中心、分级制度、暑期档、特效和系列化逻辑重塑大众电影。",
     "film-cinema-industry-07": "CGI、家庭录像、DVD、全球发行和知识产权系列改变电影制作与收益模式。",
     "film-cinema-industry-08": "流媒体平台、发行窗口变化、全球电影节、粉丝文化和数据驱动分发重塑了电影的边界。",
+    "music-recording-culture-01": "音乐通过仪式、记忆、宫廷礼仪、口传和早期记谱流动，早于现代录音和大众媒体。",
+    "music-recording-culture-02": "乐谱印刷、记谱、歌剧、公共剧场和商业赞助让音乐表演变成更可传播的城市文化。",
+    "music-recording-culture-03": "音乐厅、炫技演奏、音乐出版、民族主义和城市中产公众把音乐重塑为公共艺术与商业。",
+    "music-recording-culture-04": "录音技术把表演从现场时刻中分离出来，制造了新的技术、档案、明星和唱片市场。",
+    "music-recording-culture-05": "广播、唱片、爵士、布鲁斯、麦克风、点唱机和唱片公司把流行音乐变成广播与录音产业。",
+    "music-recording-culture-06": "摇滚、灵魂乐、民谣、流行乐、音乐节、专辑、便携聆听和青年身份让音乐成为大众文化核心语言。",
+    "music-recording-culture-07": "音乐电视、嘻哈、电子乐器、采样、CD、文件分享和全球有线媒体重塑音乐流通方式。",
+    "music-recording-culture-08": "流媒体平台、社交视频、播放列表、推荐系统和创作者经济围绕网络化发现重组音乐。",
     "painting-visual-art-01": "身体、物体和墙面上的颜料让图像制作在正式艺术机构出现之前，就已经成为仪式、记忆和共同象征生活的一部分。",
     "painting-visual-art-02": "绘画服务于统治者、神庙、墓葬和仪式系统，把图像和权威、来世信仰、文字文化连接起来。",
     "painting-visual-art-03": "绘画在壁画、卷轴、手稿、木板和便携物品之间流动，进入古典文化与宗教文化的视觉世界。",
@@ -1737,6 +1771,15 @@ function getDefaultPhaseImage(lensId, trackId, id, title) {
     "film-cinema-industry-06": ["Jaws_movie_poster.jpg", "blockbuster theatrical release", "大片院线发行"],
     "film-cinema-industry-07": ["Jurassic_Park_logo.svg", "digital effects and franchise cinema", "数字特效与系列电影"],
     "film-cinema-industry-08": ["Netflix_2015_logo.svg", "streaming-era platform cinema", "流媒体时代平台电影"],
+
+    "music-recording-culture-01": ["Guidonian_hand.jpg", "notation, chant, and oral music memory", "记谱、圣咏与口传音乐记忆"],
+    "music-recording-culture-02": ["Jacopo_Peri_-_L%E2%80%99Euridice_-_title_page_of_the_libretto_-_Florence_1600.png", "opera, notation, and public music print", "歌剧、记谱与公共音乐印刷"],
+    "music-recording-culture-03": ["Bayreuth-Rheingold-1876.jpg", "concert publics and national music institutions", "音乐会公众与民族音乐制度"],
+    "music-recording-culture-04": ["Edison_and_phonograph_edit2.jpg", "phonograph and recorded sound", "留声机与录音"],
+    "music-recording-culture-05": ["Frank_Conrad_radio_station_8XK_1920.jpg", "radio, jazz, blues, and popular records", "广播、爵士、布鲁斯与流行唱片"],
+    "music-recording-culture-06": ["Woodstock_redmond_stage.JPG", "rock festivals, youth culture, and albums", "摇滚音乐节、青年文化与专辑"],
+    "music-recording-culture-07": ["Roland_TR-808_-_the_classic_drum_machine.jpg", "music video, hip-hop, electronic instruments, and CDs", "音乐电视、嘻哈、电子乐器与 CD"],
+    "music-recording-culture-08": ["Spotify_logo_2008%E2%80%932012.svg", "streaming platforms and algorithmic music discovery", "流媒体平台与算法音乐发现"],
 
     "disaster-climate-01": ["Holocene_Temperature_Variations.png", "Holocene climate and agriculture", "全新世气候与农业"],
     "disaster-climate-02": ["Nile_River_flooding.jpg", "river floods and state risk", "河流洪水与国家风险"],
@@ -3038,7 +3081,15 @@ function augmentPhaseLinkedExactEvents() {
     "film-cinema-industry-05": ["paramount-decree", "rashomon-venice", "seven-samurai-release", "four-hundred-blows-release"],
     "film-cinema-industry-06": ["godfather-release", "jaws-release", "star-wars-release"],
     "film-cinema-industry-07": ["jurassic-park-release", "toy-story-release", "titanic-release"],
-    "film-cinema-industry-08": ["netflix-streaming-begins", "house-of-cards-netflix", "parasite-palme-dor", "covid-streaming-release-shift", "barbenheimer-theatrical-event"]
+    "film-cinema-industry-08": ["netflix-streaming-begins", "house-of-cards-netflix", "parasite-palme-dor", "covid-streaming-release-shift", "barbenheimer-theatrical-event"],
+    "music-recording-culture-01": ["slice-guidonian-hand-1025"],
+    "music-recording-culture-02": ["slice-euridice-opera-1600", "slice-vivaldi-four-seasons-1725", "slice-magic-flute-premiere-1791"],
+    "music-recording-culture-03": ["slice-beethoven-fifth-premiere-1808", "slice-bayreuth-festival-opens-1876"],
+    "music-recording-culture-04": ["slice-edison-phonograph-1877", "slice-berliner-gramophone-patent-1887", "slice-first-jazz-recording-1917"],
+    "music-recording-culture-05": ["slice-kdka-broadcast-1920", "slice-lp-record-introduced-1948"],
+    "music-recording-culture-06": ["slice-elvis-sun-studio-recording-1954", "slice-beatles-ed-sullivan-1964", "slice-woodstock-festival-1969", "slice-hip-hop-sedgwick-party-1973", "slice-sony-walkman-launches-1979"],
+    "music-recording-culture-07": ["slice-roland-tr808-release-1980", "slice-mtv-launches-1981", "slice-compact-disc-player-launch-1982", "slice-napster-launches-1999", "slice-ipod-introduced-2001", "slice-itunes-store-launches-2003"],
+    "music-recording-culture-08": ["slice-spotify-launches-2008", "slice-gangnam-style-youtube-breakthrough-2012", "slice-tiktok-douyin-launches-2016"]
   };
 
   ensurePhaseEventFoundation(phaseEvents);
