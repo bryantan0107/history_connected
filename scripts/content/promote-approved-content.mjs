@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
-import { collectContentEvents, repoRoot } from "./content-utils.mjs";
+import { collectContentEvents, getEventDetailAudit, hasText, repoRoot } from "./content-utils.mjs";
 
 const approvedDir = path.join(repoRoot, "content", "approved");
 const outputPath = path.join(repoRoot, "outputs", "generated-content.js");
@@ -10,6 +10,27 @@ const { events, files } = collectContentEvents(approvedDir);
 
 const cleanEvents = events.map(({ __sourceFile, ...event }) => event);
 const approvedIds = new Set(cleanEvents.map((event) => event.id));
+const detailLevelCounts = { full: 0, slice: 0, "needs-review": 0, missing: 0 };
+
+const unsafeEvents = cleanEvents.filter((event) => {
+  const audit = getEventDetailAudit(event);
+  if (!hasText(event.detailLevel)) {
+    detailLevelCounts.missing += 1;
+    return true;
+  }
+  detailLevelCounts[event.detailLevel] = (detailLevelCounts[event.detailLevel] || 0) + 1;
+  if (event.detailLevel === "needs-review") return true;
+  if (!audit.hasBase) return true;
+  if (event.detailLevel === "full" && (!audit.hasFullModal || !audit.hasFullImage)) return true;
+  return false;
+});
+
+if (unsafeEvents.length) {
+  console.error("Refusing to promote unsafe approved event(s). Run content:validate and fix these ids:");
+  unsafeEvents.slice(0, 80).forEach((event) => console.error(`- ${event.id || "(missing id)"} (${event.detailLevel || "missing detailLevel"})`));
+  if (unsafeEvents.length > 80) console.error(`...and ${unsafeEvents.length - 80} more`);
+  process.exit(1);
+}
 
 if (fs.existsSync(outputPath)) {
   const sandbox = {};
@@ -38,7 +59,8 @@ const content = {
   metadata: {
     generatedAt: new Date().toISOString(),
     sourceFiles: files.map((filePath) => path.relative(repoRoot, filePath)),
-    eventCount: cleanEvents.length
+    eventCount: cleanEvents.length,
+    detailLevelCounts
   },
   events: cleanEvents,
   regionPhases: []

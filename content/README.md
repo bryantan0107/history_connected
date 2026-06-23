@@ -19,9 +19,37 @@ Topic batch -> candidates -> Codex review -> approved -> outputs/generated-conte
 
 ```bash
 node scripts/content/generate-it-candidates.mjs
+node scripts/content/audit-slice-coverage.mjs
+node scripts/content/generate-slice-candidates.mjs --input=content/source-notes/my-slice-seed.json
 node scripts/content/validate-content.mjs
 node scripts/content/promote-approved-content.mjs
 node scripts/content/audit-coverage.mjs
 ```
 
 `promote-approved-content.mjs` is the only script that writes app-loaded generated content.
+
+## Detail Levels
+
+Approved events use `detailLevel`:
+
+- `full`: complete Event Modal fields and event-specific image metadata.
+- `slice`: real exact event for Time Slice / Local Context, with source-backed place/lens/phase ownership and bilingual summary, but not necessarily full modal prose or image.
+- `needs-review`: not allowed in approved content.
+
+Bulk expansion should start with `slice` events. Promote a slice event to `full` only after writing meaningful `eventIntro`, `whyMatters`, `phaseRelation`, `connectionHint`, Chinese equivalents, and event-specific image fields.
+
+## Slice Packs
+
+Use `audit-slice-coverage.mjs` to find empty `year × region × lens/track` cells before creating a batch. Put generated compact candidates under:
+
+```text
+content/candidates/slice-packs/<batch-id>/
+```
+
+After Codex review, move only real, source-backed, correctly classified events into:
+
+```text
+content/approved/slice-packs/<batch-id>/core-events.json
+```
+
+Candidates and rejected content are never loaded by the app.

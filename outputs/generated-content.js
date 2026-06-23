@@ -2,7 +2,7 @@
 // Only approved content should be emitted here. Candidates and rejected content are never loaded by the app.
 globalThis.HISTORY_GENERATED_CONTENT = {
   "metadata": {
-    "generatedAt": "2026-06-23T10:27:32.455Z",
+    "generatedAt": "2026-06-23T13:32:36.380Z",
     "sourceFiles": [
       "content/approved/ai-ml/core-events.json",
       "content/approved/art-visual-media/core-events.json",
@@ -10,7 +10,13 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "content/approved/software-os/core-events.json",
       "content/approved/war-global-conflicts/core-events.json"
     ],
-    "eventCount": 94
+    "eventCount": 94,
+    "detailLevelCounts": {
+      "full": 94,
+      "slice": 0,
+      "needs-review": 0,
+      "missing": 0
+    }
   },
   "events": [
     {
