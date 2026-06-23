@@ -458,6 +458,7 @@ function createSources() {
 function createMacroAreas() {
   return [
     { id: "east-asia", title: "East Asia", titleZh: "东亚" },
+    { id: "southeast-asia", title: "Southeast Asia", titleZh: "东南亚" },
     { id: "south-asia", title: "South Asia", titleZh: "南亚" },
     { id: "middle-east", title: "Middle East", titleZh: "中东" },
     { id: "europe", title: "Europe", titleZh: "欧洲" },
@@ -474,6 +475,7 @@ function createPlaces() {
     ["china", "China", "中国", "east-asia", "A reference area for histories around the Chinese mainland and adjacent cultural-political worlds.", "以现代中国为参照，用来组织中国大陆及周边相关文化与政治世界的历史。"],
     ["japan", "Japan", "日本", "east-asia", "A reference area for the Japanese archipelago and its historical polities.", "以日本列岛为参照，用来组织该地区历代政权、社会与文化。"],
     ["korea", "Korea", "朝鲜半岛", "east-asia", "A reference area for the Korean peninsula across dynastic and modern political changes.", "以朝鲜半岛为参照，用来组织其王朝、殖民与现代政治变化。"],
+    ["malaysia", "Malaysia", "马来西亚", "southeast-asia", "A reference area for histories around the Malay Peninsula, northern Borneo, Melaka, Malaya, and modern Malaysia.", "以马来半岛、北婆罗洲、马六甲、马来亚与现代马来西亚为参照，组织相关历史。"],
     ["india", "India", "印度", "south-asia", "A reference area for South Asian histories centered on the Indian subcontinent.", "以印度次大陆为参照，用来组织南亚相关历史。"],
     ["turkey-anatolia", "Turkey / Anatolia", "土耳其 / 安纳托利亚", "middle-east", "A reference area for Anatolia and nearby imperial worlds, including Byzantine and Ottoman histories.", "以安纳托利亚及现代土耳其为参照，容纳拜占庭、奥斯曼等周边帝国世界。"],
     ["iran-persia", "Iran / Persia", "伊朗 / 波斯", "middle-east", "A reference area for Iranian plateau and Persianate political-cultural histories.", "以伊朗高原与波斯文化政治世界为参照。"],
@@ -667,6 +669,13 @@ function createRegionPhases() {
 
     ["korea", "korea-joseon", "Joseon Dynasty", "朝鲜王朝", 1392, 1897, "1392-1897", 1453, ["state-empire", "religion-belief", "literature"], "Joseon built a Confucian state order, court scholarship, social hierarchy, and administrative institutions that shaped Korean identity.", "朝鲜王朝建立儒家国家秩序、宫廷学术、社会等级和行政制度，深刻塑造朝鲜半岛身份。"],
     ["korea", "korea-modern", "Colonial division and modern Korea", "殖民、分裂与现代朝鲜半岛", 1897, 2026, "1897-present", 1910, ["state-empire", "war-military", "economy-trade"], "Empire, Japanese colonial rule, division, war, industrialization, and rival states made modern Korea a central Cold War and global economic story.", "帝国、日本殖民统治、分裂、战争、工业化与对立国家让现代朝鲜半岛成为冷战和全球经济的重要故事。"],
+
+    ["malaysia", "malaysia-maritime-crossroads", "Early maritime crossroads and Indian Ocean exchange", "早期海上十字路口与印度洋交流", -200, 1400, "c. 200 BCE-1400", 200, ["economy-trade", "religion-belief", "state-empire"], "Malay Peninsula and Borneo port-polities connected Indian Ocean, South China Sea, Austronesian, Indic, Buddhist, and Islamic currents before Melaka's rise.", "马来半岛与婆罗洲港口政体在马六甲兴起前连接印度洋、南中国海、南岛、印度化、佛教和伊斯兰交流。"],
+    ["malaysia", "malaysia-melaka-sultanate", "Melaka Sultanate and Islamicate trade", "马六甲苏丹国与伊斯兰贸易", 1400, 1511, "c. 1400-1511", 1400, ["state-empire", "economy-trade", "religion-belief"], "Melaka became a major entrepot linking Malay rule, Islam, Chinese voyages, Indian Ocean merchants, and Southeast Asian commercial diplomacy.", "马六甲成为重要转口港，把马来统治、伊斯兰、中国航行、印度洋商人和东南亚商业外交连接起来。"],
+    ["malaysia", "malaysia-straits-competition", "Portuguese, Dutch, and Straits competition", "葡萄牙、荷兰与海峡竞争", 1511, 1786, "1511-1786", 1511, ["state-empire", "war-military", "economy-trade"], "European seizure of Melaka and later Dutch control made the Straits a contested commercial and military corridor while Malay polities adapted around it.", "欧洲夺取马六甲以及后来的荷兰控制，使海峡成为商业与军事竞争走廊，周边马来政权也随之调整。"],
+    ["malaysia", "malaysia-british-malaya", "British Malaya, tin, rubber, and plural society", "英属马来亚、锡矿、橡胶与多元社会", 1786, 1941, "1786-1941", 1786, ["state-empire", "economy-trade", "science-technology"], "British ports, protectorates, tin mining, rubber plantations, railways, and migration created colonial Malaya's export economy and plural society.", "英国港口、保护国、锡矿、橡胶种植园、铁路和移民共同塑造殖民马来亚的出口经济与多元社会。"],
+    ["malaysia", "malaysia-occupation-emergency-independence", "Japanese occupation, Emergency, and independence", "日本占领、紧急状态与独立", 1941, 1963, "1941-1963", 1941, ["war-military", "state-empire", "economy-trade"], "Japanese occupation, postwar anti-colonial politics, communist insurgency, emergency rule, and negotiated independence reshaped Malaya before Malaysia's formation.", "日本占领、战后反殖民政治、共产主义叛乱、紧急状态和谈判独立，在马来西亚形成前重塑马来亚。"],
+    ["malaysia", "malaysia-development-digital", "Malaysia, development state, and digital economy", "马来西亚、发展型国家与数字经济", 1963, 2026, "1963-present", 1963, ["state-empire", "economy-trade", "science-technology", "architecture"], "Federation, ethnic power-sharing, development planning, industrial policy, urban megaprojects, and digital corridors shaped modern Malaysia.", "联邦制、族群权力分享、发展规划、产业政策、城市巨型项目和数字走廊塑造现代马来西亚。"],
 
     ["india", "india-sultanate-mughal", "Sultanates and Mughal India", "苏丹国与莫卧儿印度", 1200, 1757, "c. 1200-1757", 1526, ["state-empire", "religion-belief", "architecture"], "Islamic sultanates and Mughal power joined court culture, land revenue, Persianate administration, religious plurality, and monumental architecture.", "伊斯兰苏丹国与莫卧儿权力结合宫廷文化、土地收入、波斯化行政、宗教多元和纪念性建筑。"],
     ["india", "india-british-raj", "Company rule and British Raj", "公司统治与英属印度", 1757, 1947, "1757-1947", 1879, ["state-empire", "economy-trade"], "British rule reorganized revenue, railways, law, education, extraction, and political resistance across the subcontinent.", "英国统治重组了次大陆的税收、铁路、法律、教育、资源开采与政治反抗。"],
@@ -2378,6 +2387,7 @@ function inferPlaceIdsForEvent(event) {
     ["china", ["china", "ming", "qing", "beijing", "nanjing", "qin", "han", "kaifeng", "song", "mongol steppe"]],
     ["japan", ["japan", "tokyo", "kyoto", "osaka", "meiji", "taisho"]],
     ["korea", ["korea", "joseon", "seoul"]],
+    ["malaysia", ["malaysia", "malaya", "malay", "malacca", "melaka", "penang", "perak", "kuala lumpur", "petronas", "multimedia super corridor", "cyberjaya", "proton saga", "pangkor"]],
     ["india", ["india", "south asia", "bengal", "delhi", "mughal", "plassey"]],
     ["france", ["france", "paris", "poissy", "versailles", "gaul", "catalaunian", "lascaux", "great famine", "revolutions of 1848"]],
     ["britain-uk", ["britain", "british", "united kingdom", "london", "derbyshire", "manchester", "birmingham", "bletchley", "greenwich", "chaucer", "canterbury", "pride and prejudice", "austen", "armada portrait"]],
