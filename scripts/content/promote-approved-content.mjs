@@ -21,6 +21,7 @@ const unsafeEvents = cleanEvents.filter((event) => {
   detailLevelCounts[event.detailLevel] = (detailLevelCounts[event.detailLevel] || 0) + 1;
   if (event.detailLevel === "needs-review") return true;
   if (!audit.hasBase) return true;
+  if (event.detailLevel === "slice" && !audit.hasFullImage) return true;
   if (event.detailLevel === "full" && (!audit.hasFullModal || !audit.hasFullImage)) return true;
   return false;
 });

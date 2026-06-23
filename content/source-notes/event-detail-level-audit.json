@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-23T13:33:08.549Z",
+  "generatedAt": "2026-06-23T16:36:32.270Z",
   "writeApproved": false,
   "counts": {
     "approved": {
-      "total": 94,
+      "total": 128,
       "full": 94,
-      "slice": 0,
+      "slice": 34,
       "needs-review": 0,
       "levelMismatches": 0,
       "missingImage": 0,
-      "missingModalFields": 0,
+      "missingModalFields": 34,
       "missingLinks": 0
     },
     "generated": {
-      "total": 94,
+      "total": 128,
       "full": 94,
-      "slice": 0,
+      "slice": 34,
       "needs-review": 0,
       "levelMismatches": 0,
       "missingImage": 0,
-      "missingModalFields": 0,
+      "missingModalFields": 34,
       "missingLinks": 0
     },
     "legacy": {
@@ -33,13 +33,13 @@
       "missingLinks": 0
     },
     "all": {
-      "total": 732,
+      "total": 800,
       "full": 188,
-      "slice": 544,
+      "slice": 612,
       "needs-review": 0,
       "levelMismatches": 0,
       "missingImage": 544,
-      "missingModalFields": 537,
+      "missingModalFields": 605,
       "missingLinks": 0
     }
   },
@@ -1185,6 +1185,1060 @@
         "baseArrays": [],
         "localized": [],
         "modal": [],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-panama-canal-opens-1914",
+      "title": "Panama Canal opens to traffic",
+      "titleZh": "巴拿马运河通航",
+      "year": 1914,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-representation-people-act-1918",
+      "title": "Representation of the People Act expands the British electorate",
+      "titleZh": "英国《人民代表法》扩大选民范围",
+      "year": 1918,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-wall-street-crash-1929",
+      "title": "Wall Street Crash begins",
+      "titleZh": "华尔街股灾爆发",
+      "year": 1929,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-moma-opens-1929",
+      "title": "Museum of Modern Art opens in New York",
+      "titleZh": "纽约现代艺术博物馆开馆",
+      "year": 1929,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-first-five-year-plan-collectivization-1929",
+      "title": "Stalin accelerates collectivization and the First Five-Year Plan",
+      "titleZh": "斯大林推进集体化与第一个五年计划",
+      "year": 1929,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-new-york-worlds-fair-opens-1939",
+      "title": "New York World's Fair opens",
+      "titleZh": "纽约世界博览会开幕",
+      "year": 1939,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-wizard-of-oz-released-1939",
+      "title": "The Wizard of Oz is released",
+      "titleZh": "《绿野仙踪》上映",
+      "year": 1939,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-britain-national-service-act-1939",
+      "title": "Britain introduces peacetime conscription",
+      "titleZh": "英国实行和平时期征兵制",
+      "year": 1939,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-un-charter-signed-1945",
+      "title": "United Nations Charter signed in San Francisco",
+      "titleZh": "《联合国宪章》在旧金山签署",
+      "year": 1945,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-uk-labour-landslide-1945",
+      "title": "Labour wins the British general election",
+      "titleZh": "英国工党赢得大选",
+      "year": 1945,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-nuremberg-trials-open-1945",
+      "title": "Nuremberg trials open",
+      "titleZh": "纽伦堡审判开庭",
+      "year": 1945,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-prc-proclaimed-1949",
+      "title": "People's Republic of China proclaimed",
+      "titleZh": "中华人民共和国成立",
+      "year": 1949,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-nato-founded-1949",
+      "title": "NATO is founded",
+      "titleZh": "北约成立",
+      "year": 1949,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-indian-constitution-adopted-1949",
+      "title": "Constituent Assembly adopts the Constitution of India",
+      "titleZh": "印度制宪会议通过宪法",
+      "year": 1949,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-federal-republic-germany-founded-1949",
+      "title": "Federal Republic of Germany founded",
+      "titleZh": "德意志联邦共和国成立",
+      "year": 1949,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-soviet-atomic-test-1949",
+      "title": "Soviet Union tests its first atomic bomb",
+      "titleZh": "苏联首次核试验",
+      "year": 1949,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-apollo-11-moon-landing-1969",
+      "title": "Apollo 11 lands on the Moon",
+      "titleZh": "阿波罗 11 号登月",
+      "year": 1969,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-woodstock-festival-1969",
+      "title": "Woodstock festival takes place",
+      "titleZh": "伍德斯托克音乐节举行",
+      "year": 1969,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-stonewall-uprising-1969",
+      "title": "Stonewall uprising begins",
+      "titleZh": "石墙起义爆发",
+      "year": 1969,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-concorde-first-flight-1969",
+      "title": "Concorde makes its first flight",
+      "titleZh": "协和式飞机首次试飞",
+      "year": 1969,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-sesame-street-premieres-1969",
+      "title": "Sesame Street premieres",
+      "titleZh": "《芝麻街》首播",
+      "year": 1969,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-egypt-israel-peace-treaty-1979",
+      "title": "Egypt-Israel peace treaty signed",
+      "titleZh": "埃及与以色列签署和平条约",
+      "year": 1979,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-thatcher-elected-1979",
+      "title": "Margaret Thatcher becomes British prime minister",
+      "titleZh": "玛格丽特·撒切尔成为英国首相",
+      "year": 1979,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-sony-walkman-launches-1979",
+      "title": "Sony Walkman launches",
+      "titleZh": "索尼 Walkman 发布",
+      "year": 1979,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-us-china-diplomatic-relations-1979",
+      "title": "United States and China establish diplomatic relations",
+      "titleZh": "中美正式建立外交关系",
+      "year": 1979,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-three-mile-island-accident-1979",
+      "title": "Three Mile Island nuclear accident",
+      "titleZh": "三哩岛核事故",
+      "year": 1979,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-tiananmen-crackdown-1989",
+      "title": "Tiananmen Square crackdown",
+      "titleZh": "天安门广场镇压",
+      "year": 1989,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-game-boy-launches-1989",
+      "title": "Nintendo Game Boy launches",
+      "titleZh": "任天堂 Game Boy 发布",
+      "year": 1989,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-louvre-pyramid-opens-1989",
+      "title": "Louvre Pyramid opens",
+      "titleZh": "卢浮宫金字塔开放",
+      "year": 1989,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-world-wide-web-proposal-1989",
+      "title": "World Wide Web proposal written",
+      "titleZh": "万维网方案提出",
+      "year": 1989,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-india-economic-liberalization-1991",
+      "title": "India begins economic liberalization",
+      "titleZh": "印度启动经济自由化改革",
+      "year": 1991,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-yeltsin-elected-russian-president-1991",
+      "title": "Boris Yeltsin elected president of Russia",
+      "titleZh": "鲍里斯·叶利钦当选俄罗斯总统",
+      "year": 1991,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-snes-north-america-launch-1991",
+      "title": "Super Nintendo launches in North America",
+      "titleZh": "超级任天堂在北美上市",
+      "year": 1991,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-world-wide-web-publicly-available-1991",
+      "title": "World Wide Web becomes publicly available",
+      "titleZh": "万维网向公众开放",
+      "year": 1991,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
         "image": []
       }
     },
@@ -3255,6 +4309,1060 @@
         "baseArrays": [],
         "localized": [],
         "modal": [],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-panama-canal-opens-1914",
+      "title": "Panama Canal opens to traffic",
+      "titleZh": "巴拿马运河通航",
+      "year": 1914,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-representation-people-act-1918",
+      "title": "Representation of the People Act expands the British electorate",
+      "titleZh": "英国《人民代表法》扩大选民范围",
+      "year": 1918,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-wall-street-crash-1929",
+      "title": "Wall Street Crash begins",
+      "titleZh": "华尔街股灾爆发",
+      "year": 1929,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-moma-opens-1929",
+      "title": "Museum of Modern Art opens in New York",
+      "titleZh": "纽约现代艺术博物馆开馆",
+      "year": 1929,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-first-five-year-plan-collectivization-1929",
+      "title": "Stalin accelerates collectivization and the First Five-Year Plan",
+      "titleZh": "斯大林推进集体化与第一个五年计划",
+      "year": 1929,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-new-york-worlds-fair-opens-1939",
+      "title": "New York World's Fair opens",
+      "titleZh": "纽约世界博览会开幕",
+      "year": 1939,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-wizard-of-oz-released-1939",
+      "title": "The Wizard of Oz is released",
+      "titleZh": "《绿野仙踪》上映",
+      "year": 1939,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-britain-national-service-act-1939",
+      "title": "Britain introduces peacetime conscription",
+      "titleZh": "英国实行和平时期征兵制",
+      "year": 1939,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-un-charter-signed-1945",
+      "title": "United Nations Charter signed in San Francisco",
+      "titleZh": "《联合国宪章》在旧金山签署",
+      "year": 1945,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-uk-labour-landslide-1945",
+      "title": "Labour wins the British general election",
+      "titleZh": "英国工党赢得大选",
+      "year": 1945,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-nuremberg-trials-open-1945",
+      "title": "Nuremberg trials open",
+      "titleZh": "纽伦堡审判开庭",
+      "year": 1945,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-prc-proclaimed-1949",
+      "title": "People's Republic of China proclaimed",
+      "titleZh": "中华人民共和国成立",
+      "year": 1949,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-nato-founded-1949",
+      "title": "NATO is founded",
+      "titleZh": "北约成立",
+      "year": 1949,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-indian-constitution-adopted-1949",
+      "title": "Constituent Assembly adopts the Constitution of India",
+      "titleZh": "印度制宪会议通过宪法",
+      "year": 1949,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-federal-republic-germany-founded-1949",
+      "title": "Federal Republic of Germany founded",
+      "titleZh": "德意志联邦共和国成立",
+      "year": 1949,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-soviet-atomic-test-1949",
+      "title": "Soviet Union tests its first atomic bomb",
+      "titleZh": "苏联首次核试验",
+      "year": 1949,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-apollo-11-moon-landing-1969",
+      "title": "Apollo 11 lands on the Moon",
+      "titleZh": "阿波罗 11 号登月",
+      "year": 1969,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-woodstock-festival-1969",
+      "title": "Woodstock festival takes place",
+      "titleZh": "伍德斯托克音乐节举行",
+      "year": 1969,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-stonewall-uprising-1969",
+      "title": "Stonewall uprising begins",
+      "titleZh": "石墙起义爆发",
+      "year": 1969,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-concorde-first-flight-1969",
+      "title": "Concorde makes its first flight",
+      "titleZh": "协和式飞机首次试飞",
+      "year": 1969,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-sesame-street-premieres-1969",
+      "title": "Sesame Street premieres",
+      "titleZh": "《芝麻街》首播",
+      "year": 1969,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-egypt-israel-peace-treaty-1979",
+      "title": "Egypt-Israel peace treaty signed",
+      "titleZh": "埃及与以色列签署和平条约",
+      "year": 1979,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-thatcher-elected-1979",
+      "title": "Margaret Thatcher becomes British prime minister",
+      "titleZh": "玛格丽特·撒切尔成为英国首相",
+      "year": 1979,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-sony-walkman-launches-1979",
+      "title": "Sony Walkman launches",
+      "titleZh": "索尼 Walkman 发布",
+      "year": 1979,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-us-china-diplomatic-relations-1979",
+      "title": "United States and China establish diplomatic relations",
+      "titleZh": "中美正式建立外交关系",
+      "year": 1979,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-three-mile-island-accident-1979",
+      "title": "Three Mile Island nuclear accident",
+      "titleZh": "三哩岛核事故",
+      "year": 1979,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-tiananmen-crackdown-1989",
+      "title": "Tiananmen Square crackdown",
+      "titleZh": "天安门广场镇压",
+      "year": 1989,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-game-boy-launches-1989",
+      "title": "Nintendo Game Boy launches",
+      "titleZh": "任天堂 Game Boy 发布",
+      "year": 1989,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-louvre-pyramid-opens-1989",
+      "title": "Louvre Pyramid opens",
+      "titleZh": "卢浮宫金字塔开放",
+      "year": 1989,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-world-wide-web-proposal-1989",
+      "title": "World Wide Web proposal written",
+      "titleZh": "万维网方案提出",
+      "year": 1989,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-india-economic-liberalization-1991",
+      "title": "India begins economic liberalization",
+      "titleZh": "印度启动经济自由化改革",
+      "year": 1991,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-yeltsin-elected-russian-president-1991",
+      "title": "Boris Yeltsin elected president of Russia",
+      "titleZh": "鲍里斯·叶利钦当选俄罗斯总统",
+      "year": 1991,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-snes-north-america-launch-1991",
+      "title": "Super Nintendo launches in North America",
+      "titleZh": "超级任天堂在北美上市",
+      "year": 1991,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-world-wide-web-publicly-available-1991",
+      "title": "World Wide Web becomes publicly available",
+      "titleZh": "万维网向公众开放",
+      "year": 1991,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
         "image": []
       }
     },
@@ -6823,12 +8931,7 @@
           "connectionHintZh"
         ],
         "image": [
-          "image",
-          "imageAlt",
-          "imageCaption",
-          "imageCaptionZh",
-          "imageCredit",
-          "imageSourceUrl"
+          "imageCaptionZh"
         ]
       }
     },
@@ -9835,12 +11938,7 @@
           "connectionHintZh"
         ],
         "image": [
-          "image",
-          "imageAlt",
-          "imageCaption",
-          "imageCaptionZh",
-          "imageCredit",
-          "imageSourceUrl"
+          "imageCaptionZh"
         ]
       }
     },
@@ -27419,12 +29517,7 @@
           "connectionHintZh"
         ],
         "image": [
-          "image",
-          "imageAlt",
-          "imageCaption",
-          "imageCaptionZh",
-          "imageCredit",
-          "imageSourceUrl"
+          "imageCaptionZh"
         ]
       }
     },
@@ -30431,12 +32524,7 @@
           "connectionHintZh"
         ],
         "image": [
-          "image",
-          "imageAlt",
-          "imageCaption",
-          "imageCaptionZh",
-          "imageCredit",
-          "imageSourceUrl"
+          "imageCaptionZh"
         ]
       }
     },
@@ -45377,6 +47465,2114 @@
   ],
   "missingModalFields": [
     {
+      "id": "slice-panama-canal-opens-1914",
+      "title": "Panama Canal opens to traffic",
+      "titleZh": "巴拿马运河通航",
+      "year": 1914,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-representation-people-act-1918",
+      "title": "Representation of the People Act expands the British electorate",
+      "titleZh": "英国《人民代表法》扩大选民范围",
+      "year": 1918,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-wall-street-crash-1929",
+      "title": "Wall Street Crash begins",
+      "titleZh": "华尔街股灾爆发",
+      "year": 1929,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-moma-opens-1929",
+      "title": "Museum of Modern Art opens in New York",
+      "titleZh": "纽约现代艺术博物馆开馆",
+      "year": 1929,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-first-five-year-plan-collectivization-1929",
+      "title": "Stalin accelerates collectivization and the First Five-Year Plan",
+      "titleZh": "斯大林推进集体化与第一个五年计划",
+      "year": 1929,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-new-york-worlds-fair-opens-1939",
+      "title": "New York World's Fair opens",
+      "titleZh": "纽约世界博览会开幕",
+      "year": 1939,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-wizard-of-oz-released-1939",
+      "title": "The Wizard of Oz is released",
+      "titleZh": "《绿野仙踪》上映",
+      "year": 1939,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-britain-national-service-act-1939",
+      "title": "Britain introduces peacetime conscription",
+      "titleZh": "英国实行和平时期征兵制",
+      "year": 1939,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-un-charter-signed-1945",
+      "title": "United Nations Charter signed in San Francisco",
+      "titleZh": "《联合国宪章》在旧金山签署",
+      "year": 1945,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-uk-labour-landslide-1945",
+      "title": "Labour wins the British general election",
+      "titleZh": "英国工党赢得大选",
+      "year": 1945,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-nuremberg-trials-open-1945",
+      "title": "Nuremberg trials open",
+      "titleZh": "纽伦堡审判开庭",
+      "year": 1945,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-prc-proclaimed-1949",
+      "title": "People's Republic of China proclaimed",
+      "titleZh": "中华人民共和国成立",
+      "year": 1949,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-nato-founded-1949",
+      "title": "NATO is founded",
+      "titleZh": "北约成立",
+      "year": 1949,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-indian-constitution-adopted-1949",
+      "title": "Constituent Assembly adopts the Constitution of India",
+      "titleZh": "印度制宪会议通过宪法",
+      "year": 1949,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-federal-republic-germany-founded-1949",
+      "title": "Federal Republic of Germany founded",
+      "titleZh": "德意志联邦共和国成立",
+      "year": 1949,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-soviet-atomic-test-1949",
+      "title": "Soviet Union tests its first atomic bomb",
+      "titleZh": "苏联首次核试验",
+      "year": 1949,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-apollo-11-moon-landing-1969",
+      "title": "Apollo 11 lands on the Moon",
+      "titleZh": "阿波罗 11 号登月",
+      "year": 1969,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-woodstock-festival-1969",
+      "title": "Woodstock festival takes place",
+      "titleZh": "伍德斯托克音乐节举行",
+      "year": 1969,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-stonewall-uprising-1969",
+      "title": "Stonewall uprising begins",
+      "titleZh": "石墙起义爆发",
+      "year": 1969,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-concorde-first-flight-1969",
+      "title": "Concorde makes its first flight",
+      "titleZh": "协和式飞机首次试飞",
+      "year": 1969,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-sesame-street-premieres-1969",
+      "title": "Sesame Street premieres",
+      "titleZh": "《芝麻街》首播",
+      "year": 1969,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-egypt-israel-peace-treaty-1979",
+      "title": "Egypt-Israel peace treaty signed",
+      "titleZh": "埃及与以色列签署和平条约",
+      "year": 1979,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-thatcher-elected-1979",
+      "title": "Margaret Thatcher becomes British prime minister",
+      "titleZh": "玛格丽特·撒切尔成为英国首相",
+      "year": 1979,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-sony-walkman-launches-1979",
+      "title": "Sony Walkman launches",
+      "titleZh": "索尼 Walkman 发布",
+      "year": 1979,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-us-china-diplomatic-relations-1979",
+      "title": "United States and China establish diplomatic relations",
+      "titleZh": "中美正式建立外交关系",
+      "year": 1979,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-three-mile-island-accident-1979",
+      "title": "Three Mile Island nuclear accident",
+      "titleZh": "三哩岛核事故",
+      "year": 1979,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-tiananmen-crackdown-1989",
+      "title": "Tiananmen Square crackdown",
+      "titleZh": "天安门广场镇压",
+      "year": 1989,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-game-boy-launches-1989",
+      "title": "Nintendo Game Boy launches",
+      "titleZh": "任天堂 Game Boy 发布",
+      "year": 1989,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-louvre-pyramid-opens-1989",
+      "title": "Louvre Pyramid opens",
+      "titleZh": "卢浮宫金字塔开放",
+      "year": 1989,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-world-wide-web-proposal-1989",
+      "title": "World Wide Web proposal written",
+      "titleZh": "万维网方案提出",
+      "year": 1989,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-india-economic-liberalization-1991",
+      "title": "India begins economic liberalization",
+      "titleZh": "印度启动经济自由化改革",
+      "year": 1991,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-yeltsin-elected-russian-president-1991",
+      "title": "Boris Yeltsin elected president of Russia",
+      "titleZh": "鲍里斯·叶利钦当选俄罗斯总统",
+      "year": 1991,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-snes-north-america-launch-1991",
+      "title": "Super Nintendo launches in North America",
+      "titleZh": "超级任天堂在北美上市",
+      "year": 1991,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-world-wide-web-publicly-available-1991",
+      "title": "World Wide Web becomes publicly available",
+      "titleZh": "万维网向公众开放",
+      "year": 1991,
+      "sourceKind": "approved",
+      "sourceFile": "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-panama-canal-opens-1914",
+      "title": "Panama Canal opens to traffic",
+      "titleZh": "巴拿马运河通航",
+      "year": 1914,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-representation-people-act-1918",
+      "title": "Representation of the People Act expands the British electorate",
+      "titleZh": "英国《人民代表法》扩大选民范围",
+      "year": 1918,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-wall-street-crash-1929",
+      "title": "Wall Street Crash begins",
+      "titleZh": "华尔街股灾爆发",
+      "year": 1929,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-moma-opens-1929",
+      "title": "Museum of Modern Art opens in New York",
+      "titleZh": "纽约现代艺术博物馆开馆",
+      "year": 1929,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-first-five-year-plan-collectivization-1929",
+      "title": "Stalin accelerates collectivization and the First Five-Year Plan",
+      "titleZh": "斯大林推进集体化与第一个五年计划",
+      "year": 1929,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-new-york-worlds-fair-opens-1939",
+      "title": "New York World's Fair opens",
+      "titleZh": "纽约世界博览会开幕",
+      "year": 1939,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-wizard-of-oz-released-1939",
+      "title": "The Wizard of Oz is released",
+      "titleZh": "《绿野仙踪》上映",
+      "year": 1939,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-britain-national-service-act-1939",
+      "title": "Britain introduces peacetime conscription",
+      "titleZh": "英国实行和平时期征兵制",
+      "year": 1939,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-un-charter-signed-1945",
+      "title": "United Nations Charter signed in San Francisco",
+      "titleZh": "《联合国宪章》在旧金山签署",
+      "year": 1945,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-uk-labour-landslide-1945",
+      "title": "Labour wins the British general election",
+      "titleZh": "英国工党赢得大选",
+      "year": 1945,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-nuremberg-trials-open-1945",
+      "title": "Nuremberg trials open",
+      "titleZh": "纽伦堡审判开庭",
+      "year": 1945,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-prc-proclaimed-1949",
+      "title": "People's Republic of China proclaimed",
+      "titleZh": "中华人民共和国成立",
+      "year": 1949,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-nato-founded-1949",
+      "title": "NATO is founded",
+      "titleZh": "北约成立",
+      "year": 1949,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-indian-constitution-adopted-1949",
+      "title": "Constituent Assembly adopts the Constitution of India",
+      "titleZh": "印度制宪会议通过宪法",
+      "year": 1949,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-federal-republic-germany-founded-1949",
+      "title": "Federal Republic of Germany founded",
+      "titleZh": "德意志联邦共和国成立",
+      "year": 1949,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-soviet-atomic-test-1949",
+      "title": "Soviet Union tests its first atomic bomb",
+      "titleZh": "苏联首次核试验",
+      "year": 1949,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-apollo-11-moon-landing-1969",
+      "title": "Apollo 11 lands on the Moon",
+      "titleZh": "阿波罗 11 号登月",
+      "year": 1969,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-woodstock-festival-1969",
+      "title": "Woodstock festival takes place",
+      "titleZh": "伍德斯托克音乐节举行",
+      "year": 1969,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-stonewall-uprising-1969",
+      "title": "Stonewall uprising begins",
+      "titleZh": "石墙起义爆发",
+      "year": 1969,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-concorde-first-flight-1969",
+      "title": "Concorde makes its first flight",
+      "titleZh": "协和式飞机首次试飞",
+      "year": 1969,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-sesame-street-premieres-1969",
+      "title": "Sesame Street premieres",
+      "titleZh": "《芝麻街》首播",
+      "year": 1969,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-egypt-israel-peace-treaty-1979",
+      "title": "Egypt-Israel peace treaty signed",
+      "titleZh": "埃及与以色列签署和平条约",
+      "year": 1979,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-thatcher-elected-1979",
+      "title": "Margaret Thatcher becomes British prime minister",
+      "titleZh": "玛格丽特·撒切尔成为英国首相",
+      "year": 1979,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-sony-walkman-launches-1979",
+      "title": "Sony Walkman launches",
+      "titleZh": "索尼 Walkman 发布",
+      "year": 1979,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-us-china-diplomatic-relations-1979",
+      "title": "United States and China establish diplomatic relations",
+      "titleZh": "中美正式建立外交关系",
+      "year": 1979,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-three-mile-island-accident-1979",
+      "title": "Three Mile Island nuclear accident",
+      "titleZh": "三哩岛核事故",
+      "year": 1979,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-tiananmen-crackdown-1989",
+      "title": "Tiananmen Square crackdown",
+      "titleZh": "天安门广场镇压",
+      "year": 1989,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-game-boy-launches-1989",
+      "title": "Nintendo Game Boy launches",
+      "titleZh": "任天堂 Game Boy 发布",
+      "year": 1989,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-louvre-pyramid-opens-1989",
+      "title": "Louvre Pyramid opens",
+      "titleZh": "卢浮宫金字塔开放",
+      "year": 1989,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-world-wide-web-proposal-1989",
+      "title": "World Wide Web proposal written",
+      "titleZh": "万维网方案提出",
+      "year": 1989,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-india-economic-liberalization-1991",
+      "title": "India begins economic liberalization",
+      "titleZh": "印度启动经济自由化改革",
+      "year": 1991,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-yeltsin-elected-russian-president-1991",
+      "title": "Boris Yeltsin elected president of Russia",
+      "titleZh": "鲍里斯·叶利钦当选俄罗斯总统",
+      "year": 1991,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-snes-north-america-launch-1991",
+      "title": "Super Nintendo launches in North America",
+      "titleZh": "超级任天堂在北美上市",
+      "year": 1991,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
+      "id": "slice-world-wide-web-publicly-available-1991",
+      "title": "World Wide Web becomes publicly available",
+      "titleZh": "万维网向公众开放",
+      "year": 1991,
+      "sourceKind": "generated",
+      "sourceFile": "",
+      "explicitDetailLevel": "slice",
+      "suggestedDetailLevel": "slice",
+      "effectiveDetailLevel": "slice",
+      "hasBase": true,
+      "hasFullModal": false,
+      "hasFullImage": true,
+      "isPlaceholder": false,
+      "missing": {
+        "baseFields": [],
+        "baseArrays": [],
+        "localized": [],
+        "modal": [
+          "eventIntro",
+          "eventIntroZh",
+          "whyMatters",
+          "whyMattersZh",
+          "phaseRelation",
+          "phaseRelationZh",
+          "connectionHint",
+          "connectionHintZh"
+        ],
+        "image": []
+      }
+    },
+    {
       "id": "fall-constantinople",
       "title": "Fall of Constantinople",
       "titleZh": "君士坦丁堡陷落",
@@ -47875,12 +52071,7 @@
           "connectionHintZh"
         ],
         "image": [
-          "image",
-          "imageAlt",
-          "imageCaption",
-          "imageCaptionZh",
-          "imageCredit",
-          "imageSourceUrl"
+          "imageCaptionZh"
         ]
       }
     },
@@ -50839,12 +55030,7 @@
           "connectionHintZh"
         ],
         "image": [
-          "image",
-          "imageAlt",
-          "imageCaption",
-          "imageCaptionZh",
-          "imageCredit",
-          "imageSourceUrl"
+          "imageCaptionZh"
         ]
       }
     },

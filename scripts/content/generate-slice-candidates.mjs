@@ -93,14 +93,12 @@ function normalizeSliceCandidate(event, batchId) {
     sourceRefs: event.sourceRefs || [],
     sourceNotes: event.sourceNotes || [`Slice candidate for ${batchId}; requires Codex review before approval.`],
     reviewStatus: "candidate",
-    ...(event.image ? {
-      image: event.image,
-      imageAlt: event.imageAlt || "",
-      imageCaption: event.imageCaption || "",
-      imageCaptionZh: event.imageCaptionZh || "",
-      imageCredit: event.imageCredit || "",
-      imageSourceUrl: event.imageSourceUrl || ""
-    } : {})
+    image: event.image || "",
+    imageAlt: event.imageAlt || "",
+    imageCaption: event.imageCaption || "",
+    imageCaptionZh: event.imageCaptionZh || "",
+    imageCredit: event.imageCredit || "",
+    imageSourceUrl: event.imageSourceUrl || ""
   };
 }
 
@@ -145,7 +143,13 @@ Input shape:
         "phaseIds": ["economy-trade-08"],
         "primaryPhaseId": "economy-trade-08",
         "sourceRefs": ["wikidata"],
-        "sourceNotes": ["Source note for review."]
+        "sourceNotes": ["Source note for review."],
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Example.jpg",
+        "imageAlt": "Event-specific image description.",
+        "imageCaption": "A caption explaining why this image belongs to the event.",
+        "imageCaptionZh": "说明这张图片为什么属于该事件的中文图注。",
+        "imageCredit": "Image: Wikimedia Commons",
+        "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Example.jpg"
       }
     ]
   }`);

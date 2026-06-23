@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T13:35:53.074Z",
+  "generatedAt": "2026-06-23T16:36:32.238Z",
   "reportId": "modern-global-slice-1900-2000",
   "scope": {
     "years": [
@@ -44,55 +44,34 @@
   },
   "totals": {
     "cells": 1320,
-    "covered": 38,
-    "missing": 1282,
-    "coverageRatio": 0.0288
+    "covered": 62,
+    "missing": 1258,
+    "coverageRatio": 0.047
   },
   "byYear": [
     {
       "id": "1918",
       "total": 120,
-      "covered": 0,
-      "missing": 120,
-      "coverageRatio": 0
-    },
-    {
-      "id": "1929",
-      "total": 120,
-      "covered": 0,
-      "missing": 120,
-      "coverageRatio": 0
+      "covered": 1,
+      "missing": 119,
+      "coverageRatio": 0.0083
     },
     {
       "id": "1939",
       "total": 120,
-      "covered": 0,
-      "missing": 120,
-      "coverageRatio": 0
+      "covered": 1,
+      "missing": 119,
+      "coverageRatio": 0.0083
+    },
+    {
+      "id": "1929",
+      "total": 120,
+      "covered": 2,
+      "missing": 118,
+      "coverageRatio": 0.0167
     },
     {
       "id": "1949",
-      "total": 120,
-      "covered": 2,
-      "missing": 118,
-      "coverageRatio": 0.0167
-    },
-    {
-      "id": "1979",
-      "total": 120,
-      "covered": 2,
-      "missing": 118,
-      "coverageRatio": 0.0167
-    },
-    {
-      "id": "1969",
-      "total": 120,
-      "covered": 3,
-      "missing": 117,
-      "coverageRatio": 0.025
-    },
-    {
-      "id": "1989",
       "total": 120,
       "covered": 4,
       "missing": 116,
@@ -101,23 +80,44 @@
     {
       "id": "1945",
       "total": 120,
-      "covered": 5,
-      "missing": 115,
-      "coverageRatio": 0.0417
+      "covered": 7,
+      "missing": 113,
+      "coverageRatio": 0.0583
+    },
+    {
+      "id": "1969",
+      "total": 120,
+      "covered": 7,
+      "missing": 113,
+      "coverageRatio": 0.0583
+    },
+    {
+      "id": "1979",
+      "total": 120,
+      "covered": 7,
+      "missing": 113,
+      "coverageRatio": 0.0583
+    },
+    {
+      "id": "1989",
+      "total": 120,
+      "covered": 7,
+      "missing": 113,
+      "coverageRatio": 0.0583
     },
     {
       "id": "1991",
       "total": 120,
-      "covered": 5,
-      "missing": 115,
-      "coverageRatio": 0.0417
+      "covered": 7,
+      "missing": 113,
+      "coverageRatio": 0.0583
     },
     {
       "id": "1914",
       "total": 120,
-      "covered": 6,
-      "missing": 114,
-      "coverageRatio": 0.05
+      "covered": 8,
+      "missing": 112,
+      "coverageRatio": 0.0667
     },
     {
       "id": "2000",
@@ -129,21 +129,7 @@
   ],
   "byPlace": [
     {
-      "id": "german-lands",
-      "total": 110,
-      "covered": 1,
-      "missing": 109,
-      "coverageRatio": 0.0091
-    },
-    {
       "id": "turkey-anatolia",
-      "total": 110,
-      "covered": 1,
-      "missing": 109,
-      "coverageRatio": 0.0091
-    },
-    {
-      "id": "egypt-north-africa",
       "total": 110,
       "covered": 1,
       "missing": 109,
@@ -157,60 +143,74 @@
       "coverageRatio": 0.0091
     },
     {
-      "id": "china",
+      "id": "egypt-north-africa",
       "total": 110,
       "covered": 2,
       "missing": 108,
       "coverageRatio": 0.0182
+    },
+    {
+      "id": "german-lands",
+      "total": 110,
+      "covered": 3,
+      "missing": 107,
+      "coverageRatio": 0.0273
     },
     {
       "id": "india",
       "total": 110,
-      "covered": 2,
-      "missing": 108,
-      "coverageRatio": 0.0182
+      "covered": 3,
+      "missing": 107,
+      "coverageRatio": 0.0273
     },
     {
       "id": "mexico-mesoamerica",
       "total": 110,
-      "covered": 2,
-      "missing": 108,
-      "coverageRatio": 0.0182
-    },
-    {
-      "id": "japan",
-      "total": 110,
       "covered": 3,
       "missing": 107,
       "coverageRatio": 0.0273
     },
     {
-      "id": "russia",
-      "total": 110,
-      "covered": 3,
-      "missing": 107,
-      "coverageRatio": 0.0273
-    },
-    {
-      "id": "france",
+      "id": "china",
       "total": 110,
       "covered": 4,
       "missing": 106,
       "coverageRatio": 0.0364
     },
     {
-      "id": "britain-uk",
+      "id": "russia",
+      "total": 110,
+      "covered": 4,
+      "missing": 106,
+      "coverageRatio": 0.0364
+    },
+    {
+      "id": "japan",
       "total": 110,
       "covered": 5,
       "missing": 105,
       "coverageRatio": 0.0455
     },
     {
+      "id": "france",
+      "total": 110,
+      "covered": 6,
+      "missing": 104,
+      "coverageRatio": 0.0545
+    },
+    {
+      "id": "britain-uk",
+      "total": 110,
+      "covered": 9,
+      "missing": 101,
+      "coverageRatio": 0.0818
+    },
+    {
       "id": "united-states",
       "total": 110,
-      "covered": 13,
-      "missing": 97,
-      "coverageRatio": 0.1182
+      "covered": 21,
+      "missing": 89,
+      "coverageRatio": 0.1909
     }
   ],
   "byRow": [
@@ -231,23 +231,9 @@
     {
       "id": "architecture",
       "total": 132,
-      "covered": 1,
-      "missing": 131,
-      "coverageRatio": 0.0076
-    },
-    {
-      "id": "economy-trade",
-      "total": 132,
-      "covered": 3,
-      "missing": 129,
-      "coverageRatio": 0.0227
-    },
-    {
-      "id": "science-technology",
-      "total": 132,
-      "covered": 3,
-      "missing": 129,
-      "coverageRatio": 0.0227
+      "covered": 2,
+      "missing": 130,
+      "coverageRatio": 0.0152
     },
     {
       "id": "entertainment-media",
@@ -257,7 +243,7 @@
       "coverageRatio": 0.0227
     },
     {
-      "id": "computing-pc",
+      "id": "economy-trade",
       "total": 132,
       "covered": 6,
       "missing": 126,
@@ -271,18 +257,32 @@
       "coverageRatio": 0.0455
     },
     {
-      "id": "state-empire",
-      "total": 132,
-      "covered": 7,
-      "missing": 125,
-      "coverageRatio": 0.053
-    },
-    {
       "id": "war-military",
       "total": 132,
       "covered": 8,
       "missing": 124,
       "coverageRatio": 0.0606
+    },
+    {
+      "id": "science-technology",
+      "total": 132,
+      "covered": 8,
+      "missing": 124,
+      "coverageRatio": 0.0606
+    },
+    {
+      "id": "computing-pc",
+      "total": 132,
+      "covered": 9,
+      "missing": 123,
+      "coverageRatio": 0.0682
+    },
+    {
+      "id": "state-empire",
+      "total": 132,
+      "covered": 19,
+      "missing": 113,
+      "coverageRatio": 0.1439
     }
   ],
   "highValueGaps": [
@@ -846,32 +846,6 @@
       "year": 1914,
       "placeId": "mexico-mesoamerica",
       "placeTitle": "Mexico / Mesoamerica",
-      "rowId": "economy-trade",
-      "rowType": "lens",
-      "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "mexico-republic-revolution",
-        "mexico-colonial-modern"
-      ],
-      "activeRegionPhaseTitles": [
-        "Republic, reform, and revolution",
-        "Colonial and modern Mexico"
-      ],
-      "activeLensPhaseIds": [
-        "economy-trade-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Mass consumer economies"
-      ],
-      "priorityScore": 4
-    },
-    {
-      "year": 1914,
-      "placeId": "mexico-mesoamerica",
-      "placeTitle": "Mexico / Mesoamerica",
       "rowId": "religion-belief",
       "rowType": "lens",
       "rowTitle": "Religion / Belief",
@@ -1052,30 +1026,6 @@
       "year": 1914,
       "placeId": "united-states",
       "placeTitle": "United States",
-      "rowId": "economy-trade",
-      "rowType": "lens",
-      "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "us-industrial-power"
-      ],
-      "activeRegionPhaseTitles": [
-        "Industrial and global United States"
-      ],
-      "activeLensPhaseIds": [
-        "economy-trade-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Mass consumer economies"
-      ],
-      "priorityScore": 4
-    },
-    {
-      "year": 1914,
-      "placeId": "united-states",
-      "placeTitle": "United States",
       "rowId": "networks-internet",
       "rowType": "track",
       "rowTitle": "Networks / Internet",
@@ -1273,34 +1223,6 @@
       ],
       "activeLensPhaseTitles": [
         "Telephone and switching networks"
-      ],
-      "priorityScore": 4
-    },
-    {
-      "year": 1918,
-      "placeId": "britain-uk",
-      "placeTitle": "Britain / UK",
-      "rowId": "state-empire",
-      "rowType": "lens",
-      "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "britain-worldwar-welfare",
-        "britain-empire-industrial"
-      ],
-      "activeRegionPhaseTitles": [
-        "World wars, welfare state, and decolonization",
-        "British Empire and industrial power"
-      ],
-      "activeLensPhaseIds": [
-        "state-empire-07",
-        "state-empire-05"
-      ],
-      "activeLensPhaseTitles": [
-        "Total war and welfare states",
-        "European colonial empires"
       ],
       "priorityScore": 4
     },
@@ -3098,30 +3020,6 @@
       "year": 1929,
       "placeId": "united-states",
       "placeTitle": "United States",
-      "rowId": "economy-trade",
-      "rowType": "lens",
-      "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "us-industrial-power"
-      ],
-      "activeRegionPhaseTitles": [
-        "Industrial and global United States"
-      ],
-      "activeLensPhaseIds": [
-        "economy-trade-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Mass consumer economies"
-      ],
-      "priorityScore": 4
-    },
-    {
-      "year": 1929,
-      "placeId": "united-states",
-      "placeTitle": "United States",
       "rowId": "networks-internet",
       "rowType": "track",
       "rowTitle": "Networks / Internet",
@@ -3321,6 +3219,108 @@
         "Telephone and switching networks"
       ],
       "priorityScore": 4
+    },
+    {
+      "year": 1939,
+      "placeId": "britain-uk",
+      "placeTitle": "Britain / UK",
+      "rowId": "state-empire",
+      "rowType": "lens",
+      "rowTitle": "State / Empire",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "britain-worldwar-welfare",
+        "britain-empire-industrial"
+      ],
+      "activeRegionPhaseTitles": [
+        "World wars, welfare state, and decolonization",
+        "British Empire and industrial power"
+      ],
+      "activeLensPhaseIds": [
+        "state-empire-07",
+        "state-empire-05"
+      ],
+      "activeLensPhaseTitles": [
+        "Total war and welfare states",
+        "European colonial empires"
+      ],
+      "priorityScore": 4
+    },
+    {
+      "year": 1939,
+      "placeId": "britain-uk",
+      "placeTitle": "Britain / UK",
+      "rowId": "war-military",
+      "rowType": "lens",
+      "rowTitle": "War / Military",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "britain-worldwar-welfare"
+      ],
+      "activeRegionPhaseTitles": [
+        "World wars, welfare state, and decolonization"
+      ],
+      "activeLensPhaseIds": [
+        "war-military-06"
+      ],
+      "activeLensPhaseTitles": [
+        "Industrial war and mass mobilization"
+      ],
+      "priorityScore": 4
+    },
+    {
+      "year": 1939,
+      "placeId": "china",
+      "placeTitle": "China",
+      "rowId": "economy-trade",
+      "rowType": "lens",
+      "rowTitle": "Economy / Trade",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "china-modern"
+      ],
+      "activeRegionPhaseTitles": [
+        "Republican, socialist, and reform eras"
+      ],
+      "activeLensPhaseIds": [
+        "economy-trade-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Mass consumer economies"
+      ],
+      "priorityScore": 4
+    },
+    {
+      "year": 1939,
+      "placeId": "china",
+      "placeTitle": "China",
+      "rowId": "state-empire",
+      "rowType": "lens",
+      "rowTitle": "State / Empire",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "china-modern"
+      ],
+      "activeRegionPhaseTitles": [
+        "Republican, socialist, and reform eras"
+      ],
+      "activeLensPhaseIds": [
+        "state-empire-07",
+        "state-empire-05"
+      ],
+      "activeLensPhaseTitles": [
+        "Total war and welfare states",
+        "European colonial empires"
+      ],
+      "priorityScore": 4
     }
   ],
   "cells": [
@@ -3375,9 +3375,13 @@
       "rowId": "economy-trade",
       "rowType": "lens",
       "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-panama-canal-opens-1914"
+      ],
+      "eventTitles": [
+        "Panama Canal opens to traffic"
+      ],
       "activeRegionPhaseIds": [
         "us-industrial-power"
       ],
@@ -5253,9 +5257,13 @@
       "rowId": "economy-trade",
       "rowType": "lens",
       "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-panama-canal-opens-1914"
+      ],
+      "eventTitles": [
+        "Panama Canal opens to traffic"
+      ],
       "activeRegionPhaseIds": [
         "mexico-republic-revolution",
         "mexico-colonial-modern"
@@ -6445,9 +6453,13 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-representation-people-act-1918"
+      ],
+      "eventTitles": [
+        "Representation of the People Act expands the British electorate"
+      ],
       "activeRegionPhaseIds": [
         "britain-worldwar-welfare",
         "britain-empire-industrial"
@@ -8337,9 +8349,13 @@
       "rowId": "economy-trade",
       "rowType": "lens",
       "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-wall-street-crash-1929"
+      ],
+      "eventTitles": [
+        "Wall Street Crash begins"
+      ],
       "activeRegionPhaseIds": [
         "us-industrial-power"
       ],
@@ -9571,9 +9587,13 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-first-five-year-plan-collectivization-1929"
+      ],
+      "eventTitles": [
+        "Stalin accelerates collectivization and the First Five-Year Plan"
+      ],
       "activeRegionPhaseIds": [],
       "activeRegionPhaseTitles": [],
       "activeLensPhaseIds": [
@@ -10883,9 +10903,13 @@
       "rowId": "science-technology",
       "rowType": "lens",
       "rowTitle": "Science / Technology",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-new-york-worlds-fair-opens-1939"
+      ],
+      "eventTitles": [
+        "New York World's Fair opens"
+      ],
       "activeRegionPhaseIds": [
         "us-industrial-power"
       ],
@@ -13253,11 +13277,13 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 1,
+      "eventCount": 2,
       "eventIds": [
+        "slice-un-charter-signed-1945",
         "event-united-nations-founded-1945"
       ],
       "eventTitles": [
+        "United Nations Charter signed in San Francisco",
         "United Nations founded"
       ],
       "activeRegionPhaseIds": [
@@ -13929,9 +13955,13 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-uk-labour-landslide-1945"
+      ],
+      "eventTitles": [
+        "Labour wins the British general election"
+      ],
       "activeRegionPhaseIds": [
         "britain-worldwar-welfare",
         "britain-postwar"
@@ -14345,9 +14375,13 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-nuremberg-trials-open-1945"
+      ],
+      "eventTitles": [
+        "Nuremberg trials open"
+      ],
       "activeRegionPhaseIds": [
         "german-modern"
       ],
@@ -16839,9 +16873,13 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-federal-republic-germany-founded-1949"
+      ],
+      "eventTitles": [
+        "Federal Republic of Germany founded"
+      ],
       "activeRegionPhaseIds": [
         "german-modern"
       ],
@@ -17239,1143 +17277,1159 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "india-independent"
-      ],
-      "activeRegionPhaseTitles": [
-        "Independent India and South Asian republics"
-      ],
-      "activeLensPhaseIds": [
-        "state-empire-07",
-        "state-empire-08"
-      ],
-      "activeLensPhaseTitles": [
-        "Total war and welfare states",
-        "Postcolonial and global governance"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "india",
-      "placeTitle": "India",
-      "rowId": "war-military",
-      "rowType": "lens",
-      "rowTitle": "War / Military",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "war-military-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Cold War nuclear and proxy systems"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "india",
-      "placeTitle": "India",
-      "rowId": "economy-trade",
-      "rowType": "lens",
-      "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "india-independent"
-      ],
-      "activeRegionPhaseTitles": [
-        "Independent India and South Asian republics"
-      ],
-      "activeLensPhaseIds": [
-        "economy-trade-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Mass consumer economies"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "india",
-      "placeTitle": "India",
-      "rowId": "religion-belief",
-      "rowType": "lens",
-      "rowTitle": "Religion / Belief",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "religion-belief-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Secularization and revival"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "india",
-      "placeTitle": "India",
-      "rowId": "science-technology",
-      "rowType": "lens",
-      "rowTitle": "Science / Technology",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "india-independent"
-      ],
-      "activeRegionPhaseTitles": [
-        "Independent India and South Asian republics"
-      ],
-      "activeLensPhaseIds": [
-        "science-technology-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Computing, space, and nuclear age"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "india",
-      "placeTitle": "India",
-      "rowId": "entertainment-media",
-      "rowType": "lens",
-      "rowTitle": "Entertainment / Media",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "entertainment-media-06"
-      ],
-      "activeLensPhaseTitles": [
-        "Radio, television, and mass culture"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "india",
-      "placeTitle": "India",
-      "rowId": "art",
-      "rowType": "lens",
-      "rowTitle": "Art",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "art-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Modernism"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "india",
-      "placeTitle": "India",
-      "rowId": "architecture",
-      "rowType": "lens",
-      "rowTitle": "Architecture",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "architecture-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Modernism and international style"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "india",
-      "placeTitle": "India",
-      "rowId": "computing-pc",
-      "rowType": "track",
-      "rowTitle": "Computing / Personal Computers",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "india-independent"
-      ],
-      "activeRegionPhaseTitles": [
-        "Independent India and South Asian republics"
-      ],
-      "activeLensPhaseIds": [],
-      "activeLensPhaseTitles": []
-    },
-    {
-      "year": 1949,
-      "placeId": "india",
-      "placeTitle": "India",
-      "rowId": "networks-internet",
-      "rowType": "track",
-      "rowTitle": "Networks / Internet",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "india-independent"
-      ],
-      "activeRegionPhaseTitles": [
-        "Independent India and South Asian republics"
-      ],
-      "activeLensPhaseIds": [
-        "networks-internet-02"
-      ],
-      "activeLensPhaseTitles": [
-        "Telephone and switching networks"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "turkey-anatolia",
-      "placeTitle": "Turkey / Anatolia",
-      "rowId": "state-empire",
-      "rowType": "lens",
-      "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "anatolia-republic"
-      ],
-      "activeRegionPhaseTitles": [
-        "Republican Turkey"
-      ],
-      "activeLensPhaseIds": [
-        "state-empire-07",
-        "state-empire-08"
-      ],
-      "activeLensPhaseTitles": [
-        "Total war and welfare states",
-        "Postcolonial and global governance"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "turkey-anatolia",
-      "placeTitle": "Turkey / Anatolia",
-      "rowId": "war-military",
-      "rowType": "lens",
-      "rowTitle": "War / Military",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "war-military-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Cold War nuclear and proxy systems"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "turkey-anatolia",
-      "placeTitle": "Turkey / Anatolia",
-      "rowId": "economy-trade",
-      "rowType": "lens",
-      "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "anatolia-republic"
-      ],
-      "activeRegionPhaseTitles": [
-        "Republican Turkey"
-      ],
-      "activeLensPhaseIds": [
-        "economy-trade-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Mass consumer economies"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "turkey-anatolia",
-      "placeTitle": "Turkey / Anatolia",
-      "rowId": "religion-belief",
-      "rowType": "lens",
-      "rowTitle": "Religion / Belief",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "anatolia-republic"
-      ],
-      "activeRegionPhaseTitles": [
-        "Republican Turkey"
-      ],
-      "activeLensPhaseIds": [
-        "religion-belief-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Secularization and revival"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "turkey-anatolia",
-      "placeTitle": "Turkey / Anatolia",
-      "rowId": "science-technology",
-      "rowType": "lens",
-      "rowTitle": "Science / Technology",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "science-technology-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Computing, space, and nuclear age"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "turkey-anatolia",
-      "placeTitle": "Turkey / Anatolia",
-      "rowId": "entertainment-media",
-      "rowType": "lens",
-      "rowTitle": "Entertainment / Media",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "entertainment-media-06"
-      ],
-      "activeLensPhaseTitles": [
-        "Radio, television, and mass culture"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "turkey-anatolia",
-      "placeTitle": "Turkey / Anatolia",
-      "rowId": "art",
-      "rowType": "lens",
-      "rowTitle": "Art",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "art-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Modernism"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "turkey-anatolia",
-      "placeTitle": "Turkey / Anatolia",
-      "rowId": "architecture",
-      "rowType": "lens",
-      "rowTitle": "Architecture",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "architecture-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Modernism and international style"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "turkey-anatolia",
-      "placeTitle": "Turkey / Anatolia",
-      "rowId": "computing-pc",
-      "rowType": "track",
-      "rowTitle": "Computing / Personal Computers",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [],
-      "activeLensPhaseTitles": []
-    },
-    {
-      "year": 1949,
-      "placeId": "turkey-anatolia",
-      "placeTitle": "Turkey / Anatolia",
-      "rowId": "networks-internet",
-      "rowType": "track",
-      "rowTitle": "Networks / Internet",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "networks-internet-02"
-      ],
-      "activeLensPhaseTitles": [
-        "Telephone and switching networks"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "mexico-mesoamerica",
-      "placeTitle": "Mexico / Mesoamerica",
-      "rowId": "state-empire",
-      "rowType": "lens",
-      "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "mexico-colonial-modern"
-      ],
-      "activeRegionPhaseTitles": [
-        "Colonial and modern Mexico"
-      ],
-      "activeLensPhaseIds": [
-        "state-empire-07",
-        "state-empire-08"
-      ],
-      "activeLensPhaseTitles": [
-        "Total war and welfare states",
-        "Postcolonial and global governance"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "mexico-mesoamerica",
-      "placeTitle": "Mexico / Mesoamerica",
-      "rowId": "war-military",
-      "rowType": "lens",
-      "rowTitle": "War / Military",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "war-military-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Cold War nuclear and proxy systems"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "mexico-mesoamerica",
-      "placeTitle": "Mexico / Mesoamerica",
-      "rowId": "economy-trade",
-      "rowType": "lens",
-      "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "mexico-colonial-modern"
-      ],
-      "activeRegionPhaseTitles": [
-        "Colonial and modern Mexico"
-      ],
-      "activeLensPhaseIds": [
-        "economy-trade-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Mass consumer economies"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "mexico-mesoamerica",
-      "placeTitle": "Mexico / Mesoamerica",
-      "rowId": "religion-belief",
-      "rowType": "lens",
-      "rowTitle": "Religion / Belief",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "mexico-colonial-modern"
-      ],
-      "activeRegionPhaseTitles": [
-        "Colonial and modern Mexico"
-      ],
-      "activeLensPhaseIds": [
-        "religion-belief-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Secularization and revival"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "mexico-mesoamerica",
-      "placeTitle": "Mexico / Mesoamerica",
-      "rowId": "science-technology",
-      "rowType": "lens",
-      "rowTitle": "Science / Technology",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "science-technology-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Computing, space, and nuclear age"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "mexico-mesoamerica",
-      "placeTitle": "Mexico / Mesoamerica",
-      "rowId": "entertainment-media",
-      "rowType": "lens",
-      "rowTitle": "Entertainment / Media",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "entertainment-media-06"
-      ],
-      "activeLensPhaseTitles": [
-        "Radio, television, and mass culture"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "mexico-mesoamerica",
-      "placeTitle": "Mexico / Mesoamerica",
-      "rowId": "art",
-      "rowType": "lens",
-      "rowTitle": "Art",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "art-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Modernism"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "mexico-mesoamerica",
-      "placeTitle": "Mexico / Mesoamerica",
-      "rowId": "architecture",
-      "rowType": "lens",
-      "rowTitle": "Architecture",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "architecture-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Modernism and international style"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "mexico-mesoamerica",
-      "placeTitle": "Mexico / Mesoamerica",
-      "rowId": "computing-pc",
-      "rowType": "track",
-      "rowTitle": "Computing / Personal Computers",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [],
-      "activeLensPhaseTitles": []
-    },
-    {
-      "year": 1949,
-      "placeId": "mexico-mesoamerica",
-      "placeTitle": "Mexico / Mesoamerica",
-      "rowId": "networks-internet",
-      "rowType": "track",
-      "rowTitle": "Networks / Internet",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "networks-internet-02"
-      ],
-      "activeLensPhaseTitles": [
-        "Telephone and switching networks"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "egypt-north-africa",
-      "placeTitle": "Egypt / North Africa",
-      "rowId": "state-empire",
-      "rowType": "lens",
-      "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "egypt-modern",
-        "egypt-nationalist-republic"
-      ],
-      "activeRegionPhaseTitles": [
-        "Modern Egypt and North Africa",
-        "Nationalism, republic, and regional power"
-      ],
-      "activeLensPhaseIds": [
-        "state-empire-07",
-        "state-empire-08"
-      ],
-      "activeLensPhaseTitles": [
-        "Total war and welfare states",
-        "Postcolonial and global governance"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "egypt-north-africa",
-      "placeTitle": "Egypt / North Africa",
-      "rowId": "war-military",
-      "rowType": "lens",
-      "rowTitle": "War / Military",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "egypt-nationalist-republic"
-      ],
-      "activeRegionPhaseTitles": [
-        "Nationalism, republic, and regional power"
-      ],
-      "activeLensPhaseIds": [
-        "war-military-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Cold War nuclear and proxy systems"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "egypt-north-africa",
-      "placeTitle": "Egypt / North Africa",
-      "rowId": "economy-trade",
-      "rowType": "lens",
-      "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "egypt-modern",
-        "egypt-nationalist-republic"
-      ],
-      "activeRegionPhaseTitles": [
-        "Modern Egypt and North Africa",
-        "Nationalism, republic, and regional power"
-      ],
-      "activeLensPhaseIds": [
-        "economy-trade-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Mass consumer economies"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "egypt-north-africa",
-      "placeTitle": "Egypt / North Africa",
-      "rowId": "religion-belief",
-      "rowType": "lens",
-      "rowTitle": "Religion / Belief",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "religion-belief-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Secularization and revival"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "egypt-north-africa",
-      "placeTitle": "Egypt / North Africa",
-      "rowId": "science-technology",
-      "rowType": "lens",
-      "rowTitle": "Science / Technology",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "science-technology-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Computing, space, and nuclear age"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "egypt-north-africa",
-      "placeTitle": "Egypt / North Africa",
-      "rowId": "entertainment-media",
-      "rowType": "lens",
-      "rowTitle": "Entertainment / Media",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "entertainment-media-06"
-      ],
-      "activeLensPhaseTitles": [
-        "Radio, television, and mass culture"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "egypt-north-africa",
-      "placeTitle": "Egypt / North Africa",
-      "rowId": "art",
-      "rowType": "lens",
-      "rowTitle": "Art",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "art-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Modernism"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "egypt-north-africa",
-      "placeTitle": "Egypt / North Africa",
-      "rowId": "architecture",
-      "rowType": "lens",
-      "rowTitle": "Architecture",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "architecture-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Modernism and international style"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "egypt-north-africa",
-      "placeTitle": "Egypt / North Africa",
-      "rowId": "computing-pc",
-      "rowType": "track",
-      "rowTitle": "Computing / Personal Computers",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [],
-      "activeLensPhaseTitles": []
-    },
-    {
-      "year": 1949,
-      "placeId": "egypt-north-africa",
-      "placeTitle": "Egypt / North Africa",
-      "rowId": "networks-internet",
-      "rowType": "track",
-      "rowTitle": "Networks / Internet",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "networks-internet-02"
-      ],
-      "activeLensPhaseTitles": [
-        "Telephone and switching networks"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "west-africa",
-      "placeTitle": "West Africa",
-      "rowId": "state-empire",
-      "rowType": "lens",
-      "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "west-africa-colonial-postcolonial",
-        "west-africa-modern"
-      ],
-      "activeRegionPhaseTitles": [
-        "Colonial and postcolonial West Africa",
-        "Atlantic, colonial, and postcolonial West Africa"
-      ],
-      "activeLensPhaseIds": [
-        "state-empire-07",
-        "state-empire-08"
-      ],
-      "activeLensPhaseTitles": [
-        "Total war and welfare states",
-        "Postcolonial and global governance"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "west-africa",
-      "placeTitle": "West Africa",
-      "rowId": "war-military",
-      "rowType": "lens",
-      "rowTitle": "War / Military",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "west-africa-colonial-postcolonial",
-        "west-africa-modern"
-      ],
-      "activeRegionPhaseTitles": [
-        "Colonial and postcolonial West Africa",
-        "Atlantic, colonial, and postcolonial West Africa"
-      ],
-      "activeLensPhaseIds": [
-        "war-military-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Cold War nuclear and proxy systems"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "west-africa",
-      "placeTitle": "West Africa",
-      "rowId": "economy-trade",
-      "rowType": "lens",
-      "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "west-africa-colonial-postcolonial",
-        "west-africa-modern"
-      ],
-      "activeRegionPhaseTitles": [
-        "Colonial and postcolonial West Africa",
-        "Atlantic, colonial, and postcolonial West Africa"
-      ],
-      "activeLensPhaseIds": [
-        "economy-trade-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Mass consumer economies"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "west-africa",
-      "placeTitle": "West Africa",
-      "rowId": "religion-belief",
-      "rowType": "lens",
-      "rowTitle": "Religion / Belief",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "religion-belief-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Secularization and revival"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "west-africa",
-      "placeTitle": "West Africa",
-      "rowId": "science-technology",
-      "rowType": "lens",
-      "rowTitle": "Science / Technology",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "science-technology-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Computing, space, and nuclear age"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "west-africa",
-      "placeTitle": "West Africa",
-      "rowId": "entertainment-media",
-      "rowType": "lens",
-      "rowTitle": "Entertainment / Media",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "entertainment-media-06"
-      ],
-      "activeLensPhaseTitles": [
-        "Radio, television, and mass culture"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "west-africa",
-      "placeTitle": "West Africa",
-      "rowId": "art",
-      "rowType": "lens",
-      "rowTitle": "Art",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "art-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Modernism"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "west-africa",
-      "placeTitle": "West Africa",
-      "rowId": "architecture",
-      "rowType": "lens",
-      "rowTitle": "Architecture",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "architecture-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Modernism and international style"
-      ]
-    },
-    {
-      "year": 1949,
-      "placeId": "west-africa",
-      "placeTitle": "West Africa",
-      "rowId": "computing-pc",
-      "rowType": "track",
-      "rowTitle": "Computing / Personal Computers",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [],
-      "activeLensPhaseTitles": []
-    },
-    {
-      "year": 1949,
-      "placeId": "west-africa",
-      "placeTitle": "West Africa",
-      "rowId": "networks-internet",
-      "rowType": "track",
-      "rowTitle": "Networks / Internet",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "networks-internet-02"
-      ],
-      "activeLensPhaseTitles": [
-        "Telephone and switching networks"
-      ]
-    },
-    {
-      "year": 1969,
-      "placeId": "united-states",
-      "placeTitle": "United States",
-      "rowId": "state-empire",
-      "rowType": "lens",
-      "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "us-digital-superpower",
-        "us-coldwar-digital"
-      ],
-      "activeRegionPhaseTitles": [
-        "Cold War, digital, and platform United States",
-        "Cold War, civil rights, and digital power"
-      ],
-      "activeLensPhaseIds": [
-        "state-empire-07",
-        "state-empire-08"
-      ],
-      "activeLensPhaseTitles": [
-        "Total war and welfare states",
-        "Postcolonial and global governance"
-      ]
-    },
-    {
-      "year": 1969,
-      "placeId": "united-states",
-      "placeTitle": "United States",
-      "rowId": "war-military",
-      "rowType": "lens",
-      "rowTitle": "War / Military",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "war-military-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Cold War nuclear and proxy systems"
-      ]
-    },
-    {
-      "year": 1969,
-      "placeId": "united-states",
-      "placeTitle": "United States",
-      "rowId": "economy-trade",
-      "rowType": "lens",
-      "rowTitle": "Economy / Trade",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "us-coldwar-digital"
-      ],
-      "activeRegionPhaseTitles": [
-        "Cold War, civil rights, and digital power"
-      ],
-      "activeLensPhaseIds": [
-        "economy-trade-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Mass consumer economies"
-      ]
-    },
-    {
-      "year": 1969,
-      "placeId": "united-states",
-      "placeTitle": "United States",
-      "rowId": "religion-belief",
-      "rowType": "lens",
-      "rowTitle": "Religion / Belief",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [],
-      "activeRegionPhaseTitles": [],
-      "activeLensPhaseIds": [
-        "religion-belief-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Secularization and revival"
-      ]
-    },
-    {
-      "year": 1969,
-      "placeId": "united-states",
-      "placeTitle": "United States",
-      "rowId": "science-technology",
-      "rowType": "lens",
-      "rowTitle": "Science / Technology",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
-      "activeRegionPhaseIds": [
-        "us-digital-superpower",
-        "us-coldwar-digital"
-      ],
-      "activeRegionPhaseTitles": [
-        "Cold War, digital, and platform United States",
-        "Cold War, civil rights, and digital power"
-      ],
-      "activeLensPhaseIds": [
-        "science-technology-07"
-      ],
-      "activeLensPhaseTitles": [
-        "Computing, space, and nuclear age"
-      ]
-    },
-    {
-      "year": 1969,
-      "placeId": "united-states",
-      "placeTitle": "United States",
-      "rowId": "entertainment-media",
-      "rowType": "lens",
-      "rowTitle": "Entertainment / Media",
       "eventCount": 1,
       "eventIds": [
-        "event-apollo-11-moon-landing-broadcast-1969"
+        "slice-indian-constitution-adopted-1949"
       ],
       "eventTitles": [
-        "Apollo 11 moon landing broadcast"
+        "Constituent Assembly adopts the Constitution of India"
+      ],
+      "activeRegionPhaseIds": [
+        "india-independent"
+      ],
+      "activeRegionPhaseTitles": [
+        "Independent India and South Asian republics"
+      ],
+      "activeLensPhaseIds": [
+        "state-empire-07",
+        "state-empire-08"
+      ],
+      "activeLensPhaseTitles": [
+        "Total war and welfare states",
+        "Postcolonial and global governance"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "india",
+      "placeTitle": "India",
+      "rowId": "war-military",
+      "rowType": "lens",
+      "rowTitle": "War / Military",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "war-military-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Cold War nuclear and proxy systems"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "india",
+      "placeTitle": "India",
+      "rowId": "economy-trade",
+      "rowType": "lens",
+      "rowTitle": "Economy / Trade",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "india-independent"
+      ],
+      "activeRegionPhaseTitles": [
+        "Independent India and South Asian republics"
+      ],
+      "activeLensPhaseIds": [
+        "economy-trade-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Mass consumer economies"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "india",
+      "placeTitle": "India",
+      "rowId": "religion-belief",
+      "rowType": "lens",
+      "rowTitle": "Religion / Belief",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "religion-belief-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Secularization and revival"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "india",
+      "placeTitle": "India",
+      "rowId": "science-technology",
+      "rowType": "lens",
+      "rowTitle": "Science / Technology",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "india-independent"
+      ],
+      "activeRegionPhaseTitles": [
+        "Independent India and South Asian republics"
+      ],
+      "activeLensPhaseIds": [
+        "science-technology-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Computing, space, and nuclear age"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "india",
+      "placeTitle": "India",
+      "rowId": "entertainment-media",
+      "rowType": "lens",
+      "rowTitle": "Entertainment / Media",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "entertainment-media-06"
+      ],
+      "activeLensPhaseTitles": [
+        "Radio, television, and mass culture"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "india",
+      "placeTitle": "India",
+      "rowId": "art",
+      "rowType": "lens",
+      "rowTitle": "Art",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "art-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Modernism"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "india",
+      "placeTitle": "India",
+      "rowId": "architecture",
+      "rowType": "lens",
+      "rowTitle": "Architecture",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "architecture-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Modernism and international style"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "india",
+      "placeTitle": "India",
+      "rowId": "computing-pc",
+      "rowType": "track",
+      "rowTitle": "Computing / Personal Computers",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "india-independent"
+      ],
+      "activeRegionPhaseTitles": [
+        "Independent India and South Asian republics"
+      ],
+      "activeLensPhaseIds": [],
+      "activeLensPhaseTitles": []
+    },
+    {
+      "year": 1949,
+      "placeId": "india",
+      "placeTitle": "India",
+      "rowId": "networks-internet",
+      "rowType": "track",
+      "rowTitle": "Networks / Internet",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "india-independent"
+      ],
+      "activeRegionPhaseTitles": [
+        "Independent India and South Asian republics"
+      ],
+      "activeLensPhaseIds": [
+        "networks-internet-02"
+      ],
+      "activeLensPhaseTitles": [
+        "Telephone and switching networks"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "turkey-anatolia",
+      "placeTitle": "Turkey / Anatolia",
+      "rowId": "state-empire",
+      "rowType": "lens",
+      "rowTitle": "State / Empire",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "anatolia-republic"
+      ],
+      "activeRegionPhaseTitles": [
+        "Republican Turkey"
+      ],
+      "activeLensPhaseIds": [
+        "state-empire-07",
+        "state-empire-08"
+      ],
+      "activeLensPhaseTitles": [
+        "Total war and welfare states",
+        "Postcolonial and global governance"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "turkey-anatolia",
+      "placeTitle": "Turkey / Anatolia",
+      "rowId": "war-military",
+      "rowType": "lens",
+      "rowTitle": "War / Military",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "war-military-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Cold War nuclear and proxy systems"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "turkey-anatolia",
+      "placeTitle": "Turkey / Anatolia",
+      "rowId": "economy-trade",
+      "rowType": "lens",
+      "rowTitle": "Economy / Trade",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "anatolia-republic"
+      ],
+      "activeRegionPhaseTitles": [
+        "Republican Turkey"
+      ],
+      "activeLensPhaseIds": [
+        "economy-trade-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Mass consumer economies"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "turkey-anatolia",
+      "placeTitle": "Turkey / Anatolia",
+      "rowId": "religion-belief",
+      "rowType": "lens",
+      "rowTitle": "Religion / Belief",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "anatolia-republic"
+      ],
+      "activeRegionPhaseTitles": [
+        "Republican Turkey"
+      ],
+      "activeLensPhaseIds": [
+        "religion-belief-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Secularization and revival"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "turkey-anatolia",
+      "placeTitle": "Turkey / Anatolia",
+      "rowId": "science-technology",
+      "rowType": "lens",
+      "rowTitle": "Science / Technology",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "science-technology-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Computing, space, and nuclear age"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "turkey-anatolia",
+      "placeTitle": "Turkey / Anatolia",
+      "rowId": "entertainment-media",
+      "rowType": "lens",
+      "rowTitle": "Entertainment / Media",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "entertainment-media-06"
+      ],
+      "activeLensPhaseTitles": [
+        "Radio, television, and mass culture"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "turkey-anatolia",
+      "placeTitle": "Turkey / Anatolia",
+      "rowId": "art",
+      "rowType": "lens",
+      "rowTitle": "Art",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "art-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Modernism"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "turkey-anatolia",
+      "placeTitle": "Turkey / Anatolia",
+      "rowId": "architecture",
+      "rowType": "lens",
+      "rowTitle": "Architecture",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "architecture-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Modernism and international style"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "turkey-anatolia",
+      "placeTitle": "Turkey / Anatolia",
+      "rowId": "computing-pc",
+      "rowType": "track",
+      "rowTitle": "Computing / Personal Computers",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [],
+      "activeLensPhaseTitles": []
+    },
+    {
+      "year": 1949,
+      "placeId": "turkey-anatolia",
+      "placeTitle": "Turkey / Anatolia",
+      "rowId": "networks-internet",
+      "rowType": "track",
+      "rowTitle": "Networks / Internet",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "networks-internet-02"
+      ],
+      "activeLensPhaseTitles": [
+        "Telephone and switching networks"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "mexico-mesoamerica",
+      "placeTitle": "Mexico / Mesoamerica",
+      "rowId": "state-empire",
+      "rowType": "lens",
+      "rowTitle": "State / Empire",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "mexico-colonial-modern"
+      ],
+      "activeRegionPhaseTitles": [
+        "Colonial and modern Mexico"
+      ],
+      "activeLensPhaseIds": [
+        "state-empire-07",
+        "state-empire-08"
+      ],
+      "activeLensPhaseTitles": [
+        "Total war and welfare states",
+        "Postcolonial and global governance"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "mexico-mesoamerica",
+      "placeTitle": "Mexico / Mesoamerica",
+      "rowId": "war-military",
+      "rowType": "lens",
+      "rowTitle": "War / Military",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "war-military-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Cold War nuclear and proxy systems"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "mexico-mesoamerica",
+      "placeTitle": "Mexico / Mesoamerica",
+      "rowId": "economy-trade",
+      "rowType": "lens",
+      "rowTitle": "Economy / Trade",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "mexico-colonial-modern"
+      ],
+      "activeRegionPhaseTitles": [
+        "Colonial and modern Mexico"
+      ],
+      "activeLensPhaseIds": [
+        "economy-trade-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Mass consumer economies"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "mexico-mesoamerica",
+      "placeTitle": "Mexico / Mesoamerica",
+      "rowId": "religion-belief",
+      "rowType": "lens",
+      "rowTitle": "Religion / Belief",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "mexico-colonial-modern"
+      ],
+      "activeRegionPhaseTitles": [
+        "Colonial and modern Mexico"
+      ],
+      "activeLensPhaseIds": [
+        "religion-belief-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Secularization and revival"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "mexico-mesoamerica",
+      "placeTitle": "Mexico / Mesoamerica",
+      "rowId": "science-technology",
+      "rowType": "lens",
+      "rowTitle": "Science / Technology",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "science-technology-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Computing, space, and nuclear age"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "mexico-mesoamerica",
+      "placeTitle": "Mexico / Mesoamerica",
+      "rowId": "entertainment-media",
+      "rowType": "lens",
+      "rowTitle": "Entertainment / Media",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "entertainment-media-06"
+      ],
+      "activeLensPhaseTitles": [
+        "Radio, television, and mass culture"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "mexico-mesoamerica",
+      "placeTitle": "Mexico / Mesoamerica",
+      "rowId": "art",
+      "rowType": "lens",
+      "rowTitle": "Art",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "art-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Modernism"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "mexico-mesoamerica",
+      "placeTitle": "Mexico / Mesoamerica",
+      "rowId": "architecture",
+      "rowType": "lens",
+      "rowTitle": "Architecture",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "architecture-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Modernism and international style"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "mexico-mesoamerica",
+      "placeTitle": "Mexico / Mesoamerica",
+      "rowId": "computing-pc",
+      "rowType": "track",
+      "rowTitle": "Computing / Personal Computers",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [],
+      "activeLensPhaseTitles": []
+    },
+    {
+      "year": 1949,
+      "placeId": "mexico-mesoamerica",
+      "placeTitle": "Mexico / Mesoamerica",
+      "rowId": "networks-internet",
+      "rowType": "track",
+      "rowTitle": "Networks / Internet",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "networks-internet-02"
+      ],
+      "activeLensPhaseTitles": [
+        "Telephone and switching networks"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "egypt-north-africa",
+      "placeTitle": "Egypt / North Africa",
+      "rowId": "state-empire",
+      "rowType": "lens",
+      "rowTitle": "State / Empire",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "egypt-modern",
+        "egypt-nationalist-republic"
+      ],
+      "activeRegionPhaseTitles": [
+        "Modern Egypt and North Africa",
+        "Nationalism, republic, and regional power"
+      ],
+      "activeLensPhaseIds": [
+        "state-empire-07",
+        "state-empire-08"
+      ],
+      "activeLensPhaseTitles": [
+        "Total war and welfare states",
+        "Postcolonial and global governance"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "egypt-north-africa",
+      "placeTitle": "Egypt / North Africa",
+      "rowId": "war-military",
+      "rowType": "lens",
+      "rowTitle": "War / Military",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "egypt-nationalist-republic"
+      ],
+      "activeRegionPhaseTitles": [
+        "Nationalism, republic, and regional power"
+      ],
+      "activeLensPhaseIds": [
+        "war-military-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Cold War nuclear and proxy systems"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "egypt-north-africa",
+      "placeTitle": "Egypt / North Africa",
+      "rowId": "economy-trade",
+      "rowType": "lens",
+      "rowTitle": "Economy / Trade",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "egypt-modern",
+        "egypt-nationalist-republic"
+      ],
+      "activeRegionPhaseTitles": [
+        "Modern Egypt and North Africa",
+        "Nationalism, republic, and regional power"
+      ],
+      "activeLensPhaseIds": [
+        "economy-trade-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Mass consumer economies"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "egypt-north-africa",
+      "placeTitle": "Egypt / North Africa",
+      "rowId": "religion-belief",
+      "rowType": "lens",
+      "rowTitle": "Religion / Belief",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "religion-belief-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Secularization and revival"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "egypt-north-africa",
+      "placeTitle": "Egypt / North Africa",
+      "rowId": "science-technology",
+      "rowType": "lens",
+      "rowTitle": "Science / Technology",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "science-technology-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Computing, space, and nuclear age"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "egypt-north-africa",
+      "placeTitle": "Egypt / North Africa",
+      "rowId": "entertainment-media",
+      "rowType": "lens",
+      "rowTitle": "Entertainment / Media",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "entertainment-media-06"
+      ],
+      "activeLensPhaseTitles": [
+        "Radio, television, and mass culture"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "egypt-north-africa",
+      "placeTitle": "Egypt / North Africa",
+      "rowId": "art",
+      "rowType": "lens",
+      "rowTitle": "Art",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "art-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Modernism"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "egypt-north-africa",
+      "placeTitle": "Egypt / North Africa",
+      "rowId": "architecture",
+      "rowType": "lens",
+      "rowTitle": "Architecture",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "architecture-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Modernism and international style"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "egypt-north-africa",
+      "placeTitle": "Egypt / North Africa",
+      "rowId": "computing-pc",
+      "rowType": "track",
+      "rowTitle": "Computing / Personal Computers",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [],
+      "activeLensPhaseTitles": []
+    },
+    {
+      "year": 1949,
+      "placeId": "egypt-north-africa",
+      "placeTitle": "Egypt / North Africa",
+      "rowId": "networks-internet",
+      "rowType": "track",
+      "rowTitle": "Networks / Internet",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "networks-internet-02"
+      ],
+      "activeLensPhaseTitles": [
+        "Telephone and switching networks"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "west-africa",
+      "placeTitle": "West Africa",
+      "rowId": "state-empire",
+      "rowType": "lens",
+      "rowTitle": "State / Empire",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "west-africa-colonial-postcolonial",
+        "west-africa-modern"
+      ],
+      "activeRegionPhaseTitles": [
+        "Colonial and postcolonial West Africa",
+        "Atlantic, colonial, and postcolonial West Africa"
+      ],
+      "activeLensPhaseIds": [
+        "state-empire-07",
+        "state-empire-08"
+      ],
+      "activeLensPhaseTitles": [
+        "Total war and welfare states",
+        "Postcolonial and global governance"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "west-africa",
+      "placeTitle": "West Africa",
+      "rowId": "war-military",
+      "rowType": "lens",
+      "rowTitle": "War / Military",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "west-africa-colonial-postcolonial",
+        "west-africa-modern"
+      ],
+      "activeRegionPhaseTitles": [
+        "Colonial and postcolonial West Africa",
+        "Atlantic, colonial, and postcolonial West Africa"
+      ],
+      "activeLensPhaseIds": [
+        "war-military-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Cold War nuclear and proxy systems"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "west-africa",
+      "placeTitle": "West Africa",
+      "rowId": "economy-trade",
+      "rowType": "lens",
+      "rowTitle": "Economy / Trade",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "west-africa-colonial-postcolonial",
+        "west-africa-modern"
+      ],
+      "activeRegionPhaseTitles": [
+        "Colonial and postcolonial West Africa",
+        "Atlantic, colonial, and postcolonial West Africa"
+      ],
+      "activeLensPhaseIds": [
+        "economy-trade-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Mass consumer economies"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "west-africa",
+      "placeTitle": "West Africa",
+      "rowId": "religion-belief",
+      "rowType": "lens",
+      "rowTitle": "Religion / Belief",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "religion-belief-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Secularization and revival"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "west-africa",
+      "placeTitle": "West Africa",
+      "rowId": "science-technology",
+      "rowType": "lens",
+      "rowTitle": "Science / Technology",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "science-technology-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Computing, space, and nuclear age"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "west-africa",
+      "placeTitle": "West Africa",
+      "rowId": "entertainment-media",
+      "rowType": "lens",
+      "rowTitle": "Entertainment / Media",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "entertainment-media-06"
+      ],
+      "activeLensPhaseTitles": [
+        "Radio, television, and mass culture"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "west-africa",
+      "placeTitle": "West Africa",
+      "rowId": "art",
+      "rowType": "lens",
+      "rowTitle": "Art",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "art-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Modernism"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "west-africa",
+      "placeTitle": "West Africa",
+      "rowId": "architecture",
+      "rowType": "lens",
+      "rowTitle": "Architecture",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "architecture-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Modernism and international style"
+      ]
+    },
+    {
+      "year": 1949,
+      "placeId": "west-africa",
+      "placeTitle": "West Africa",
+      "rowId": "computing-pc",
+      "rowType": "track",
+      "rowTitle": "Computing / Personal Computers",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [],
+      "activeLensPhaseTitles": []
+    },
+    {
+      "year": 1949,
+      "placeId": "west-africa",
+      "placeTitle": "West Africa",
+      "rowId": "networks-internet",
+      "rowType": "track",
+      "rowTitle": "Networks / Internet",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "networks-internet-02"
+      ],
+      "activeLensPhaseTitles": [
+        "Telephone and switching networks"
+      ]
+    },
+    {
+      "year": 1969,
+      "placeId": "united-states",
+      "placeTitle": "United States",
+      "rowId": "state-empire",
+      "rowType": "lens",
+      "rowTitle": "State / Empire",
+      "eventCount": 1,
+      "eventIds": [
+        "slice-stonewall-uprising-1969"
+      ],
+      "eventTitles": [
+        "Stonewall uprising begins"
+      ],
+      "activeRegionPhaseIds": [
+        "us-digital-superpower",
+        "us-coldwar-digital"
+      ],
+      "activeRegionPhaseTitles": [
+        "Cold War, digital, and platform United States",
+        "Cold War, civil rights, and digital power"
+      ],
+      "activeLensPhaseIds": [
+        "state-empire-07",
+        "state-empire-08"
+      ],
+      "activeLensPhaseTitles": [
+        "Total war and welfare states",
+        "Postcolonial and global governance"
+      ]
+    },
+    {
+      "year": 1969,
+      "placeId": "united-states",
+      "placeTitle": "United States",
+      "rowId": "war-military",
+      "rowType": "lens",
+      "rowTitle": "War / Military",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "war-military-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Cold War nuclear and proxy systems"
+      ]
+    },
+    {
+      "year": 1969,
+      "placeId": "united-states",
+      "placeTitle": "United States",
+      "rowId": "economy-trade",
+      "rowType": "lens",
+      "rowTitle": "Economy / Trade",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [
+        "us-coldwar-digital"
+      ],
+      "activeRegionPhaseTitles": [
+        "Cold War, civil rights, and digital power"
+      ],
+      "activeLensPhaseIds": [
+        "economy-trade-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Mass consumer economies"
+      ]
+    },
+    {
+      "year": 1969,
+      "placeId": "united-states",
+      "placeTitle": "United States",
+      "rowId": "religion-belief",
+      "rowType": "lens",
+      "rowTitle": "Religion / Belief",
+      "eventCount": 0,
+      "eventIds": [],
+      "eventTitles": [],
+      "activeRegionPhaseIds": [],
+      "activeRegionPhaseTitles": [],
+      "activeLensPhaseIds": [
+        "religion-belief-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Secularization and revival"
+      ]
+    },
+    {
+      "year": 1969,
+      "placeId": "united-states",
+      "placeTitle": "United States",
+      "rowId": "science-technology",
+      "rowType": "lens",
+      "rowTitle": "Science / Technology",
+      "eventCount": 1,
+      "eventIds": [
+        "slice-apollo-11-moon-landing-1969"
+      ],
+      "eventTitles": [
+        "Apollo 11 lands on the Moon"
+      ],
+      "activeRegionPhaseIds": [
+        "us-digital-superpower",
+        "us-coldwar-digital"
+      ],
+      "activeRegionPhaseTitles": [
+        "Cold War, digital, and platform United States",
+        "Cold War, civil rights, and digital power"
+      ],
+      "activeLensPhaseIds": [
+        "science-technology-07"
+      ],
+      "activeLensPhaseTitles": [
+        "Computing, space, and nuclear age"
+      ]
+    },
+    {
+      "year": 1969,
+      "placeId": "united-states",
+      "placeTitle": "United States",
+      "rowId": "entertainment-media",
+      "rowType": "lens",
+      "rowTitle": "Entertainment / Media",
+      "eventCount": 3,
+      "eventIds": [
+        "event-apollo-11-moon-landing-broadcast-1969",
+        "slice-sesame-street-premieres-1969",
+        "slice-woodstock-festival-1969"
+      ],
+      "eventTitles": [
+        "Apollo 11 moon landing broadcast",
+        "Sesame Street premieres",
+        "Woodstock festival takes place"
       ],
       "activeRegionPhaseIds": [
         "us-digital-superpower",
@@ -19035,9 +19089,13 @@
       "rowId": "science-technology",
       "rowType": "lens",
       "rowTitle": "Science / Technology",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-concorde-first-flight-1969"
+      ],
+      "eventTitles": [
+        "Concorde makes its first flight"
+      ],
       "activeRegionPhaseIds": [],
       "activeRegionPhaseTitles": [],
       "activeLensPhaseIds": [
@@ -19243,9 +19301,13 @@
       "rowId": "science-technology",
       "rowType": "lens",
       "rowTitle": "Science / Technology",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-concorde-first-flight-1969"
+      ],
+      "eventTitles": [
+        "Concorde makes its first flight"
+      ],
       "activeRegionPhaseIds": [],
       "activeRegionPhaseTitles": [],
       "activeLensPhaseIds": [
@@ -20835,9 +20897,15 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 2,
+      "eventIds": [
+        "slice-egypt-israel-peace-treaty-1979",
+        "slice-us-china-diplomatic-relations-1979"
+      ],
+      "eventTitles": [
+        "Egypt-Israel peace treaty signed",
+        "United States and China establish diplomatic relations"
+      ],
       "activeRegionPhaseIds": [
         "us-digital-superpower",
         "us-coldwar-digital"
@@ -20923,9 +20991,13 @@
       "rowId": "science-technology",
       "rowType": "lens",
       "rowTitle": "Science / Technology",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-three-mile-island-accident-1979"
+      ],
+      "eventTitles": [
+        "Three Mile Island nuclear accident"
+      ],
       "activeRegionPhaseIds": [
         "us-digital-superpower",
         "us-coldwar-digital"
@@ -21071,9 +21143,13 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-us-china-diplomatic-relations-1979"
+      ],
+      "eventTitles": [
+        "United States and China establish diplomatic relations"
+      ],
       "activeRegionPhaseIds": [
         "china-modern"
       ],
@@ -21521,9 +21597,13 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-thatcher-elected-1979"
+      ],
+      "eventTitles": [
+        "Margaret Thatcher becomes British prime minister"
+      ],
       "activeRegionPhaseIds": [
         "britain-postwar"
       ],
@@ -22995,9 +23075,13 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-egypt-israel-peace-treaty-1979"
+      ],
+      "eventTitles": [
+        "Egypt-Israel peace treaty signed"
+      ],
       "activeRegionPhaseIds": [
         "egypt-modern",
         "egypt-nationalist-republic"
@@ -23653,9 +23737,13 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-tiananmen-crackdown-1989"
+      ],
+      "eventTitles": [
+        "Tiananmen Square crackdown"
+      ],
       "activeRegionPhaseIds": [
         "china-modern"
       ],
@@ -24029,9 +24117,13 @@
       "rowId": "computing-pc",
       "rowType": "track",
       "rowTitle": "Computing / Personal Computers",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-game-boy-launches-1989"
+      ],
+      "eventTitles": [
+        "Nintendo Game Boy launches"
+      ],
       "activeRegionPhaseIds": [
         "japan-postwar",
         "japan-meiji-modern"
@@ -24264,11 +24356,13 @@
       "rowId": "networks-internet",
       "rowType": "track",
       "rowTitle": "Networks / Internet",
-      "eventCount": 1,
+      "eventCount": 2,
       "eventIds": [
+        "slice-world-wide-web-proposal-1989",
         "world-wide-web-proposal"
       ],
       "eventTitles": [
+        "World Wide Web proposal written",
         "World Wide Web proposal"
       ],
       "activeRegionPhaseIds": [],
@@ -24434,9 +24528,13 @@
       "rowId": "architecture",
       "rowType": "lens",
       "rowTitle": "Architecture",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-louvre-pyramid-opens-1989"
+      ],
+      "eventTitles": [
+        "Louvre Pyramid opens"
+      ],
       "activeRegionPhaseIds": [],
       "activeRegionPhaseTitles": [],
       "activeLensPhaseIds": [
@@ -26101,9 +26199,13 @@
       "rowId": "computing-pc",
       "rowType": "track",
       "rowTitle": "Computing / Personal Computers",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-snes-north-america-launch-1991"
+      ],
+      "eventTitles": [
+        "Super Nintendo launches in North America"
+      ],
       "activeRegionPhaseIds": [
         "us-digital-superpower",
         "us-coldwar-digital"
@@ -26535,9 +26637,13 @@
       "rowId": "computing-pc",
       "rowType": "track",
       "rowTitle": "Computing / Personal Computers",
-      "eventCount": 0,
-      "eventIds": [],
-      "eventTitles": [],
+      "eventCount": 1,
+      "eventIds": [
+        "slice-snes-north-america-launch-1991"
+      ],
+      "eventTitles": [
+        "Super Nintendo launches in North America"
+      ],
       "activeRegionPhaseIds": [
         "japan-postwar",
         "japan-meiji-modern"
@@ -26772,11 +26878,13 @@
       "rowId": "networks-internet",
       "rowType": "track",
       "rowTitle": "Networks / Internet",
-      "eventCount": 1,
+      "eventCount": 2,
       "eventIds": [
+        "slice-world-wide-web-publicly-available-1991",
         "world-wide-web-public"
       ],
       "eventTitles": [
+        "World Wide Web becomes publicly available",
         "World Wide Web opens publicly"
       ],
       "activeRegionPhaseIds": [],
@@ -27215,11 +27323,13 @@
       "rowId": "state-empire",
       "rowType": "lens",
       "rowTitle": "State / Empire",
-      "eventCount": 1,
+      "eventCount": 2,
       "eventIds": [
+        "slice-yeltsin-elected-russian-president-1991",
         "event-soviet-union-dissolves-1991"
       ],
       "eventTitles": [
+        "Boris Yeltsin elected president of Russia",
         "Soviet Union dissolves"
       ],
       "activeRegionPhaseIds": [],
@@ -27453,11 +27563,13 @@
       "rowId": "economy-trade",
       "rowType": "lens",
       "rowTitle": "Economy / Trade",
-      "eventCount": 1,
+      "eventCount": 2,
       "eventIds": [
+        "slice-india-economic-liberalization-1991",
         "regional-india-independent-economic-liberalization"
       ],
       "eventTitles": [
+        "India begins economic liberalization",
         "India launches economic liberalization"
       ],
       "activeRegionPhaseIds": [

@@ -1,38 +1,38 @@
 # Slice Coverage Audit
 
-Generated: 2026-06-23T13:35:53.074Z
+Generated: 2026-06-23T16:36:32.238Z
 
 Scope: 11 years × 12 regions × 10 rows
 
-Coverage: 38/1320 cells (3%)
+Coverage: 62/1320 cells (5%)
 
 ## Lowest Coverage By Row
 
 - religion-belief: 0/132 covered (0%)
 - art: 1/132 covered (1%)
-- architecture: 1/132 covered (1%)
-- economy-trade: 3/132 covered (2%)
-- science-technology: 3/132 covered (2%)
+- architecture: 2/132 covered (2%)
 - entertainment-media: 3/132 covered (2%)
-- computing-pc: 6/132 covered (5%)
+- economy-trade: 6/132 covered (5%)
 - networks-internet: 6/132 covered (5%)
-- state-empire: 7/132 covered (5%)
 - war-military: 8/132 covered (6%)
+- science-technology: 8/132 covered (6%)
+- computing-pc: 9/132 covered (7%)
+- state-empire: 19/132 covered (14%)
 
 ## Lowest Coverage By Region
 
-- german-lands: 1/110 covered (1%)
 - turkey-anatolia: 1/110 covered (1%)
-- egypt-north-africa: 1/110 covered (1%)
 - west-africa: 1/110 covered (1%)
-- china: 2/110 covered (2%)
-- india: 2/110 covered (2%)
-- mexico-mesoamerica: 2/110 covered (2%)
-- japan: 3/110 covered (3%)
-- russia: 3/110 covered (3%)
-- france: 4/110 covered (4%)
-- britain-uk: 5/110 covered (5%)
-- united-states: 13/110 covered (12%)
+- egypt-north-africa: 2/110 covered (2%)
+- german-lands: 3/110 covered (3%)
+- india: 3/110 covered (3%)
+- mexico-mesoamerica: 3/110 covered (3%)
+- china: 4/110 covered (4%)
+- russia: 4/110 covered (4%)
+- japan: 5/110 covered (5%)
+- france: 6/110 covered (5%)
+- britain-uk: 9/110 covered (8%)
+- united-states: 21/110 covered (19%)
 
 ## High Value Missing Cells
 
@@ -58,7 +58,6 @@ Coverage: 38/1320 cells (3%)
 - 1914 · Japan · Networks / Internet — region phase: Meiji, imperial, and modern Japan; lens phase: Telephone and switching networks
 - 1914 · Japan · State / Empire — region phase: Meiji, imperial, and modern Japan; lens phase: Total war and welfare states
 - 1914 · Japan · War / Military — region phase: Meiji, imperial, and modern Japan; lens phase: Industrial war and mass mobilization
-- 1914 · Mexico / Mesoamerica · Economy / Trade — region phase: Republic, reform, and revolution; lens phase: Mass consumer economies
 - 1914 · Mexico / Mesoamerica · Religion / Belief — region phase: Colonial and modern Mexico; lens phase: Secularization and revival
 - 1914 · Mexico / Mesoamerica · State / Empire — region phase: Republic, reform, and revolution; lens phase: Total war and welfare states
 - 1914 · Mexico / Mesoamerica · War / Military — region phase: Republic, reform, and revolution; lens phase: Industrial war and mass mobilization
@@ -66,7 +65,6 @@ Coverage: 38/1320 cells (3%)
 - 1914 · Turkey / Anatolia · Religion / Belief — region phase: Tanzimat and late Ottoman reform; lens phase: Secularization and revival
 - 1914 · Turkey / Anatolia · State / Empire — region phase: Tanzimat and late Ottoman reform; lens phase: Total war and welfare states
 - 1914 · United States · Computing / Personal Computers — region phase: Industrial and global United States; lens phase: Mechanical calculation and tabulation
-- 1914 · United States · Economy / Trade — region phase: Industrial and global United States; lens phase: Mass consumer economies
 - 1914 · United States · Networks / Internet — region phase: Industrial and global United States; lens phase: Telephone and switching networks
 - 1914 · United States · State / Empire — region phase: Industrial and global United States; lens phase: Total war and welfare states
 - 1914 · West Africa · Economy / Trade — region phase: Colonial and postcolonial West Africa; lens phase: Mass consumer economies
@@ -75,6 +73,8 @@ Coverage: 38/1320 cells (3%)
 - 1918 · Britain / UK · Computing / Personal Computers — region phase: British Empire and industrial power; lens phase: Mechanical calculation and tabulation
 - 1918 · Britain / UK · Economy / Trade — region phase: World wars, welfare state, and decolonization; lens phase: Mass consumer economies
 - 1918 · Britain / UK · Networks / Internet — region phase: British Empire and industrial power; lens phase: Telephone and switching networks
-- 1918 · Britain / UK · State / Empire — region phase: World wars, welfare state, and decolonization; lens phase: Total war and welfare states
+- 1918 · Britain / UK · War / Military — region phase: World wars, welfare state, and decolonization; lens phase: Industrial war and mass mobilization
+- 1918 · China · Economy / Trade — region phase: Republican, socialist, and reform eras; lens phase: Mass consumer economies
+- 1918 · China · State / Empire — region phase: Republican, socialist, and reform eras; lens phase: Total war and welfare states
 
 Full report: `content/source-notes/modern-global-slice-1900-2000-slice-coverage.json`

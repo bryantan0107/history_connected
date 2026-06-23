@@ -1,13 +1,13 @@
 # Event Detail Level Audit
 
-Generated: 2026-06-23T13:33:08.549Z
+Generated: 2026-06-23T16:36:32.270Z
 
 ## Summary
 
 | Source | Total | Full | Slice | Needs review | Missing image | Missing modal fields | Missing links |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Approved | 94 | 94 | 0 | 0 | 0 | 0 | 0 |
-| Generated | 94 | 94 | 0 | 0 | 0 | 0 | 0 |
+| Approved | 128 | 94 | 34 | 0 | 0 | 34 | 0 |
+| Generated | 128 | 94 | 34 | 0 | 0 | 34 | 0 |
 | Legacy/runtime only | 544 | 0 | 544 | 0 | 544 | 537 | 0 |
 
 ## Approved Needs Review

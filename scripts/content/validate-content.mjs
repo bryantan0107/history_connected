@@ -54,6 +54,9 @@ approved.events.forEach((event) => {
   if (!audit.hasBase) {
     issues.push(`${event.__sourceFile}: ${event.id} marked ${event.detailLevel} but lacks slice-ready base fields`);
   }
+  if (event.detailLevel === "slice") {
+    EVENT_IMAGE_FIELDS.forEach((field) => requireField(event, field));
+  }
   if (event.detailLevel === "full") {
     EVENT_MODAL_FIELDS.forEach((field) => requireField(event, field));
     EVENT_IMAGE_FIELDS.forEach((field) => requireField(event, field));

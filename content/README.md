@@ -33,10 +33,10 @@ node scripts/content/audit-coverage.mjs
 Approved events use `detailLevel`:
 
 - `full`: complete Event Modal fields and event-specific image metadata.
-- `slice`: real exact event for Time Slice / Local Context, with source-backed place/lens/phase ownership and bilingual summary, but not necessarily full modal prose or image.
+- `slice`: real exact event for Time Slice / Local Context, with source-backed place/lens/phase ownership, bilingual summary, and event-specific image metadata, but not necessarily full modal prose.
 - `needs-review`: not allowed in approved content.
 
-Bulk expansion should start with `slice` events. Promote a slice event to `full` only after writing meaningful `eventIntro`, `whyMatters`, `phaseRelation`, `connectionHint`, Chinese equivalents, and event-specific image fields.
+Bulk expansion should start with `slice` events. Slice events still need real event-specific image metadata. Promote a slice event to `full` only after writing meaningful `eventIntro`, `whyMatters`, `phaseRelation`, `connectionHint`, and Chinese equivalents.
 
 ## Slice Packs
 

@@ -1,0 +1,1544 @@
+{
+  "batchId": "modern-global-slice-pack-01",
+  "reviewStatus": "approved",
+  "events": [
+    {
+      "id": "slice-panama-canal-opens-1914",
+      "year": 1914,
+      "title": "Panama Canal opens to traffic",
+      "titleZh": "巴拿马运河通航",
+      "summary": "The Panama Canal opened in 1914, shortening ocean routes between the Atlantic and Pacific and turning U.S.-backed canal infrastructure into a central node of global trade and naval mobility.",
+      "summaryZh": "巴拿马运河于 1914 年通航，缩短了大西洋与太平洋之间的航线，也让美国主导的运河基础设施成为全球贸易和海军机动的关键节点。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states",
+        "mexico-mesoamerica"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "economy-trade",
+        "architecture",
+        "state-empire"
+      ],
+      "primaryLensId": "economy-trade",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "economy-trade-06",
+        "architecture-06",
+        "state-empire-05"
+      ],
+      "primaryPhaseId": "economy-trade-06",
+      "regionPhaseIds": [
+        "us-industrial-power"
+      ],
+      "primaryRegionPhaseId": "us-industrial-power",
+      "eventType": "infrastructure-opening",
+      "importance": "core",
+      "sourceRefs": [
+        "britannica",
+        "history.com",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Opening of the Panama Canal is commonly dated to 1914 and treated as a major infrastructure and trade milestone."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Panama_Canal_Gatun_Locks_opening.jpg",
+      "imageAlt": "A ship passing through the Gatun Locks of the Panama Canal.",
+      "imageCaption": "The canal's locks made the new Atlantic-Pacific route visible as engineered global infrastructure.",
+      "imageCaptionZh": "运河船闸让新的大西洋—太平洋航道以工程化全球基础设施的形式呈现出来。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Panama_Canal_Gatun_Locks_opening.jpg"
+    },
+    {
+      "id": "slice-representation-people-act-1918",
+      "year": 1918,
+      "title": "Representation of the People Act expands the British electorate",
+      "titleZh": "英国《人民代表法》扩大选民范围",
+      "summary": "The 1918 Representation of the People Act greatly expanded voting rights in Britain, enfranchising many working-class men and some women over 30 after wartime mobilization reshaped political claims.",
+      "summaryZh": "1918 年英国《人民代表法》大幅扩大选举权，使许多工人阶级男性和部分 30 岁以上女性获得投票权，反映出战时动员对政治权利诉求的重塑。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "britain-uk"
+      ],
+      "primaryPlaceId": "britain-uk",
+      "lensIds": [
+        "state-empire"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-07"
+      ],
+      "primaryPhaseId": "state-empire-07",
+      "regionPhaseIds": [
+        "britain-worldwar-welfare"
+      ],
+      "primaryRegionPhaseId": "britain-worldwar-welfare",
+      "eventType": "reform",
+      "importance": "core",
+      "sourceRefs": [
+        "uk-parliament",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The act is a standard milestone in the expansion of British parliamentary democracy."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Representation%20of%20the%20People%20Act%201918.jpg",
+      "imageAlt": "Women campaigning for suffrage in Britain before the 1918 reform.",
+      "imageCaption": "Suffrage campaigning formed part of the political pressure that made the 1918 electorate reform historically meaningful.",
+      "imageCaptionZh": "妇女参政运动是 1918 年英国选民改革之所以具有历史意义的重要政治压力之一。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Representation_of_the_People_Act_1918.jpg"
+    },
+    {
+      "id": "slice-wall-street-crash-1929",
+      "year": 1929,
+      "title": "Wall Street Crash begins",
+      "titleZh": "华尔街股灾爆发",
+      "summary": "The Wall Street Crash of 1929 punctured a speculative boom in U.S. financial markets and became a central trigger in the global economic crisis of the Great Depression.",
+      "summaryZh": "1929 年华尔街股灾刺破了美国金融市场的投机繁荣，并成为全球大萧条经济危机的关键触发点之一。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "economy-trade"
+      ],
+      "primaryLensId": "economy-trade",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "economy-trade-07"
+      ],
+      "primaryPhaseId": "economy-trade-07",
+      "regionPhaseIds": [
+        "us-industrial-power"
+      ],
+      "primaryRegionPhaseId": "us-industrial-power",
+      "eventType": "market-crash",
+      "importance": "core",
+      "sourceRefs": [
+        "federal-reserve-history",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The crash is conventionally associated with late October 1929 and the end of the 1920s speculative boom."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Crowd_outside_nyse.jpg",
+      "imageAlt": "Crowd gathered outside the New York Stock Exchange around the 1929 crash.",
+      "imageCaption": "Crowds outside the New York Stock Exchange became an enduring image of the 1929 market crisis.",
+      "imageCaptionZh": "纽约证券交易所外的人群成为 1929 年市场危机的经典视觉记忆。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Crowd_outside_nyse.jpg"
+    },
+    {
+      "id": "slice-moma-opens-1929",
+      "year": 1929,
+      "title": "Museum of Modern Art opens in New York",
+      "titleZh": "纽约现代艺术博物馆开馆",
+      "summary": "The Museum of Modern Art opened in New York in 1929, giving modern art an institutional platform in the United States just as modernist canons were being collected, exhibited, and taught.",
+      "summaryZh": "纽约现代艺术博物馆于 1929 年开馆，在现代主义艺术逐渐被收藏、展览和教学化之际，为美国现代艺术提供了重要制度平台。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "art"
+      ],
+      "primaryLensId": "art",
+      "trackIds": [
+        "painting-visual-art"
+      ],
+      "primaryTrackId": "painting-visual-art",
+      "phaseIds": [
+        "art-07"
+      ],
+      "primaryPhaseId": "art-07",
+      "regionPhaseIds": [
+        "us-industrial-power"
+      ],
+      "primaryRegionPhaseId": "us-industrial-power",
+      "eventType": "museum-opening",
+      "importance": "supporting",
+      "sourceRefs": [
+        "moma",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "MoMA's 1929 opening is a standard institutional milestone in modern art history."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/The_staff_of_the_Museum_of_Modern_Art_in_1937_in_front_of_the_museum_on_West_53rd_Street.png",
+      "imageAlt": "Entrance of the Museum of Modern Art in New York.",
+      "imageCaption": "MoMA gave modern art a durable institutional home in New York.",
+      "imageCaptionZh": "纽约现代艺术博物馆为现代艺术在纽约提供了持久的制度性空间。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_staff_of_the_Museum_of_Modern_Art_in_1937_in_front_of_the_museum_on_West_53rd_Street.png"
+    },
+    {
+      "id": "slice-first-five-year-plan-collectivization-1929",
+      "year": 1929,
+      "title": "Stalin accelerates collectivization and the First Five-Year Plan",
+      "titleZh": "斯大林推进集体化与第一个五年计划",
+      "summary": "By 1929, Stalin's Soviet leadership accelerated forced collectivization and the First Five-Year Plan, linking state power, heavy industry, coercive planning, and rural upheaval.",
+      "summaryZh": "到 1929 年，斯大林领导下的苏联加速推进强制集体化和第一个五年计划，把国家权力、重工业、强制性计划和乡村剧变连接在一起。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "russia"
+      ],
+      "primaryPlaceId": "russia",
+      "lensIds": [
+        "state-empire",
+        "economy-trade"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-07",
+        "economy-trade-07"
+      ],
+      "primaryPhaseId": "state-empire-07",
+      "regionPhaseIds": [],
+      "primaryRegionPhaseId": "",
+      "eventType": "state-planning",
+      "importance": "core",
+      "sourceRefs": [
+        "britannica",
+        "library-of-congress",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "1929 is commonly used as a turning point for Stalin's forced collectivization and high-speed industrialization drive."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%B3%D0%B5%D1%81_%D0%B7_%D0%B2%D0%B8%D1%81%D0%BE%D1%82%D0%B8.jpg/330px-%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%B3%D0%B5%D1%81_%D0%B7_%D0%B2%D0%B8%D1%81%D0%BE%D1%82%D0%B8.jpg",
+      "imageAlt": "Dnieper Hydroelectric Station, a symbol of Soviet industrialization.",
+      "imageCaption": "Large industrial projects such as DnieproGES symbolized the Soviet planning drive associated with the first Five-Year Plans.",
+      "imageCaptionZh": "第聂伯河水电站等大型工业项目象征了第一个五年计划所代表的苏联计划化建设。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/Dnieper_Hydroelectric_Station"
+    },
+    {
+      "id": "slice-new-york-worlds-fair-opens-1939",
+      "year": 1939,
+      "title": "New York World's Fair opens",
+      "titleZh": "纽约世界博览会开幕",
+      "summary": "The 1939 New York World's Fair opened with a futuristic vision of technology, consumer design, highways, broadcasting, and corporate modernity on the eve of World War II.",
+      "summaryZh": "1939 年纽约世界博览会开幕，在第二次世界大战前夕展示了关于技术、消费设计、公路、广播和企业现代性的未来主义愿景。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology",
+        "entertainment-media",
+        "architecture"
+      ],
+      "primaryLensId": "science-technology",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "science-technology-07",
+        "entertainment-media-06",
+        "architecture-07"
+      ],
+      "primaryPhaseId": "science-technology-07",
+      "regionPhaseIds": [
+        "us-industrial-power"
+      ],
+      "primaryRegionPhaseId": "us-industrial-power",
+      "eventType": "exposition",
+      "importance": "supporting",
+      "sourceRefs": [
+        "nypl",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1939 fair is widely associated with corporate futurism and mass visions of technological modernity."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trylon%20and%20Perisphere%2C%20New%20York%20World%27s%20Fair%20MET%20DP103125.jpg",
+      "imageAlt": "Trylon and Perisphere structures at the 1939 New York World's Fair.",
+      "imageCaption": "The Trylon and Perisphere made the fair's futuristic language visible in monumental form.",
+      "imageCaptionZh": "锥柱与球体建筑以纪念碑式形态呈现了博览会的未来主义语言。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Trylon_and_Perisphere,_New_York_World's_Fair_MET_DP103125.jpg"
+    },
+    {
+      "id": "slice-wizard-of-oz-released-1939",
+      "year": 1939,
+      "title": "The Wizard of Oz is released",
+      "titleZh": "《绿野仙踪》上映",
+      "summary": "The Wizard of Oz was released in 1939, demonstrating how Hollywood studio production, color film, music, fantasy, and mass distribution could create durable screen mythology.",
+      "summaryZh": "《绿野仙踪》于 1939 年上映，展示了好莱坞制片厂制度、彩色电影、音乐、幻想叙事和大众发行如何共同创造持久的银幕神话。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "art"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "film-cinema-industry"
+      ],
+      "primaryTrackId": "film-cinema-industry",
+      "phaseIds": [
+        "entertainment-media-06",
+        "film-cinema-industry-03"
+      ],
+      "primaryPhaseId": "entertainment-media-06",
+      "regionPhaseIds": [
+        "us-industrial-power"
+      ],
+      "primaryRegionPhaseId": "us-industrial-power",
+      "eventType": "film-release",
+      "importance": "supporting",
+      "sourceRefs": [
+        "american-film-institute",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1939 release is a canonical Hollywood studio-era film milestone."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wizard_of_oz_movie_poster.jpg",
+      "imageAlt": "Poster for The Wizard of Oz.",
+      "imageCaption": "The film's poster reflects Hollywood's studio-era fantasy and star system.",
+      "imageCaptionZh": "影片海报体现了好莱坞制片厂时代的幻想叙事与明星制度。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wizard_of_oz_movie_poster.jpg"
+    },
+    {
+      "id": "slice-britain-national-service-act-1939",
+      "year": 1939,
+      "title": "Britain introduces peacetime conscription",
+      "titleZh": "英国实行和平时期征兵制",
+      "summary": "Britain's 1939 Military Training Act introduced peacetime conscription shortly before war, showing how democratic states reorganized manpower under the pressure of looming industrial conflict.",
+      "summaryZh": "英国 1939 年《军事训练法》在战争爆发前引入和平时期征兵制，显示民主国家如何在迫近的工业化战争压力下重组人力资源。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "britain-uk"
+      ],
+      "primaryPlaceId": "britain-uk",
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "primaryLensId": "war-military",
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "primaryTrackId": "war-global-conflicts",
+      "phaseIds": [
+        "war-military-06",
+        "war-global-conflicts-04",
+        "state-empire-07"
+      ],
+      "primaryPhaseId": "war-military-06",
+      "regionPhaseIds": [
+        "britain-worldwar-welfare"
+      ],
+      "primaryRegionPhaseId": "britain-worldwar-welfare",
+      "eventType": "mobilization",
+      "importance": "supporting",
+      "sourceRefs": [
+        "uk-parliament",
+        "imperial-war-museums",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1939 Military Training Act is a key prewar mobilization measure in Britain."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/INF3-110_Forces_Recruitment_The_Army_of_the_Future_needs_ambitious_men_now_Artist_Dugdale.jpg",
+      "imageAlt": "British Army recruiting poster from the Second World War era.",
+      "imageCaption": "Recruitment and conscription publicity expressed Britain's shift toward mass mobilization.",
+      "imageCaptionZh": "征兵与招募宣传体现了英国走向大规模动员的转变。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:INF3-110_Forces_Recruitment_The_Army_of_the_Future_needs_ambitious_men_now_Artist_Dugdale.jpg"
+    },
+    {
+      "id": "slice-un-charter-signed-1945",
+      "year": 1945,
+      "title": "United Nations Charter signed in San Francisco",
+      "titleZh": "《联合国宪章》在旧金山签署",
+      "summary": "Delegates signed the United Nations Charter in San Francisco in 1945, creating a new global institution for diplomacy, security, development, and postwar international order.",
+      "summaryZh": "各国代表于 1945 年在旧金山签署《联合国宪章》，建立了一个面向外交、安全、发展与战后国际秩序的新全球机构。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "state-empire"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-08"
+      ],
+      "primaryPhaseId": "state-empire-08",
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
+      "primaryRegionPhaseId": "us-digital-superpower",
+      "eventType": "institution-founding",
+      "importance": "core",
+      "sourceRefs": [
+        "united-nations",
+        "national-archives",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The San Francisco conference and signing of the Charter are foundational events in the UN system."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20San%20Francisco%20Conference%20United%20Nations.jpg",
+      "imageAlt": "Delegates at the 1945 United Nations Conference in San Francisco.",
+      "imageCaption": "The San Francisco conference turned wartime alliance planning into a formal global institution.",
+      "imageCaptionZh": "旧金山会议把战时同盟规划转化为正式的全球机构。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_San_Francisco_Conference_United_Nations.jpg"
+    },
+    {
+      "id": "slice-uk-labour-landslide-1945",
+      "year": 1945,
+      "title": "Labour wins the British general election",
+      "titleZh": "英国工党赢得大选",
+      "summary": "Labour's 1945 landslide victory in Britain brought Clement Attlee to power and opened the way for welfare-state building, nationalization, and postwar social reform.",
+      "summaryZh": "英国工党在 1945 年大选中压倒性获胜，使艾德礼上台，并为福利国家建设、国有化和战后社会改革打开道路。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "britain-uk"
+      ],
+      "primaryPlaceId": "britain-uk",
+      "lensIds": [
+        "state-empire",
+        "economy-trade"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-07",
+        "economy-trade-07"
+      ],
+      "primaryPhaseId": "state-empire-07",
+      "regionPhaseIds": [
+        "britain-worldwar-welfare"
+      ],
+      "primaryRegionPhaseId": "britain-worldwar-welfare",
+      "eventType": "election",
+      "importance": "core",
+      "sourceRefs": [
+        "uk-parliament",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1945 election is a standard turning point in postwar British political history."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Clement_Attlee.jpg",
+      "imageAlt": "Clement Attlee, Labour leader and British prime minister after the 1945 election.",
+      "imageCaption": "Attlee's government became associated with Britain's postwar welfare-state settlement.",
+      "imageCaptionZh": "艾德礼政府与英国战后福利国家制度的形成紧密相关。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Clement_Attlee.jpg"
+    },
+    {
+      "id": "slice-nuremberg-trials-open-1945",
+      "year": 1945,
+      "title": "Nuremberg trials open",
+      "titleZh": "纽伦堡审判开庭",
+      "summary": "The Nuremberg trials opened in 1945, placing leading Nazi officials before an international military tribunal and making crimes against humanity part of postwar legal order.",
+      "summaryZh": "纽伦堡审判于 1945 年开庭，将纳粹高层官员置于国际军事法庭之下，并使反人类罪成为战后法律秩序的一部分。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "german-lands"
+      ],
+      "primaryPlaceId": "german-lands",
+      "lensIds": [
+        "state-empire",
+        "war-military"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "primaryTrackId": "war-global-conflicts",
+      "phaseIds": [
+        "state-empire-08",
+        "war-global-conflicts-05"
+      ],
+      "primaryPhaseId": "state-empire-08",
+      "regionPhaseIds": [
+        "german-modern"
+      ],
+      "primaryRegionPhaseId": "german-modern",
+      "eventType": "trial",
+      "importance": "core",
+      "sourceRefs": [
+        "ushmm",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The opening of the International Military Tribunal at Nuremberg is a key postwar justice event."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Defendants%20in%20the%20dock%20at%20the%20Nuremberg%20Trials.jpg",
+      "imageAlt": "Defendants in the dock at the Nuremberg trials.",
+      "imageCaption": "The defendants' dock at Nuremberg became an image of postwar legal reckoning.",
+      "imageCaptionZh": "纽伦堡审判中的被告席成为战后法律清算的视觉象征。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Defendants_in_the_dock_at_the_Nuremberg_Trials.jpg"
+    },
+    {
+      "id": "slice-prc-proclaimed-1949",
+      "year": 1949,
+      "title": "People's Republic of China proclaimed",
+      "titleZh": "中华人民共和国成立",
+      "summary": "Mao Zedong proclaimed the People's Republic of China in Beijing in 1949, marking the Communist victory in the civil war and a new state order in China.",
+      "summaryZh": "毛泽东于 1949 年在北京宣告中华人民共和国成立，标志着中国内战中共产党胜利以及中国国家秩序的重建。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "china"
+      ],
+      "primaryPlaceId": "china",
+      "lensIds": [
+        "state-empire"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-08"
+      ],
+      "primaryPhaseId": "state-empire-08",
+      "regionPhaseIds": [
+        "china-modern"
+      ],
+      "primaryRegionPhaseId": "china-modern",
+      "eventType": "state-founding",
+      "importance": "core",
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "chinese-history-reference"
+      ],
+      "sourceNotes": [
+        "The proclamation on 1 October 1949 is the standard founding event of the People's Republic of China."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mao%20Proclaiming%20New%20China.JPG",
+      "imageAlt": "Founding ceremony of the People's Republic of China in 1949.",
+      "imageCaption": "The 1949 ceremony at Tiananmen made the new state order visible as a public founding moment.",
+      "imageCaptionZh": "1949 年天安门城楼上的仪式把新的国家秩序呈现为公开的建国时刻。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mao_Proclaiming_New_China.JPG"
+    },
+    {
+      "id": "slice-nato-founded-1949",
+      "year": 1949,
+      "title": "NATO is founded",
+      "titleZh": "北约成立",
+      "summary": "The North Atlantic Treaty was signed in 1949, creating NATO as a collective security alliance linking the United States, Canada, and Western Europe during the emerging Cold War.",
+      "summaryZh": "《北大西洋公约》于 1949 年签署，北约作为连接美国、加拿大和西欧的集体安全联盟在冷战初期形成。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states",
+        "britain-uk",
+        "france"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "primaryLensId": "war-military",
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "primaryTrackId": "war-global-conflicts",
+      "phaseIds": [
+        "war-military-07",
+        "war-global-conflicts-06",
+        "state-empire-08"
+      ],
+      "primaryPhaseId": "war-military-07",
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
+      "primaryRegionPhaseId": "us-digital-superpower",
+      "eventType": "alliance-founding",
+      "importance": "core",
+      "sourceRefs": [
+        "nato",
+        "office-of-the-historian",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1949 North Atlantic Treaty is NATO's founding document."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Truman_signing_the_North_Atlantic_Treaty.gif",
+      "imageAlt": "U.S. President Harry Truman at a NATO signing ceremony.",
+      "imageCaption": "NATO's founding ceremonies made Cold War alliance politics institutional and public.",
+      "imageCaptionZh": "北约成立仪式把冷战联盟政治制度化并公开呈现出来。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Truman_signing_the_North_Atlantic_Treaty.gif"
+    },
+    {
+      "id": "slice-indian-constitution-adopted-1949",
+      "year": 1949,
+      "title": "Constituent Assembly adopts the Constitution of India",
+      "titleZh": "印度制宪会议通过宪法",
+      "summary": "India's Constituent Assembly adopted the Constitution in 1949, preparing the legal foundation for the republic, parliamentary democracy, federalism, and citizenship after independence.",
+      "summaryZh": "印度制宪会议于 1949 年通过宪法，为独立后的共和国、议会民主、联邦制和公民身份奠定法律基础。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "india"
+      ],
+      "primaryPlaceId": "india",
+      "lensIds": [
+        "state-empire"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-08"
+      ],
+      "primaryPhaseId": "state-empire-08",
+      "regionPhaseIds": [
+        "india-independent"
+      ],
+      "primaryRegionPhaseId": "india-independent",
+      "eventType": "constitutional-adoption",
+      "importance": "core",
+      "sourceRefs": [
+        "constitution-of-india",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "India's Constitution was adopted on 26 November 1949 and came into effect in 1950."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Constitution_of_India.jpg/330px-Constitution_of_India.jpg",
+      "imageAlt": "Members of the Constituent Assembly of India.",
+      "imageCaption": "The Constituent Assembly turned independence into a constitutional republic.",
+      "imageCaptionZh": "制宪会议把独立转化为宪法共和国的制度基础。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/Constitution_of_India"
+    },
+    {
+      "id": "slice-federal-republic-germany-founded-1949",
+      "year": 1949,
+      "title": "Federal Republic of Germany founded",
+      "titleZh": "德意志联邦共和国成立",
+      "summary": "The Federal Republic of Germany was founded in 1949, creating a West German state under the Basic Law and embedding German reconstruction inside Cold War division.",
+      "summaryZh": "德意志联邦共和国于 1949 年成立，在《基本法》框架下建立西德国家，并使德国重建嵌入冷战分裂格局。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "german-lands"
+      ],
+      "primaryPlaceId": "german-lands",
+      "lensIds": [
+        "state-empire"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-08"
+      ],
+      "primaryPhaseId": "state-empire-08",
+      "regionPhaseIds": [
+        "german-modern"
+      ],
+      "primaryRegionPhaseId": "german-modern",
+      "eventType": "state-founding",
+      "importance": "core",
+      "sourceRefs": [
+        "bundestag",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The founding of the Federal Republic in 1949 is a key state-formation event in postwar Germany."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/330px-Flag_of_Germany.svg.png",
+      "imageAlt": "Konrad Adenauer and Theodor Heuss in early Federal Republic Germany.",
+      "imageCaption": "Adenauer and Heuss represented the new West German constitutional order after 1949.",
+      "imageCaptionZh": "阿登纳与豪斯代表了 1949 年后西德新的宪政秩序。",
+      "imageCredit": "Image: German Federal Archives / Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/West_Germany"
+    },
+    {
+      "id": "slice-soviet-atomic-test-1949",
+      "year": 1949,
+      "title": "Soviet Union tests its first atomic bomb",
+      "titleZh": "苏联首次核试验",
+      "summary": "The Soviet Union tested its first atomic bomb in 1949, ending the U.S. nuclear monopoly and intensifying the military and technological structure of the Cold War.",
+      "summaryZh": "苏联于 1949 年完成首次核试验，结束了美国的核垄断，并强化了冷战的军事与技术结构。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "russia"
+      ],
+      "primaryPlaceId": "russia",
+      "lensIds": [
+        "science-technology",
+        "war-military"
+      ],
+      "primaryLensId": "science-technology",
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "primaryTrackId": "war-global-conflicts",
+      "phaseIds": [
+        "science-technology-07",
+        "war-military-07",
+        "war-global-conflicts-06"
+      ],
+      "primaryPhaseId": "science-technology-07",
+      "regionPhaseIds": [],
+      "primaryRegionPhaseId": "",
+      "eventType": "weapons-test",
+      "importance": "core",
+      "sourceRefs": [
+        "atomic-heritage-foundation",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The RDS-1 test in 1949 is the standard milestone for the Soviet atomic bomb."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Joe_one.jpg/330px-Joe_one.jpg",
+      "imageAlt": "RDS-1 atomic test explosion.",
+      "imageCaption": "The RDS-1 test made nuclear rivalry a bipolar Cold War condition.",
+      "imageCaptionZh": "RDS-1 核试验使核竞争成为两极冷战秩序的一部分。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/RDS-1"
+    },
+    {
+      "id": "slice-apollo-11-moon-landing-1969",
+      "year": 1969,
+      "title": "Apollo 11 lands on the Moon",
+      "titleZh": "阿波罗 11 号登月",
+      "summary": "Apollo 11 landed humans on the Moon in 1969, making spaceflight a public demonstration of Cold War science, engineering, computing, and state capacity.",
+      "summaryZh": "阿波罗 11 号于 1969 年实现载人登月，使太空飞行成为冷战科学、工程、计算和国家能力的公开展示。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology"
+      ],
+      "primaryLensId": "science-technology",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "science-technology-07"
+      ],
+      "primaryPhaseId": "science-technology-07",
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
+      "primaryRegionPhaseId": "us-digital-superpower",
+      "eventType": "space-mission",
+      "importance": "core",
+      "sourceRefs": [
+        "nasa",
+        "smithsonian",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Apollo 11's July 1969 Moon landing is a standard milestone in space and technology history."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg/330px-A_Man_on_the_Moon%2C_AS11-40-5903_%28cropped%29.jpg",
+      "imageAlt": "Astronaut Buzz Aldrin standing on the Moon during Apollo 11.",
+      "imageCaption": "Apollo 11 turned Cold War space competition into one of the most visible technological events of the century.",
+      "imageCaptionZh": "阿波罗 11 号把冷战太空竞争转化为 20 世纪最具可见性的技术事件之一。",
+      "imageCredit": "Image: NASA / Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/Apollo_11"
+    },
+    {
+      "id": "slice-woodstock-festival-1969",
+      "year": 1969,
+      "title": "Woodstock festival takes place",
+      "titleZh": "伍德斯托克音乐节举行",
+      "summary": "Woodstock took place in 1969, becoming a symbol of counterculture, rock music, youth identity, mass media memory, and festival culture in the late 1960s United States.",
+      "summaryZh": "伍德斯托克音乐节于 1969 年举行，成为 1960 年代末美国反主流文化、摇滚音乐、青年身份、大众媒体记忆和音乐节文化的象征。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "entertainment-media-06"
+      ],
+      "primaryPhaseId": "entertainment-media-06",
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
+      "primaryRegionPhaseId": "us-digital-superpower",
+      "eventType": "music-festival",
+      "importance": "supporting",
+      "sourceRefs": [
+        "britannica",
+        "woodstock-museum",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Woodstock is widely used as a cultural marker of late-1960s U.S. counterculture."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Woodstock_redmond_stage.JPG",
+      "imageAlt": "Stage and crowd at Woodstock.",
+      "imageCaption": "Woodstock's crowds and stage made youth culture visible as mass spectacle.",
+      "imageCaptionZh": "伍德斯托克的人群与舞台把青年文化呈现为大众奇观。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Woodstock_redmond_stage.JPG"
+    },
+    {
+      "id": "slice-stonewall-uprising-1969",
+      "year": 1969,
+      "title": "Stonewall uprising begins",
+      "titleZh": "石墙起义爆发",
+      "summary": "The Stonewall uprising began in New York in 1969, becoming a central reference point for modern LGBTQ rights movements and urban protest politics.",
+      "summaryZh": "石墙起义于 1969 年在纽约爆发，成为现代 LGBTQ 权利运动和城市抗议政治的重要参照点。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "state-empire"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-07"
+      ],
+      "primaryPhaseId": "state-empire-07",
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
+      "primaryRegionPhaseId": "us-digital-superpower",
+      "eventType": "uprising",
+      "importance": "supporting",
+      "sourceRefs": [
+        "national-park-service",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Stonewall is a standard milestone in the history of LGBTQ politics and rights movements."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Stonewall_riots.jpg/330px-Stonewall_riots.jpg",
+      "imageAlt": "The Stonewall Inn around the time of the 1969 uprising.",
+      "imageCaption": "The Stonewall Inn became a landmark for rights movements after the 1969 uprising.",
+      "imageCaptionZh": "1969 年起义之后，石墙酒吧成为权利运动的重要地标。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/Stonewall_riots"
+    },
+    {
+      "id": "slice-concorde-first-flight-1969",
+      "year": 1969,
+      "title": "Concorde makes its first flight",
+      "titleZh": "协和式飞机首次试飞",
+      "summary": "Concorde made its first flight in 1969, representing Anglo-French aerospace engineering, supersonic passenger ambition, and the prestige politics of postwar technology.",
+      "summaryZh": "协和式飞机于 1969 年首次试飞，代表了英法航空工程、超音速客运雄心以及战后技术声望政治。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "france",
+        "britain-uk"
+      ],
+      "primaryPlaceId": "france",
+      "lensIds": [
+        "science-technology"
+      ],
+      "primaryLensId": "science-technology",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "science-technology-07"
+      ],
+      "primaryPhaseId": "science-technology-07",
+      "regionPhaseIds": [
+        "france-modern",
+        "britain-worldwar-welfare"
+      ],
+      "primaryRegionPhaseId": "france-modern",
+      "eventType": "first-flight",
+      "importance": "supporting",
+      "sourceRefs": [
+        "british-airways",
+        "airbus",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Concorde's 1969 first flight is a key milestone in supersonic passenger aviation."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/British_Airways_Concorde_G-BOAC_03.jpg/330px-British_Airways_Concorde_G-BOAC_03.jpg",
+      "imageAlt": "Concorde prototype during its first flight era.",
+      "imageCaption": "Concorde made supersonic passenger flight a visible symbol of postwar aerospace ambition.",
+      "imageCaptionZh": "协和式飞机使超音速客运成为战后航空雄心的可见象征。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/Concorde"
+    },
+    {
+      "id": "slice-sesame-street-premieres-1969",
+      "year": 1969,
+      "title": "Sesame Street premieres",
+      "titleZh": "《芝麻街》首播",
+      "summary": "Sesame Street premiered in 1969, combining educational television, child development research, public broadcasting, animation, music, and puppetry into a durable media format.",
+      "summaryZh": "《芝麻街》于 1969 年首播，把教育电视、儿童发展研究、公共广播、动画、音乐和木偶表演结合成持久的媒体形式。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "entertainment-media-06"
+      ],
+      "primaryPhaseId": "entertainment-media-06",
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
+      "primaryRegionPhaseId": "us-digital-superpower",
+      "eventType": "television-premiere",
+      "importance": "supporting",
+      "sourceRefs": [
+        "sesame-workshop",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Sesame Street's 1969 premiere is a major educational television milestone."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sesame_Street_logo.svg",
+      "imageAlt": "Sesame Street logo.",
+      "imageCaption": "The program's brand became shorthand for educational public television.",
+      "imageCaptionZh": "《芝麻街》的品牌成为教育型公共电视的代表符号。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sesame_Street_logo.svg"
+    },
+    {
+      "id": "slice-egypt-israel-peace-treaty-1979",
+      "year": 1979,
+      "title": "Egypt-Israel peace treaty signed",
+      "titleZh": "埃及与以色列签署和平条约",
+      "summary": "Egypt and Israel signed a peace treaty in 1979, reshaping Middle Eastern diplomacy after the Camp David Accords and making Egypt the first Arab state to formally recognize Israel.",
+      "summaryZh": "埃及和以色列于 1979 年签署和平条约，在戴维营协议之后重塑中东外交，并使埃及成为第一个正式承认以色列的阿拉伯国家。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "egypt-north-africa",
+        "united-states"
+      ],
+      "primaryPlaceId": "egypt-north-africa",
+      "lensIds": [
+        "state-empire",
+        "war-military"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "primaryTrackId": "war-global-conflicts",
+      "phaseIds": [
+        "state-empire-08",
+        "war-military-07"
+      ],
+      "primaryPhaseId": "state-empire-08",
+      "regionPhaseIds": [
+        "egypt-nationalist-republic"
+      ],
+      "primaryRegionPhaseId": "egypt-nationalist-republic",
+      "eventType": "peace-treaty",
+      "importance": "core",
+      "sourceRefs": [
+        "office-of-the-historian",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1979 treaty is a central diplomatic milestone in modern Middle Eastern history."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Begin%2C_Carter_and_Sadat_at_Camp_David_1978.jpg",
+      "imageAlt": "Menachem Begin, Jimmy Carter, and Anwar Sadat at Camp David.",
+      "imageCaption": "The Camp David diplomacy led directly to the 1979 Egypt-Israel peace treaty.",
+      "imageCaptionZh": "戴维营外交直接通向 1979 年埃及—以色列和平条约。",
+      "imageCredit": "Image: U.S. National Archives / Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Begin,_Carter_and_Sadat_at_Camp_David_1978.jpg"
+    },
+    {
+      "id": "slice-thatcher-elected-1979",
+      "year": 1979,
+      "title": "Margaret Thatcher becomes British prime minister",
+      "titleZh": "玛格丽特·撒切尔成为英国首相",
+      "summary": "Margaret Thatcher became British prime minister in 1979, opening a period of market-oriented reform, privatization, union conflict, and redefinition of the postwar settlement.",
+      "summaryZh": "玛格丽特·撒切尔于 1979 年成为英国首相，开启了市场化改革、私有化、工会冲突和战后制度重新定义的时期。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "britain-uk"
+      ],
+      "primaryPlaceId": "britain-uk",
+      "lensIds": [
+        "state-empire",
+        "economy-trade"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-07",
+        "economy-trade-07"
+      ],
+      "primaryPhaseId": "state-empire-07",
+      "regionPhaseIds": [
+        "britain-worldwar-welfare"
+      ],
+      "primaryRegionPhaseId": "britain-worldwar-welfare",
+      "eventType": "election",
+      "importance": "core",
+      "sourceRefs": [
+        "uk-parliament",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Thatcher's 1979 election is a conventional turning point in late twentieth-century British political economy."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Margaret_Thatcher_stock_portrait_%282%29_%28cropped%29.jpg/330px-Margaret_Thatcher_stock_portrait_%282%29_%28cropped%29.jpg",
+      "imageAlt": "Margaret Thatcher, British prime minister.",
+      "imageCaption": "Thatcher's premiership became a shorthand for a major shift in British political economy.",
+      "imageCaptionZh": "撒切尔首相任期成为英国政治经济重大转向的代名词。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/Margaret_Thatcher"
+    },
+    {
+      "id": "slice-sony-walkman-launches-1979",
+      "year": 1979,
+      "title": "Sony Walkman launches",
+      "titleZh": "索尼 Walkman 发布",
+      "summary": "Sony launched the Walkman in 1979, turning portable cassette listening into a global consumer-media habit and making private mobile sound part of everyday life.",
+      "summaryZh": "索尼于 1979 年推出 Walkman，使便携式磁带收听成为全球消费媒体习惯，并让私人化移动声音进入日常生活。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "japan"
+      ],
+      "primaryPlaceId": "japan",
+      "lensIds": [
+        "entertainment-media",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "entertainment-media-07",
+        "science-technology-07"
+      ],
+      "primaryPhaseId": "entertainment-media-07",
+      "regionPhaseIds": [
+        "japan-postwar"
+      ],
+      "primaryRegionPhaseId": "japan-postwar",
+      "eventType": "product-launch",
+      "importance": "supporting",
+      "sourceRefs": [
+        "sony",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The first Sony Walkman went on sale in Japan in 1979 and became a major portable media device."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Walkman_logo_%282000%29.svg/330px-Walkman_logo_%282000%29.svg.png",
+      "imageAlt": "Sony Walkman TPS-L2 portable cassette player.",
+      "imageCaption": "The first Walkman made mobile private listening into a mass consumer format.",
+      "imageCaptionZh": "第一代 Walkman 让移动私人聆听成为大众消费形式。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/Walkman"
+    },
+    {
+      "id": "slice-us-china-diplomatic-relations-1979",
+      "year": 1979,
+      "title": "United States and China establish diplomatic relations",
+      "titleZh": "中美正式建立外交关系",
+      "summary": "The United States and the People's Republic of China established formal diplomatic relations in 1979, reshaping Cold War diplomacy and China's opening to the global system.",
+      "summaryZh": "美国与中华人民共和国于 1979 年正式建交，重塑了冷战外交格局，也推动中国进一步进入全球体系。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "china",
+        "united-states"
+      ],
+      "primaryPlaceId": "china",
+      "lensIds": [
+        "state-empire"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-08"
+      ],
+      "primaryPhaseId": "state-empire-08",
+      "regionPhaseIds": [
+        "china-modern",
+        "us-digital-superpower"
+      ],
+      "primaryRegionPhaseId": "china-modern",
+      "eventType": "diplomatic-recognition",
+      "importance": "core",
+      "sourceRefs": [
+        "office-of-the-historian",
+        "national-archives",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Formal U.S.-PRC diplomatic relations began on 1 January 1979."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/China_USA_Locator.svg/330px-China_USA_Locator.svg.png",
+      "imageAlt": "Deng Xiaoping and Jimmy Carter during Deng's 1979 visit to the United States.",
+      "imageCaption": "Deng Xiaoping's 1979 U.S. visit made the new diplomatic relationship publicly visible.",
+      "imageCaptionZh": "邓小平 1979 年访美使新的中美外交关系公开可见。",
+      "imageCredit": "Image: U.S. National Archives / Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/China%E2%80%93United_States_relations"
+    },
+    {
+      "id": "slice-three-mile-island-accident-1979",
+      "year": 1979,
+      "title": "Three Mile Island nuclear accident",
+      "titleZh": "三哩岛核事故",
+      "summary": "The Three Mile Island accident in 1979 became the most serious commercial nuclear power accident in U.S. history and reshaped public trust, regulation, and energy politics.",
+      "summaryZh": "1979 年三哩岛事故成为美国历史上最严重的商用核电事故，并重塑了公众信任、监管制度和能源政治。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "science-technology",
+        "disaster-climate"
+      ],
+      "primaryLensId": "science-technology",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "science-technology-07",
+        "disaster-climate-06"
+      ],
+      "primaryPhaseId": "science-technology-07",
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
+      "primaryRegionPhaseId": "us-digital-superpower",
+      "eventType": "industrial-accident",
+      "importance": "supporting",
+      "sourceRefs": [
+        "nuclear-regulatory-commission",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Three Mile Island is a standard U.S. nuclear safety and energy policy milestone."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Three_Mile_Island_Nuclear_Generating_Station.jpg",
+      "imageAlt": "Three Mile Island Nuclear Generating Station.",
+      "imageCaption": "The plant became a visual shorthand for nuclear risk and regulatory debate.",
+      "imageCaptionZh": "这座核电站成为核风险与监管争论的视觉符号。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Three_Mile_Island_Nuclear_Generating_Station.jpg"
+    },
+    {
+      "id": "slice-tiananmen-crackdown-1989",
+      "year": 1989,
+      "title": "Tiananmen Square crackdown",
+      "titleZh": "天安门广场镇压",
+      "summary": "In 1989, Chinese authorities used force to end mass demonstrations centered on Tiananmen Square, marking a decisive political rupture in the reform era.",
+      "summaryZh": "1989 年，中国当局以武力结束以天安门广场为中心的大规模示威，成为改革时代的重要政治断裂点。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "china"
+      ],
+      "primaryPlaceId": "china",
+      "lensIds": [
+        "state-empire"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-08"
+      ],
+      "primaryPhaseId": "state-empire-08",
+      "regionPhaseIds": [
+        "china-modern"
+      ],
+      "primaryRegionPhaseId": "china-modern",
+      "eventType": "crackdown",
+      "importance": "core",
+      "sourceRefs": [
+        "britannica",
+        "national-security-archive",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1989 Tiananmen crackdown is a central political event in late twentieth-century Chinese history."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Ud%C3%A1losti_na_n%C3%A1m%C4%9Bst%C3%AD_Tian_an_men%2C_%C4%8C%C3%ADna_1989%2C_foto_Ji%C5%99%C3%AD_Tondl.jpg",
+      "imageAlt": "Crowds and banners during the 1989 Tiananmen Square protests.",
+      "imageCaption": "Images from Tiananmen Square became globally recognizable evidence of the 1989 crisis.",
+      "imageCaptionZh": "天安门广场的影像成为 1989 年危机在全球范围内可识别的证据。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/1989_Tiananmen_Square_protests_and_massacre"
+    },
+    {
+      "id": "slice-game-boy-launches-1989",
+      "year": 1989,
+      "title": "Nintendo Game Boy launches",
+      "titleZh": "任天堂 Game Boy 发布",
+      "summary": "Nintendo launched the Game Boy in 1989, making portable cartridge gaming a global mass market and extending video games beyond living-room consoles and arcades.",
+      "summaryZh": "任天堂于 1989 年推出 Game Boy，使便携式卡带游戏成为全球大众市场，并把电子游戏从客厅主机和街机进一步带到移动场景。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "japan"
+      ],
+      "primaryPlaceId": "japan",
+      "lensIds": [
+        "entertainment-media",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "computing-pc"
+      ],
+      "primaryTrackId": "computing-pc",
+      "phaseIds": [
+        "entertainment-media-07",
+        "computing-pc-06"
+      ],
+      "primaryPhaseId": "entertainment-media-07",
+      "regionPhaseIds": [
+        "japan-postwar"
+      ],
+      "primaryRegionPhaseId": "japan-postwar",
+      "eventType": "product-launch",
+      "importance": "supporting",
+      "sourceRefs": [
+        "nintendo",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Game Boy's 1989 Japanese launch is a major milestone in portable gaming."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/330px-Game-Boy-FL.png",
+      "imageAlt": "Original Nintendo Game Boy handheld console.",
+      "imageCaption": "The Game Boy turned handheld gaming into a durable global format.",
+      "imageCaptionZh": "Game Boy 使掌上游戏成为持久的全球化媒介形式。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/Game_Boy"
+    },
+    {
+      "id": "slice-louvre-pyramid-opens-1989",
+      "year": 1989,
+      "title": "Louvre Pyramid opens",
+      "titleZh": "卢浮宫金字塔开放",
+      "summary": "The Louvre Pyramid opened in 1989, making I. M. Pei's glass entrance a landmark of museum modernization, heritage politics, and late twentieth-century architectural contrast.",
+      "summaryZh": "卢浮宫金字塔于 1989 年开放，使贝聿铭设计的玻璃入口成为博物馆现代化、遗产政治和 20 世纪末建筑对比的地标。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "france"
+      ],
+      "primaryPlaceId": "france",
+      "lensIds": [
+        "architecture",
+        "art"
+      ],
+      "primaryLensId": "architecture",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "architecture-08",
+        "art-08"
+      ],
+      "primaryPhaseId": "architecture-08",
+      "regionPhaseIds": [
+        "france-modern"
+      ],
+      "primaryRegionPhaseId": "france-modern",
+      "eventType": "building-opening",
+      "importance": "supporting",
+      "sourceRefs": [
+        "louvre",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Louvre Pyramid's 1989 opening is a widely cited museum and architecture milestone."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Louvre_Pyramid.jpg/330px-Louvre_Pyramid.jpg",
+      "imageAlt": "The glass pyramid entrance at the Louvre.",
+      "imageCaption": "The pyramid placed contemporary architecture inside one of Europe's most symbolic museum sites.",
+      "imageCaptionZh": "这座金字塔把当代建筑置入欧洲最具象征性的博物馆空间之一。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/Louvre_Pyramid"
+    },
+    {
+      "id": "slice-world-wide-web-proposal-1989",
+      "year": 1989,
+      "title": "World Wide Web proposal written",
+      "titleZh": "万维网方案提出",
+      "summary": "Tim Berners-Lee wrote his World Wide Web proposal in 1989, connecting hypertext, networked documents, URLs, and browsers into the architecture of the public web.",
+      "summaryZh": "蒂姆·伯纳斯-李于 1989 年写下万维网方案，把超文本、联网文档、URL 和浏览器连接成公共网络的基本架构。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "britain-uk",
+        "global-transregional"
+      ],
+      "primaryPlaceId": "britain-uk",
+      "lensIds": [
+        "science-technology"
+      ],
+      "primaryLensId": "science-technology",
+      "trackIds": [
+        "networks-internet",
+        "software-os"
+      ],
+      "primaryTrackId": "networks-internet",
+      "phaseIds": [
+        "networks-internet-05",
+        "software-os-05",
+        "science-technology-08"
+      ],
+      "primaryPhaseId": "networks-internet-05",
+      "regionPhaseIds": [
+        "britain-postwar"
+      ],
+      "primaryRegionPhaseId": "britain-postwar",
+      "eventType": "technical-proposal",
+      "importance": "core",
+      "sourceRefs": [
+        "cern",
+        "w3c",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1989 proposal is the standard starting point for the World Wide Web's design history."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Chrome_on_Linux.png/330px-Chrome_on_Linux.png",
+      "imageAlt": "The first web server at CERN.",
+      "imageCaption": "The early web server made Berners-Lee's proposal into running networked infrastructure.",
+      "imageCaptionZh": "早期万维网服务器把伯纳斯-李的方案转化为可运行的网络基础设施。",
+      "imageCredit": "Image: CERN / Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/World_Wide_Web"
+    },
+    {
+      "id": "slice-india-economic-liberalization-1991",
+      "year": 1991,
+      "title": "India begins economic liberalization",
+      "titleZh": "印度启动经济自由化改革",
+      "summary": "India began major economic liberalization in 1991 after a balance-of-payments crisis, loosening licensing, opening sectors to investment, and changing the country's development path.",
+      "summaryZh": "印度在 1991 年国际收支危机后启动重大经济自由化改革，放松许可制度、开放部分行业投资，并改变了国家发展路径。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "india"
+      ],
+      "primaryPlaceId": "india",
+      "lensIds": [
+        "economy-trade",
+        "state-empire"
+      ],
+      "primaryLensId": "economy-trade",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "economy-trade-08",
+        "state-empire-08"
+      ],
+      "primaryPhaseId": "economy-trade-08",
+      "regionPhaseIds": [
+        "india-independent"
+      ],
+      "primaryRegionPhaseId": "india-independent",
+      "eventType": "economic-reform",
+      "importance": "core",
+      "sourceRefs": [
+        "imf",
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "1991 is widely treated as the start of India's major liberalization reforms."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Manmohan_Singh_2007.jpg",
+      "imageAlt": "Manmohan Singh, finance minister associated with India's 1991 reforms.",
+      "imageCaption": "Manmohan Singh became closely associated with India's 1991 liberalization program.",
+      "imageCaptionZh": "曼莫汉·辛格与印度 1991 年经济自由化改革紧密相连。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Manmohan_Singh_2007.jpg"
+    },
+    {
+      "id": "slice-yeltsin-elected-russian-president-1991",
+      "year": 1991,
+      "title": "Boris Yeltsin elected president of Russia",
+      "titleZh": "鲍里斯·叶利钦当选俄罗斯总统",
+      "summary": "Boris Yeltsin was elected president of the Russian Soviet republic in 1991, becoming a decisive figure in the collapse of Soviet authority and Russia's post-Soviet transition.",
+      "summaryZh": "鲍里斯·叶利钦于 1991 年当选俄罗斯苏维埃共和国总统，成为苏联权威瓦解和俄罗斯后苏联转型中的关键人物。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "russia"
+      ],
+      "primaryPlaceId": "russia",
+      "lensIds": [
+        "state-empire"
+      ],
+      "primaryLensId": "state-empire",
+      "trackIds": [],
+      "primaryTrackId": "",
+      "phaseIds": [
+        "state-empire-08"
+      ],
+      "primaryPhaseId": "state-empire-08",
+      "regionPhaseIds": [],
+      "primaryRegionPhaseId": "",
+      "eventType": "election",
+      "importance": "core",
+      "sourceRefs": [
+        "britannica",
+        "wilson-center",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Yeltsin's 1991 election is a key event in the transition from Soviet to post-Soviet Russian politics."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Boris_Yeltsin_%283x4_cropped%29.jpg/330px-Boris_Yeltsin_%283x4_cropped%29.jpg",
+      "imageAlt": "Boris Yeltsin in 1991.",
+      "imageCaption": "Yeltsin's election made Russian republican politics central to the Soviet collapse.",
+      "imageCaptionZh": "叶利钦当选使俄罗斯共和国政治成为苏联解体过程中的核心力量。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/Boris_Yeltsin"
+    },
+    {
+      "id": "slice-snes-north-america-launch-1991",
+      "year": 1991,
+      "title": "Super Nintendo launches in North America",
+      "titleZh": "超级任天堂在北美上市",
+      "summary": "The Super Nintendo Entertainment System launched in North America in 1991, intensifying the 16-bit console market and the global circulation of Japanese game hardware and franchises.",
+      "summaryZh": "超级任天堂于 1991 年在北美上市，推动 16 位主机市场竞争，并加强日本游戏硬件与游戏品牌的全球传播。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "united-states",
+        "japan"
+      ],
+      "primaryPlaceId": "united-states",
+      "lensIds": [
+        "entertainment-media",
+        "science-technology"
+      ],
+      "primaryLensId": "entertainment-media",
+      "trackIds": [
+        "computing-pc"
+      ],
+      "primaryTrackId": "computing-pc",
+      "phaseIds": [
+        "entertainment-media-07",
+        "computing-pc-06"
+      ],
+      "primaryPhaseId": "entertainment-media-07",
+      "regionPhaseIds": [
+        "us-digital-superpower",
+        "japan-postwar"
+      ],
+      "primaryRegionPhaseId": "us-digital-superpower",
+      "eventType": "product-launch",
+      "importance": "supporting",
+      "sourceRefs": [
+        "nintendo",
+        "wikidata",
+        "museum-of-play"
+      ],
+      "sourceNotes": [
+        "The SNES North American launch is a useful marker for the 16-bit console era."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/SNES-Mod1-Console-Set.jpg",
+      "imageAlt": "Super Nintendo Entertainment System console and controller.",
+      "imageCaption": "The SNES made Japanese console design central to early-1990s home entertainment markets.",
+      "imageCaptionZh": "超级任天堂使日本主机设计成为 1990 年代初家庭娱乐市场的核心之一。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:SNES-Mod1-Console-Set.jpg"
+    },
+    {
+      "id": "slice-world-wide-web-publicly-available-1991",
+      "year": 1991,
+      "title": "World Wide Web becomes publicly available",
+      "titleZh": "万维网向公众开放",
+      "summary": "In 1991, the World Wide Web became publicly available beyond CERN, turning networked hypertext from a laboratory system into the basis of a global information medium.",
+      "summaryZh": "1991 年，万维网从 CERN 走向公众可用，把联网超文本从实验室系统转化为全球信息媒介的基础。",
+      "detailLevel": "slice",
+      "placeIds": [
+        "britain-uk",
+        "global-transregional"
+      ],
+      "primaryPlaceId": "britain-uk",
+      "lensIds": [
+        "science-technology"
+      ],
+      "primaryLensId": "science-technology",
+      "trackIds": [
+        "networks-internet",
+        "software-os"
+      ],
+      "primaryTrackId": "networks-internet",
+      "phaseIds": [
+        "networks-internet-05",
+        "software-os-05",
+        "science-technology-08"
+      ],
+      "primaryPhaseId": "networks-internet-05",
+      "regionPhaseIds": [
+        "britain-postwar"
+      ],
+      "primaryRegionPhaseId": "britain-postwar",
+      "eventType": "public-release",
+      "importance": "core",
+      "sourceRefs": [
+        "cern",
+        "w3c",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "1991 is commonly cited as the year the Web was opened for wider public use."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Chrome_on_Linux.png/330px-Chrome_on_Linux.png",
+      "imageAlt": "Screenshot of an early WorldWideWeb browser interface.",
+      "imageCaption": "Early web software made linked documents usable as a public networked medium.",
+      "imageCaptionZh": "早期万维网软件使链接文档成为公众可用的联网媒介。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://en.wikipedia.org/wiki/World_Wide_Web"
+    }
+  ]
+}
