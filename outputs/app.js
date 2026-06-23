@@ -2893,6 +2893,7 @@ function activateRepresentativeEvent(eventId) {
     setSelectedPlaceIds(event.placeIds);
   }
   syncSelectedTrackAlias();
+  ensureEventAxesSelected(event);
   state.view = "local";
   state.deepDiveOpen = true;
   state.detail = getDetailForLocalItem("event", event.id);
@@ -2977,6 +2978,10 @@ function activateTimeSliceCell(dataset) {
     state.selectedItem = { type: dataset.itemType, id: dataset.itemId };
     state.selectedEventId = dataset.itemType === "event" ? dataset.itemId : null;
     state.detail = getDetailForLocalItem(dataset.itemType, dataset.itemId);
+    if (dataset.itemType === "event") {
+      const event = HISTORY_DATA.events.find((item) => item.id === dataset.itemId);
+      ensureEventAxesSelected(event);
+    }
   } else {
     state.selectedItem = null;
     state.selectedEventId = null;
@@ -3261,13 +3266,55 @@ function getLocalContextScope() {
 }
 
 function getEventLocalContextScope(event) {
-  const trackId = (event.trackIds || [])[0] || "";
+  const trackId = event.primaryTrackId || (event.trackIds || [])[0] || "";
   return {
     year: event.year,
     region: event.primaryPlaceId || (event.placeIds || [])[0] || event.region,
     lensId: event.primaryLensId || (event.lensIds || [])[0] || categoryToLensId((event.categories || [])[0] || ""),
     trackId
   };
+}
+
+function getEventPrimaryPlaceId(event) {
+  const placeId = event?.primaryPlaceId || (event?.placeIds || [])[0] || "";
+  return getPlaceById(placeId) ? placeId : "";
+}
+
+function getEventPrimaryTrackId(event) {
+  const trackId = event?.primaryTrackId || (event?.trackIds || [])[0] || "";
+  return getLensTrackById(trackId) ? trackId : "";
+}
+
+function getEventPrimaryLensId(event) {
+  const lensId = event?.primaryLensId || (event?.lensIds || [])[0] || categoryToLensId((event?.categories || [])[0] || "");
+  return getLensById(lensId) ? lensId : "";
+}
+
+function ensureEventAxesSelected(event) {
+  if (!event) return false;
+  let changed = false;
+  const placeId = getEventPrimaryPlaceId(event);
+  if (placeId && !getSelectedPlaceIds().includes(placeId)) {
+    setSelectedPlaceIds([...getSelectedPlaceIds(), placeId]);
+    changed = true;
+  }
+
+  const trackId = getEventPrimaryTrackId(event);
+  const lensId = getEventPrimaryLensId(event);
+  if (trackId) {
+    if (!getSelectedTrackIds().includes(trackId)) {
+      state.selectedTrackIds = [...getSelectedTrackIds(), trackId];
+      syncSelectedTrackAlias();
+      changed = true;
+    }
+  } else if (lensId && !getSelectedLensIds().includes(lensId)) {
+    setSelectedLensIds([...getSelectedLensIds(), lensId]);
+    changed = true;
+  }
+
+  if (placeId) state.region = placeId;
+  state.localContextScope = getEventLocalContextScope(event);
+  return changed;
 }
 
 function getLocalContextScopeLabel(scope) {
@@ -3355,6 +3402,7 @@ function activateLocalContextItem(type, id) {
     state.selectedEventId = id;
     state.detail = getDetailForLocalItem(type, id);
     state.activeEventModalEventId = id;
+    ensureEventAxesSelected(event || match.item);
   } else {
     state.selectedEventId = null;
     state.detail = getDetailForLocalItem(type, id);
@@ -4082,8 +4130,16 @@ function getEventConnectionHint(event) {
 }
 
 function openEventModal(eventId) {
-  state.activeEventModalEventId = eventId;
-  renderEventModal();
+  const event = HISTORY_DATA.events.find((item) => item.id === eventId);
+  if (!event) return;
+  state.selectedItem = { type: "event", id: event.id };
+  state.selectedEventId = event.id;
+  state.detail = getDetailForLocalItem("event", event.id);
+  state.activeEventModalEventId = event.id;
+  ensureEventAxesSelected(event);
+  resetProgressiveDisclosure();
+  renderAll();
+  window.requestAnimationFrame(() => syncSelectionToEventPhases(event));
   updateSectionNavigator();
 }
 
@@ -4800,7 +4856,6 @@ function handleQuickStart(value) {
     1879: "edison-light-bulb",
     1914: "world-war-i"
   };
-  setSelectedLensIds([]);
   selectEvent(eventByYear[value], { openDeepDive: true });
 }
 
@@ -4814,12 +4869,9 @@ function selectEvent(eventId, options = {}) {
   state.region = event.primaryPlaceId || (event.placeIds || [])[0] || event.region;
   state.localContextScope = getEventLocalContextScope(event);
   state.localContextNearbyMode = null;
-  if (event.placeIds && event.placeIds.length && !getSelectedPlaceIds().length) {
-    setSelectedPlaceIds(event.placeIds);
-  }
+  ensureEventAxesSelected(event);
   state.view = options.openDeepDive ? "connections" : "time-slice";
   state.deepDiveOpen = Boolean(options.openDeepDive);
-  setSelectedLensIds([]);
   state.activeBridge = null;
   state.mapHighlight = { type: "selected", regions: [event.region] };
   state.detail = { type: "node", nodeId: getSelectedEventStartNodeId() };
