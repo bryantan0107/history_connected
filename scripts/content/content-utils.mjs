@@ -52,3 +52,90 @@ export function eventIdFromTitle(title, year) {
 export function unique(values) {
   return [...new Set((values || []).filter(Boolean))];
 }
+
+export const EVENT_MODAL_FIELDS = [
+  "eventIntro",
+  "eventIntroZh",
+  "whyMatters",
+  "whyMattersZh",
+  "phaseRelation",
+  "phaseRelationZh",
+  "connectionHint",
+  "connectionHintZh"
+];
+
+export const EVENT_IMAGE_FIELDS = [
+  "image",
+  "imageAlt",
+  "imageCaption",
+  "imageCaptionZh",
+  "imageCredit",
+  "imageSourceUrl"
+];
+
+export const EVENT_BASE_FIELDS = [
+  "id",
+  "year",
+  "title",
+  "titleZh",
+  "primaryPlaceId",
+  "primaryLensId",
+  "primaryPhaseId"
+];
+
+export const EVENT_BASE_ARRAY_FIELDS = [
+  "placeIds",
+  "lensIds",
+  "phaseIds",
+  "sourceRefs"
+];
+
+export const PLACEHOLDER_EVENT_PATTERN = /phase-anchor|opening anchor|mature form|transition anchor|开端锚点|成熟形态|转折锚点|seed event|teaching marker/i;
+
+export function hasText(value) {
+  return value !== undefined && value !== null && String(value).trim() !== "";
+}
+
+export function hasArrayValue(event, field) {
+  return Array.isArray(event[field]) && event[field].length > 0;
+}
+
+export function getEventDetailAudit(event) {
+  const missing = {
+    baseFields: EVENT_BASE_FIELDS.filter((field) => !hasText(event[field])),
+    baseArrays: EVENT_BASE_ARRAY_FIELDS.filter((field) => !hasArrayValue(event, field)),
+    localized: ["summary", "summaryZh"].filter((field) => !hasText(event[field])),
+    modal: EVENT_MODAL_FIELDS.filter((field) => !hasText(event[field])),
+    image: EVENT_IMAGE_FIELDS.filter((field) => !hasText(event[field]))
+  };
+  const hasBaseText = (hasText(event.summary) && hasText(event.summaryZh))
+    || (hasText(event.eventIntro) && hasText(event.eventIntroZh));
+  const placeholderText = [
+    event.id,
+    event.title,
+    event.titleZh,
+    event.summary,
+    event.summaryZh,
+    event.eventType,
+    event.scope
+  ].filter(Boolean).join(" ");
+  const isPlaceholder = PLACEHOLDER_EVENT_PATTERN.test(placeholderText);
+  const hasBase = !missing.baseFields.length && !missing.baseArrays.length && hasBaseText && !isPlaceholder;
+  const hasFullModal = EVENT_MODAL_FIELDS.every((field) => hasText(event[field]));
+  const hasFullImage = EVENT_IMAGE_FIELDS.every((field) => hasText(event[field]));
+  const suggestedLevel = !hasBase
+    ? "needs-review"
+    : hasFullModal && hasFullImage
+      ? "full"
+      : "slice";
+
+  return {
+    suggestedLevel,
+    hasBase,
+    hasBaseText,
+    hasFullModal,
+    hasFullImage,
+    isPlaceholder,
+    missing
+  };
+}

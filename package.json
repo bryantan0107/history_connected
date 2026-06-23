@@ -11,6 +11,7 @@
     "content:validate": "node scripts/content/validate-content.mjs",
     "content:promote": "node scripts/content/promote-approved-content.mjs",
     "content:audit": "node scripts/content/audit-coverage.mjs",
-    "content:audit-legacy": "node scripts/content/audit-legacy-events.mjs"
+    "content:audit-legacy": "node scripts/content/audit-legacy-events.mjs",
+    "content:audit-detail": "node scripts/content/audit-event-detail-level.mjs"
   }
 }

@@ -5,3 +5,4 @@ node_modules/
 .vercel/
 .vercel
 public/
+content/generated-backups/

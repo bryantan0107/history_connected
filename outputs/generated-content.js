@@ -2,7 +2,7 @@
 // Only approved content should be emitted here. Candidates and rejected content are never loaded by the app.
 globalThis.HISTORY_GENERATED_CONTENT = {
   "metadata": {
-    "generatedAt": "2026-06-22T21:14:42.011Z",
+    "generatedAt": "2026-06-23T10:27:32.455Z",
     "sourceFiles": [
       "content/approved/ai-ml/core-events.json",
       "content/approved/art-visual-media/core-events.json",
@@ -57,6 +57,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "达特茅斯学院让 1956 年 AI 研讨会有了具体制度地点，而不是只作为抽象的起源神话。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dartmouth_College_campus_2007-10-20_09.JPG",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "ai-ml-core-events-20260620"
     },
@@ -107,6 +108,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "卷积网络成为与 AlexNet 的 ImageNet 突破相关联的视觉识别架构。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Convolutional_Neural_Network_NeuralNetworkFilter.png",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "ai-ml-core-events-20260620"
     },
@@ -156,6 +158,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "Transformer 架构图让基于注意力机制的结构可见，而这种结构成为现代语言模型的基础。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Transformer-architecture.png",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "ai-ml-core-events-20260620"
     },
@@ -207,6 +210,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "ChatGPT 标识代表让大型语言模型进入大众视野的产品层。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ChatGPT_logo.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "ai-ml-core-events-20260620"
     },
@@ -260,6 +264,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《哀悼基督》展示了乔托在斯克罗威尼礼拜堂组画中对手势、体量和情感场景的运用。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-_36_-_Lamentation_(The_Mourning_of_Christ).jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -312,6 +317,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《阿尔诺芬尼夫妇像》用油画技术让家庭空间、服饰、光线和身份异常清晰可见。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -364,6 +370,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《最后的晚餐》用透视和手势把圣经中的一餐转化为心理场景。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -416,6 +423,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《雅典学院》通过理想建筑空间中的古典人物，把文艺复兴人文主义视觉化。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Raffael_058.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -467,6 +475,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《宫娥》把宫廷空间、艺术劳动和王室观看共同变成同一个视觉谜题。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Las_Meninas_01.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -518,6 +527,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《印象·日出》让空气感知和独立展览文化成为现代绘画故事的一部分。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Claude_Monet,_Impression,_soleil_levant.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -571,6 +581,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "施蒂格利茨的照片很关键，因为《泉》的原件已遗失；这张照片帮助保存了这次挑衅。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -622,6 +633,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《黑方块》把对描绘的拒绝凝缩为现代主义宣言。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Square.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -674,6 +686,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《金宝汤罐头》把品牌化重复变成绘画和博物馆展示的主题。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_Campbell%27s_Soup_Cans_MOMA.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -725,6 +738,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "达盖尔的《坦普尔大道》展示了这种化学固定城市图像为何令人震惊。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -776,6 +790,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "塔尔博特的纸基照片显示卡罗式摄影如何把摄影连接到可复制照片，而不是单一金属板。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Open_Door_by_William_Henry_Fox_Talbot.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -828,6 +843,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "安提坦照片让观众面对作为视觉证据的战争死者，而不是英雄寓言。",
       "imageCredit": "Image: Library of Congress / Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dead_confederate_soldiers_at_Antietam.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -879,6 +895,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "柯达广告把摄影塑造成消费服务：按下按钮，剩下交给公司。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kodak_camera_ad_1888.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -930,6 +947,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "徕卡 I 型让小画幅摄影成为机动现代图像制作的实际工具。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Leica_I,_1927.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -981,6 +999,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《移民母亲》成为与农业安全局纪实摄影相关的最著名图像之一。",
       "imageCredit": "Image: Library of Congress / Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lange-MigrantMother02.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1032,6 +1051,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "Land 相机把即时摄影反馈变成消费体验。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Polaroid_Land_Camera_Model_95.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1083,6 +1103,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "DCS 100 显示早期数码摄影是相机机身、传感器、存储和计算机流程的混合体。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kodak_DCS_100.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1138,6 +1159,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "Photoshop 成为数字图像编辑的代名词，即使软件本身早已远远超出最初版本。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1188,6 +1210,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《控制论偶然性》展览图录成为早期计算机与控制论艺术进入公共文化的视觉记录。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cybernetic_Serendipity_catalogue_cover.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1239,6 +1262,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《九个夜晚》帮助形成“艺术与技术实验”组织出现的协作环境。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:9_Evenings_Theatre_and_Engineering_poster.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1290,6 +1314,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《电视佛》用闭路电视让佛像观看自身的媒介化图像。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nam_June_Paik_TV_Buddha.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1341,6 +1366,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "林茨电子艺术节成为电子与数字艺术讨论的重要制度场所。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ars_Electronica_Center_Linz_2014.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1394,6 +1420,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "Rhizome 成为把互联网艺术视为可保存文化作品的重要机构。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rhizome_logo.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1447,6 +1474,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "Processing 成为把编程作为视觉和互动实践来教学的标志性平台。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Processing_3_logo.png",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1501,6 +1529,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《Everydays》成为 NFT 艺术突然进入主流拍卖文化的象征。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Everydays_The_First_5000_Days.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1554,6 +1583,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "DALL-E 2 让文本生成图像作为公共创作界面变得可见。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:DALL-E_2_logo.png",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
     },
@@ -1611,6 +1641,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "纳斯达克综合指数图呈现了互联网泡沫作为历史转折点的暴涨与崩盘形态。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:NASDAQ_Composite_dot-com_bubble.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -1667,6 +1698,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "Google 广告平台把搜索查询转化为互联网最重要的收入系统之一。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Google_Ads_logo.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -1724,6 +1756,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "合并后的公司名称成为早期互联网融合雄心的象征。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:AOL_Time_Warner.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -1775,6 +1808,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "ILOVEYOU 事件让普通电子邮件附件进入全球网络安全史。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ILOVEYOU-worm-vbs.png",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -1829,6 +1863,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "人类基因组计划把 DNA 测序、数据库和国际研究基础设施呈现为同一个项目。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Human_Genome_Project_logo.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -1887,6 +1922,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "PlayStation 2 把游戏主机变成大众客厅媒体平台。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:PS2-Versions.png",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -1942,6 +1978,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "《模拟人生》成为日常生活模拟进入主流电脑娱乐的代表。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Sims_logo.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -1994,6 +2031,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "眼睛标识让“被观看”本身成为节目的媒体身份。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Brother_eye_logo.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2049,6 +2087,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "泰特现代美术馆由发电站改造而成，让当代艺术成为伦敦城市再造的一部分。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tate_Modern_London.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2101,6 +2140,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "千禧桥把当代文化再开发和一个令人难忘的工程问题连接起来。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Millennium_Bridge,_London.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2153,6 +2193,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "西部大开发是一种把国家投资导向中国内陆西部的领土战略。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:China_Western_Development.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2199,6 +2240,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "普京 2000 年当选标志着后苏联俄罗斯集中化政治的新阶段。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_2000.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2249,6 +2291,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "福克斯当选让制度革命党数十年总统统治后的政党轮替变得可见。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vicente_Fox_Quesada.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2298,6 +2341,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "千年峰会以联合国为舞台，提出冷战后可衡量的发展承诺。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:United_Nations_General_Assembly_Hall_(3).jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2352,6 +2396,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "第二次巴勒斯坦大起义让城市抗议、武装冲突和安全基础设施成为后奥斯陆时期的核心。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Second_Intifada_riots.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2405,6 +2450,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "库尔斯克号成为后苏联海军风险与危机管理失败的象征。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:K-141_Kursk.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2452,6 +2498,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "莫桑比克洪灾把极端天气、流离失所和国际救援政治连接起来。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mozambique_flood_2000.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2509,6 +2556,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "李安的这部电影成为跨国武侠电影的全球参照点。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ang_Lee_2009.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2567,6 +2615,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "王家卫的电影让记忆、风格和城市亲密关系成为全球艺术电影的核心。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wong_Kar-wai_Berlinale_2008.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2618,6 +2667,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "USB 闪存盘让便携式固态存储成为日常计算物件。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:USB_flash_drive.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2675,6 +2725,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "企业 Java 让 Java 生态成为重要的服务器端 Web 应用平台。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Java_programming_language_logo.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2726,6 +2777,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "GPRS 让分组交换移动数据成为日常网络基础设施的一部分。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:GPRS.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "recovered-2000-core-events-20260622"
     },
@@ -2773,6 +2825,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "Unix 在 PDP-11 这类小型机环境中成形，小团队可以在其中构建可移植的软件工具。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pdp-11-40.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "software-os-core-events-20260620"
     },
@@ -2820,6 +2873,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "Tux 成为 Linux 及其周围开源操作系统生态的广为人知的象征。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tux.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "software-os-core-events-20260620"
     },
@@ -2866,6 +2920,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "Docker 的鲸鱼与集装箱标识成为可移植应用打包的视觉缩写。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Docker_(container_engine)_logo.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "software-os-core-events-20260620"
     },
@@ -2912,6 +2967,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "Kubernetes 标识代表容器编排成为共享基础设施层。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kubernetes_logo_without_workmark.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "software-os-core-events-20260620"
     },
@@ -2964,6 +3020,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "列克星敦战斗的后世图像把一次小规模冲突转化为革命性武装抵抗的象征。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Lexington_1775.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3016,6 +3073,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "约克镇投降图像强调同盟战争和英国帝国权力的象征性失败。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Surrender_of_Lord_Cornwallis.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3066,6 +3124,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "革命军队让公民身份、意识形态和兵役进入同一个政治世界。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:French_Revolutionary_Army.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3115,6 +3174,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "瓦尔密成为革命法国抵御武装入侵并生存下来的记忆图像。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Valmy.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3167,6 +3227,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "滑铁卢浓缩呈现了联军战争和拿破仑帝国终结的形象。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Waterloo_1815.PNG",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3220,6 +3281,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "克里米亚战争摄影让远离战场的公众也能看到工业时代战争。",
       "imageCredit": "Image: Roger Fenton / Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Roger_Fenton_-_Valley_of_the_Shadow_of_Death.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3270,6 +3332,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "1857 年的图像常揭示帝国记忆如何塑造叛乱、忠诚、惩罚与暴力。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Rebellion_of_1857.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3322,6 +3385,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "萨姆特堡成为政治危机转入内战的军事门槛。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bombardment_of_Fort_Sumter_1861.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3372,6 +3436,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "色当及其后果浓缩了这场战争的意义：军事失败、帝国崩溃与德意志统一。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Napoleon_III_and_Bismarck_after_Sedan.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3424,6 +3489,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "对马海战成为日本海军胜利和俄罗斯帝国军事危机的象征。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Tsushima.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3475,6 +3541,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "萨拉热窝之行成为现代史上后果最重大的政治刺杀之一。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Franz_Ferdinand_d%27Este,_Sarajevo_1914.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3525,6 +3592,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "“马恩河出租车”成为保卫巴黎紧急动员的流行象征。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Taxi_de_la_Marne.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3576,6 +3644,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "加里波利图像显示这场两栖战役的困难和暴露地形。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gallipoli_landing_1915.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3625,6 +3694,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "凡尔登地貌成为炮火和消耗战留下伤痕的纪念物。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Verdun_-_Battlefield.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3677,6 +3747,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "停战庆祝图像捕捉了第一次世界大战战斗结束时的解脱、悲痛和不确定。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Armistice_Day_1918.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3726,6 +3797,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "向罗马进军利用政治剧场和准军事压力，使权力转移显得不可避免。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:March_on_Rome_1922.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3776,6 +3848,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "满洲占领显示地方军事行动如何重组一个地区。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_troops_entering_Mukden_1931.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3826,6 +3899,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "希特勒的任命把极端运动政治转化为国家权力。",
       "imageCredit": "Image: Bundesarchiv / Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S38324,_Adolf_Hitler_retouched.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3879,6 +3953,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "格尔尼卡成为空中轰炸、平民脆弱性和国际愤怒的象征。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Guernica_Gernikara.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3929,6 +4004,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "慕尼黑展示了威胁下的外交：签名并不能确保持久和平。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Munich_Agreement_1938.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -3982,6 +4058,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "入侵波兰从战争最初几天起就让机械化侵略和占领成为第二次世界大战核心。",
       "imageCredit": "Image: Bundesarchiv / Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S55480,_Polen,_Kampf_um_Warschau.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4033,6 +4110,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "1940 年战役让装甲机动和战役冲击成为第二次世界大战的核心图像。",
       "imageCredit": "Image: Bundesarchiv / Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1971-068-10,_Frankreich,_deutsche_Panzer.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4083,6 +4161,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "巴巴罗萨图像显示，一场机动作战很快变成占领与毁灭战争。",
       "imageCredit": "Image: Bundesarchiv / Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B13874,_Russland,_Vormarsch_deutscher_Infanterie.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4133,6 +4212,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "珍珠港成为突然袭击和美国进入全球战争的视觉 shorthand。",
       "imageCredit": "Image: National Archives / Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pearl_Harbor_looking_southwest-Oct41.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4184,6 +4264,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "奥马哈海滩照片成为两栖作战最具辨识度的图像之一。",
       "imageCredit": "Image: U.S. Coast Guard / Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Into_the_Jaws_of_Death_23-0455M_edit.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4235,6 +4316,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "原子弹轰炸图像让核毁灭永久进入现代战争记忆。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Atomic_bombing_of_Japan.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4289,6 +4371,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "柏林空运让后勤和平民生存成为冷战核心图像。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:C-54_landing_at_Berlin_Tempelhof_Airport_1948.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4341,6 +4424,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "朝鲜战争图像显示冷战冲突如何变成毁灭性的常规战争。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_War_montage_2.png",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4394,6 +4478,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "侦察图像让隐藏的核部署进入决策者视野。",
       "imageCredit": "Image: U.S. Government / Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cuban_Missile_Crisis_-_U-2_photograph.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4445,6 +4530,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "春节攻势图像把城市战斗与电视战争政治连接起来。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tet_Offensive_1968.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4496,6 +4582,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "苏阿战争图像显示机械化力量陷入长期叛乱冲突。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Soviet_troops_in_Afghanistan.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4547,6 +4634,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "柏林墙开放让冷战欧洲的结束在一个城市场景中变得可见。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Berlin_Wall_Brandenburg_Gate_1989.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4600,6 +4688,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "沙漠风暴图像常把战争呈现为高速、机械化和技术精确的行动。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Operation_Desert_Storm_-_Tanks.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4654,6 +4743,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "九一一图像成为二十一世纪安全政治的定义性视觉档案。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:September_11_Photo_Montage.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4705,6 +4795,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "巴格达入侵图像捕捉了政权崩溃的速度和占领的开始。",
       "imageCredit": "Image: U.S. military / Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:M1A1_Abrams_poses_for_a_photo_under_the_Hands_of_Victory_in_Ceremony_Square,_Baghdad,_Iraq.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4755,6 +4846,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "克里米亚吞并混合了军事存在、政治剧场和有争议的合法性。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Crimea_referendum_2014.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4806,6 +4898,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "摩苏尔成为国家崩溃、叛乱治理和城市战争的象征。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mosul_skyline.jpg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     },
@@ -4857,6 +4950,7 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "imageCaptionZh": "入侵地图显示领土战争如何与网络化情报和全球制裁一同回归。",
       "imageCredit": "Image: Wikimedia Commons",
       "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Russian_invasion_of_Ukraine.svg",
+      "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "war-global-conflicts-core-events-20260622"
     }

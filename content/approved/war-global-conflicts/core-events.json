@@ -10,16 +10,34 @@
       "titleZh": "列克星敦和康科德战役",
       "summary": "Armed clashes in Massachusetts turned colonial resistance into open war against British authority.",
       "summaryZh": "马萨诸塞的武装冲突把殖民地抵抗转变为公开反抗英国权威的战争。",
-      "placeIds": ["united-states", "britain-uk"],
+      "placeIds": [
+        "united-states",
+        "britain-uk"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-01", "state-empire-06", "war-military-05"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-01",
+        "state-empire-06",
+        "war-military-05"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-01",
-      "sourceRefs": ["britannica", "wikidata", "national-park-service"],
-      "sourceNotes": ["Lexington and Concord are standard opening battles of the American Revolutionary War."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "national-park-service"
+      ],
+      "sourceNotes": [
+        "Lexington and Concord are standard opening battles of the American Revolutionary War."
+      ],
       "eventIntro": "In April 1775, British troops moved toward Concord to seize colonial military supplies, and local militia confronted them at Lexington and Concord. The fighting was small compared with later wars, but it made negotiation and imperial policing give way to armed revolution.",
       "eventIntroZh": "1775 年 4 月，英军前往康科德试图夺取殖民地军事物资，当地民兵在列克星敦和康科德与其交战。战斗规模不大，却让谈判和帝国治安行动转变成武装革命。",
       "whyMatters": "The event mattered because it linked political protest to organized military resistance. It showed that imperial authority could be challenged by local mobilization, communications networks, militia organization, and claims about rights.",
@@ -33,7 +51,8 @@
       "imageCaption": "A later depiction of Lexington turns a small clash into an emblem of revolutionary armed resistance.",
       "imageCaptionZh": "列克星敦战斗的后世图像把一次小规模冲突转化为革命性武装抵抗的象征。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Lexington_1775.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Lexington_1775.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-yorktown-surrender-1781",
@@ -42,16 +61,34 @@
       "titleZh": "英军在约克镇投降",
       "summary": "The Franco-American victory at Yorktown made British military success in the American war unlikely.",
       "summaryZh": "法美联军在约克镇的胜利使英国难以在美国战争中取得军事胜利。",
-      "placeIds": ["united-states", "france", "britain-uk"],
+      "placeIds": [
+        "united-states",
+        "france",
+        "britain-uk"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-01", "state-empire-06"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-01",
+        "state-empire-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-01",
-      "sourceRefs": ["britannica", "wikidata", "national-park-service"],
-      "sourceNotes": ["Yorktown is widely treated as the decisive military turning point of the American Revolutionary War."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "national-park-service"
+      ],
+      "sourceNotes": [
+        "Yorktown is widely treated as the decisive military turning point of the American Revolutionary War."
+      ],
       "eventIntro": "In 1781, British forces under Cornwallis surrendered at Yorktown after American and French forces trapped them by land and sea. The victory depended on alliance warfare, naval coordination, siege operations, and imperial overstretch.",
       "eventIntroZh": "1781 年，康沃利斯率领的英军在约克镇投降，原因是美法联军从陆地和海上将其困住。这场胜利依赖同盟作战、海军协调、围攻行动和帝国过度延伸。",
       "whyMatters": "Yorktown did not immediately end the war, but it changed diplomatic reality. It made American independence far more likely and showed how a colonial rebellion could become a great-power conflict.",
@@ -65,7 +102,8 @@
       "imageCaption": "The Yorktown surrender image emphasizes alliance warfare and the symbolic defeat of British imperial power.",
       "imageCaptionZh": "约克镇投降图像强调同盟战争和英国帝国权力的象征性失败。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Surrender_of_Lord_Cornwallis.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Surrender_of_Lord_Cornwallis.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-france-declares-war-austria-1792",
@@ -74,16 +112,32 @@
       "titleZh": "革命法国向奥地利宣战",
       "summary": "France's declaration of war against Austria turned the revolution into a European military crisis.",
       "summaryZh": "法国向奥地利宣战使革命变成欧洲军事危机。",
-      "placeIds": ["france", "german-lands"],
+      "placeIds": [
+        "france",
+        "german-lands"
+      ],
       "primaryPlaceId": "france",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-01", "state-empire-06"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-01",
+        "state-empire-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-01",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["The 1792 declaration opened the French Revolutionary Wars."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1792 declaration opened the French Revolutionary Wars."
+      ],
       "eventIntro": "In 1792, revolutionary France declared war on Austria. A domestic struggle over monarchy, citizenship, and sovereignty became a wider conflict involving courts, armies, borders, and revolutionary ideology.",
       "eventIntroZh": "1792 年，革命法国向奥地利宣战。围绕君主制、公民身份和主权的国内斗争，变成涉及宫廷、军队、边界和革命意识形态的更大冲突。",
       "whyMatters": "The war transformed the revolution itself. Mobilization, suspicion, emergency government, and military success all reshaped French politics and helped make mass politics inseparable from mass war.",
@@ -97,7 +151,8 @@
       "imageCaption": "Revolutionary armies made citizenship, ideology, and military service part of the same political world.",
       "imageCaptionZh": "革命军队让公民身份、意识形态和兵役进入同一个政治世界。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:French_Revolutionary_Army.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:French_Revolutionary_Army.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-battle-valmy-1792",
@@ -106,16 +161,31 @@
       "titleZh": "瓦尔密战役",
       "summary": "French revolutionary forces stopped a Prussian advance and strengthened the new republic's survival.",
       "summaryZh": "法国革命军阻止普鲁士推进，并增强新共和国生存的可能性。",
-      "placeIds": ["france", "german-lands"],
+      "placeIds": [
+        "france",
+        "german-lands"
+      ],
       "primaryPlaceId": "france",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-01"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-01"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-01",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Valmy is often treated as an early symbolic victory for revolutionary France."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Valmy is often treated as an early symbolic victory for revolutionary France."
+      ],
       "eventIntro": "At Valmy, French revolutionary forces halted a Prussian-led invasion. The battle was not tactically spectacular, but its timing gave the revolution a military proof of survival.",
       "eventIntroZh": "在瓦尔密，法国革命军阻止了普鲁士主导的入侵。这场战役在战术上并不华丽，但它出现的时机让革命获得了军事上的生存证明。",
       "whyMatters": "Valmy helped stabilize the revolution at a moment when foreign invasion and internal crisis threatened it. It showed that citizen-soldier rhetoric could be translated into battlefield endurance.",
@@ -129,7 +199,8 @@
       "imageCaption": "Valmy became a remembered image of revolutionary France surviving armed invasion.",
       "imageCaptionZh": "瓦尔密成为革命法国抵御武装入侵并生存下来的记忆图像。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Valmy.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Valmy.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-battle-waterloo-1815",
@@ -138,16 +209,34 @@
       "titleZh": "滑铁卢战役",
       "summary": "Napoleon's defeat at Waterloo ended his return to power and helped reset Europe's diplomatic order.",
       "summaryZh": "拿破仑在滑铁卢失败，终结其复辟，并帮助重置欧洲外交秩序。",
-      "placeIds": ["france", "britain-uk", "german-lands", "low-countries"],
+      "placeIds": [
+        "france",
+        "britain-uk",
+        "german-lands",
+        "low-countries"
+      ],
       "primaryPlaceId": "france",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-01", "state-empire-06"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-01",
+        "state-empire-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-01",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Waterloo is conventionally treated as the closing battle of the Napoleonic Wars."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Waterloo is conventionally treated as the closing battle of the Napoleonic Wars."
+      ],
       "eventIntro": "In 1815, Napoleon's army was defeated near Waterloo by coalition forces under Wellington and Blucher. The battle ended the Hundred Days and closed the long cycle of Revolutionary and Napoleonic wars.",
       "eventIntroZh": "1815 年，拿破仑军队在滑铁卢附近被威灵顿和布吕歇尔指挥的联军击败。这场战役终结了百日王朝，也结束了革命与拿破仑战争的漫长周期。",
       "whyMatters": "Waterloo mattered because it turned military defeat into diplomatic settlement. It strengthened the post-Napoleonic order built around balance, restoration, and managing revolutionary aftershocks.",
@@ -161,7 +250,8 @@
       "imageCaption": "Waterloo stands as a compressed image of coalition warfare and the end of Napoleonic empire.",
       "imageCaptionZh": "滑铁卢浓缩呈现了联军战争和拿破仑帝国终结的形象。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Waterloo_1815.PNG"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Waterloo_1815.PNG",
+      "detailLevel": "full"
     },
     {
       "id": "event-crimean-war-begins-1853",
@@ -170,16 +260,35 @@
       "titleZh": "克里米亚战争爆发",
       "summary": "War over Ottoman, Russian, British, and French interests exposed the logistics and media of industrial-era conflict.",
       "summaryZh": "围绕奥斯曼、俄罗斯、英国和法国利益的战争暴露了工业时代冲突的后勤和媒体特征。",
-      "placeIds": ["russia", "turkey-anatolia", "britain-uk", "france"],
+      "placeIds": [
+        "russia",
+        "turkey-anatolia",
+        "britain-uk",
+        "france"
+      ],
       "primaryPlaceId": "russia",
-      "lensIds": ["war-military", "state-empire", "science-technology"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-02", "war-military-06"],
+      "lensIds": [
+        "war-military",
+        "state-empire",
+        "science-technology"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-02",
+        "war-military-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-02",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Crimean War is often used to mark new military logistics, journalism, and medical administration."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Crimean War is often used to mark new military logistics, journalism, and medical administration."
+      ],
       "eventIntro": "The Crimean War began from disputes around Ottoman decline, Russian ambition, and European balance-of-power politics. It became a war of sieges, disease, supply failures, press coverage, and military reform debates.",
       "eventIntroZh": "克里米亚战争起于奥斯曼衰落、俄罗斯野心和欧洲均势政治的争端。它发展成围攻、疾病、补给失败、新闻报道和军事改革争论交织的战争。",
       "whyMatters": "Its importance lies in the way modern infrastructure entered war: railways, steamships, telegraphy, battlefield photography, nursing reform, and public criticism of army administration.",
@@ -193,7 +302,8 @@
       "imageCaption": "Crimean War photography made industrial-era war visible to publics far from the battlefield.",
       "imageCaptionZh": "克里米亚战争摄影让远离战场的公众也能看到工业时代战争。",
       "imageCredit": "Image: Roger Fenton / Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Roger_Fenton_-_Valley_of_the_Shadow_of_Death.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Roger_Fenton_-_Valley_of_the_Shadow_of_Death.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-indian-rebellion-1857",
@@ -202,16 +312,32 @@
       "titleZh": "1857 年印度大起义爆发",
       "summary": "A major uprising against East India Company rule reshaped British imperial governance in South Asia.",
       "summaryZh": "反抗东印度公司统治的大规模起义重塑了英国在南亚的帝国治理。",
-      "placeIds": ["india", "britain-uk"],
+      "placeIds": [
+        "india",
+        "britain-uk"
+      ],
       "primaryPlaceId": "india",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-02", "state-empire-05"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-02",
+        "state-empire-05"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-02",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["1857 is treated as a major military and imperial turning point in South Asian history."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "1857 is treated as a major military and imperial turning point in South Asian history."
+      ],
       "eventIntro": "In 1857, rebellion spread among soldiers and civilians against East India Company rule. It involved military grievances, religious fears, land and revenue pressures, princely politics, and violence by both rebels and imperial forces.",
       "eventIntroZh": "1857 年，反抗东印度公司统治的起义在士兵和平民中扩散。它涉及军事不满、宗教恐惧、土地和税收压力、王公政治，以及起义者和帝国军队双方的暴力。",
       "whyMatters": "The rebellion mattered because it ended Company rule and brought India under direct British Crown government. It also hardened imperial racial attitudes and reorganized military recruitment.",
@@ -225,7 +351,8 @@
       "imageCaption": "Images of 1857 often reveal how imperial memory framed rebellion, loyalty, punishment, and violence.",
       "imageCaptionZh": "1857 年的图像常揭示帝国记忆如何塑造叛乱、忠诚、惩罚与暴力。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Rebellion_of_1857.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Rebellion_of_1857.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-american-civil-war-begins-1861",
@@ -234,16 +361,34 @@
       "titleZh": "美国内战爆发",
       "summary": "Secession and the attack on Fort Sumter turned the crisis over slavery and union into civil war.",
       "summaryZh": "分离和萨姆特堡遭攻击使围绕奴隶制与联邦的危机变成内战。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["war-military", "state-empire", "economy-trade"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-02", "state-empire-06", "economy-trade-06"],
+      "lensIds": [
+        "war-military",
+        "state-empire",
+        "economy-trade"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-02",
+        "state-empire-06",
+        "economy-trade-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-02",
-      "sourceRefs": ["britannica", "wikidata", "national-park-service"],
-      "sourceNotes": ["Fort Sumter conventionally marks the start of the American Civil War."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "national-park-service"
+      ],
+      "sourceNotes": [
+        "Fort Sumter conventionally marks the start of the American Civil War."
+      ],
       "eventIntro": "In 1861, Confederate forces fired on Fort Sumter after southern secession and the collapse of compromise over slavery and federal power. A constitutional crisis became a large industrial and social war.",
       "eventIntroZh": "1861 年，在南方分离和围绕奴隶制与联邦权力的妥协破裂后，邦联军队炮击萨姆特堡。宪政危机变成大规模工业和社会战争。",
       "whyMatters": "The war mobilized railways, factories, mass armies, finance, medicine, and emancipation politics. It shows how industrial capacity and moral conflict could fuse inside a modern state crisis.",
@@ -257,7 +402,8 @@
       "imageCaption": "Fort Sumter became the military threshold between political crisis and civil war.",
       "imageCaptionZh": "萨姆特堡成为政治危机转入内战的军事门槛。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bombardment_of_Fort_Sumter_1861.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bombardment_of_Fort_Sumter_1861.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-franco-prussian-war-begins-1870",
@@ -266,16 +412,32 @@
       "titleZh": "普法战争爆发",
       "summary": "War between France and Prussia accelerated German unification and changed Europe's balance of power.",
       "summaryZh": "法国与普鲁士的战争加速德意志统一，并改变欧洲均势。",
-      "placeIds": ["france", "german-lands"],
+      "placeIds": [
+        "france",
+        "german-lands"
+      ],
       "primaryPlaceId": "german-lands",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-02", "state-empire-06"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-02",
+        "state-empire-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-02",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["The war is central to German unification and late nineteenth-century European power politics."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The war is central to German unification and late nineteenth-century European power politics."
+      ],
       "eventIntro": "In 1870, war broke out between France and Prussia after diplomatic crisis and nationalist pressure. Prussia's military organization, rail mobilization, and coalition of German states overwhelmed the French Empire.",
       "eventIntroZh": "1870 年，外交危机和民族主义压力之后，法国与普鲁士开战。普鲁士的军事组织、铁路动员和德意志诸邦联盟压倒了法兰西帝国。",
       "whyMatters": "The war mattered because it helped create the German Empire and humiliated France, planting grievances that shaped European politics for decades.",
@@ -289,7 +451,8 @@
       "imageCaption": "Sedan and its aftermath condensed the war's meaning: military defeat, imperial collapse, and German unification.",
       "imageCaptionZh": "色当及其后果浓缩了这场战争的意义：军事失败、帝国崩溃与德意志统一。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Napoleon_III_and_Bismarck_after_Sedan.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Napoleon_III_and_Bismarck_after_Sedan.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-russo-japanese-war-begins-1904",
@@ -298,16 +461,34 @@
       "titleZh": "日俄战争爆发",
       "summary": "Japan's war with Russia over Korea and Manchuria signaled a major shift in imperial power in East Asia.",
       "summaryZh": "日本与俄罗斯围绕朝鲜和满洲的战争标志东亚帝国力量的重要转变。",
-      "placeIds": ["japan", "russia", "korea", "china"],
+      "placeIds": [
+        "japan",
+        "russia",
+        "korea",
+        "china"
+      ],
       "primaryPlaceId": "japan",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-02", "state-empire-06"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-02",
+        "state-empire-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-02",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["The Russo-Japanese War is a standard turning point in East Asian and global imperial history."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Russo-Japanese War is a standard turning point in East Asian and global imperial history."
+      ],
       "eventIntro": "In 1904, Japan attacked Russian forces after tensions over Korea and Manchuria. The war combined modern naval power, rail logistics, siege warfare, imperial ambition, and Asian challenges to European prestige.",
       "eventIntroZh": "1904 年，日本在围绕朝鲜和满洲的紧张局势后攻击俄罗斯军队。战争结合现代海军力量、铁路后勤、围攻战、帝国野心，以及亚洲国家对欧洲威望的挑战。",
       "whyMatters": "Japan's victory shocked many observers because a non-Western imperial state defeated a major European empire. It reshaped politics in Russia, Korea, China, Japan, and anti-colonial imaginations elsewhere.",
@@ -321,7 +502,8 @@
       "imageCaption": "Tsushima became the emblem of Japan's naval victory and Russia's imperial military crisis.",
       "imageCaptionZh": "对马海战成为日本海军胜利和俄罗斯帝国军事危机的象征。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Tsushima.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_of_Tsushima.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-franz-ferdinand-assassinated-1914",
@@ -330,16 +512,33 @@
       "titleZh": "弗朗茨·斐迪南大公遇刺",
       "summary": "The assassination in Sarajevo triggered a diplomatic crisis that escalated into World War I.",
       "summaryZh": "萨拉热窝刺杀事件触发外交危机，并升级为第一次世界大战。",
-      "placeIds": ["greece-balkans", "german-lands", "russia"],
+      "placeIds": [
+        "greece-balkans",
+        "german-lands",
+        "russia"
+      ],
       "primaryPlaceId": "greece-balkans",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-03", "war-military-06"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-03",
+        "war-military-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-03",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Sarajevo assassination is the conventional trigger event for World War I."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Sarajevo assassination is the conventional trigger event for World War I."
+      ],
       "eventIntro": "In June 1914, Archduke Franz Ferdinand of Austria-Hungary was assassinated in Sarajevo by Gavrilo Princip. The killing mattered because it entered a tense system of alliances, imperial rivalry, nationalism, and military planning.",
       "eventIntroZh": "1914 年 6 月，奥匈帝国的弗朗茨·斐迪南大公在萨拉热窝被加夫里洛·普林西普刺杀。它之所以重要，是因为它进入了同盟、帝国竞争、民族主义和军事计划高度紧张的体系。",
       "whyMatters": "The assassination alone did not make world war inevitable, but it gave decision-makers a crisis through which fear, prestige, mobilization timetables, and alliance obligations could cascade.",
@@ -353,7 +552,8 @@
       "imageCaption": "The Sarajevo visit became one of the most consequential political assassinations in modern history.",
       "imageCaptionZh": "萨拉热窝之行成为现代史上后果最重大的政治刺杀之一。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Franz_Ferdinand_d%27Este,_Sarajevo_1914.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Franz_Ferdinand_d%27Este,_Sarajevo_1914.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-first-marne-1914",
@@ -362,16 +562,32 @@
       "titleZh": "第一次马恩河战役",
       "summary": "French and British forces stopped Germany's advance near Paris, helping turn the Western Front into trench war.",
       "summaryZh": "法英军队在巴黎附近阻止德军推进，促使西线转入堑壕战。",
-      "placeIds": ["france", "britain-uk", "german-lands"],
+      "placeIds": [
+        "france",
+        "britain-uk",
+        "german-lands"
+      ],
       "primaryPlaceId": "france",
-      "lensIds": ["war-military"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-03", "war-military-06"],
+      "lensIds": [
+        "war-military"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-03",
+        "war-military-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-03",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["First Marne is a standard turning point in the opening campaign of World War I."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "First Marne is a standard turning point in the opening campaign of World War I."
+      ],
       "eventIntro": "In September 1914, French and British forces counterattacked German armies near the Marne River. The German advance toward Paris failed, and the war in the west settled into stalemate and trench systems.",
       "eventIntroZh": "1914 年 9 月，法英军队在马恩河附近反击德军。德军向巴黎推进失败，西线战争转入僵持和堑壕体系。",
       "whyMatters": "The battle mattered because it broke expectations of a short war. It made industrial logistics, attrition, reserves, and defensive firepower central to the conflict.",
@@ -385,7 +601,8 @@
       "imageCaption": "The Marne taxi became a popular symbol of emergency mobilization in defense of Paris.",
       "imageCaptionZh": "“马恩河出租车”成为保卫巴黎紧急动员的流行象征。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Taxi_de_la_Marne.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Taxi_de_la_Marne.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-gallipoli-campaign-begins-1915",
@@ -394,16 +611,33 @@
       "titleZh": "加里波利战役开始",
       "summary": "Allied forces attacked the Ottoman-held Dardanelles, opening a costly campaign with lasting national memories.",
       "summaryZh": "协约国攻击奥斯曼控制的达达尼尔海峡，开启代价高昂且留下深远民族记忆的战役。",
-      "placeIds": ["turkey-anatolia", "britain-uk", "global-transregional"],
+      "placeIds": [
+        "turkey-anatolia",
+        "britain-uk",
+        "global-transregional"
+      ],
       "primaryPlaceId": "turkey-anatolia",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-03", "war-military-06"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-03",
+        "war-military-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-03",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Gallipoli is central to Ottoman, Turkish, Australian, and New Zealand war memory."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Gallipoli is central to Ottoman, Turkish, Australian, and New Zealand war memory."
+      ],
       "eventIntro": "In 1915, Allied forces tried to force the Dardanelles and knock the Ottoman Empire out of the war. The campaign became a failed amphibious operation marked by terrain, disease, command mistakes, and stubborn defense.",
       "eventIntroZh": "1915 年，协约国试图突破达达尼尔海峡并迫使奥斯曼帝国退出战争。这场战役成为失败的两栖行动，受地形、疾病、指挥错误和顽强防御影响。",
       "whyMatters": "Gallipoli mattered because it showed the global and imperial geography of World War I beyond the Western Front. It also became foundational to Turkish, Australian, and New Zealand national memory.",
@@ -417,7 +651,8 @@
       "imageCaption": "Gallipoli images show the campaign's amphibious difficulty and exposed terrain.",
       "imageCaptionZh": "加里波利图像显示这场两栖战役的困难和暴露地形。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gallipoli_landing_1915.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gallipoli_landing_1915.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-battle-verdun-begins-1916",
@@ -426,16 +661,31 @@
       "titleZh": "凡尔登战役开始",
       "summary": "Verdun became a symbol of attrition, endurance, artillery, and national sacrifice on the Western Front.",
       "summaryZh": "凡尔登成为西线消耗、承受、炮火和民族牺牲的象征。",
-      "placeIds": ["france", "german-lands"],
+      "placeIds": [
+        "france",
+        "german-lands"
+      ],
       "primaryPlaceId": "france",
-      "lensIds": ["war-military"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-03", "war-military-06"],
+      "lensIds": [
+        "war-military"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-03",
+        "war-military-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-03",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Verdun is one of the defining battles of World War I attrition."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Verdun is one of the defining battles of World War I attrition."
+      ],
       "eventIntro": "The Battle of Verdun began in 1916 as Germany attacked a symbolically important French fortress region. The fighting lasted months and became one of the war's most brutal examples of artillery-driven attrition.",
       "eventIntroZh": "凡尔登战役始于 1916 年，德国攻击对法国具有象征意义的要塞地区。战斗持续数月，成为这场战争中炮火驱动消耗战最残酷的例子之一。",
       "whyMatters": "Verdun mattered because it turned endurance itself into strategy and memory. It made the human cost of industrial firepower central to French and European remembrance.",
@@ -449,7 +699,8 @@
       "imageCaption": "Verdun's landscape became a scarred monument to artillery and attrition.",
       "imageCaptionZh": "凡尔登地貌成为炮火和消耗战留下伤痕的纪念物。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Verdun_-_Battlefield.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Verdun_-_Battlefield.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-armistice-wwi-1918",
@@ -458,16 +709,34 @@
       "titleZh": "停战协定结束第一次世界大战战斗",
       "summary": "The armistice stopped fighting on the Western Front while leaving peace terms and political collapse unresolved.",
       "summaryZh": "停战协定停止西线战斗，但和平条件和政治崩溃仍未解决。",
-      "placeIds": ["france", "german-lands", "britain-uk", "united-states"],
+      "placeIds": [
+        "france",
+        "german-lands",
+        "britain-uk",
+        "united-states"
+      ],
       "primaryPlaceId": "france",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-03", "state-empire-07"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-03",
+        "state-empire-07"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-03",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["The 11 November 1918 armistice ended major fighting in World War I."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 11 November 1918 armistice ended major fighting in World War I."
+      ],
       "eventIntro": "On 11 November 1918, Germany signed an armistice with the Allies, ending fighting on the Western Front. The guns stopped before the political, territorial, social, and economic consequences of the war were settled.",
       "eventIntroZh": "1918 年 11 月 11 日，德国与协约国签署停战协定，结束西线战斗。炮声停止时，战争的政治、领土、社会和经济后果尚未解决。",
       "whyMatters": "The armistice mattered because it marked military exhaustion without stable peace. Empires collapsed, revolutions spread, borders were redrawn, and grief entered public life.",
@@ -481,7 +750,8 @@
       "imageCaption": "Armistice celebrations captured relief, grief, and uncertainty at the end of World War I fighting.",
       "imageCaptionZh": "停战庆祝图像捕捉了第一次世界大战战斗结束时的解脱、悲痛和不确定。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Armistice_Day_1918.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Armistice_Day_1918.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-march-on-rome-1922",
@@ -490,16 +760,31 @@
       "titleZh": "向罗马进军",
       "summary": "Mussolini's Fascists used paramilitary pressure and political crisis to enter power in Italy.",
       "summaryZh": "墨索里尼的法西斯运动利用准军事压力和政治危机进入意大利权力中心。",
-      "placeIds": ["italian-states"],
+      "placeIds": [
+        "italian-states"
+      ],
       "primaryPlaceId": "italian-states",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-04", "state-empire-07"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-04",
+        "state-empire-07"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-04",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["March on Rome is commonly treated as the key Fascist seizure of power moment."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "March on Rome is commonly treated as the key Fascist seizure of power moment."
+      ],
       "eventIntro": "In 1922, Fascist squads and political pressure converged in the March on Rome, after which Mussolini was invited to form a government. The event blurred legal appointment, street violence, elite fear, and paramilitary spectacle.",
       "eventIntroZh": "1922 年，法西斯小队和政治压力在“向罗马进军”中汇合，随后墨索里尼被邀请组阁。这个事件模糊了合法任命、街头暴力、精英恐惧和准军事表演的边界。",
       "whyMatters": "It mattered because interwar militarization did not always begin as battlefield war. Uniformed movements, veterans, political violence, and anti-socialist panic could transform state power from within.",
@@ -513,7 +798,8 @@
       "imageCaption": "The March on Rome used political theater and paramilitary pressure to make power transfer appear inevitable.",
       "imageCaptionZh": "向罗马进军利用政治剧场和准军事压力，使权力转移显得不可避免。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:March_on_Rome_1922.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:March_on_Rome_1922.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-japan-invades-manchuria-1931",
@@ -522,16 +808,32 @@
       "titleZh": "日本侵占满洲",
       "summary": "Japan's seizure of Manchuria challenged international order and expanded militarized imperial rule in East Asia.",
       "summaryZh": "日本夺取满洲挑战国际秩序，并扩大东亚军事化帝国统治。",
-      "placeIds": ["japan", "china"],
+      "placeIds": [
+        "japan",
+        "china"
+      ],
       "primaryPlaceId": "china",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-04", "state-empire-07"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-04",
+        "state-empire-07"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-04",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["The 1931 Manchurian Incident is a major step in Japanese imperial expansion."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1931 Manchurian Incident is a major step in Japanese imperial expansion."
+      ],
       "eventIntro": "In 1931, Japan's Kwantung Army used the Mukden Incident as a pretext to occupy Manchuria and later establish Manchukuo. The action revealed how military actors could drive imperial policy beyond civilian control.",
       "eventIntroZh": "1931 年，日本关东军利用九一八事变作为借口占领满洲，后来建立满洲国。此举显示军事力量可以推动帝国政策并超出文官控制。",
       "whyMatters": "The invasion mattered because it exposed the weakness of collective security and escalated Japanese militarism. It also brought Chinese sovereignty, resource extraction, settlement, and puppet-state politics into one conflict zone.",
@@ -545,7 +847,8 @@
       "imageCaption": "The Manchurian occupation showed how local military action could reorder a region.",
       "imageCaptionZh": "满洲占领显示地方军事行动如何重组一个地区。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_troops_entering_Mukden_1931.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_troops_entering_Mukden_1931.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-hitler-appointed-chancellor-1933",
@@ -554,16 +857,32 @@
       "titleZh": "希特勒被任命为德国总理",
       "summary": "Hitler's appointment opened the path from electoral crisis to dictatorship, rearmament, and war.",
       "summaryZh": "希特勒被任命为总理，开启从选举危机到独裁、重新武装和战争的道路。",
-      "placeIds": ["german-lands"],
+      "placeIds": [
+        "german-lands"
+      ],
       "primaryPlaceId": "german-lands",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-04", "state-empire-07"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-04",
+        "state-empire-07"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-04",
-      "sourceRefs": ["britannica", "wikidata", "ushmm"],
-      "sourceNotes": ["Hitler's appointment is a central political event in interwar militarization and Nazi dictatorship."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "ushmm"
+      ],
+      "sourceNotes": [
+        "Hitler's appointment is a central political event in interwar militarization and Nazi dictatorship."
+      ],
       "eventIntro": "In January 1933, Adolf Hitler was appointed chancellor of Germany. Conservative elites believed they could control him, but the appointment opened a rapid path to dictatorship, rearmament, racial state policy, and aggressive expansion.",
       "eventIntroZh": "1933 年 1 月，阿道夫·希特勒被任命为德国总理。保守精英以为可以控制他，但这一任命迅速打开通向独裁、重新武装、种族国家政策和侵略扩张的道路。",
       "whyMatters": "This event mattered because militarization became state policy before war began. Rearmament, propaganda, paramilitary violence, and territorial revisionism were built into the Nazi project.",
@@ -577,7 +896,8 @@
       "imageCaption": "Hitler's appointment turned extremist movement politics into state power.",
       "imageCaptionZh": "希特勒的任命把极端运动政治转化为国家权力。",
       "imageCredit": "Image: Bundesarchiv / Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S38324,_Adolf_Hitler_retouched.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S38324,_Adolf_Hitler_retouched.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-spanish-civil-war-begins-1936",
@@ -586,16 +906,35 @@
       "titleZh": "西班牙内战爆发",
       "summary": "A military uprising against the Spanish Republic became an internationalized ideological civil war.",
       "summaryZh": "反对西班牙共和国的军事起义变成国际化的意识形态内战。",
-      "placeIds": ["iberia-spain", "german-lands", "italian-states", "russia"],
+      "placeIds": [
+        "iberia-spain",
+        "german-lands",
+        "italian-states",
+        "russia"
+      ],
       "primaryPlaceId": "iberia-spain",
-      "lensIds": ["war-military", "state-empire", "art"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-04", "art-07"],
+      "lensIds": [
+        "war-military",
+        "state-empire",
+        "art"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-04",
+        "art-07"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-04",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Spanish Civil War is a core interwar conflict involving fascist, communist, anarchist, liberal, and conservative forces."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Spanish Civil War is a core interwar conflict involving fascist, communist, anarchist, liberal, and conservative forces."
+      ],
       "eventIntro": "In 1936, a military uprising against Spain's elected Popular Front government became a civil war. Foreign intervention, ideological polarization, aerial bombing, militia politics, and civilian terror made it a rehearsal for wider war.",
       "eventIntroZh": "1936 年，反对西班牙人民阵线政府的军事起义变成内战。外国干预、意识形态极化、空中轰炸、民兵政治和平民恐怖使它成为更大规模战争的预演。",
       "whyMatters": "The war mattered because Spain became a battlefield for fascism, anti-fascism, communism, anarchism, and liberal democracy. It also made modern bombing and propaganda visible to global publics.",
@@ -609,7 +948,8 @@
       "imageCaption": "Guernica became a symbol of aerial bombing, civilian vulnerability, and international outrage.",
       "imageCaptionZh": "格尔尼卡成为空中轰炸、平民脆弱性和国际愤怒的象征。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Guernica_Gernikara.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Guernica_Gernikara.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-munich-agreement-1938",
@@ -618,16 +958,32 @@
       "titleZh": "慕尼黑协定",
       "summary": "Britain and France accepted German annexation of the Sudetenland, exposing the failure of appeasement.",
       "summaryZh": "英国和法国接受德国吞并苏台德地区，暴露绥靖政策失败。",
-      "placeIds": ["german-lands", "britain-uk", "france"],
+      "placeIds": [
+        "german-lands",
+        "britain-uk",
+        "france"
+      ],
       "primaryPlaceId": "german-lands",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-04"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-04"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-04",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Munich is a standard symbol of appeasement and interwar diplomatic failure."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Munich is a standard symbol of appeasement and interwar diplomatic failure."
+      ],
       "eventIntro": "In 1938, Britain and France accepted Germany's demand for the Sudetenland in Czechoslovakia without Czechoslovak participation in the final decision. The agreement was presented as peace but rewarded coercive revisionism.",
       "eventIntroZh": "1938 年，英国和法国接受德国对捷克斯洛伐克苏台德地区的要求，而捷克斯洛伐克没有参与最终决定。协定被包装为和平，却奖励了胁迫性修正主义。",
       "whyMatters": "Munich mattered because it showed how fear of another world war could undermine collective resistance to aggression. It also convinced Hitler that risk-taking could succeed.",
@@ -641,7 +997,8 @@
       "imageCaption": "Munich shows diplomacy under threat, where signatures could not secure a durable peace.",
       "imageCaptionZh": "慕尼黑展示了威胁下的外交：签名并不能确保持久和平。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Munich_Agreement_1938.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Munich_Agreement_1938.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-germany-invades-poland-1939",
@@ -650,16 +1007,35 @@
       "titleZh": "德国入侵波兰",
       "summary": "Germany's invasion of Poland triggered Britain and France to declare war, beginning World War II in Europe.",
       "summaryZh": "德国入侵波兰促使英国和法国宣战，欧洲第二次世界大战开始。",
-      "placeIds": ["german-lands", "russia", "france", "britain-uk"],
+      "placeIds": [
+        "german-lands",
+        "russia",
+        "france",
+        "britain-uk"
+      ],
       "primaryPlaceId": "german-lands",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-05", "war-military-06"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-05",
+        "war-military-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-05",
-      "sourceRefs": ["britannica", "wikidata", "ushmm"],
-      "sourceNotes": ["The invasion of Poland is the conventional start of World War II in Europe."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "ushmm"
+      ],
+      "sourceNotes": [
+        "The invasion of Poland is the conventional start of World War II in Europe."
+      ],
       "eventIntro": "On 1 September 1939, Germany invaded Poland using aircraft, armor, infantry, and propaganda around a manufactured border crisis. Britain and France declared war days later, while the Soviet Union invaded eastern Poland under the Nazi-Soviet pact.",
       "eventIntroZh": "1939 年 9 月 1 日，德国以制造出的边境危机为借口，使用飞机、装甲、步兵和宣传入侵波兰。数日后英法宣战，苏联也根据德苏协定入侵波兰东部。",
       "whyMatters": "The invasion mattered because it turned revisionist aggression into a European war. It also revealed the violence of occupation, partition, and racial-imperial planning from the beginning.",
@@ -673,7 +1049,8 @@
       "imageCaption": "The invasion of Poland made mechanized aggression and occupation central to World War II from its first days.",
       "imageCaptionZh": "入侵波兰从战争最初几天起就让机械化侵略和占领成为第二次世界大战核心。",
       "imageCredit": "Image: Bundesarchiv / Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S55480,_Polen,_Kampf_um_Warschau.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S55480,_Polen,_Kampf_um_Warschau.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-fall-of-france-1940",
@@ -682,16 +1059,33 @@
       "titleZh": "法国战役与法国沦陷",
       "summary": "Germany defeated France and forced Britain from continental Europe, transforming the war's balance.",
       "summaryZh": "德国击败法国并迫使英国撤离欧洲大陆，改变战争均势。",
-      "placeIds": ["france", "german-lands", "britain-uk", "low-countries"],
+      "placeIds": [
+        "france",
+        "german-lands",
+        "britain-uk",
+        "low-countries"
+      ],
       "primaryPlaceId": "france",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-05"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-05"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-05",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Fall of France is a central 1940 turning point in World War II."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Fall of France is a central 1940 turning point in World War II."
+      ],
       "eventIntro": "In 1940, German forces attacked through the Low Countries and the Ardennes, splitting Allied armies and forcing a rapid collapse of French resistance. The campaign ended with occupation, Vichy rule, and Britain fighting on.",
       "eventIntroZh": "1940 年，德军经低地国家和阿登发动进攻，分割盟军并迫使法国抵抗迅速崩溃。战役结果是占领、维希政权和英国继续作战。",
       "whyMatters": "The fall of France mattered because it shattered assumptions about static defense and great-power stability. It made occupation, collaboration, resistance, exile, and air defense central to the war.",
@@ -705,7 +1099,8 @@
       "imageCaption": "The 1940 campaign made armored mobility and operational shock central images of World War II.",
       "imageCaptionZh": "1940 年战役让装甲机动和战役冲击成为第二次世界大战的核心图像。",
       "imageCredit": "Image: Bundesarchiv / Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1971-068-10,_Frankreich,_deutsche_Panzer.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_146-1971-068-10,_Frankreich,_deutsche_Panzer.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-operation-barbarossa-1941",
@@ -714,16 +1109,32 @@
       "titleZh": "巴巴罗萨行动开始",
       "summary": "Germany's invasion of the Soviet Union opened the largest land front of World War II.",
       "summaryZh": "德国入侵苏联，开启第二次世界大战最大的陆上战线。",
-      "placeIds": ["russia", "german-lands"],
+      "placeIds": [
+        "russia",
+        "german-lands"
+      ],
       "primaryPlaceId": "russia",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-05"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-05"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-05",
-      "sourceRefs": ["britannica", "wikidata", "ushmm"],
-      "sourceNotes": ["Barbarossa is a central turning point in World War II and Holocaust history."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "ushmm"
+      ],
+      "sourceNotes": [
+        "Barbarossa is a central turning point in World War II and Holocaust history."
+      ],
       "eventIntro": "In June 1941, Germany launched Operation Barbarossa against the Soviet Union. The invasion joined military ambition to ideological war, racial policy, occupation, starvation planning, and mass violence.",
       "eventIntroZh": "1941 年 6 月，德国对苏联发动巴巴罗萨行动。这次入侵把军事野心与意识形态战争、种族政策、占领、饥饿计划和大规模暴力结合起来。",
       "whyMatters": "Barbarossa mattered because it made the Eastern Front the decisive theater of European war. It also radicalized the scale of killing against soldiers, civilians, Jews, and occupied populations.",
@@ -737,7 +1148,8 @@
       "imageCaption": "Barbarossa images reveal a war of movement that soon became a war of occupation and annihilation.",
       "imageCaptionZh": "巴巴罗萨图像显示，一场机动作战很快变成占领与毁灭战争。",
       "imageCredit": "Image: Bundesarchiv / Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B13874,_Russland,_Vormarsch_deutscher_Infanterie.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-B13874,_Russland,_Vormarsch_deutscher_Infanterie.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-pearl-harbor-1941",
@@ -746,16 +1158,32 @@
       "titleZh": "珍珠港袭击",
       "summary": "Japan's attack on Pearl Harbor brought the United States directly into World War II.",
       "summaryZh": "日本袭击珍珠港，使美国直接加入第二次世界大战。",
-      "placeIds": ["united-states", "japan"],
+      "placeIds": [
+        "united-states",
+        "japan"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-05"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-05"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-05",
-      "sourceRefs": ["britannica", "wikidata", "national-archives"],
-      "sourceNotes": ["Pearl Harbor is the standard event marking U.S. entry into World War II."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "national-archives"
+      ],
+      "sourceNotes": [
+        "Pearl Harbor is the standard event marking U.S. entry into World War II."
+      ],
       "eventIntro": "On 7 December 1941, Japanese aircraft attacked the U.S. Pacific Fleet at Pearl Harbor. The strike was meant to disable American naval power long enough for Japan to consolidate expansion in Asia and the Pacific.",
       "eventIntroZh": "1941 年 12 月 7 日，日本飞机袭击珍珠港的美国太平洋舰队。日本意图暂时瘫痪美国海军力量，以便巩固其在亚洲和太平洋的扩张。",
       "whyMatters": "The attack mattered because it turned the United States from a major supporter of the Allies into a direct belligerent. It linked the European and Pacific wars into a single global conflict.",
@@ -769,7 +1197,8 @@
       "imageCaption": "Pearl Harbor became the visual shorthand for surprise attack and U.S. entry into global war.",
       "imageCaptionZh": "珍珠港成为突然袭击和美国进入全球战争的视觉 shorthand。",
       "imageCredit": "Image: National Archives / Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pearl_Harbor_looking_southwest-Oct41.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pearl_Harbor_looking_southwest-Oct41.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-d-day-1944",
@@ -778,16 +1207,33 @@
       "titleZh": "诺曼底登陆",
       "summary": "Allied forces landed in Normandy, opening a western front against Nazi Germany.",
       "summaryZh": "盟军在诺曼底登陆，开辟对纳粹德国的西线。",
-      "placeIds": ["france", "britain-uk", "united-states", "german-lands"],
+      "placeIds": [
+        "france",
+        "britain-uk",
+        "united-states",
+        "german-lands"
+      ],
       "primaryPlaceId": "france",
-      "lensIds": ["war-military"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-05"],
+      "lensIds": [
+        "war-military"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-05"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-05",
-      "sourceRefs": ["britannica", "wikidata", "national-archives"],
-      "sourceNotes": ["D-Day is the core opening event of the Normandy campaign."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "national-archives"
+      ],
+      "sourceNotes": [
+        "D-Day is the core opening event of the Normandy campaign."
+      ],
       "eventIntro": "On 6 June 1944, Allied forces landed on Normandy beaches in the largest amphibious invasion of the war. The operation required deception, air power, naval fire, logistics, engineering, and multinational coordination.",
       "eventIntroZh": "1944 年 6 月 6 日，盟军在诺曼底海滩登陆，这是战争中最大规模的两栖入侵。行动需要欺骗、空中力量、海军火力、后勤、工程和多国协调。",
       "whyMatters": "D-Day mattered because it opened a sustained western front and made liberation of occupied Western Europe possible. It also demonstrated the enormous organizational scale of Allied warfare.",
@@ -801,7 +1247,8 @@
       "imageCaption": "The Omaha Beach photograph became one of the most recognizable images of amphibious warfare.",
       "imageCaptionZh": "奥马哈海滩照片成为两栖作战最具辨识度的图像之一。",
       "imageCredit": "Image: U.S. Coast Guard / Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Into_the_Jaws_of_Death_23-0455M_edit.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Into_the_Jaws_of_Death_23-0455M_edit.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-hiroshima-nagasaki-1945",
@@ -810,16 +1257,33 @@
       "titleZh": "广岛与长崎原子弹轰炸",
       "summary": "The United States used atomic bombs against Japanese cities, helping end the war and beginning the nuclear age.",
       "summaryZh": "美国对日本城市使用原子弹，促成战争结束并开启核时代。",
-      "placeIds": ["japan", "united-states"],
+      "placeIds": [
+        "japan",
+        "united-states"
+      ],
       "primaryPlaceId": "japan",
-      "lensIds": ["war-military", "science-technology"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-05", "science-technology-07"],
+      "lensIds": [
+        "war-military",
+        "science-technology"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-05",
+        "science-technology-07"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-05",
-      "sourceRefs": ["britannica", "wikidata", "national-archives"],
-      "sourceNotes": ["The atomic bombings are central events in World War II and nuclear history."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "national-archives"
+      ],
+      "sourceNotes": [
+        "The atomic bombings are central events in World War II and nuclear history."
+      ],
       "eventIntro": "In August 1945, the United States dropped atomic bombs on Hiroshima and Nagasaki. The bombings killed civilians on a massive scale, shocked Japan's leadership, and revealed a new category of destructive power.",
       "eventIntroZh": "1945 年 8 月，美国向广岛和长崎投下原子弹。轰炸造成大规模平民死亡，震动日本领导层，并展示一种新的毁灭力量。",
       "whyMatters": "The bombings mattered because they connected the end of World War II to the beginning of nuclear politics. Military victory, civilian suffering, scientific state power, and moral controversy became inseparable.",
@@ -833,7 +1297,8 @@
       "imageCaption": "Atomic bombing images made nuclear destruction a permanent part of modern war memory.",
       "imageCaptionZh": "原子弹轰炸图像让核毁灭永久进入现代战争记忆。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Atomic_bombing_of_Japan.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Atomic_bombing_of_Japan.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-berlin-blockade-1948",
@@ -842,16 +1307,36 @@
       "titleZh": "柏林封锁开始",
       "summary": "The Soviet blockade of West Berlin triggered an Allied airlift and hardened Cold War division.",
       "summaryZh": "苏联封锁西柏林，引发盟军空运并强化冷战分裂。",
-      "placeIds": ["german-lands", "russia", "united-states", "britain-uk", "france"],
+      "placeIds": [
+        "german-lands",
+        "russia",
+        "united-states",
+        "britain-uk",
+        "france"
+      ],
       "primaryPlaceId": "german-lands",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-06", "war-military-07", "state-empire-08"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-06",
+        "war-military-07",
+        "state-empire-08"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-06",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Berlin Blockade is a defining early Cold War crisis."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Berlin Blockade is a defining early Cold War crisis."
+      ],
       "eventIntro": "In 1948, the Soviet Union blocked land routes to West Berlin, and Western Allies responded with a massive airlift. The crisis turned occupation zones into a symbolic front line of Cold War rivalry.",
       "eventIntroZh": "1948 年，苏联封锁通往西柏林的陆路，西方盟国以大规模空运回应。危机把占领区变成冷战竞争的象征性前线。",
       "whyMatters": "The blockade mattered because it showed how Cold War conflict could operate below direct war between superpowers. Logistics, morale, air transport, and alliance credibility became strategic weapons.",
@@ -865,7 +1350,8 @@
       "imageCaption": "The airlift made logistics and civilian survival central Cold War images.",
       "imageCaptionZh": "柏林空运让后勤和平民生存成为冷战核心图像。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:C-54_landing_at_Berlin_Tempelhof_Airport_1948.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:C-54_landing_at_Berlin_Tempelhof_Airport_1948.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-korean-war-begins-1950",
@@ -874,16 +1360,34 @@
       "titleZh": "朝鲜战争爆发",
       "summary": "North Korea's invasion of South Korea internationalized the Cold War in East Asia.",
       "summaryZh": "朝鲜入侵韩国，使冷战在东亚国际化。",
-      "placeIds": ["korea", "united-states", "china", "russia"],
+      "placeIds": [
+        "korea",
+        "united-states",
+        "china",
+        "russia"
+      ],
       "primaryPlaceId": "korea",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-06", "war-military-07"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-06",
+        "war-military-07"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-06",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Korean War is a core Cold War proxy and UN military conflict."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Korean War is a core Cold War proxy and UN military conflict."
+      ],
       "eventIntro": "In 1950, North Korean forces crossed the 38th parallel and invaded South Korea. The United States, United Nations forces, China, and Soviet support soon made the conflict part of the global Cold War.",
       "eventIntroZh": "1950 年，朝鲜军队越过三八线入侵韩国。美国、联合国军、中国和苏联支持很快使这场冲突成为全球冷战的一部分。",
       "whyMatters": "The war mattered because it militarized containment, devastated Korea, and showed that Cold War competition could become hot war through divided states.",
@@ -897,7 +1401,8 @@
       "imageCaption": "Korean War imagery shows Cold War conflict becoming devastating conventional war.",
       "imageCaptionZh": "朝鲜战争图像显示冷战冲突如何变成毁灭性的常规战争。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_War_montage_2.png"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Korean_War_montage_2.png",
+      "detailLevel": "full"
     },
     {
       "id": "event-cuban-missile-crisis-1962",
@@ -906,16 +1411,35 @@
       "titleZh": "古巴导弹危机",
       "summary": "The United States and Soviet Union came close to nuclear war over Soviet missiles in Cuba.",
       "summaryZh": "美国和苏联因苏联在古巴部署导弹而接近核战争。",
-      "placeIds": ["united-states", "russia", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "russia",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["war-military", "state-empire", "science-technology"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-06", "war-military-07"],
+      "lensIds": [
+        "war-military",
+        "state-empire",
+        "science-technology"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-06",
+        "war-military-07"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-06",
-      "sourceRefs": ["britannica", "wikidata", "jfk-library"],
-      "sourceNotes": ["Cuban Missile Crisis is a central nuclear brinkmanship episode."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "jfk-library"
+      ],
+      "sourceNotes": [
+        "Cuban Missile Crisis is a central nuclear brinkmanship episode."
+      ],
       "eventIntro": "In 1962, U.S. reconnaissance revealed Soviet nuclear missiles in Cuba. The crisis produced naval quarantine, secret negotiations, military alerts, and a direct confrontation over nuclear risk.",
       "eventIntroZh": "1962 年，美国侦察发现苏联在古巴部署核导弹。危机引发海上封锁、秘密谈判、军事戒备和围绕核风险的直接对抗。",
       "whyMatters": "It mattered because nuclear deterrence became a lived political crisis rather than an abstract strategy. The world saw how miscalculation, signaling, and command systems could decide survival.",
@@ -929,7 +1453,8 @@
       "imageCaption": "Reconnaissance imagery made hidden nuclear deployment visible to decision-makers.",
       "imageCaptionZh": "侦察图像让隐藏的核部署进入决策者视野。",
       "imageCredit": "Image: U.S. Government / Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cuban_Missile_Crisis_-_U-2_photograph.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cuban_Missile_Crisis_-_U-2_photograph.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-tet-offensive-1968",
@@ -938,16 +1463,33 @@
       "titleZh": "春节攻势",
       "summary": "North Vietnamese and Viet Cong attacks reshaped U.S. public perception of the Vietnam War.",
       "summaryZh": "北越和越共的攻势重塑美国公众对越南战争的看法。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "global-transregional",
-      "lensIds": ["war-military", "entertainment-media", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-06", "entertainment-media-06"],
+      "lensIds": [
+        "war-military",
+        "entertainment-media",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-06",
+        "entertainment-media-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-06",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Tet Offensive is central to Vietnam War and media-war histories."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Tet Offensive is central to Vietnam War and media-war histories."
+      ],
       "eventIntro": "In 1968, North Vietnamese and Viet Cong forces launched coordinated attacks during Tet. Although militarily costly for them, the offensive challenged official U.S. claims that victory was near.",
       "eventIntroZh": "1968 年，北越和越共在春节期间发动协调攻势。尽管他们付出高昂军事代价，这次攻势挑战了美国官方关于胜利在望的说法。",
       "whyMatters": "Tet mattered because the politics of perception became part of war. Television, credibility, casualty counts, and public trust shaped strategy alongside battlefield results.",
@@ -961,7 +1503,8 @@
       "imageCaption": "Tet Offensive imagery linked urban combat to the politics of television war.",
       "imageCaptionZh": "春节攻势图像把城市战斗与电视战争政治连接起来。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tet_Offensive_1968.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tet_Offensive_1968.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-soviet-afghan-war-begins-1979",
@@ -970,16 +1513,33 @@
       "titleZh": "苏阿战争爆发",
       "summary": "The Soviet intervention in Afghanistan became a long proxy conflict with regional and global consequences.",
       "summaryZh": "苏联干预阿富汗变成长时间代理冲突，并产生地区与全球后果。",
-      "placeIds": ["russia", "arab-middle-east", "global-transregional"],
+      "placeIds": [
+        "russia",
+        "arab-middle-east",
+        "global-transregional"
+      ],
       "primaryPlaceId": "russia",
-      "lensIds": ["war-military", "state-empire", "religion-belief"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-06"],
+      "lensIds": [
+        "war-military",
+        "state-empire",
+        "religion-belief"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-06"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-06",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Soviet-Afghan War is a major late Cold War proxy conflict."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Soviet-Afghan War is a major late Cold War proxy conflict."
+      ],
       "eventIntro": "In 1979, Soviet forces entered Afghanistan to support a friendly government facing insurgency and internal crisis. The intervention became a long war involving guerrillas, refugees, foreign aid, Islamic mobilization, and superpower rivalry.",
       "eventIntroZh": "1979 年，苏联军队进入阿富汗，支持面对叛乱和内部危机的亲苏政府。干预变成长战争，涉及游击队、难民、外国援助、伊斯兰动员和超级大国竞争。",
       "whyMatters": "The war mattered because it drained Soviet resources and helped internationalize militant networks. It showed the limits of conventional power against insurgency in difficult terrain.",
@@ -993,7 +1553,8 @@
       "imageCaption": "Soviet-Afghan War imagery shows mechanized power inside a long insurgent conflict.",
       "imageCaptionZh": "苏阿战争图像显示机械化力量陷入长期叛乱冲突。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Soviet_troops_in_Afghanistan.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Soviet_troops_in_Afghanistan.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-berlin-wall-falls-1989",
@@ -1002,16 +1563,33 @@
       "titleZh": "柏林墙倒塌",
       "summary": "The opening of the Berlin Wall symbolized the collapse of Cold War division in Europe.",
       "summaryZh": "柏林墙开放象征欧洲冷战分裂的崩塌。",
-      "placeIds": ["german-lands", "russia", "global-transregional"],
+      "placeIds": [
+        "german-lands",
+        "russia",
+        "global-transregional"
+      ],
       "primaryPlaceId": "german-lands",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-06", "state-empire-08"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-06",
+        "state-empire-08"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-06",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Fall of Berlin Wall is a key symbolic endpoint of Cold War Europe."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Fall of Berlin Wall is a key symbolic endpoint of Cold War Europe."
+      ],
       "eventIntro": "In November 1989, East German authorities opened border crossings in Berlin after public pressure and political confusion. Crowds crossed, climbed, and dismantled parts of the wall that had divided the city since 1961.",
       "eventIntroZh": "1989 年 11 月，在公众压力和政治混乱下，东德当局开放柏林边境通道。人群穿过、攀上并拆除这座自 1961 年以来分裂城市的墙。",
       "whyMatters": "The fall mattered because it made the Cold War's political geography visibly collapse. It accelerated German reunification and signaled the weakening of Soviet control in Eastern Europe.",
@@ -1025,7 +1603,8 @@
       "imageCaption": "The wall's opening made the end of Cold War Europe visible in a single urban scene.",
       "imageCaptionZh": "柏林墙开放让冷战欧洲的结束在一个城市场景中变得可见。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Berlin_Wall_Brandenburg_Gate_1989.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Berlin_Wall_Brandenburg_Gate_1989.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-gulf-war-begins-1991",
@@ -1034,16 +1613,35 @@
       "titleZh": "海湾战争爆发",
       "summary": "A U.S.-led coalition attacked Iraqi forces after Iraq's invasion of Kuwait, showcasing precision and media-era war.",
       "summaryZh": "伊拉克入侵科威特后，美国主导的联军攻击伊拉克军队，展示精确打击和媒介时代战争。",
-      "placeIds": ["arab-middle-east", "united-states", "britain-uk", "france"],
+      "placeIds": [
+        "arab-middle-east",
+        "united-states",
+        "britain-uk",
+        "france"
+      ],
       "primaryPlaceId": "arab-middle-east",
-      "lensIds": ["war-military", "science-technology", "entertainment-media"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-07", "war-military-08"],
+      "lensIds": [
+        "war-military",
+        "science-technology",
+        "entertainment-media"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-07",
+        "war-military-08"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-07",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Gulf War is a standard early post-Cold War conflict and media-war turning point."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Gulf War is a standard early post-Cold War conflict and media-war turning point."
+      ],
       "eventIntro": "In 1991, a U.S.-led coalition launched operations to expel Iraqi forces from Kuwait. The war featured air power, precision-guided weapons, satellite media coverage, coalition diplomacy, and oil-security politics.",
       "eventIntroZh": "1991 年，美国主导的联军发动行动，将伊拉克军队逐出科威特。战争呈现空中力量、精确制导武器、卫星媒体报道、联盟外交和石油安全政治。",
       "whyMatters": "It mattered because it seemed to announce a new post-Cold War military order: high-tech coalition war under U.S. leadership. Later conflicts revealed the limits of that model.",
@@ -1057,7 +1655,8 @@
       "imageCaption": "Desert Storm images often framed war as high-speed, mechanized, and technologically precise.",
       "imageCaptionZh": "沙漠风暴图像常把战争呈现为高速、机械化和技术精确的行动。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Operation_Desert_Storm_-_Tanks.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Operation_Desert_Storm_-_Tanks.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-september-11-attacks-2001",
@@ -1066,16 +1665,36 @@
       "titleZh": "九一一袭击",
       "summary": "Al-Qaeda's attacks on the United States triggered the War on Terror and reshaped global security politics.",
       "summaryZh": "基地组织对美国的袭击引发反恐战争，并重塑全球安全政治。",
-      "placeIds": ["united-states", "arab-middle-east", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "arab-middle-east",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["war-military", "state-empire", "religion-belief", "entertainment-media"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-07", "war-military-08"],
+      "lensIds": [
+        "war-military",
+        "state-empire",
+        "religion-belief",
+        "entertainment-media"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-07",
+        "war-military-08"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-07",
-      "sourceRefs": ["britannica", "wikidata", "911-memorial"],
-      "sourceNotes": ["September 11 attacks are a central event in War on Terror and global security history."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata",
+        "911-memorial"
+      ],
+      "sourceNotes": [
+        "September 11 attacks are a central event in War on Terror and global security history."
+      ],
       "eventIntro": "On 11 September 2001, al-Qaeda hijackers attacked New York and Washington, D.C., destroying the World Trade Center towers and damaging the Pentagon. The attacks used civilian aviation, media spectacle, and symbolic targets.",
       "eventIntroZh": "2001 年 9 月 11 日，基地组织劫机者袭击纽约和华盛顿，摧毁世贸中心双塔并破坏五角大楼。袭击利用民航、媒体奇观和象征性目标。",
       "whyMatters": "The event mattered because it reorganized security policy, surveillance, military intervention, border controls, and public fear across many countries.",
@@ -1089,7 +1708,8 @@
       "imageCaption": "9/11 images became a defining visual archive of twenty-first-century security politics.",
       "imageCaptionZh": "九一一图像成为二十一世纪安全政治的定义性视觉档案。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:September_11_Photo_Montage.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:September_11_Photo_Montage.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-iraq-war-begins-2003",
@@ -1098,16 +1718,33 @@
       "titleZh": "伊拉克战争爆发",
       "summary": "The U.S.-led invasion of Iraq overthrew Saddam Hussein but produced occupation, insurgency, and regional instability.",
       "summaryZh": "美国主导入侵伊拉克推翻萨达姆·侯赛因，却带来占领、叛乱和地区不稳定。",
-      "placeIds": ["arab-middle-east", "united-states", "britain-uk"],
+      "placeIds": [
+        "arab-middle-east",
+        "united-states",
+        "britain-uk"
+      ],
       "primaryPlaceId": "arab-middle-east",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-07", "war-military-08"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-07",
+        "war-military-08"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-07",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["2003 Iraq invasion is central to post-9/11 military history."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "2003 Iraq invasion is central to post-9/11 military history."
+      ],
       "eventIntro": "In 2003, the United States and allies invaded Iraq, citing weapons of mass destruction and regime change. The invasion rapidly toppled Saddam Hussein but opened a longer period of occupation, insurgency, sectarian conflict, and state reconstruction failure.",
       "eventIntroZh": "2003 年，美国及其盟友以大规模杀伤性武器和政权更替为理由入侵伊拉克。入侵迅速推翻萨达姆·侯赛因，却开启更长时期的占领、叛乱、教派冲突和国家重建失败。",
       "whyMatters": "The war mattered because it exposed the limits of quick regime-change warfare. Intelligence claims, international legitimacy, contractor systems, counterinsurgency, and civilian suffering became central controversies.",
@@ -1121,7 +1758,8 @@
       "imageCaption": "Baghdad invasion imagery captured the speed of regime collapse and the beginning of occupation.",
       "imageCaptionZh": "巴格达入侵图像捕捉了政权崩溃的速度和占领的开始。",
       "imageCredit": "Image: U.S. military / Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:M1A1_Abrams_poses_for_a_photo_under_the_Hands_of_Victory_in_Ceremony_Square,_Baghdad,_Iraq.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:M1A1_Abrams_poses_for_a_photo_under_the_Hands_of_Victory_in_Ceremony_Square,_Baghdad,_Iraq.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-russia-annexes-crimea-2014",
@@ -1130,16 +1768,32 @@
       "titleZh": "俄罗斯吞并克里米亚",
       "summary": "Russia's seizure and annexation of Crimea challenged post-Cold War borders and security assumptions in Europe.",
       "summaryZh": "俄罗斯夺取并吞并克里米亚，挑战后冷战欧洲边界与安全假设。",
-      "placeIds": ["russia", "global-transregional"],
+      "placeIds": [
+        "russia",
+        "global-transregional"
+      ],
       "primaryPlaceId": "russia",
-      "lensIds": ["war-military", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-07", "state-empire-08"],
+      "lensIds": [
+        "war-military",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-07",
+        "state-empire-08"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-07",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Crimea annexation is a central event in post-Cold War European security history."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Crimea annexation is a central event in post-Cold War European security history."
+      ],
       "eventIntro": "In 2014, Russian forces took control of Crimea after Ukraine's Maidan revolution and a disputed referendum followed. The annexation combined covert military action, local politics, information warfare, and territorial revision.",
       "eventIntroZh": "2014 年，在乌克兰广场革命后，俄罗斯力量控制克里米亚，并随后举行有争议的公投。吞并结合了隐蔽军事行动、地方政治、信息战和领土修正。",
       "whyMatters": "It mattered because it challenged assumptions that European borders were settled after 1991. It also previewed hybrid warfare, sanctions, and renewed NATO-Russia confrontation.",
@@ -1153,7 +1807,8 @@
       "imageCaption": "Crimea's annexation mixed military presence, political theater, and contested legality.",
       "imageCaptionZh": "克里米亚吞并混合了军事存在、政治剧场和有争议的合法性。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Crimea_referendum_2014.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Crimea_referendum_2014.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-isis-captures-mosul-2014",
@@ -1162,16 +1817,33 @@
       "titleZh": "ISIS 占领摩苏尔",
       "summary": "ISIS seized Mosul and announced a caliphate, turning insurgency, state collapse, and media warfare into a regional crisis.",
       "summaryZh": "ISIS 占领摩苏尔并宣布建立哈里发国，使叛乱、国家崩溃和媒体战争变成地区危机。",
-      "placeIds": ["arab-middle-east", "global-transregional"],
+      "placeIds": [
+        "arab-middle-east",
+        "global-transregional"
+      ],
       "primaryPlaceId": "arab-middle-east",
-      "lensIds": ["war-military", "religion-belief", "entertainment-media"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-07", "war-military-08"],
+      "lensIds": [
+        "war-military",
+        "religion-belief",
+        "entertainment-media"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-07",
+        "war-military-08"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-07",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Mosul's capture is a central event in ISIS and post-Iraq War history."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Mosul's capture is a central event in ISIS and post-Iraq War history."
+      ],
       "eventIntro": "In 2014, ISIS captured Mosul, one of Iraq's largest cities, as Iraqi security forces collapsed. The group used territorial seizure, sectarian violence, online propaganda, foreign fighters, and administrative claims.",
       "eventIntroZh": "2014 年，ISIS 在伊拉克安全部队崩溃时占领摩苏尔，这座城市是伊拉克最大城市之一。该组织结合领土夺取、教派暴力、在线宣传、外国战士和行政主张。",
       "whyMatters": "The event mattered because ISIS briefly transformed jihadist insurgency into territorial rule. It forced regional and international military responses and made digital propaganda part of war.",
@@ -1185,7 +1857,8 @@
       "imageCaption": "Mosul became a symbol of state collapse, insurgent governance, and urban warfare.",
       "imageCaptionZh": "摩苏尔成为国家崩溃、叛乱治理和城市战争的象征。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mosul_skyline.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mosul_skyline.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-russia-full-scale-invasion-ukraine-2022",
@@ -1194,16 +1867,33 @@
       "titleZh": "俄罗斯全面入侵乌克兰",
       "summary": "Russia's full-scale invasion turned the war in Ukraine into Europe's largest interstate conflict in decades.",
       "summaryZh": "俄罗斯全面入侵使乌克兰战争成为欧洲数十年来最大规模的国家间冲突。",
-      "placeIds": ["russia", "global-transregional"],
+      "placeIds": [
+        "russia",
+        "global-transregional"
+      ],
       "primaryPlaceId": "russia",
-      "lensIds": ["war-military", "state-empire", "science-technology"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-07", "war-military-08"],
+      "lensIds": [
+        "war-military",
+        "state-empire",
+        "science-technology"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-07",
+        "war-military-08"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-07",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["The 2022 full-scale invasion is a major post-Cold War European war event."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 2022 full-scale invasion is a major post-Cold War European war event."
+      ],
       "eventIntro": "In February 2022, Russia launched a full-scale invasion of Ukraine after years of conflict since 2014. The war combined conventional offensives, missile strikes, drones, information warfare, sanctions, mobilization, and international military aid.",
       "eventIntroZh": "2022 年 2 月，在 2014 年以来长期冲突之后，俄罗斯对乌克兰发动全面入侵。这场战争结合常规进攻、导弹袭击、无人机、信息战、制裁、动员和国际军事援助。",
       "whyMatters": "The invasion mattered because it overturned assumptions about post-Cold War European security and made industrial capacity, ammunition, energy, drones, and alliances central again.",
@@ -1217,7 +1907,8 @@
       "imageCaption": "Maps of the invasion show how territorial war returned alongside networked intelligence and global sanctions.",
       "imageCaptionZh": "入侵地图显示领土战争如何与网络化情报和全球制裁一同回归。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Russian_invasion_of_Ukraine.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Russian_invasion_of_Ukraine.svg",
+      "detailLevel": "full"
     }
   ]
 }

@@ -10,16 +10,29 @@
       "titleZh": "达特茅斯人工智能研讨会召开",
       "summary": "The Dartmouth workshop helped name artificial intelligence as a research program and gathered early researchers around machine reasoning, learning, and symbolic problem solving.",
       "summaryZh": "达特茅斯研讨会帮助把“人工智能”命名为一个研究计划，并把早期研究者聚集到机器推理、学习和符号问题求解周围。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["science-technology"],
-      "trackIds": ["ai-ml"],
-      "phaseIds": ["ai-ml-02"],
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "ai-ml-02"
+      ],
       "primaryLensId": "science-technology",
       "primaryTrackId": "ai-ml",
       "primaryPhaseId": "ai-ml-02",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Dartmouth workshop is widely treated as an origin point for AI as a named field."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Dartmouth workshop is widely treated as an origin point for AI as a named field."
+      ],
       "eventIntro": "In the summer of 1956, a small group of mathematicians and computer scientists met at Dartmouth College to explore whether aspects of intelligence could be described precisely enough for machines to simulate them.",
       "eventIntroZh": "1956 年夏天，一小群数学家和计算机科学家在达特茅斯学院聚会，探讨智能的某些方面是否可以被精确定义到足以让机器模拟。",
       "whyMatters": "The meeting did not create AI all at once, but it gave the field a name, a research agenda, and a network of people who would shape symbolic AI, search, theorem proving, and early machine learning.",
@@ -33,7 +46,8 @@
       "imageCaption": "Dartmouth College gives the AI workshop a concrete institutional setting rather than treating it as an abstract origin myth.",
       "imageCaptionZh": "达特茅斯学院让 1956 年 AI 研讨会有了具体制度地点，而不是只作为抽象的起源神话。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dartmouth_College_campus_2007-10-20_09.JPG"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dartmouth_College_campus_2007-10-20_09.JPG",
+      "detailLevel": "full"
     },
     {
       "id": "event-alexnet-wins-imagenet-2012",
@@ -42,16 +56,32 @@
       "titleZh": "AlexNet 赢得 ImageNet",
       "summary": "AlexNet's ImageNet victory made deep convolutional neural networks central to modern computer vision and helped trigger the deep learning wave.",
       "summaryZh": "AlexNet 在 ImageNet 上的胜利让深度卷积神经网络成为现代计算机视觉的核心，并推动了深度学习浪潮。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["science-technology"],
-      "trackIds": ["ai-ml", "semiconductors-hardware"],
-      "phaseIds": ["ai-ml-05", "semiconductors-hardware-07"],
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml",
+        "semiconductors-hardware"
+      ],
+      "phaseIds": [
+        "ai-ml-05",
+        "semiconductors-hardware-07"
+      ],
       "primaryLensId": "science-technology",
       "primaryTrackId": "ai-ml",
       "primaryPhaseId": "ai-ml-05",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["ImageNet 2012 is a standard turning point in deep learning histories."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "ImageNet 2012 is a standard turning point in deep learning histories."
+      ],
       "eventIntro": "In 2012, AlexNet dramatically outperformed other ImageNet competitors by using a deep convolutional network trained with GPUs, large labeled image data, and practical engineering tricks.",
       "eventIntroZh": "2012 年，AlexNet 使用 GPU 训练的深度卷积网络、大规模标注图像数据和实用工程技巧，在 ImageNet 竞赛中显著超越其他方法。",
       "whyMatters": "Its success changed what many researchers believed neural networks could do. Deep learning moved from a specialized approach into the center of computer vision, speech, translation, and later generative AI.",
@@ -65,7 +95,8 @@
       "imageCaption": "Convolutional networks became the visual-recognition architecture associated with AlexNet's ImageNet breakthrough.",
       "imageCaptionZh": "卷积网络成为与 AlexNet 的 ImageNet 突破相关联的视觉识别架构。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Convolutional_Neural_Network_NeuralNetworkFilter.png"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Convolutional_Neural_Network_NeuralNetworkFilter.png",
+      "detailLevel": "full"
     },
     {
       "id": "event-transformer-paper-published-2017",
@@ -74,16 +105,31 @@
       "titleZh": "Transformer 论文发表",
       "summary": "The transformer architecture used attention to reshape language modeling and became a foundation for large-scale generative AI systems.",
       "summaryZh": "Transformer 架构用注意力机制重塑语言建模，并成为大规模生成式 AI 系统的基础。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["science-technology"],
-      "trackIds": ["ai-ml", "software-os"],
-      "phaseIds": ["ai-ml-06", "software-os-08"],
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml",
+        "software-os"
+      ],
+      "phaseIds": [
+        "ai-ml-06",
+        "software-os-08"
+      ],
       "primaryLensId": "science-technology",
       "primaryTrackId": "ai-ml",
       "primaryPhaseId": "ai-ml-06",
-      "sourceRefs": ["wikidata"],
-      "sourceNotes": ["The 2017 paper 'Attention Is All You Need' is the standard reference for transformers."],
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 2017 paper 'Attention Is All You Need' is the standard reference for transformers."
+      ],
       "eventIntro": "In 2017, researchers introduced the transformer architecture in the paper 'Attention Is All You Need.' It replaced many recurrent sequence-processing assumptions with attention-based layers that scaled well on modern hardware.",
       "eventIntroZh": "2017 年，研究者在《Attention Is All You Need》论文中提出 Transformer 架构。它用基于注意力的层替代了许多循环序列处理假设，并能很好地在现代硬件上扩展。",
       "whyMatters": "Transformers became the core architecture behind many large language models and later multimodal foundation models. They changed AI from narrow task systems toward general-purpose pretrained models.",
@@ -97,7 +143,8 @@
       "imageCaption": "Transformer diagrams make visible the attention-based architecture that became a foundation for modern language models.",
       "imageCaptionZh": "Transformer 架构图让基于注意力机制的结构可见，而这种结构成为现代语言模型的基础。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Transformer-architecture.png"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Transformer-architecture.png",
+      "detailLevel": "full"
     },
     {
       "id": "event-chatgpt-released-publicly-2022",
@@ -106,16 +153,33 @@
       "titleZh": "ChatGPT 公开发布",
       "summary": "ChatGPT made conversational generative AI visible to a mass public and changed expectations about software, search, writing, work, and education.",
       "summaryZh": "ChatGPT 让对话式生成 AI 进入大众视野，并改变了人们对软件、搜索、写作、工作和教育的期待。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["science-technology"],
-      "trackIds": ["ai-ml", "software-os", "networks-internet"],
-      "phaseIds": ["ai-ml-07", "software-os-08", "networks-internet-08"],
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "ai-ml",
+        "software-os",
+        "networks-internet"
+      ],
+      "phaseIds": [
+        "ai-ml-07",
+        "software-os-08",
+        "networks-internet-08"
+      ],
       "primaryLensId": "science-technology",
       "primaryTrackId": "ai-ml",
       "primaryPhaseId": "ai-ml-07",
-      "sourceRefs": ["wikidata"],
-      "sourceNotes": ["ChatGPT's public launch is widely treated as a mass adoption moment for generative AI."],
+      "sourceRefs": [
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "ChatGPT's public launch is widely treated as a mass adoption moment for generative AI."
+      ],
       "eventIntro": "OpenAI released ChatGPT to the public in November 2022. The product wrapped a large language model in an accessible chat interface, letting non-specialists ask questions, draft text, write code, and experiment directly.",
       "eventIntroZh": "OpenAI 于 2022 年 11 月向公众发布 ChatGPT。这个产品把大型语言模型包装在易用的聊天界面中，让非专业用户也能提问、写作、写代码和直接实验。",
       "whyMatters": "Its impact came from usability as much as model capability. ChatGPT turned foundation models from a research and platform technology into an everyday interface that organizations, schools, workers, and developers had to respond to.",
@@ -129,7 +193,8 @@
       "imageCaption": "The ChatGPT mark represents the product layer that made large language models visible to a mass public.",
       "imageCaptionZh": "ChatGPT 标识代表让大型语言模型进入大众视野的产品层。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ChatGPT_logo.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ChatGPT_logo.svg",
+      "detailLevel": "full"
     }
   ]
 }

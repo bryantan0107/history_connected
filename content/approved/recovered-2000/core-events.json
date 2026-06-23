@@ -17,26 +17,46 @@
       "phaseRelationZh": "它属于“数字与平台经济”阶段，因为它标志着互联网狂热从投机性兴奋走向更严厉的平台资本主义纪律。",
       "connectionHint": "It connects to Google AdWords, enterprise Java, broadband platforms, and later cloud computing, because post-crash internet winners had to prove revenue, scale, and infrastructure discipline.",
       "connectionHintZh": "它连接到 Google AdWords、企业 Java、宽带平台和后来的云计算，因为泡沫后幸存的互联网赢家必须证明收入、规模和基础设施纪律。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["economy-trade", "science-technology"],
-      "trackIds": ["networks-internet"],
-      "phaseIds": ["economy-trade-08", "networks-internet-06"],
+      "lensIds": [
+        "economy-trade",
+        "science-technology"
+      ],
+      "trackIds": [
+        "networks-internet"
+      ],
+      "phaseIds": [
+        "economy-trade-08",
+        "networks-internet-06"
+      ],
       "primaryLensId": "economy-trade",
       "primaryTrackId": "networks-internet",
       "primaryPhaseId": "economy-trade-08",
-      "regionPhaseIds": ["us-digital-superpower"],
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
       "primaryRegionPhaseId": "us-digital-superpower",
       "eventType": "market-crash",
       "importance": "core",
-      "sourceRefs": ["britannica", "nasdaq", "wikidata"],
-      "sourceNotes": ["The 2000 market turn is widely treated as the end of the first dot-com speculative boom."],
+      "sourceRefs": [
+        "britannica",
+        "nasdaq",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 2000 market turn is widely treated as the end of the first dot-com speculative boom."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/NASDAQ_Composite_dot-com_bubble.svg",
       "imageAlt": "Chart of the NASDAQ Composite during the dot-com bubble and crash.",
       "imageCaption": "The NASDAQ Composite chart visualizes the boom-and-crash shape that made the dot-com bubble a historical turning point.",
       "imageCaptionZh": "纳斯达克综合指数图呈现了互联网泡沫作为历史转折点的暴涨与崩盘形态。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:NASDAQ_Composite_dot-com_bubble.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:NASDAQ_Composite_dot-com_bubble.svg",
+      "detailLevel": "full"
     },
     {
       "id": "event-google-adwords-launches-2000",
@@ -53,26 +73,45 @@
       "phaseRelationZh": "它属于“宽带、搜索与平台化网络”阶段，因为它让搜索成为连接注意力、意图与广告主的商业基础设施。",
       "connectionHint": "It connects to platform economics, surveillance debates, SEO, cloud analytics, and later AI search because advertising funded and shaped much of the public web.",
       "connectionHintZh": "它连接到平台经济、监控争议、SEO、云分析和后来的 AI 搜索，因为广告资助并塑造了公共网络的很大一部分。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["science-technology", "economy-trade"],
-      "trackIds": ["networks-internet"],
-      "phaseIds": ["networks-internet-06", "economy-trade-08"],
+      "lensIds": [
+        "science-technology",
+        "economy-trade"
+      ],
+      "trackIds": [
+        "networks-internet"
+      ],
+      "phaseIds": [
+        "networks-internet-06",
+        "economy-trade-08"
+      ],
       "primaryLensId": "science-technology",
       "primaryTrackId": "networks-internet",
       "primaryPhaseId": "networks-internet-06",
-      "regionPhaseIds": ["us-digital-superpower"],
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
       "primaryRegionPhaseId": "us-digital-superpower",
       "eventType": "platform-launch",
       "importance": "core",
-      "sourceRefs": ["google-history", "wikidata"],
-      "sourceNotes": ["Google's advertising platform is a key milestone in search and platform business history."],
+      "sourceRefs": [
+        "google-history",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Google's advertising platform is a key milestone in search and platform business history."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Google_Ads_logo.svg",
       "imageAlt": "Google Ads logo, successor branding for Google's advertising platform.",
       "imageCaption": "Google's advertising platform turned search queries into one of the internet's most important revenue systems.",
       "imageCaptionZh": "Google 广告平台把搜索查询转化为互联网最重要的收入系统之一。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Google_Ads_logo.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Google_Ads_logo.svg",
+      "detailLevel": "full"
     },
     {
       "id": "event-aol-time-warner-merger-announced-2000",
@@ -89,26 +128,46 @@
       "phaseRelationZh": "它属于“数字与平台经济”阶段，因为它体现了旧媒体试图通过并购进入互联网未来的过渡时刻。",
       "connectionHint": "It connects to streaming media, platform consolidation, cable broadband, and later debates about whether media companies or technology platforms would control attention.",
       "connectionHintZh": "它连接到流媒体、平台整合、有线宽带，以及后来关于媒体公司还是科技平台控制注意力的争论。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["economy-trade", "entertainment-media", "science-technology"],
-      "trackIds": ["networks-internet"],
-      "phaseIds": ["economy-trade-08", "entertainment-media-08", "networks-internet-06"],
+      "lensIds": [
+        "economy-trade",
+        "entertainment-media",
+        "science-technology"
+      ],
+      "trackIds": [
+        "networks-internet"
+      ],
+      "phaseIds": [
+        "economy-trade-08",
+        "entertainment-media-08",
+        "networks-internet-06"
+      ],
       "primaryLensId": "economy-trade",
       "primaryTrackId": "networks-internet",
       "primaryPhaseId": "economy-trade-08",
-      "regionPhaseIds": ["us-digital-superpower"],
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
       "primaryRegionPhaseId": "us-digital-superpower",
       "eventType": "corporate-merger",
       "importance": "core",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["The AOL-Time Warner deal is a standard example of dot-com era convergence logic."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The AOL-Time Warner deal is a standard example of dot-com era convergence logic."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/AOL_Time_Warner.svg",
       "imageAlt": "AOL Time Warner corporate wordmark.",
       "imageCaption": "The combined corporate name became a symbol of early internet convergence ambitions.",
       "imageCaptionZh": "合并后的公司名称成为早期互联网融合雄心的象征。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:AOL_Time_Warner.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:AOL_Time_Warner.svg",
+      "detailLevel": "full"
     },
     {
       "id": "event-iloveyou-worm-spreads-2000",
@@ -125,24 +184,40 @@
       "phaseRelationZh": "它属于“恶意软件、僵尸网络与网络犯罪”阶段，因为它显示大规模连接可以把小型恶意代码变成全球性破坏。",
       "connectionHint": "It connects to later phishing, ransomware, endpoint protection, and security awareness training because the human interface became part of the security system.",
       "connectionHintZh": "它连接到后来的钓鱼攻击、勒索软件、终端防护和安全意识培训，因为人的界面成为安全系统的一部分。",
-      "placeIds": ["global-transregional"],
+      "placeIds": [
+        "global-transregional"
+      ],
       "primaryPlaceId": "global-transregional",
-      "lensIds": ["science-technology"],
-      "trackIds": ["cybersecurity", "software-os"],
-      "phaseIds": ["cybersecurity-05", "software-os-05"],
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "cybersecurity",
+        "software-os"
+      ],
+      "phaseIds": [
+        "cybersecurity-05",
+        "software-os-05"
+      ],
       "primaryLensId": "science-technology",
       "primaryTrackId": "cybersecurity",
       "primaryPhaseId": "cybersecurity-05",
       "eventType": "malware-outbreak",
       "importance": "core",
-      "sourceRefs": ["fbi", "wikidata"],
-      "sourceNotes": ["ILOVEYOU is a widely cited early global email worm incident."],
+      "sourceRefs": [
+        "fbi",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "ILOVEYOU is a widely cited early global email worm incident."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ILOVEYOU-worm-vbs.png",
       "imageAlt": "Screenshot associated with the ILOVEYOU worm script.",
       "imageCaption": "The ILOVEYOU incident made ordinary email attachments part of global cybersecurity history.",
       "imageCaptionZh": "ILOVEYOU 事件让普通电子邮件附件进入全球网络安全史。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ILOVEYOU-worm-vbs.png"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:ILOVEYOU-worm-vbs.png",
+      "detailLevel": "full"
     },
     {
       "id": "event-human-genome-draft-announced-2000",
@@ -159,24 +234,43 @@
       "phaseRelationZh": "它属于科学技术中的“互联网、AI 与生物技术”阶段，因为它让生物知识明显变得计算化和数据库化。",
       "connectionHint": "It connects to databases, AI, personalized medicine, patent debates, and later sequencing platforms because biology increasingly became an information system.",
       "connectionHintZh": "它连接到数据库、AI、个性化医学、专利争论和后来的测序平台，因为生物学越来越成为一种信息系统。",
-      "placeIds": ["united-states", "britain-uk", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "britain-uk",
+        "global-transregional"
+      ],
       "primaryPlaceId": "global-transregional",
-      "lensIds": ["science-technology"],
-      "trackIds": ["databases-information-systems", "ai-ml"],
-      "phaseIds": ["science-technology-08", "databases-information-systems-05"],
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "databases-information-systems",
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "science-technology-08",
+        "databases-information-systems-05"
+      ],
       "primaryLensId": "science-technology",
       "primaryTrackId": "databases-information-systems",
       "primaryPhaseId": "science-technology-08",
       "eventType": "scientific-announcement",
       "importance": "core",
-      "sourceRefs": ["nih", "nature", "wikidata"],
-      "sourceNotes": ["The 2000 draft genome announcement is a core milestone in genomics and bioinformatics."],
+      "sourceRefs": [
+        "nih",
+        "nature",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 2000 draft genome announcement is a core milestone in genomics and bioinformatics."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Human_Genome_Project_logo.svg",
       "imageAlt": "Human Genome Project logo.",
       "imageCaption": "The Human Genome Project made DNA sequencing, databases, and international research infrastructure visible as one project.",
       "imageCaptionZh": "人类基因组计划把 DNA 测序、数据库和国际研究基础设施呈现为同一个项目。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Human_Genome_Project_logo.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Human_Genome_Project_logo.svg",
+      "detailLevel": "full"
     },
     {
       "id": "event-playstation-2-launches-2000",
@@ -193,26 +287,47 @@
       "phaseRelationZh": "它属于“电子游戏与有线电视时代媒介”阶段，因为它帮助互动娱乐成为全球主流媒体产业。",
       "connectionHint": "It connects to DVD adoption, Japanese consumer electronics, game studios, and later networked console platforms.",
       "connectionHintZh": "它连接到 DVD 普及、日本消费电子、游戏工作室以及后来的联网主机平台。",
-      "placeIds": ["japan", "global-transregional"],
+      "placeIds": [
+        "japan",
+        "global-transregional"
+      ],
       "primaryPlaceId": "japan",
-      "lensIds": ["entertainment-media", "science-technology"],
-      "trackIds": ["computing-pc", "semiconductors-hardware"],
-      "phaseIds": ["entertainment-media-07", "computing-pc-07", "semiconductors-hardware-07"],
+      "lensIds": [
+        "entertainment-media",
+        "science-technology"
+      ],
+      "trackIds": [
+        "computing-pc",
+        "semiconductors-hardware"
+      ],
+      "phaseIds": [
+        "entertainment-media-07",
+        "computing-pc-07",
+        "semiconductors-hardware-07"
+      ],
       "primaryLensId": "entertainment-media",
       "primaryTrackId": "computing-pc",
       "primaryPhaseId": "entertainment-media-07",
-      "regionPhaseIds": ["japan-postwar"],
+      "regionPhaseIds": [
+        "japan-postwar"
+      ],
       "primaryRegionPhaseId": "japan-postwar",
       "eventType": "product-launch",
       "importance": "core",
-      "sourceRefs": ["sony", "wikidata"],
-      "sourceNotes": ["PlayStation 2 is a major milestone in console and home media history."],
+      "sourceRefs": [
+        "sony",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "PlayStation 2 is a major milestone in console and home media history."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PS2-Versions.png",
       "imageAlt": "Sony PlayStation 2 console versions.",
       "imageCaption": "The PlayStation 2 turned the game console into a mass living-room media platform.",
       "imageCaptionZh": "PlayStation 2 把游戏主机变成大众客厅媒体平台。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:PS2-Versions.png"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:PS2-Versions.png",
+      "detailLevel": "full"
     },
     {
       "id": "event-the-sims-released-2000",
@@ -229,26 +344,44 @@
       "phaseRelationZh": "它属于“电子游戏与有线电视时代媒介”阶段，因为它在社交与移动平台让日常模拟更普遍之前，已经拓宽了游戏文化。",
       "connectionHint": "It connects to PC platforms, user-generated content, architecture games, gendered media audiences, and later life-simulation communities.",
       "connectionHintZh": "它连接到 PC 平台、用户生成内容、建筑类游戏、性别化媒体受众以及后来的生活模拟社群。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["entertainment-media"],
-      "trackIds": ["computing-pc"],
-      "phaseIds": ["entertainment-media-07", "computing-pc-07"],
+      "lensIds": [
+        "entertainment-media"
+      ],
+      "trackIds": [
+        "computing-pc"
+      ],
+      "phaseIds": [
+        "entertainment-media-07",
+        "computing-pc-07"
+      ],
       "primaryLensId": "entertainment-media",
       "primaryTrackId": "computing-pc",
       "primaryPhaseId": "entertainment-media-07",
-      "regionPhaseIds": ["us-digital-superpower"],
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
       "primaryRegionPhaseId": "us-digital-superpower",
       "eventType": "media-release",
       "importance": "core",
-      "sourceRefs": ["ea", "wikidata"],
-      "sourceNotes": ["The Sims is a landmark personal-computer game release."],
+      "sourceRefs": [
+        "ea",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Sims is a landmark personal-computer game release."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Sims_logo.svg",
       "imageAlt": "The Sims logo.",
       "imageCaption": "The Sims became a shorthand for domestic life simulation as mainstream computer entertainment.",
       "imageCaptionZh": "《模拟人生》成为日常生活模拟进入主流电脑娱乐的代表。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Sims_logo.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Sims_logo.svg",
+      "detailLevel": "full"
     },
     {
       "id": "event-big-brother-format-spreads-2000",
@@ -265,25 +398,41 @@
       "phaseRelationZh": "它属于“流媒体、社交媒体与平台”阶段，因为它在社交媒体日常化之前，就预示了持续在线的注意力经济。",
       "connectionHint": "It connects to social media, influencer culture, privacy debates, and interactive media because viewers became part of the entertainment system.",
       "connectionHintZh": "它连接到社交媒体、网红文化、隐私争论和互动媒体，因为观众成为娱乐系统的一部分。",
-      "placeIds": ["britain-uk", "united-states", "global-transregional"],
+      "placeIds": [
+        "britain-uk",
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "britain-uk",
-      "lensIds": ["entertainment-media"],
+      "lensIds": [
+        "entertainment-media"
+      ],
       "trackIds": [],
-      "phaseIds": ["entertainment-media-08"],
+      "phaseIds": [
+        "entertainment-media-08"
+      ],
       "primaryLensId": "entertainment-media",
       "primaryPhaseId": "entertainment-media-08",
-      "regionPhaseIds": ["britain-postwar"],
+      "regionPhaseIds": [
+        "britain-postwar"
+      ],
       "primaryRegionPhaseId": "britain-postwar",
       "eventType": "media-format",
       "importance": "core",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Big Brother's 2000 international expansion is a major reality television milestone."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Big Brother's 2000 international expansion is a major reality television milestone."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Big_Brother_eye_logo.svg",
       "imageAlt": "Big Brother eye logo associated with the reality television format.",
       "imageCaption": "The eye logo made surveillance itself part of the show's media identity.",
       "imageCaptionZh": "眼睛标识让“被观看”本身成为节目的媒体身份。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Brother_eye_logo.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Brother_eye_logo.svg",
+      "detailLevel": "full"
     },
     {
       "id": "event-tate-modern-opens-2000",
@@ -300,26 +449,44 @@
       "phaseRelationZh": "它属于“当代全球艺术”阶段，因为博物馆、双年展、装置和城市文化区成为当代艺术流通的核心。",
       "connectionHint": "It connects to architecture, urban regeneration, cultural tourism, and museum globalization.",
       "connectionHintZh": "它连接到建筑、城市更新、文化旅游和博物馆全球化。",
-      "placeIds": ["britain-uk"],
+      "placeIds": [
+        "britain-uk"
+      ],
       "primaryPlaceId": "britain-uk",
-      "lensIds": ["art", "architecture"],
-      "trackIds": ["digital-new-media-art"],
-      "phaseIds": ["art-08", "architecture-08"],
+      "lensIds": [
+        "art",
+        "architecture"
+      ],
+      "trackIds": [
+        "digital-new-media-art"
+      ],
+      "phaseIds": [
+        "art-08",
+        "architecture-08"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "digital-new-media-art",
       "primaryPhaseId": "art-08",
-      "regionPhaseIds": ["britain-postwar"],
+      "regionPhaseIds": [
+        "britain-postwar"
+      ],
       "primaryRegionPhaseId": "britain-postwar",
       "eventType": "museum-opening",
       "importance": "core",
-      "sourceRefs": ["tate", "wikidata"],
-      "sourceNotes": ["Tate Modern's 2000 opening is a major contemporary art institution milestone."],
+      "sourceRefs": [
+        "tate",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Tate Modern's 2000 opening is a major contemporary art institution milestone."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tate_Modern_London.jpg",
       "imageAlt": "Tate Modern in London.",
       "imageCaption": "Tate Modern's converted power station made contemporary art part of London's urban reinvention.",
       "imageCaptionZh": "泰特现代美术馆由发电站改造而成，让当代艺术成为伦敦城市再造的一部分。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tate_Modern_London.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tate_Modern_London.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-millennium-bridge-opens-2000",
@@ -336,25 +503,41 @@
       "phaseRelationZh": "它属于“可持续与计算建筑”阶段，因为当代建筑越来越依赖建模、性能测试和公共基础设施行为。",
       "connectionHint": "It connects to Tate Modern, urban regeneration, pedestrian infrastructure, and the politics of public design.",
       "connectionHintZh": "它连接到泰特现代、城市更新、步行基础设施和公共设计政治。",
-      "placeIds": ["britain-uk"],
+      "placeIds": [
+        "britain-uk"
+      ],
       "primaryPlaceId": "britain-uk",
-      "lensIds": ["architecture", "science-technology"],
+      "lensIds": [
+        "architecture",
+        "science-technology"
+      ],
       "trackIds": [],
-      "phaseIds": ["architecture-08", "science-technology-08"],
+      "phaseIds": [
+        "architecture-08",
+        "science-technology-08"
+      ],
       "primaryLensId": "architecture",
       "primaryPhaseId": "architecture-08",
-      "regionPhaseIds": ["britain-postwar"],
+      "regionPhaseIds": [
+        "britain-postwar"
+      ],
       "primaryRegionPhaseId": "britain-postwar",
       "eventType": "infrastructure-opening",
       "importance": "supporting",
-      "sourceRefs": ["arup", "wikidata"],
-      "sourceNotes": ["The bridge opening and closure are standard modern engineering case studies."],
+      "sourceRefs": [
+        "arup",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The bridge opening and closure are standard modern engineering case studies."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Millennium_Bridge%2C_London.jpg",
       "imageAlt": "Millennium Bridge in London.",
       "imageCaption": "The Millennium Bridge linked contemporary cultural redevelopment with a memorable engineering problem.",
       "imageCaptionZh": "千禧桥把当代文化再开发和一个令人难忘的工程问题连接起来。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Millennium_Bridge,_London.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Millennium_Bridge,_London.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-china-western-development-starts-2000",
@@ -371,25 +554,41 @@
       "phaseRelationZh": "它在广义国家能力层面可放入“后殖民与全球治理”阶段，但其主要意义在于中国现代区域发展，属于“民国、社会主义与改革时代”的地区脉络。",
       "connectionHint": "It connects to infrastructure, energy, urbanization, ethnic policy, domestic migration, and China's later Belt and Road infrastructure imagination.",
       "connectionHintZh": "它连接到基础设施、能源、城市化、民族政策、国内迁移，以及中国后来的一带一路式基础设施想象。",
-      "placeIds": ["china"],
+      "placeIds": [
+        "china"
+      ],
       "primaryPlaceId": "china",
-      "lensIds": ["state-empire", "economy-trade"],
+      "lensIds": [
+        "state-empire",
+        "economy-trade"
+      ],
       "trackIds": [],
-      "phaseIds": ["state-empire-08", "economy-trade-08"],
+      "phaseIds": [
+        "state-empire-08",
+        "economy-trade-08"
+      ],
       "primaryLensId": "state-empire",
       "primaryPhaseId": "state-empire-08",
-      "regionPhaseIds": ["china-modern"],
+      "regionPhaseIds": [
+        "china-modern"
+      ],
       "primaryRegionPhaseId": "china-modern",
       "eventType": "policy-launch",
       "importance": "core",
-      "sourceRefs": ["world-bank", "wikidata"],
-      "sourceNotes": ["Western Development is a major Chinese state development strategy announced around 2000."],
+      "sourceRefs": [
+        "world-bank",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Western Development is a major Chinese state development strategy announced around 2000."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/China_Western_Development.svg",
       "imageAlt": "Map associated with China's Western Development regions.",
       "imageCaption": "Western Development was a territorial strategy for directing state investment toward inland western China.",
       "imageCaptionZh": "西部大开发是一种把国家投资导向中国内陆西部的领土战略。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:China_Western_Development.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:China_Western_Development.svg",
+      "detailLevel": "full"
     },
     {
       "id": "event-putin-elected-russian-president-2000",
@@ -406,23 +605,35 @@
       "phaseRelationZh": "它通过后冷战主权、国家能力和大国政治的重组，属于“后殖民与全球治理”阶段。",
       "connectionHint": "It connects to post-Soviet state formation, energy geopolitics, Chechnya, NATO expansion debates, and later conflicts involving Russia.",
       "connectionHintZh": "它连接到后苏联国家形成、能源地缘政治、车臣、北约扩张争论，以及后来与俄罗斯相关的冲突。",
-      "placeIds": ["russia"],
+      "placeIds": [
+        "russia"
+      ],
       "primaryPlaceId": "russia",
-      "lensIds": ["state-empire"],
+      "lensIds": [
+        "state-empire"
+      ],
       "trackIds": [],
-      "phaseIds": ["state-empire-08"],
+      "phaseIds": [
+        "state-empire-08"
+      ],
       "primaryLensId": "state-empire",
       "primaryPhaseId": "state-empire-08",
       "eventType": "election",
       "importance": "core",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Putin's 2000 election is a core event in post-Soviet Russian political history."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Putin's 2000 election is a core event in post-Soviet Russian political history."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vladimir_Putin_2000.jpg",
       "imageAlt": "Vladimir Putin in 2000.",
       "imageCaption": "Putin's 2000 election signaled a new phase of centralized post-Soviet Russian politics.",
       "imageCaptionZh": "普京 2000 年当选标志着后苏联俄罗斯集中化政治的新阶段。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_2000.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_2000.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-vicente-fox-wins-mexican-presidency-2000",
@@ -439,25 +650,39 @@
       "phaseRelationZh": "它属于“后殖民与全球治理”阶段，因为它展现了现代国家体系中二十世纪末的民主化与政党轮替。",
       "connectionHint": "It connects to NAFTA-era economics, media politics, civil society, electoral institutions, and debates about democratic consolidation.",
       "connectionHintZh": "它连接到 NAFTA 时代经济、媒体政治、公民社会、选举制度和民主巩固争论。",
-      "placeIds": ["mexico-mesoamerica"],
+      "placeIds": [
+        "mexico-mesoamerica"
+      ],
       "primaryPlaceId": "mexico-mesoamerica",
-      "lensIds": ["state-empire"],
+      "lensIds": [
+        "state-empire"
+      ],
       "trackIds": [],
-      "phaseIds": ["state-empire-08"],
+      "phaseIds": [
+        "state-empire-08"
+      ],
       "primaryLensId": "state-empire",
       "primaryPhaseId": "state-empire-08",
-      "regionPhaseIds": ["mexico-colonial-modern"],
+      "regionPhaseIds": [
+        "mexico-colonial-modern"
+      ],
       "primaryRegionPhaseId": "mexico-colonial-modern",
       "eventType": "election",
       "importance": "core",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["The 2000 Mexican election is widely treated as a democratic transition milestone."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 2000 Mexican election is widely treated as a democratic transition milestone."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vicente_Fox_Quesada.jpg",
       "imageAlt": "Vicente Fox Quesada.",
       "imageCaption": "Vicente Fox's election made party alternation visible after decades of PRI presidential rule.",
       "imageCaptionZh": "福克斯当选让制度革命党数十年总统统治后的政党轮替变得可见。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vicente_Fox_Quesada.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Vicente_Fox_Quesada.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-un-millennium-summit-2000",
@@ -474,23 +699,38 @@
       "phaseRelationZh": "它属于“后殖民与全球治理”阶段，因为它在冷战后围绕发展、不平等和合作重新组织国际制度。",
       "connectionHint": "It connects to NGOs, development economics, public health, climate governance, and later Sustainable Development Goals.",
       "connectionHintZh": "它连接到 NGO、发展经济学、公共卫生、气候治理和后来的可持续发展目标。",
-      "placeIds": ["global-transregional", "united-states"],
+      "placeIds": [
+        "global-transregional",
+        "united-states"
+      ],
       "primaryPlaceId": "global-transregional",
-      "lensIds": ["state-empire", "economy-trade"],
+      "lensIds": [
+        "state-empire",
+        "economy-trade"
+      ],
       "trackIds": [],
-      "phaseIds": ["state-empire-08", "economy-trade-08"],
+      "phaseIds": [
+        "state-empire-08",
+        "economy-trade-08"
+      ],
       "primaryLensId": "state-empire",
       "primaryPhaseId": "state-empire-08",
       "eventType": "international-summit",
       "importance": "core",
-      "sourceRefs": ["un", "wikidata"],
-      "sourceNotes": ["The Millennium Summit and Millennium Declaration are core global governance milestones."],
+      "sourceRefs": [
+        "un",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Millennium Summit and Millennium Declaration are core global governance milestones."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/United_Nations_General_Assembly_Hall_%283%29.jpg",
       "imageAlt": "United Nations General Assembly Hall.",
       "imageCaption": "The Millennium Summit used the United Nations as a stage for measurable post-Cold War development commitments.",
       "imageCaptionZh": "千年峰会以联合国为舞台，提出冷战后可衡量的发展承诺。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:United_Nations_General_Assembly_Hall_(3).jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:United_Nations_General_Assembly_Hall_(3).jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-second-intifada-begins-2000",
@@ -507,24 +747,43 @@
       "phaseRelationZh": "它属于后冷战非对称与网络化冲突阶段，因为它混合了占领、叛乱、安全基础设施、媒体可见性和外交。",
       "connectionHint": "It connects to religious sites, urban security, suicide bombings, walls and checkpoints, and the wider geopolitics of the Middle East.",
       "connectionHintZh": "它连接到宗教圣地、城市安全、自杀式袭击、隔离墙与检查站，以及更广泛的中东地缘政治。",
-      "placeIds": ["arab-middle-east", "global-transregional"],
+      "placeIds": [
+        "arab-middle-east",
+        "global-transregional"
+      ],
       "primaryPlaceId": "arab-middle-east",
-      "lensIds": ["war-military", "state-empire", "religion-belief"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-07", "war-military-08", "state-empire-08"],
+      "lensIds": [
+        "war-military",
+        "state-empire",
+        "religion-belief"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-07",
+        "war-military-08",
+        "state-empire-08"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-07",
       "eventType": "uprising",
       "importance": "core",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["The Second Intifada is a core event in modern Israeli-Palestinian conflict history."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Second Intifada is a core event in modern Israeli-Palestinian conflict history."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Second_Intifada_riots.jpg",
       "imageAlt": "Street confrontation during the Second Intifada.",
       "imageCaption": "The Second Intifada made urban protest, armed conflict, and security infrastructure central to the post-Oslo period.",
       "imageCaptionZh": "第二次巴勒斯坦大起义让城市抗议、武装冲突和安全基础设施成为后奥斯陆时期的核心。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Second_Intifada_riots.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Second_Intifada_riots.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-kursk-submarine-disaster-2000",
@@ -541,24 +800,42 @@
       "phaseRelationZh": "它属于后冷战军事史，因为它揭示了承继的大国军事资产与削弱的制度能力之间的张力。",
       "connectionHint": "It connects to submarine technology, nuclear fleets, state secrecy, media scrutiny, and post-Soviet institutional rebuilding.",
       "connectionHintZh": "它连接到潜艇技术、核舰队、国家保密、媒体监督和后苏联制度重建。",
-      "placeIds": ["russia"],
+      "placeIds": [
+        "russia"
+      ],
       "primaryPlaceId": "russia",
-      "lensIds": ["war-military", "disaster-climate", "state-empire"],
-      "trackIds": ["war-global-conflicts"],
-      "phaseIds": ["war-global-conflicts-07", "war-military-08", "disaster-climate-08"],
+      "lensIds": [
+        "war-military",
+        "disaster-climate",
+        "state-empire"
+      ],
+      "trackIds": [
+        "war-global-conflicts"
+      ],
+      "phaseIds": [
+        "war-global-conflicts-07",
+        "war-military-08",
+        "disaster-climate-08"
+      ],
       "primaryLensId": "war-military",
       "primaryTrackId": "war-global-conflicts",
       "primaryPhaseId": "war-global-conflicts-07",
       "eventType": "military-disaster",
       "importance": "core",
-      "sourceRefs": ["britannica", "wikidata"],
-      "sourceNotes": ["Kursk is a major post-Soviet naval disaster and crisis response event."],
+      "sourceRefs": [
+        "britannica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Kursk is a major post-Soviet naval disaster and crisis response event."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K-141_Kursk.jpg",
       "imageAlt": "Russian submarine K-141 Kursk.",
       "imageCaption": "Kursk became a symbol of post-Soviet naval risk and crisis management failure.",
       "imageCaptionZh": "库尔斯克号成为后苏联海军风险与危机管理失败的象征。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:K-141_Kursk.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:K-141_Kursk.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-mozambique-floods-2000",
@@ -575,23 +852,36 @@
       "phaseRelationZh": "它属于“适应与韧性争论”阶段，因为它让气候相关灾害的不均衡社会地理变得可见。",
       "connectionHint": "It connects to humanitarian logistics, disaster media, cyclone risk, development policy, and later climate adaptation planning.",
       "connectionHintZh": "它连接到人道物流、灾害媒体、气旋风险、发展政策和后来的气候适应规划。",
-      "placeIds": ["east-africa", "global-transregional"],
+      "placeIds": [
+        "east-africa",
+        "global-transregional"
+      ],
       "primaryPlaceId": "east-africa",
-      "lensIds": ["disaster-climate"],
+      "lensIds": [
+        "disaster-climate"
+      ],
       "trackIds": [],
-      "phaseIds": ["disaster-climate-08"],
+      "phaseIds": [
+        "disaster-climate-08"
+      ],
       "primaryLensId": "disaster-climate",
       "primaryPhaseId": "disaster-climate-08",
       "eventType": "flood",
       "importance": "core",
-      "sourceRefs": ["un-ocha", "wikidata"],
-      "sourceNotes": ["The 2000 Mozambique floods are a major humanitarian disaster case."],
+      "sourceRefs": [
+        "un-ocha",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 2000 Mozambique floods are a major humanitarian disaster case."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mozambique_flood_2000.jpg",
       "imageAlt": "Flooding in Mozambique in 2000.",
       "imageCaption": "The Mozambique floods linked extreme weather, displacement, and international relief politics.",
       "imageCaptionZh": "莫桑比克洪灾把极端天气、流离失所和国际救援政治连接起来。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mozambique_flood_2000.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mozambique_flood_2000.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-crouching-tiger-hidden-dragon-released-2000",
@@ -608,26 +898,46 @@
       "phaseRelationZh": "它属于“数字特效、家庭录像与系列电影”阶段，因为全球发行、电影节声望、DVD 市场和跨国制作塑造了电影流通。",
       "connectionHint": "It connects to Chinese-language cinema, martial arts media, global art cinema, awards culture, and cross-Pacific film markets.",
       "connectionHintZh": "它连接到华语电影、武术媒体、全球艺术电影、奖项文化和跨太平洋电影市场。",
-      "placeIds": ["china", "global-transregional"],
+      "placeIds": [
+        "china",
+        "global-transregional"
+      ],
       "primaryPlaceId": "china",
-      "lensIds": ["entertainment-media", "art"],
-      "trackIds": ["film-cinema-industry"],
-      "phaseIds": ["film-cinema-industry-07", "art-08", "entertainment-media-08"],
+      "lensIds": [
+        "entertainment-media",
+        "art"
+      ],
+      "trackIds": [
+        "film-cinema-industry"
+      ],
+      "phaseIds": [
+        "film-cinema-industry-07",
+        "art-08",
+        "entertainment-media-08"
+      ],
       "primaryLensId": "entertainment-media",
       "primaryTrackId": "film-cinema-industry",
       "primaryPhaseId": "film-cinema-industry-07",
-      "regionPhaseIds": ["china-modern"],
+      "regionPhaseIds": [
+        "china-modern"
+      ],
       "primaryRegionPhaseId": "china-modern",
       "eventType": "film-release",
       "importance": "core",
-      "sourceRefs": ["criterion", "wikidata"],
-      "sourceNotes": ["Crouching Tiger, Hidden Dragon is a landmark global Chinese-language film release."],
+      "sourceRefs": [
+        "criterion",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Crouching Tiger, Hidden Dragon is a landmark global Chinese-language film release."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ang_Lee_2009.jpg",
       "imageAlt": "Ang Lee, director of Crouching Tiger, Hidden Dragon.",
       "imageCaption": "Ang Lee's film became a global reference point for transnational wuxia cinema.",
       "imageCaptionZh": "李安的这部电影成为跨国武侠电影的全球参照点。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ang_Lee_2009.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ang_Lee_2009.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-in-the-mood-for-love-released-2000",
@@ -644,26 +954,47 @@
       "phaseRelationZh": "它属于二十世纪末全球电影阶段，因为电影节、艺术院线和家庭录像帮助电影以风格和氛围的方式流通。",
       "connectionHint": "It connects to Hong Kong cinema, fashion, urban memory, auteur culture, and global cinephile networks.",
       "connectionHintZh": "它连接到香港电影、时尚、城市记忆、作者文化和全球影迷网络。",
-      "placeIds": ["china", "global-transregional"],
+      "placeIds": [
+        "china",
+        "global-transregional"
+      ],
       "primaryPlaceId": "china",
-      "lensIds": ["entertainment-media", "art", "fashion-daily-life"],
-      "trackIds": ["film-cinema-industry"],
-      "phaseIds": ["film-cinema-industry-07", "art-08", "fashion-daily-life-08"],
+      "lensIds": [
+        "entertainment-media",
+        "art",
+        "fashion-daily-life"
+      ],
+      "trackIds": [
+        "film-cinema-industry"
+      ],
+      "phaseIds": [
+        "film-cinema-industry-07",
+        "art-08",
+        "fashion-daily-life-08"
+      ],
       "primaryLensId": "entertainment-media",
       "primaryTrackId": "film-cinema-industry",
       "primaryPhaseId": "film-cinema-industry-07",
-      "regionPhaseIds": ["china-modern"],
+      "regionPhaseIds": [
+        "china-modern"
+      ],
       "primaryRegionPhaseId": "china-modern",
       "eventType": "film-release",
       "importance": "core",
-      "sourceRefs": ["criterion", "wikidata"],
-      "sourceNotes": ["In the Mood for Love is a canonical global art cinema release from 2000."],
+      "sourceRefs": [
+        "criterion",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "In the Mood for Love is a canonical global art cinema release from 2000."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wong_Kar-wai_Berlinale_2008.jpg",
       "imageAlt": "Wong Kar-wai, director of In the Mood for Love.",
       "imageCaption": "Wong Kar-wai's film made memory, style, and urban intimacy central to global art cinema.",
       "imageCaptionZh": "王家卫的电影让记忆、风格和城市亲密关系成为全球艺术电影的核心。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wong_Kar-wai_Berlinale_2008.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Wong_Kar-wai_Berlinale_2008.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-usb-flash-drive-enters-market-2000",
@@ -680,24 +1011,40 @@
       "phaseRelationZh": "它属于“移动与云连接个人设备”阶段，因为它标志数据开始随用户移动，而不是停留在单台机器内部。",
       "connectionHint": "It connects to flash memory, USB standards, office workflows, malware spread, and the later shift from portable media to cloud sync.",
       "connectionHintZh": "它连接到闪存、USB 标准、办公流程、恶意软件传播，以及后来从便携介质转向云同步的变化。",
-      "placeIds": ["global-transregional"],
+      "placeIds": [
+        "global-transregional"
+      ],
       "primaryPlaceId": "global-transregional",
-      "lensIds": ["science-technology"],
-      "trackIds": ["computing-pc", "semiconductors-hardware"],
-      "phaseIds": ["computing-pc-07", "semiconductors-hardware-07"],
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "computing-pc",
+        "semiconductors-hardware"
+      ],
+      "phaseIds": [
+        "computing-pc-07",
+        "semiconductors-hardware-07"
+      ],
       "primaryLensId": "science-technology",
       "primaryTrackId": "computing-pc",
       "primaryPhaseId": "computing-pc-07",
       "eventType": "product-introduction",
       "importance": "supporting",
-      "sourceRefs": ["ieee-spectrum", "wikidata"],
-      "sourceNotes": ["USB flash drives entered commercial use around 2000 through several manufacturers."],
+      "sourceRefs": [
+        "ieee-spectrum",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "USB flash drives entered commercial use around 2000 through several manufacturers."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/USB_flash_drive.jpg",
       "imageAlt": "USB flash drive.",
       "imageCaption": "The USB flash drive made portable solid-state storage an everyday computing object.",
       "imageCaptionZh": "USB 闪存盘让便携式固态存储成为日常计算物件。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:USB_flash_drive.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:USB_flash_drive.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-enterprise-java-platform-era-2000",
@@ -714,26 +1061,46 @@
       "phaseRelationZh": "它属于“开源与 Web 软件”阶段，因为企业开发转向标准化 Web 服务器、应用容器和可复用中间件。",
       "connectionHint": "It connects to databases, ERP systems, application servers, cloud migration, and later microservice architectures.",
       "connectionHintZh": "它连接到数据库、ERP 系统、应用服务器、云迁移和后来的微服务架构。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["science-technology", "economy-trade"],
-      "trackIds": ["software-os", "databases-information-systems"],
-      "phaseIds": ["software-os-05", "databases-information-systems-04"],
+      "lensIds": [
+        "science-technology",
+        "economy-trade"
+      ],
+      "trackIds": [
+        "software-os",
+        "databases-information-systems"
+      ],
+      "phaseIds": [
+        "software-os-05",
+        "databases-information-systems-04"
+      ],
       "primaryLensId": "science-technology",
       "primaryTrackId": "software-os",
       "primaryPhaseId": "software-os-05",
-      "regionPhaseIds": ["us-digital-superpower"],
+      "regionPhaseIds": [
+        "us-digital-superpower"
+      ],
       "primaryRegionPhaseId": "us-digital-superpower",
       "eventType": "software-platform",
       "importance": "supporting",
-      "sourceRefs": ["oracle", "wikidata"],
-      "sourceNotes": ["J2EE's 1999-2000 platform period is central to enterprise web software history."],
+      "sourceRefs": [
+        "oracle",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "J2EE's 1999-2000 platform period is central to enterprise web software history."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Java_programming_language_logo.svg",
       "imageAlt": "Java programming language logo.",
       "imageCaption": "Enterprise Java made the Java ecosystem a major server-side web application platform.",
       "imageCaptionZh": "企业 Java 让 Java 生态成为重要的服务器端 Web 应用平台。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Java_programming_language_logo.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Java_programming_language_logo.svg",
+      "detailLevel": "full"
     },
     {
       "id": "event-gprs-commercial-mobile-data-starts-2000",
@@ -750,24 +1117,40 @@
       "phaseRelationZh": "它属于“社交与移动互联网”阶段，因为移动数据基础设施让联网个人设备越来越持续和便携。",
       "connectionHint": "It connects to smartphones, app stores, mobile carriers, location-based services, and platform control over mobile access.",
       "connectionHintZh": "它连接到智能手机、应用商店、移动运营商、基于位置的服务，以及平台对移动接入的控制。",
-      "placeIds": ["global-transregional"],
+      "placeIds": [
+        "global-transregional"
+      ],
       "primaryPlaceId": "global-transregional",
-      "lensIds": ["science-technology"],
-      "trackIds": ["networks-internet", "computing-pc"],
-      "phaseIds": ["networks-internet-07", "computing-pc-07"],
+      "lensIds": [
+        "science-technology"
+      ],
+      "trackIds": [
+        "networks-internet",
+        "computing-pc"
+      ],
+      "phaseIds": [
+        "networks-internet-07",
+        "computing-pc-07"
+      ],
       "primaryLensId": "science-technology",
       "primaryTrackId": "networks-internet",
       "primaryPhaseId": "networks-internet-07",
       "eventType": "network-deployment",
       "importance": "supporting",
-      "sourceRefs": ["gsma", "wikidata"],
-      "sourceNotes": ["Commercial GPRS deployments around 2000 are a key step toward mobile data networks."],
+      "sourceRefs": [
+        "gsma",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Commercial GPRS deployments around 2000 are a key step toward mobile data networks."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GPRS.svg",
       "imageAlt": "GPRS network diagram.",
       "imageCaption": "GPRS made packet-switched mobile data part of everyday network infrastructure.",
       "imageCaptionZh": "GPRS 让分组交换移动数据成为日常网络基础设施的一部分。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:GPRS.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:GPRS.svg",
+      "detailLevel": "full"
     }
   ]
 }

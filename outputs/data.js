@@ -3537,7 +3537,63 @@ function normalizeEventMetadata(eventDefaults = {}) {
       .map((phase) => phase.id);
     event.regionPhaseIds = uniqueValues([...(event.regionPhaseIds || []), ...matchingRegionPhases]);
     event.primaryRegionPhaseId = event.primaryRegionPhaseId || event.regionPhaseIds[0] || null;
+    event.detailLevel = event.detailLevel || deriveRuntimeEventDetailLevel(event);
   });
+}
+
+function deriveRuntimeEventDetailLevel(event) {
+  const modalFields = [
+    "eventIntro",
+    "eventIntroZh",
+    "whyMatters",
+    "whyMattersZh",
+    "phaseRelation",
+    "phaseRelationZh",
+    "connectionHint",
+    "connectionHintZh"
+  ];
+  const imageFields = [
+    "image",
+    "imageAlt",
+    "imageCaption",
+    "imageCaptionZh",
+    "imageCredit",
+    "imageSourceUrl"
+  ];
+  const requiredBaseFields = [
+    "id",
+    "year",
+    "title",
+    "titleZh",
+    "primaryPlaceId",
+    "primaryLensId",
+    "primaryPhaseId"
+  ];
+  const requiredBaseArrays = ["placeIds", "lensIds", "phaseIds", "sourceRefs"];
+  const placeholderPattern = /phase-anchor|opening anchor|mature form|transition anchor|开端锚点|成熟形态|转折锚点|seed event|teaching marker/i;
+  const hasBaseFields = requiredBaseFields.every((field) => hasEventDetailText(event[field]));
+  const hasBaseArrays = requiredBaseArrays.every((field) => Array.isArray(event[field]) && event[field].length > 0);
+  const hasBaseText = (hasEventDetailText(event.summary) && hasEventDetailText(event.summaryZh))
+    || (hasEventDetailText(event.eventIntro) && hasEventDetailText(event.eventIntroZh));
+  const placeholderText = [
+    event.id,
+    event.title,
+    event.titleZh,
+    event.summary,
+    event.summaryZh,
+    event.eventType,
+    event.scope
+  ].filter(Boolean).join(" ");
+  if (!hasBaseFields || !hasBaseArrays || !hasBaseText || placeholderPattern.test(placeholderText)) {
+    return "needs-review";
+  }
+  const hasFullModal = modalFields.every((field) => hasEventDetailText(event[field]));
+  const hasFullImage = imageFields.every((field) => hasEventDetailText(event[field]));
+  return hasFullModal && hasFullImage ? "full" : "slice";
+}
+
+function hasEventDetailText(value) {
+  return value !== undefined && value !== null && String(value).trim() !== "";
 }
 
 function normalizeExactEventType(eventType) {

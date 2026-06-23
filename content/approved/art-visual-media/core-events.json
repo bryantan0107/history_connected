@@ -17,24 +17,42 @@
       "phaseRelationZh": "它属于“圣像、湿壁画与宗教绘画”阶段：它显示宗教绘画从象征图像走向沉浸式、叙事性的神圣空间。",
       "connectionHint": "It connects naturally to Renaissance perspective, church patronage, and the later idea that painting could guide a viewer through a constructed world.",
       "connectionHintZh": "它自然连接到文艺复兴透视法、教会赞助，以及后来绘画可以引导观者进入建构世界的观念。",
-      "placeIds": ["italian-states"],
+      "placeIds": [
+        "italian-states"
+      ],
       "primaryPlaceId": "italian-states",
-      "lensIds": ["art", "religion-belief", "architecture"],
-      "trackIds": ["painting-visual-art"],
-      "phaseIds": ["painting-visual-art-04", "art-03"],
+      "lensIds": [
+        "art",
+        "religion-belief",
+        "architecture"
+      ],
+      "trackIds": [
+        "painting-visual-art"
+      ],
+      "phaseIds": [
+        "painting-visual-art-04",
+        "art-03"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "painting-visual-art",
       "primaryPhaseId": "painting-visual-art-04",
       "eventType": "artwork-completion",
       "importance": "core",
-      "sourceRefs": ["smarthistory", "met-heilbrunn", "wikidata"],
-      "sourceNotes": ["The Arena Chapel fresco cycle is commonly dated to about 1303-1305 and treated as a key moment in late medieval and proto-Renaissance painting."],
+      "sourceRefs": [
+        "smarthistory",
+        "met-heilbrunn",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Arena Chapel fresco cycle is commonly dated to about 1303-1305 and treated as a key moment in late medieval and proto-Renaissance painting."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Giotto%20-%20Scrovegni%20-%20-%2036-%20-%20Lamentation%20%28The%20Mourning%20of%20Christ%29.jpg",
       "imageAlt": "Giotto's Lamentation fresco in the Arena Chapel.",
       "imageCaption": "The Lamentation shows Giotto's use of gesture, mass, and emotional staging inside the Arena Chapel cycle.",
       "imageCaptionZh": "《哀悼基督》展示了乔托在斯克罗威尼礼拜堂组画中对手势、体量和情感场景的运用。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-_36_-_Lamentation_(The_Mourning_of_Christ).jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-_36_-_Lamentation_(The_Mourning_of_Christ).jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-arnolfini-portrait-painted-1434",
@@ -51,24 +69,41 @@
       "phaseRelationZh": "它属于“文艺复兴透视与油画”阶段，但代表的是北方路径：不仅是几何和古典复兴，也包括表面、物件、契约和家庭现实感。",
       "connectionHint": "It connects to later portraiture, merchant culture, marriage imagery, and the rise of painting as a medium for recording private status.",
       "connectionHintZh": "它连接到后来的肖像画、商人文化、婚姻图像，以及绘画作为记录私人身份媒介的兴起。",
-      "placeIds": ["low-countries"],
+      "placeIds": [
+        "low-countries"
+      ],
       "primaryPlaceId": "low-countries",
-      "lensIds": ["art", "economy-trade", "fashion-daily-life"],
-      "trackIds": ["painting-visual-art"],
-      "phaseIds": ["painting-visual-art-05", "art-04"],
+      "lensIds": [
+        "art",
+        "economy-trade",
+        "fashion-daily-life"
+      ],
+      "trackIds": [
+        "painting-visual-art"
+      ],
+      "phaseIds": [
+        "painting-visual-art-05",
+        "art-04"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "painting-visual-art",
       "primaryPhaseId": "painting-visual-art-05",
       "eventType": "artwork-completion",
       "importance": "core",
-      "sourceRefs": ["national-gallery", "wikidata"],
-      "sourceNotes": ["The National Gallery identifies the painting as Jan van Eyck's 1434 portrait, a canonical Northern Renaissance work."],
+      "sourceRefs": [
+        "national-gallery",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The National Gallery identifies the painting as Jan van Eyck's 1434 portrait, a canonical Northern Renaissance work."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Eyck_-_Arnolfini_Portrait.jpg",
       "imageAlt": "Jan van Eyck's Arnolfini Portrait.",
       "imageCaption": "The Arnolfini Portrait uses oil technique to make domestic space, clothing, light, and status unusually legible.",
       "imageCaptionZh": "《阿尔诺芬尼夫妇像》用油画技术让家庭空间、服饰、光线和身份异常清晰可见。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-last-supper-completed-1498",
@@ -85,24 +120,41 @@
       "phaseRelationZh": "它属于“文艺复兴透视与油画”阶段，因为它把空间建构和人的心理反应放到宗教图像制作的中心。",
       "connectionHint": "It connects to architecture, monastic practice, patronage by Milanese rulers, and later debates over conservation and the fragility of experimental technique.",
       "connectionHintZh": "它连接到建筑、修道院实践、米兰统治者赞助，以及后来围绕保护和实验技法脆弱性的争论。",
-      "placeIds": ["italian-states"],
+      "placeIds": [
+        "italian-states"
+      ],
       "primaryPlaceId": "italian-states",
-      "lensIds": ["art", "religion-belief", "architecture"],
-      "trackIds": ["painting-visual-art"],
-      "phaseIds": ["painting-visual-art-05", "art-04"],
+      "lensIds": [
+        "art",
+        "religion-belief",
+        "architecture"
+      ],
+      "trackIds": [
+        "painting-visual-art"
+      ],
+      "phaseIds": [
+        "painting-visual-art-05",
+        "art-04"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "painting-visual-art",
       "primaryPhaseId": "painting-visual-art-05",
       "eventType": "artwork-completion",
       "importance": "core",
-      "sourceRefs": ["smarthistory", "wikidata"],
-      "sourceNotes": ["The Last Supper is usually dated to Leonardo's Milan period, completed in the late 1490s."],
+      "sourceRefs": [
+        "smarthistory",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Last Supper is usually dated to Leonardo's Milan period, completed in the late 1490s."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg",
       "imageAlt": "Leonardo da Vinci's The Last Supper.",
       "imageCaption": "The Last Supper uses perspective and gesture to turn a biblical meal into a psychological scene.",
       "imageCaptionZh": "《最后的晚餐》用透视和手势把圣经中的一餐转化为心理场景。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-school-of-athens-completed-1511",
@@ -119,24 +171,41 @@
       "phaseRelationZh": "它属于“文艺复兴透视与油画”阶段，因为它显示透视并非单纯技巧，而是组织知识和权威的世界观。",
       "connectionHint": "It connects art to philosophy, education, church power, and the later museum idea of Renaissance art as a high point of European culture.",
       "connectionHintZh": "它把艺术连接到哲学、教育、教会权力，以及后来把文艺复兴艺术视为欧洲文化高峰的博物馆叙事。",
-      "placeIds": ["italian-states"],
+      "placeIds": [
+        "italian-states"
+      ],
       "primaryPlaceId": "italian-states",
-      "lensIds": ["art", "literature", "religion-belief"],
-      "trackIds": ["painting-visual-art"],
-      "phaseIds": ["painting-visual-art-05", "art-04"],
+      "lensIds": [
+        "art",
+        "literature",
+        "religion-belief"
+      ],
+      "trackIds": [
+        "painting-visual-art"
+      ],
+      "phaseIds": [
+        "painting-visual-art-05",
+        "art-04"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "painting-visual-art",
       "primaryPhaseId": "painting-visual-art-05",
       "eventType": "artwork-completion",
       "importance": "core",
-      "sourceRefs": ["vatican-museums", "wikidata"],
-      "sourceNotes": ["The School of Athens is a central Vatican Stanze fresco associated with Raphael's mature Roman work."],
+      "sourceRefs": [
+        "vatican-museums",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The School of Athens is a central Vatican Stanze fresco associated with Raphael's mature Roman work."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Raffael_058.jpg",
       "imageAlt": "Raphael's The School of Athens.",
       "imageCaption": "The School of Athens visualizes Renaissance humanism through classical figures inside an ideal architectural space.",
       "imageCaptionZh": "《雅典学院》通过理想建筑空间中的古典人物，把文艺复兴人文主义视觉化。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Raffael_058.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Raffael_058.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-las-meninas-painted-1656",
@@ -153,24 +222,40 @@
       "phaseRelationZh": "它属于“巴洛克、宫廷与全球绘画市场”阶段，因为它用宫廷奇观和绘画智慧揭示再现机制。",
       "connectionHint": "It connects to monarchy, court ritual, portraiture, later modernist art theory, and museum debates about the viewer's role.",
       "connectionHintZh": "它连接到君主制、宫廷礼仪、肖像画、后来的现代主义艺术理论，以及关于观者角色的博物馆讨论。",
-      "placeIds": ["iberia-spain"],
+      "placeIds": [
+        "iberia-spain"
+      ],
       "primaryPlaceId": "iberia-spain",
-      "lensIds": ["art", "state-empire"],
-      "trackIds": ["painting-visual-art"],
-      "phaseIds": ["painting-visual-art-06", "art-05"],
+      "lensIds": [
+        "art",
+        "state-empire"
+      ],
+      "trackIds": [
+        "painting-visual-art"
+      ],
+      "phaseIds": [
+        "painting-visual-art-06",
+        "art-05"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "painting-visual-art",
       "primaryPhaseId": "painting-visual-art-06",
       "eventType": "artwork-completion",
       "importance": "core",
-      "sourceRefs": ["museo-prado", "wikidata"],
-      "sourceNotes": ["Las Meninas is one of the central works of Spanish Baroque painting and court portraiture."],
+      "sourceRefs": [
+        "museo-prado",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Las Meninas is one of the central works of Spanish Baroque painting and court portraiture."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Las_Meninas_01.jpg",
       "imageAlt": "Diego Velazquez's Las Meninas.",
       "imageCaption": "Las Meninas makes court space, artistic labor, and royal spectatorship part of the same visual puzzle.",
       "imageCaptionZh": "《宫娥》把宫廷空间、艺术劳动和王室观看共同变成同一个视觉谜题。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Las_Meninas_01.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Las_Meninas_01.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-impression-sunrise-exhibited-1874",
@@ -187,24 +272,40 @@
       "phaseRelationZh": "它属于“现代绘画与抽象”阶段，因为它把绘画推向感知、现代生活和可见的绘画笔触。",
       "connectionHint": "It connects to photography, railways, leisure, urban modernity, art markets, and the broader move from academic institutions to independent avant-gardes.",
       "connectionHintZh": "它连接到摄影、铁路、休闲、都市现代性、艺术市场，以及从学院制度转向独立先锋的更广泛变化。",
-      "placeIds": ["france"],
+      "placeIds": [
+        "france"
+      ],
       "primaryPlaceId": "france",
-      "lensIds": ["art", "economy-trade"],
-      "trackIds": ["painting-visual-art"],
-      "phaseIds": ["painting-visual-art-07", "art-06"],
+      "lensIds": [
+        "art",
+        "economy-trade"
+      ],
+      "trackIds": [
+        "painting-visual-art"
+      ],
+      "phaseIds": [
+        "painting-visual-art-07",
+        "art-06"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "painting-visual-art",
       "primaryPhaseId": "painting-visual-art-07",
       "eventType": "exhibition",
       "importance": "core",
-      "sourceRefs": ["musee-marmottan", "wikidata"],
-      "sourceNotes": ["The 1874 independent exhibition and Monet's painting are canonical in histories of Impressionism."],
+      "sourceRefs": [
+        "musee-marmottan",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1874 independent exhibition and Monet's painting are canonical in histories of Impressionism."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Monet,_Impression,_soleil_levant.jpg",
       "imageAlt": "Claude Monet's Impression, Sunrise.",
       "imageCaption": "Impression, Sunrise made atmospheric perception and independent exhibition culture part of modern painting's story.",
       "imageCaptionZh": "《印象·日出》让空气感知和独立展览文化成为现代绘画故事的一部分。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Claude_Monet,_Impression,_soleil_levant.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Claude_Monet,_Impression,_soleil_levant.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-fountain-submitted-1917",
@@ -221,24 +322,42 @@
       "phaseRelationZh": "它广义上属于“现代绘画与抽象”阶段，因为现代主义断裂不仅包括抽象，也包括对媒介、作者身份和品味的攻击。",
       "connectionHint": "It connects to conceptual art, museum critique, design objects, commodity culture, and later digital debates over originality and reproducibility.",
       "connectionHintZh": "它连接到观念艺术、博物馆批判、设计物品、商品文化，以及后来数字时代关于原创性和可复制性的争论。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "economy-trade"],
-      "trackIds": ["painting-visual-art", "digital-new-media-art"],
-      "phaseIds": ["painting-visual-art-07", "art-07"],
+      "lensIds": [
+        "art",
+        "economy-trade"
+      ],
+      "trackIds": [
+        "painting-visual-art",
+        "digital-new-media-art"
+      ],
+      "phaseIds": [
+        "painting-visual-art-07",
+        "art-07"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "painting-visual-art",
       "primaryPhaseId": "painting-visual-art-07",
       "eventType": "artwork-submission",
       "importance": "core",
-      "sourceRefs": ["tate", "moma", "wikidata"],
-      "sourceNotes": ["Fountain is a canonical readymade and foundational case for twentieth-century conceptual art."],
+      "sourceRefs": [
+        "tate",
+        "moma",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Fountain is a canonical readymade and foundational case for twentieth-century conceptual art."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg",
       "imageAlt": "Alfred Stieglitz photograph of Marcel Duchamp's Fountain.",
       "imageCaption": "Stieglitz's photograph is central because the original Fountain was lost; the image helped preserve the provocation.",
       "imageCaptionZh": "施蒂格利茨的照片很关键，因为《泉》的原件已遗失；这张照片帮助保存了这次挑衅。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-black-square-exhibited-1915",
@@ -255,24 +374,40 @@
       "phaseRelationZh": "它属于“现代绘画与抽象”阶段，因为它显示绘画从描绘转向形式系统、意识形态和先锋宣言。",
       "connectionHint": "It connects to Russian avant-garde politics, design, constructivism, minimalism, and later debates about whether an artwork can begin from almost nothing.",
       "connectionHintZh": "它连接到俄罗斯先锋政治、设计、构成主义、极简主义，以及后来关于艺术品是否可以从近乎空无开始的争论。",
-      "placeIds": ["russia"],
+      "placeIds": [
+        "russia"
+      ],
       "primaryPlaceId": "russia",
-      "lensIds": ["art", "state-empire"],
-      "trackIds": ["painting-visual-art"],
-      "phaseIds": ["painting-visual-art-07", "art-07"],
+      "lensIds": [
+        "art",
+        "state-empire"
+      ],
+      "trackIds": [
+        "painting-visual-art"
+      ],
+      "phaseIds": [
+        "painting-visual-art-07",
+        "art-07"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "painting-visual-art",
       "primaryPhaseId": "painting-visual-art-07",
       "eventType": "exhibition",
       "importance": "core",
-      "sourceRefs": ["tate", "wikidata"],
-      "sourceNotes": ["Black Square and the 0,10 exhibition are central in accounts of Suprematism and the Russian avant-garde."],
+      "sourceRefs": [
+        "tate",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Black Square and the 0,10 exhibition are central in accounts of Suprematism and the Russian avant-garde."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Black_Square.jpg",
       "imageAlt": "Kazimir Malevich's Black Square.",
       "imageCaption": "Black Square made the rejection of depiction into a concentrated modernist statement.",
       "imageCaptionZh": "《黑方块》把对描绘的拒绝凝缩为现代主义宣言。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Square.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Square.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-campbells-soup-cans-exhibited-1962",
@@ -289,24 +424,41 @@
       "phaseRelationZh": "它属于“当代全球视觉艺术”阶段，因为它指向绘画、媒体、商品设计、名人和市场不断重叠的世界。",
       "connectionHint": "It connects to advertising, television, supermarkets, celebrity culture, and later debates about appropriation and image saturation.",
       "connectionHintZh": "它连接到广告、电视、超市、名人文化，以及后来关于挪用和图像过剩的讨论。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "entertainment-media", "economy-trade"],
-      "trackIds": ["painting-visual-art"],
-      "phaseIds": ["painting-visual-art-08", "art-08"],
+      "lensIds": [
+        "art",
+        "entertainment-media",
+        "economy-trade"
+      ],
+      "trackIds": [
+        "painting-visual-art"
+      ],
+      "phaseIds": [
+        "painting-visual-art-08",
+        "art-08"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "painting-visual-art",
       "primaryPhaseId": "painting-visual-art-08",
       "eventType": "exhibition",
       "importance": "core",
-      "sourceRefs": ["moma", "wikidata"],
-      "sourceNotes": ["Campbell's Soup Cans is a central early Pop Art exhibition work by Andy Warhol."],
+      "sourceRefs": [
+        "moma",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Campbell's Soup Cans is a central early Pop Art exhibition work by Andy Warhol."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andy_Warhol_Campbell%27s_Soup_Cans_MOMA.jpg",
       "imageAlt": "Andy Warhol's Campbell's Soup Cans installed at MoMA.",
       "imageCaption": "Campbell's Soup Cans turns branded repetition into a subject for painting and museum display.",
       "imageCaptionZh": "《金宝汤罐头》把品牌化重复变成绘画和博物馆展示的主题。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_Campbell%27s_Soup_Cans_MOMA.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_Campbell%27s_Soup_Cans_MOMA.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-daguerreotype-announced-1839",
@@ -323,24 +475,40 @@
       "phaseRelationZh": "它属于“银版摄影与早期照相馆”阶段，因为它标志摄影从实验转向公共实践。",
       "connectionHint": "It connects to industrial chemistry, portrait commerce, state patronage, visual evidence, and later arguments over whether photography was art or technology.",
       "connectionHintZh": "它连接到工业化学、肖像商业、国家赞助、视觉证据，以及后来关于摄影是艺术还是技术的争论。",
-      "placeIds": ["france"],
+      "placeIds": [
+        "france"
+      ],
       "primaryPlaceId": "france",
-      "lensIds": ["art", "science-technology"],
-      "trackIds": ["photography-visual-media"],
-      "phaseIds": ["photography-visual-media-02", "entertainment-media-05"],
+      "lensIds": [
+        "art",
+        "science-technology"
+      ],
+      "trackIds": [
+        "photography-visual-media"
+      ],
+      "phaseIds": [
+        "photography-visual-media-02",
+        "entertainment-media-05"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "photography-visual-media",
       "primaryPhaseId": "photography-visual-media-02",
       "eventType": "technology-announcement",
       "importance": "core",
-      "sourceRefs": ["getty", "wikidata"],
-      "sourceNotes": ["1839 is conventionally treated as photography's public birth year through the daguerreotype announcement."],
+      "sourceRefs": [
+        "getty",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "1839 is conventionally treated as photography's public birth year through the daguerreotype announcement."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Boulevard_du_Temple_by_Daguerre.jpg",
       "imageAlt": "Daguerre's Boulevard du Temple daguerreotype.",
       "imageCaption": "Daguerre's Boulevard du Temple shows the kind of chemically fixed urban image that made the new medium startling.",
       "imageCaptionZh": "达盖尔的《坦普尔大道》展示了这种化学固定城市图像为何令人震惊。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-calotype-patent-1841",
@@ -357,24 +525,40 @@
       "phaseRelationZh": "它属于“银版摄影与早期照相馆”阶段，但代表另一种未来：摄影作为可重复的纸上图像，而不是唯一金属板。",
       "connectionHint": "It connects to books, archives, illustrated journalism, family albums, and the later technical logic of negatives and prints.",
       "connectionHintZh": "它连接到书籍、档案、图像新闻、家庭相册，以及后来负片和照片冲印的技术逻辑。",
-      "placeIds": ["britain-uk"],
+      "placeIds": [
+        "britain-uk"
+      ],
       "primaryPlaceId": "britain-uk",
-      "lensIds": ["art", "science-technology", "entertainment-media"],
-      "trackIds": ["photography-visual-media"],
-      "phaseIds": ["photography-visual-media-02"],
+      "lensIds": [
+        "art",
+        "science-technology",
+        "entertainment-media"
+      ],
+      "trackIds": [
+        "photography-visual-media"
+      ],
+      "phaseIds": [
+        "photography-visual-media-02"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "photography-visual-media",
       "primaryPhaseId": "photography-visual-media-02",
       "eventType": "patent",
       "importance": "core",
-      "sourceRefs": ["british-library", "wikidata"],
-      "sourceNotes": ["Talbot's calotype patent is central in histories of photographic reproducibility."],
+      "sourceRefs": [
+        "british-library",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Talbot's calotype patent is central in histories of photographic reproducibility."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Open_Door_by_William_Henry_Fox_Talbot.jpg",
       "imageAlt": "William Henry Fox Talbot's The Open Door.",
       "imageCaption": "Talbot's paper photographs show how the calotype tied photography to reproducible prints rather than single plates.",
       "imageCaptionZh": "塔尔博特的纸基照片显示卡罗式摄影如何把摄影连接到可复制照片，而不是单一金属板。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Open_Door_by_William_Henry_Fox_Talbot.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_Open_Door_by_William_Henry_Fox_Talbot.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-antietam-photographs-exhibited-1862",
@@ -391,24 +575,41 @@
       "phaseRelationZh": "它属于“纪实、肖像与殖民摄影”阶段，因为它显示摄影进入战争报道、证据、记忆和公共展示。",
       "connectionHint": "It connects to photojournalism, military history, public mourning, propaganda, and later debates over whether graphic images should be shown.",
       "connectionHintZh": "它连接到新闻摄影、军事史、公共哀悼、宣传，以及后来关于是否应展示惨烈图像的争论。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "war-military", "entertainment-media"],
-      "trackIds": ["photography-visual-media"],
-      "phaseIds": ["photography-visual-media-03", "war-military-06"],
+      "lensIds": [
+        "art",
+        "war-military",
+        "entertainment-media"
+      ],
+      "trackIds": [
+        "photography-visual-media"
+      ],
+      "phaseIds": [
+        "photography-visual-media-03",
+        "war-military-06"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "photography-visual-media",
       "primaryPhaseId": "photography-visual-media-03",
       "eventType": "photo-exhibition",
       "importance": "core",
-      "sourceRefs": ["library-of-congress", "wikidata"],
-      "sourceNotes": ["Civil War battlefield photography, especially Antietam, is widely treated as a turning point in war imagery."],
+      "sourceRefs": [
+        "library-of-congress",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Civil War battlefield photography, especially Antietam, is widely treated as a turning point in war imagery."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dead_confederate_soldiers_at_Antietam.jpg",
       "imageAlt": "Dead Confederate soldiers photographed after the Battle of Antietam.",
       "imageCaption": "Antietam photographs confronted viewers with the dead of war as visual evidence rather than heroic allegory.",
       "imageCaptionZh": "安提坦照片让观众面对作为视觉证据的战争死者，而不是英雄寓言。",
       "imageCredit": "Image: Library of Congress / Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dead_confederate_soldiers_at_Antietam.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dead_confederate_soldiers_at_Antietam.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-kodak-camera-launched-1888",
@@ -425,24 +626,40 @@
       "phaseRelationZh": "它属于“纪实、肖像与殖民摄影”阶段，因为它扩大了谁能制作图像以及照片如何在社会中流通。",
       "connectionHint": "It connects to advertising, family albums, tourism, mass manufacturing, and later smartphone photography as a consumer image habit.",
       "connectionHintZh": "它连接到广告、家庭相册、旅游、大规模制造，以及后来智能手机摄影作为消费图像习惯的形成。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "economy-trade", "science-technology"],
-      "trackIds": ["photography-visual-media"],
-      "phaseIds": ["photography-visual-media-03"],
+      "lensIds": [
+        "art",
+        "economy-trade",
+        "science-technology"
+      ],
+      "trackIds": [
+        "photography-visual-media"
+      ],
+      "phaseIds": [
+        "photography-visual-media-03"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "photography-visual-media",
       "primaryPhaseId": "photography-visual-media-03",
       "eventType": "product-launch",
       "importance": "core",
-      "sourceRefs": ["eastman-museum", "wikidata"],
-      "sourceNotes": ["The 1888 Kodak camera is a standard milestone in consumer photography."],
+      "sourceRefs": [
+        "eastman-museum",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 1888 Kodak camera is a standard milestone in consumer photography."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kodak_camera_ad_1888.jpg",
       "imageAlt": "Advertisement for the Kodak camera from the late 1880s.",
       "imageCaption": "Kodak advertising framed photography as a consumer service: press the button, let the company do the rest.",
       "imageCaptionZh": "柯达广告把摄影塑造成消费服务：按下按钮，剩下交给公司。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kodak_camera_ad_1888.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kodak_camera_ad_1888.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-leica-i-introduced-1925",
@@ -459,24 +676,40 @@
       "phaseRelationZh": "它属于“现代主义摄影与大众杂志”阶段，因为相机便携性改变了可拍摄对象，也改变了图像进入大众视觉文化的方式。",
       "connectionHint": "It connects to photojournalism, urban modernity, design engineering, and later portable media devices.",
       "connectionHintZh": "它连接到新闻摄影、都市现代性、设计工程，以及后来各种便携媒体设备。",
-      "placeIds": ["german-lands"],
+      "placeIds": [
+        "german-lands"
+      ],
       "primaryPlaceId": "german-lands",
-      "lensIds": ["art", "science-technology", "entertainment-media"],
-      "trackIds": ["photography-visual-media"],
-      "phaseIds": ["photography-visual-media-04"],
+      "lensIds": [
+        "art",
+        "science-technology",
+        "entertainment-media"
+      ],
+      "trackIds": [
+        "photography-visual-media"
+      ],
+      "phaseIds": [
+        "photography-visual-media-04"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "photography-visual-media",
       "primaryPhaseId": "photography-visual-media-04",
       "eventType": "product-launch",
       "importance": "core",
-      "sourceRefs": ["leica", "wikidata"],
-      "sourceNotes": ["The Leica I is a standard milestone in 35mm photography and modern camera design."],
+      "sourceRefs": [
+        "leica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Leica I is a standard milestone in 35mm photography and modern camera design."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leica_I,_1927.jpg",
       "imageAlt": "Early Leica I camera.",
       "imageCaption": "The Leica I made small-format photography a practical tool for mobile modern image-making.",
       "imageCaptionZh": "徕卡 I 型让小画幅摄影成为机动现代图像制作的实际工具。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Leica_I,_1927.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Leica_I,_1927.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-fsa-photography-unit-begins-1935",
@@ -493,24 +726,40 @@
       "phaseRelationZh": "它属于“现代主义摄影与大众杂志”阶段，因为纪实风格、公共政策和大众传播在此深度连接。",
       "connectionHint": "It connects to welfare-state politics, documentary film, photojournalism, archives, and debates about representation of poverty.",
       "connectionHintZh": "它连接到福利国家政治、纪录片、新闻摄影、档案，以及关于贫困再现的争论。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "state-empire", "economy-trade"],
-      "trackIds": ["photography-visual-media"],
-      "phaseIds": ["photography-visual-media-04"],
+      "lensIds": [
+        "art",
+        "state-empire",
+        "economy-trade"
+      ],
+      "trackIds": [
+        "photography-visual-media"
+      ],
+      "phaseIds": [
+        "photography-visual-media-04"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "photography-visual-media",
       "primaryPhaseId": "photography-visual-media-04",
       "eventType": "documentary-project",
       "importance": "core",
-      "sourceRefs": ["library-of-congress", "wikidata"],
-      "sourceNotes": ["The FSA photographic archive is a major public collection and documentary photography milestone."],
+      "sourceRefs": [
+        "library-of-congress",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The FSA photographic archive is a major public collection and documentary photography milestone."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lange-MigrantMother02.jpg",
       "imageAlt": "Dorothea Lange's Migrant Mother photograph.",
       "imageCaption": "Migrant Mother became one of the most recognized images associated with FSA documentary photography.",
       "imageCaptionZh": "《移民母亲》成为与农业安全局纪实摄影相关的最著名图像之一。",
       "imageCredit": "Image: Library of Congress / Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lange-MigrantMother02.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lange-MigrantMother02.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-polaroid-land-camera-demonstrated-1947",
@@ -527,24 +776,40 @@
       "phaseRelationZh": "它属于“新闻摄影、广告与艺术摄影”阶段，因为战后摄影越来越通过消费设备、设计和大众图像习惯运作。",
       "connectionHint": "It connects to family snapshots, advertising, identity photos, artists' instant-image experiments, and later smartphone expectations of immediate feedback.",
       "connectionHintZh": "它连接到家庭快照、广告、证件照、艺术家的即时图像实验，以及后来智能手机对即时反馈的期待。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "science-technology", "economy-trade"],
-      "trackIds": ["photography-visual-media"],
-      "phaseIds": ["photography-visual-media-05"],
+      "lensIds": [
+        "art",
+        "science-technology",
+        "economy-trade"
+      ],
+      "trackIds": [
+        "photography-visual-media"
+      ],
+      "phaseIds": [
+        "photography-visual-media-05"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "photography-visual-media",
       "primaryPhaseId": "photography-visual-media-05",
       "eventType": "product-demonstration",
       "importance": "core",
-      "sourceRefs": ["mit", "wikidata"],
-      "sourceNotes": ["The public demonstration of instant photography is a standard Polaroid milestone."],
+      "sourceRefs": [
+        "mit",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The public demonstration of instant photography is a standard Polaroid milestone."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Polaroid_Land_Camera_Model_95.jpg",
       "imageAlt": "Polaroid Land Camera Model 95.",
       "imageCaption": "The Land Camera made instant photographic feedback a consumer experience.",
       "imageCaptionZh": "Land 相机把即时摄影反馈变成消费体验。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Polaroid_Land_Camera_Model_95.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Polaroid_Land_Camera_Model_95.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-kodak-dcs-100-released-1991",
@@ -561,24 +826,40 @@
       "phaseRelationZh": "它属于“数字摄影与网络图像”阶段，因为它标志专业摄影从化学胶片转向数字捕捉。",
       "connectionHint": "It connects to CCD sensors, Photoshop, newsroom digitization, databases, and the later smartphone camera ecosystem.",
       "connectionHintZh": "它连接到 CCD 传感器、Photoshop、新闻编辑部数字化、数据库，以及后来的智能手机相机生态。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "science-technology"],
-      "trackIds": ["photography-visual-media", "digital-new-media-art"],
-      "phaseIds": ["photography-visual-media-07"],
+      "lensIds": [
+        "art",
+        "science-technology"
+      ],
+      "trackIds": [
+        "photography-visual-media",
+        "digital-new-media-art"
+      ],
+      "phaseIds": [
+        "photography-visual-media-07"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "photography-visual-media",
       "primaryPhaseId": "photography-visual-media-07",
       "eventType": "product-release",
       "importance": "core",
-      "sourceRefs": ["eastman-museum", "wikidata"],
-      "sourceNotes": ["The Kodak DCS line is widely cited in histories of professional digital photography."],
+      "sourceRefs": [
+        "eastman-museum",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The Kodak DCS line is widely cited in histories of professional digital photography."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kodak_DCS_100.jpg",
       "imageAlt": "Kodak DCS 100 digital camera system.",
       "imageCaption": "The DCS 100 shows early digital photography as a hybrid of camera body, sensor, storage, and computer workflow.",
       "imageCaptionZh": "DCS 100 显示早期数码摄影是相机机身、传感器、存储和计算机流程的混合体。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kodak_DCS_100.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kodak_DCS_100.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-photoshop-1-released-1990",
@@ -595,24 +876,44 @@
       "phaseRelationZh": "它属于“数字摄影与网络图像”，也属于数字/新媒体艺术，因为图像编辑成为数字文化的基本语法之一。",
       "connectionHint": "It connects to desktop publishing, web images, memes, visual misinformation, and AI image tools that later automated parts of editing and generation.",
       "connectionHintZh": "它连接到桌面出版、网络图像、模因、视觉误导，以及后来把部分编辑和生成自动化的 AI 图像工具。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "science-technology", "entertainment-media"],
-      "trackIds": ["photography-visual-media", "digital-new-media-art", "software-os"],
-      "phaseIds": ["photography-visual-media-07", "digital-new-media-art-04", "software-os-04"],
+      "lensIds": [
+        "art",
+        "science-technology",
+        "entertainment-media"
+      ],
+      "trackIds": [
+        "photography-visual-media",
+        "digital-new-media-art",
+        "software-os"
+      ],
+      "phaseIds": [
+        "photography-visual-media-07",
+        "digital-new-media-art-04",
+        "software-os-04"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "photography-visual-media",
       "primaryPhaseId": "photography-visual-media-07",
       "eventType": "software-release",
       "importance": "core",
-      "sourceRefs": ["adobe", "wikidata"],
-      "sourceNotes": ["Photoshop 1.0 is a standard milestone in digital imaging and design software history."],
+      "sourceRefs": [
+        "adobe",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Photoshop 1.0 is a standard milestone in digital imaging and design software history."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Adobe_Photoshop_CC_icon.svg",
       "imageAlt": "Adobe Photoshop application icon.",
       "imageCaption": "Photoshop became the shorthand for digital image editing, even as the software evolved far beyond its first release.",
       "imageCaptionZh": "Photoshop 成为数字图像编辑的代名词，即使软件本身早已远远超出最初版本。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg",
+      "detailLevel": "full"
     },
     {
       "id": "event-cybernetic-serendipity-opens-1968",
@@ -629,24 +930,39 @@
       "phaseRelationZh": "它属于“计算机艺术与算法图形”阶段，因为它把算法和控制论实践展示给更广泛的艺术观众。",
       "connectionHint": "It connects to software, systems theory, experimental music, interaction design, and later digital art festivals.",
       "connectionHintZh": "它连接到软件、系统理论、实验音乐、交互设计以及后来的数字艺术节。",
-      "placeIds": ["britain-uk"],
+      "placeIds": [
+        "britain-uk"
+      ],
       "primaryPlaceId": "britain-uk",
-      "lensIds": ["art", "science-technology"],
-      "trackIds": ["digital-new-media-art"],
-      "phaseIds": ["digital-new-media-art-02"],
+      "lensIds": [
+        "art",
+        "science-technology"
+      ],
+      "trackIds": [
+        "digital-new-media-art"
+      ],
+      "phaseIds": [
+        "digital-new-media-art-02"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "digital-new-media-art",
       "primaryPhaseId": "digital-new-media-art-02",
       "eventType": "exhibition",
       "importance": "core",
-      "sourceRefs": ["ica", "wikidata"],
-      "sourceNotes": ["Cybernetic Serendipity is a canonical exhibition in histories of computer art and cybernetic art."],
+      "sourceRefs": [
+        "ica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Cybernetic Serendipity is a canonical exhibition in histories of computer art and cybernetic art."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cybernetic_Serendipity_catalogue_cover.jpg",
       "imageAlt": "Catalogue cover for the Cybernetic Serendipity exhibition.",
       "imageCaption": "The Cybernetic Serendipity catalogue became a visual record of early computer and cybernetic art entering public culture.",
       "imageCaptionZh": "《控制论偶然性》展览图录成为早期计算机与控制论艺术进入公共文化的视觉记录。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cybernetic_Serendipity_catalogue_cover.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cybernetic_Serendipity_catalogue_cover.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-experiments-in-art-and-technology-founded-1966",
@@ -663,24 +979,40 @@
       "phaseRelationZh": "它属于“电影、视频与电子图像实验”阶段，因为艺术家在个人电脑普及前，就开始与电子设备、表演系统和工程师合作。",
       "connectionHint": "It connects to performance art, telecommunications art, interactive installation, and later artist-engineer collaborations in software and labs.",
       "connectionHintZh": "它连接到表演艺术、电信艺术、互动装置，以及后来软件和实验室中的艺术家—工程师协作。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "science-technology"],
-      "trackIds": ["digital-new-media-art"],
-      "phaseIds": ["digital-new-media-art-01", "digital-new-media-art-02"],
+      "lensIds": [
+        "art",
+        "science-technology"
+      ],
+      "trackIds": [
+        "digital-new-media-art"
+      ],
+      "phaseIds": [
+        "digital-new-media-art-01",
+        "digital-new-media-art-02"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "digital-new-media-art",
       "primaryPhaseId": "digital-new-media-art-01",
       "eventType": "organization-founded",
       "importance": "core",
-      "sourceRefs": ["getty", "wikidata"],
-      "sourceNotes": ["E.A.T. is widely cited as a key organization in art-and-technology collaboration."],
+      "sourceRefs": [
+        "getty",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "E.A.T. is widely cited as a key organization in art-and-technology collaboration."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/9_Evenings_Theatre_and_Engineering_poster.jpg",
       "imageAlt": "Poster for 9 Evenings: Theatre and Engineering.",
       "imageCaption": "9 Evenings helped create the collaborative environment from which Experiments in Art and Technology emerged.",
       "imageCaptionZh": "《九个夜晚》帮助形成“艺术与技术实验”组织出现的协作环境。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:9_Evenings_Theatre_and_Engineering_poster.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:9_Evenings_Theatre_and_Engineering_poster.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-nam-june-paik-tv-buddha-1974",
@@ -697,24 +1029,40 @@
       "phaseRelationZh": "它属于“视频艺术、装置与媒介批判”阶段，因为它用实时视频反馈质疑电视权威和观者位置。",
       "connectionHint": "It connects to Buddhism, television culture, surveillance, closed-circuit systems, installation art, and later webcam and livestream cultures.",
       "connectionHintZh": "它连接到佛教、电视文化、监控、闭路系统、装置艺术，以及后来的网络摄像头和直播文化。",
-      "placeIds": ["united-states"],
+      "placeIds": [
+        "united-states"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "religion-belief", "entertainment-media"],
-      "trackIds": ["digital-new-media-art"],
-      "phaseIds": ["digital-new-media-art-03"],
+      "lensIds": [
+        "art",
+        "religion-belief",
+        "entertainment-media"
+      ],
+      "trackIds": [
+        "digital-new-media-art"
+      ],
+      "phaseIds": [
+        "digital-new-media-art-03"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "digital-new-media-art",
       "primaryPhaseId": "digital-new-media-art-03",
       "eventType": "artwork-completion",
       "importance": "core",
-      "sourceRefs": ["tate", "wikidata"],
-      "sourceNotes": ["TV Buddha is a canonical work in histories of video art and media installation."],
+      "sourceRefs": [
+        "tate",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "TV Buddha is a canonical work in histories of video art and media installation."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nam_June_Paik_TV_Buddha.jpg",
       "imageAlt": "Nam June Paik's TV Buddha installation.",
       "imageCaption": "TV Buddha uses closed-circuit television to make a statue watch its own mediated image.",
       "imageCaptionZh": "《电视佛》用闭路电视让佛像观看自身的媒介化图像。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nam_June_Paik_TV_Buddha.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nam_June_Paik_TV_Buddha.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-ars-electronica-founded-1979",
@@ -731,24 +1079,40 @@
       "phaseRelationZh": "它属于“计算机艺术与算法图形”阶段，因为它为计算和电子实践建立了持久公共平台。",
       "connectionHint": "It connects to festivals, research labs, creative coding, European media policy, and later AI and interactive art exhibitions.",
       "connectionHintZh": "它连接到艺术节、研究实验室、创意编程、欧洲媒介政策，以及后来的 AI 和互动艺术展览。",
-      "placeIds": ["german-lands"],
+      "placeIds": [
+        "german-lands"
+      ],
       "primaryPlaceId": "german-lands",
-      "lensIds": ["art", "science-technology"],
-      "trackIds": ["digital-new-media-art"],
-      "phaseIds": ["digital-new-media-art-02", "digital-new-media-art-03"],
+      "lensIds": [
+        "art",
+        "science-technology"
+      ],
+      "trackIds": [
+        "digital-new-media-art"
+      ],
+      "phaseIds": [
+        "digital-new-media-art-02",
+        "digital-new-media-art-03"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "digital-new-media-art",
       "primaryPhaseId": "digital-new-media-art-02",
       "eventType": "festival-founded",
       "importance": "core",
-      "sourceRefs": ["ars-electronica", "wikidata"],
-      "sourceNotes": ["Ars Electronica is a key institution in electronic, digital, and media art history."],
+      "sourceRefs": [
+        "ars-electronica",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Ars Electronica is a key institution in electronic, digital, and media art history."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ars_Electronica_Center_Linz_2014.jpg",
       "imageAlt": "Ars Electronica Center in Linz.",
       "imageCaption": "Ars Electronica became an institutional home for electronic and digital art debates.",
       "imageCaptionZh": "林茨电子艺术节成为电子与数字艺术讨论的重要制度场所。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ars_Electronica_Center_Linz_2014.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ars_Electronica_Center_Linz_2014.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-rhizome-artbase-launched-1999",
@@ -765,24 +1129,42 @@
       "phaseRelationZh": "它属于“互联网艺术与网络参与”阶段，因为它显示网络既成为艺术媒介，也成为档案难题。",
       "connectionHint": "It connects to museum conservation, software emulation, platform decay, internet communities, and later blockchain claims about digital ownership.",
       "connectionHintZh": "它连接到博物馆保护、软件模拟、平台衰败、互联网社群，以及后来区块链关于数字所有权的主张。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "science-technology"],
-      "trackIds": ["digital-new-media-art", "networks-internet"],
-      "phaseIds": ["digital-new-media-art-05", "networks-internet-05"],
+      "lensIds": [
+        "art",
+        "science-technology"
+      ],
+      "trackIds": [
+        "digital-new-media-art",
+        "networks-internet"
+      ],
+      "phaseIds": [
+        "digital-new-media-art-05",
+        "networks-internet-05"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "digital-new-media-art",
       "primaryPhaseId": "digital-new-media-art-05",
       "eventType": "archive-launch",
       "importance": "core",
-      "sourceRefs": ["rhizome", "wikidata"],
-      "sourceNotes": ["Rhizome ArtBase is a central archive for net art and born-digital art preservation."],
+      "sourceRefs": [
+        "rhizome",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Rhizome ArtBase is a central archive for net art and born-digital art preservation."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhizome_logo.svg",
       "imageAlt": "Rhizome logo.",
       "imageCaption": "Rhizome became a key institution for treating internet art as preservable cultural work.",
       "imageCaptionZh": "Rhizome 成为把互联网艺术视为可保存文化作品的重要机构。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rhizome_logo.svg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rhizome_logo.svg",
+      "detailLevel": "full"
     },
     {
       "id": "event-processing-1-released-2008",
@@ -799,24 +1181,42 @@
       "phaseRelationZh": "它部分属于“社交媒体、平台与后互联网艺术”，但更重要的是连接互动多媒体、互联网社群和创意编程教育。",
       "connectionHint": "It connects to software education, generative art, data visualization, maker culture, and later p5.js browser-based creative coding.",
       "connectionHintZh": "它连接到软件教育、生成艺术、数据可视化、创客文化，以及后来基于浏览器的 p5.js 创意编程。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "science-technology"],
-      "trackIds": ["digital-new-media-art", "software-os"],
-      "phaseIds": ["digital-new-media-art-06", "software-os-05"],
+      "lensIds": [
+        "art",
+        "science-technology"
+      ],
+      "trackIds": [
+        "digital-new-media-art",
+        "software-os"
+      ],
+      "phaseIds": [
+        "digital-new-media-art-06",
+        "software-os-05"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "digital-new-media-art",
       "primaryPhaseId": "digital-new-media-art-06",
       "eventType": "software-release",
       "importance": "core",
-      "sourceRefs": ["processing-foundation", "wikidata"],
-      "sourceNotes": ["Processing is widely cited in creative coding and digital art education histories."],
+      "sourceRefs": [
+        "processing-foundation",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "Processing is widely cited in creative coding and digital art education histories."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Processing_3_logo.png",
       "imageAlt": "Processing logo.",
       "imageCaption": "Processing became a recognizable platform for teaching programming as visual and interactive practice.",
       "imageCaptionZh": "Processing 成为把编程作为视觉和互动实践来教学的标志性平台。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Processing_3_logo.png"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Processing_3_logo.png",
+      "detailLevel": "full"
     },
     {
       "id": "event-everydays-nft-sale-2021",
@@ -833,24 +1233,43 @@
       "phaseRelationZh": "它属于“区块链、NFT 与数字所有权争论”阶段，因为它把一种技术性所有权机制转化为主流艺术市场事件。",
       "connectionHint": "It connects to crypto markets, digital scarcity, platform speculation, artist monetization, and later skepticism after NFT prices fell.",
       "connectionHintZh": "它连接到加密市场、数字稀缺性、平台投机、艺术家变现，以及 NFT 价格下跌后的怀疑。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "economy-trade", "science-technology"],
-      "trackIds": ["digital-new-media-art", "networks-internet"],
-      "phaseIds": ["digital-new-media-art-07", "economy-trade-08"],
+      "lensIds": [
+        "art",
+        "economy-trade",
+        "science-technology"
+      ],
+      "trackIds": [
+        "digital-new-media-art",
+        "networks-internet"
+      ],
+      "phaseIds": [
+        "digital-new-media-art-07",
+        "economy-trade-08"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "digital-new-media-art",
       "primaryPhaseId": "digital-new-media-art-07",
       "eventType": "auction-sale",
       "importance": "core",
-      "sourceRefs": ["christies", "wikidata"],
-      "sourceNotes": ["The 2021 Christie's sale is the canonical NFT art market milestone."],
+      "sourceRefs": [
+        "christies",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "The 2021 Christie's sale is the canonical NFT art market milestone."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Everydays_The_First_5000_Days.jpg",
       "imageAlt": "Beeple's Everydays: The First 5000 Days.",
       "imageCaption": "Everydays became the emblem of NFT art's sudden entry into mainstream auction culture.",
       "imageCaptionZh": "《Everydays》成为 NFT 艺术突然进入主流拍卖文化的象征。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Everydays_The_First_5000_Days.jpg"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Everydays_The_First_5000_Days.jpg",
+      "detailLevel": "full"
     },
     {
       "id": "event-dall-e-2-public-beta-2022",
@@ -867,24 +1286,42 @@
       "phaseRelationZh": "它属于“生成式 AI 与合成图像文化”阶段，因为提示词、数据集、模型行为和作者身份成为核心艺术与社会问题。",
       "connectionHint": "It connects to AI / Machine Learning, copyright disputes, design work, stock imagery, misinformation, and the longer history of software-assisted image editing.",
       "connectionHintZh": "它连接到 AI / 机器学习、版权争议、设计劳动、图库图像、虚假信息，以及软件辅助图像编辑的更长历史。",
-      "placeIds": ["united-states", "global-transregional"],
+      "placeIds": [
+        "united-states",
+        "global-transregional"
+      ],
       "primaryPlaceId": "united-states",
-      "lensIds": ["art", "science-technology"],
-      "trackIds": ["digital-new-media-art", "ai-ml"],
-      "phaseIds": ["digital-new-media-art-08", "ai-ml-07"],
+      "lensIds": [
+        "art",
+        "science-technology"
+      ],
+      "trackIds": [
+        "digital-new-media-art",
+        "ai-ml"
+      ],
+      "phaseIds": [
+        "digital-new-media-art-08",
+        "ai-ml-07"
+      ],
       "primaryLensId": "art",
       "primaryTrackId": "digital-new-media-art",
       "primaryPhaseId": "digital-new-media-art-08",
       "eventType": "ai-product-release",
       "importance": "core",
-      "sourceRefs": ["openai", "wikidata"],
-      "sourceNotes": ["DALL-E 2 is a widely cited public milestone in text-to-image generative AI."],
+      "sourceRefs": [
+        "openai",
+        "wikidata"
+      ],
+      "sourceNotes": [
+        "DALL-E 2 is a widely cited public milestone in text-to-image generative AI."
+      ],
       "image": "https://commons.wikimedia.org/wiki/Special:FilePath/DALL-E_2_logo.png",
       "imageAlt": "DALL-E 2 logo.",
       "imageCaption": "DALL-E 2 made text-to-image generation legible as a public creative interface.",
       "imageCaptionZh": "DALL-E 2 让文本生成图像作为公共创作界面变得可见。",
       "imageCredit": "Image: Wikimedia Commons",
-      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:DALL-E_2_logo.png"
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:DALL-E_2_logo.png",
+      "detailLevel": "full"
     }
   ]
 }

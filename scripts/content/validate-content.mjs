@@ -1,49 +1,65 @@
 import path from "node:path";
-import { collectContentEvents, repoRoot } from "./content-utils.mjs";
+import {
+  collectContentEvents,
+  EVENT_IMAGE_FIELDS,
+  EVENT_MODAL_FIELDS,
+  getEventDetailAudit,
+  hasArrayValue,
+  hasText,
+  PLACEHOLDER_EVENT_PATTERN,
+  repoRoot
+} from "./content-utils.mjs";
 
 const contentRoot = path.join(repoRoot, "content");
 const approved = collectContentEvents(path.join(contentRoot, "approved"));
 const candidates = collectContentEvents(path.join(contentRoot, "candidates"));
-const allEvents = [...approved.events, ...candidates.events];
 const issues = [];
-const placeholderPattern = /phase-anchor|opening anchor|mature form|transition anchor|开端锚点|成熟形态|转折锚点/i;
-
-function hasArray(event, field) {
-  return Array.isArray(event[field]) && event[field].length > 0;
-}
 
 function requireField(event, field) {
-  if (event[field] === undefined || event[field] === null || event[field] === "") {
+  if (!hasText(event[field])) {
     issues.push(`${event.__sourceFile}: ${event.id || "(missing id)"} missing ${field}`);
   }
 }
 
-function validateEvent(event, strictDetail = false, strictLocalized = true) {
+function validateEvent(event, strictLocalized = true) {
   ["id", "year", "title", "primaryPlaceId", "primaryLensId", "primaryPhaseId", "sourceNotes", "reviewStatus"].forEach((field) => requireField(event, field));
   if (strictLocalized) ["titleZh", "summary", "summaryZh"].forEach((field) => requireField(event, field));
   if (!("titleZh" in event)) issues.push(`${event.__sourceFile}: ${event.id || "(missing id)"} missing titleZh field`);
   if (!("summary" in event)) issues.push(`${event.__sourceFile}: ${event.id || "(missing id)"} missing summary field`);
   if (!("summaryZh" in event)) issues.push(`${event.__sourceFile}: ${event.id || "(missing id)"} missing summaryZh field`);
   ["placeIds", "lensIds", "phaseIds", "sourceRefs"].forEach((field) => {
-    if (!hasArray(event, field)) issues.push(`${event.__sourceFile}: ${event.id || "(missing id)"} missing ${field}`);
+    if (!hasArrayValue(event, field)) issues.push(`${event.__sourceFile}: ${event.id || "(missing id)"} missing ${field}`);
   });
   if (event.trackIds && event.trackIds.length && !event.primaryTrackId) {
     issues.push(`${event.__sourceFile}: ${event.id} has trackIds but no primaryTrackId`);
   }
-  if (placeholderPattern.test([event.id, event.title, event.titleZh, event.summary, event.summaryZh].filter(Boolean).join(" "))) {
+  if (PLACEHOLDER_EVENT_PATTERN.test([event.id, event.title, event.titleZh, event.summary, event.summaryZh].filter(Boolean).join(" "))) {
     issues.push(`${event.__sourceFile}: ${event.id} looks like placeholder content`);
-  }
-  if (strictDetail) {
-    ["eventIntro", "eventIntroZh", "whyMatters", "whyMattersZh", "phaseRelation", "phaseRelationZh", "connectionHint", "connectionHintZh"].forEach((field) => requireField(event, field));
   }
 }
 
-approved.events.forEach((event) => validateEvent(event, Boolean(event.eventIntro || event.whyMatters), true));
 approved.events.forEach((event) => {
-  ["eventIntro", "eventIntroZh", "whyMatters", "whyMattersZh", "phaseRelation", "phaseRelationZh", "connectionHint", "connectionHintZh"].forEach((field) => requireField(event, field));
-  ["image", "imageAlt", "imageCaption", "imageCaptionZh", "imageCredit", "imageSourceUrl"].forEach((field) => requireField(event, field));
+  validateEvent(event, true);
+  const audit = getEventDetailAudit(event);
+  if (!hasText(event.detailLevel)) {
+    issues.push(`${event.__sourceFile}: ${event.id || "(missing id)"} missing detailLevel`);
+    return;
+  }
+  if (!["full", "slice", "needs-review"].includes(event.detailLevel)) {
+    issues.push(`${event.__sourceFile}: ${event.id} has invalid detailLevel ${event.detailLevel}`);
+  }
+  if (event.detailLevel === "needs-review") {
+    issues.push(`${event.__sourceFile}: ${event.id} is approved but marked needs-review`);
+  }
+  if (!audit.hasBase) {
+    issues.push(`${event.__sourceFile}: ${event.id} marked ${event.detailLevel} but lacks slice-ready base fields`);
+  }
+  if (event.detailLevel === "full") {
+    EVENT_MODAL_FIELDS.forEach((field) => requireField(event, field));
+    EVENT_IMAGE_FIELDS.forEach((field) => requireField(event, field));
+  }
 });
-candidates.events.forEach((event) => validateEvent(event, false, false));
+candidates.events.forEach((event) => validateEvent(event, false));
 
 const approvedIds = new Set();
 approved.events.forEach((event) => {

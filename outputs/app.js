@@ -3493,6 +3493,8 @@ function renderEventModal() {
   const lensLabels = (event.lensIds || []).map(getLensById).filter(Boolean).map(localizedLensTitle);
   const trackLabels = (event.trackIds || []).map(getLensTrackById).filter(Boolean).map(localizedTrackTitle);
   const sources = (event.sourceRefs || event.sources || []).map(getSourceTitle).filter(Boolean);
+  const detailLevel = getEventModalDetailLevel(enhancedEvent);
+  const showFullEventSections = detailLevel === "full";
   els.eventModal.hidden = false;
   els.eventModalContent.innerHTML = `
     <div class="phase-modal-kicker">${t("exactEvent")}</div>
@@ -3506,9 +3508,9 @@ function renderEventModal() {
     ${renderEventImage(enhancedEvent, phases)}
     ${renderEventModalChips(lensLabels, trackLabels, phases)}
     ${renderEventEssaySection("whatHappened", getLocalizedEventField(enhancedEvent, "eventIntro") || localizedItemSummary(enhancedEvent))}
-    ${renderEventEssaySection("whyItMatters", getEventWhyMatters(enhancedEvent, phases))}
-    ${renderEventEssaySection("whyThisPhase", getEventPhaseRelation(enhancedEvent, phases))}
-    ${renderEventEssaySection("possibleNextConnections", getEventConnectionHint(enhancedEvent))}
+    ${showFullEventSections ? renderEventEssaySection("whyItMatters", getEventWhyMatters(enhancedEvent, phases)) : ""}
+    ${showFullEventSections ? renderEventEssaySection("whyThisPhase", getEventPhaseRelation(enhancedEvent, phases)) : ""}
+    ${showFullEventSections ? renderEventEssaySection("possibleNextConnections", getEventConnectionHint(enhancedEvent)) : ""}
     ${sources.length ? `
       <div class="phase-modal-section">
         <h3>${t("phaseSources")}</h3>
@@ -3516,6 +3518,41 @@ function renderEventModal() {
       </div>
     ` : ""}
   `;
+}
+
+function getEventModalDetailLevel(event) {
+  if (!event) return "needs-review";
+  if (event.detailLevel === "full" || (eventHasFullModalDetail(event) && eventHasEventSpecificImage(event))) return "full";
+  if (event.detailLevel === "needs-review") return "needs-review";
+  return "slice";
+}
+
+function eventHasFullModalDetail(event) {
+  return [
+    "eventIntro",
+    "eventIntroZh",
+    "whyMatters",
+    "whyMattersZh",
+    "phaseRelation",
+    "phaseRelationZh",
+    "connectionHint",
+    "connectionHintZh"
+  ].every((field) => hasModalText(event[field]));
+}
+
+function eventHasEventSpecificImage(event) {
+  return [
+    "image",
+    "imageAlt",
+    "imageCaption",
+    "imageCaptionZh",
+    "imageCredit",
+    "imageSourceUrl"
+  ].every((field) => hasModalText(event[field]));
+}
+
+function hasModalText(value) {
+  return value !== undefined && value !== null && String(value).trim() !== "";
 }
 
 function renderEventImage(event, phases) {
