@@ -12,14 +12,16 @@ const state = {
   timelineRange: { min: DEFAULT_TIMELINE_VIEW_MIN, max: null },
   editingTimelineBoundary: null,
   locale: "zh",
+  theme: "dark",
   mode: "Connection Lens",
-  selectedEventId: "fall-constantinople",
-  selectedItem: { type: "event", id: "fall-constantinople" },
+  selectedEventId: null,
+  selectedItem: null,
   visiblePathCount: 5,
   visibleNodeCount: 6,
   activeBridge: null,
-  view: "time-slice",
-  activeLandingYear: 1453,
+  view: "landing",
+  activeLandingYear: 2000,
+  landingTimelineDragging: false,
   isOpeningYear: false,
   timelineActive: false,
   activeLensId: null,
@@ -29,7 +31,7 @@ const state = {
   expandedLensTreeNodeIds: [],
   deepDiveOpen: true,
   mapHighlight: { type: "selected", regions: [] },
-  detail: { type: "node", nodeId: "n-fall" },
+  detail: { type: "empty" },
   currentContext: null,
   localContextScope: null,
   localContextNearbyMode: null,
@@ -73,6 +75,14 @@ const I18N = {
     resetDefaults: "Reset defaults",
     startItTracks: "Start with IT tracks",
     start2000Showcase: "Start 2000 showcase",
+    landingSubtitle: "Choose a moment, then open the world around it.",
+    landingEventsLabel: "Events in this year",
+    landingOpenEvent: "Open event",
+    landingButton: "Landing",
+    themeLight: "Light",
+    themeDark: "Dark",
+    themeSwitchToLight: "Switch to light theme",
+    themeSwitchToDark: "Switch to dark theme",
     emptyTimeSliceTitle: "Build a time slice",
     noMatrixSelection: "Add at least one lens and one region to compare this year.",
     mode: "Mode",
@@ -190,6 +200,14 @@ const I18N = {
     resetDefaults: "恢复默认",
     startItTracks: "从 IT 轨道开始",
     start2000Showcase: "从 2000 展示切片开始",
+    landingSubtitle: "选择一个时刻，再进入它周围的世界。",
+    landingEventsLabel: "这一年的事件",
+    landingOpenEvent: "打开事件",
+    landingButton: "首页",
+    themeLight: "亮",
+    themeDark: "暗",
+    themeSwitchToLight: "切换到浅色主题",
+    themeSwitchToDark: "切换到深色主题",
     emptyTimeSliceTitle: "建立时间切片",
     noMatrixSelection: "请至少添加一个视角和一个地区来比较这一年。",
     mode: "模式",
@@ -645,6 +663,7 @@ function cacheElements() {
     "connectionModeBtn",
     "strictModeBtn",
     "localeToggle",
+    "themeToggle",
     "topControlCenter",
     "controlsPanel",
     "controlsToggle",
@@ -653,10 +672,11 @@ function cacheElements() {
     "landingAnchors",
     "landingActivePoint",
     "landingActiveYear",
-    "landingKeywords",
+    "landingEventChoices",
     "compactYearNavigator",
     "compactYearTrack",
     "backToLandingBtn",
+    "backToLandingTopBtn",
     "yearCapsuleSection",
     "yearCapsuleTitle",
     "yearCapsuleSubtitle",
@@ -731,6 +751,11 @@ function renderI18n() {
   els.searchInput.placeholder = t("searchPlaceholder");
   els.searchInput.setAttribute("aria-label", t("searchPlaceholder"));
   els.localeToggle.textContent = t("languageToggle");
+  if (els.themeToggle) {
+    const nextThemeIsLight = state.theme !== "light";
+    els.themeToggle.textContent = nextThemeIsLight ? t("themeLight") : t("themeDark");
+    els.themeToggle.setAttribute("aria-label", nextThemeIsLight ? t("themeSwitchToLight") : t("themeSwitchToDark"));
+  }
 }
 
 function bindStaticEvents() {
@@ -830,6 +855,12 @@ function bindStaticEvents() {
     state.locale = state.locale === "en" ? "zh" : "en";
     renderAll();
   });
+  if (els.themeToggle) {
+    els.themeToggle.addEventListener("click", () => {
+      state.theme = state.theme === "light" ? "dark" : "light";
+      renderAll();
+    });
+  }
   window.addEventListener("resize", updateFloatingRegionHeader);
   window.addEventListener("scroll", updateFloatingRegionHeader, { passive: true });
   window.addEventListener("resize", updateSectionNavigator);
@@ -909,20 +940,22 @@ function bindStaticEvents() {
   });
 
   els.landingTimeline.addEventListener("mouseenter", showLandingTimeline);
-  els.landingTimeline.addEventListener("mousemove", handleLandingTimelineMove);
   els.landingTimeline.addEventListener("mouseleave", hideLandingTimelineSoon);
   els.landingTimeline.addEventListener("focus", showLandingTimeline);
   els.landingTimeline.addEventListener("blur", hideLandingTimelineSoon);
-  els.landingTimeline.addEventListener("click", () => openLandingYear(state.activeLandingYear));
+  els.landingTimeline.addEventListener("click", handleLandingTimelineClick);
   els.landingTimeline.addEventListener("keydown", handleLandingKeydown);
+  els.landingActivePoint.addEventListener("pointerdown", handleLandingPointPointerDown);
+  els.landingActivePoint.addEventListener("mousedown", handleLandingPointPointerDown);
+  window.addEventListener("pointermove", handleLandingPointPointerMove);
+  window.addEventListener("pointerup", handleLandingPointPointerUp);
+  window.addEventListener("pointercancel", handleLandingPointPointerUp);
+  window.addEventListener("mousemove", handleLandingPointPointerMove);
+  window.addEventListener("mouseup", handleLandingPointPointerUp);
   els.landingLayer.addEventListener("keydown", handleLandingKeydown);
 
-  els.backToLandingBtn.addEventListener("click", () => {
-    state.view = "landing";
-    state.deepDiveOpen = false;
-    state.isOpeningYear = false;
-    renderAll();
-  });
+  els.backToLandingBtn.addEventListener("click", returnToLanding);
+  if (els.backToLandingTopBtn) els.backToLandingTopBtn.addEventListener("click", returnToLanding);
 
   els.viewFullTimeSliceBtn.addEventListener("click", () => {
     state.view = "time-slice";
@@ -996,6 +1029,9 @@ function renderAppShellState() {
   document.body.classList.toggle("is-opening-year", state.isOpeningYear);
   document.body.classList.toggle("is-capsule", state.view === "capsule");
   document.body.classList.toggle("is-workspace", !["landing", "capsule"].includes(state.view));
+  document.body.classList.toggle("theme-cosmic-dark", state.theme !== "light");
+  document.body.classList.toggle("theme-cosmic-light", state.theme === "light");
+  document.body.dataset.theme = state.theme === "light" ? "light" : "dark";
   document.body.classList.toggle("lens-drawer-open", state.lensDrawerOpen);
   els.landingLayer.hidden = state.view !== "landing" && !state.isOpeningYear;
   els.compactYearNavigator.hidden = state.view !== "capsule";
@@ -1071,29 +1107,125 @@ function updateSectionNavigator() {
 }
 
 function renderLanding() {
-  const years = getTimelineYears();
+  const years = getLandingTimelineYears();
   const activeYear = state.activeLandingYear || state.year;
   const position = getYearAnchorPosition(activeYear);
-  els.landingLayer.classList.toggle("timeline-active", state.timelineActive || state.isOpeningYear);
+  els.landingLayer.classList.toggle("timeline-active", true);
   els.landingActivePoint.style.setProperty("--point-x", `${position}%`);
   els.landingActiveYear.style.setProperty("--point-x", `${position}%`);
-  els.landingActiveYear.textContent = activeYear;
+  els.landingActiveYear.textContent = formatYearLabel(activeYear);
   els.landingTimeline.setAttribute("aria-valuenow", String(activeYear));
+  els.landingTimeline.setAttribute("aria-valuemin", String(years[0] || activeYear));
+  els.landingTimeline.setAttribute("aria-valuemax", String(years[years.length - 1] || activeYear));
   els.landingAnchors.innerHTML = years.map((year) => `
     <button class="landing-anchor ${year === activeYear ? "active" : ""}" style="left:${getYearAnchorPosition(year)}%" data-year="${year}" type="button">
-      <span>${year}</span>
+      <span>${formatYearLabel(year)}</span>
     </button>
   `).join("");
   els.landingAnchors.querySelectorAll(".landing-anchor").forEach((button) => {
     button.addEventListener("click", (event) => {
       event.stopPropagation();
-      openLandingYear(Number(button.dataset.year));
+      setLandingYear(Number(button.dataset.year));
     });
   });
-  const capsule = getYearCapsule(activeYear);
-  els.landingKeywords.innerHTML = state.isOpeningYear && capsule
-    ? capsule.keywords.map((keyword, index) => `<span style="--keyword-index:${index}">${keyword}</span>`).join("")
-    : "";
+  els.landingEventChoices.innerHTML = renderLandingEventChoices(activeYear);
+  els.landingEventChoices.querySelectorAll("[data-landing-event-id]").forEach((button) => {
+    button.addEventListener("click", () => activateLandingEvent(button.dataset.landingEventId));
+  });
+}
+
+function getLandingTimelineYears() {
+  const domain = getActiveTimelineDomain();
+  const eventYears = new Set();
+  (HISTORY_DATA.events || []).forEach((event) => {
+    if (!Number.isFinite(event.year)) return;
+    if (event.year < domain.min || event.year > domain.max) return;
+    eventYears.add(event.year);
+  });
+  const years = [...eventYears].sort((a, b) => a - b);
+  return years.length ? years : getTimelineYears();
+}
+
+function setLandingYear(year) {
+  state.activeLandingYear = year;
+  state.timelineActive = true;
+  state.isOpeningYear = false;
+  renderLanding();
+}
+
+function setLandingYearFromPointer(clientX) {
+  const rect = els.landingTimeline.getBoundingClientRect();
+  const ratio = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+  setLandingYear(getNearestLandingYear(ratio));
+}
+
+function returnToLanding() {
+  state.view = "landing";
+  state.deepDiveOpen = false;
+  state.isOpeningYear = false;
+  state.landingTimelineDragging = false;
+  state.activeLandingYear = getNearestLandingYearForValue(state.year);
+  state.timelineActive = true;
+  renderAll();
+}
+
+function renderLandingEventChoices(year) {
+  const events = getLandingEventsForYear(year);
+  if (!events.length) return "";
+  return `
+    <div class="landing-event-label">${t("landingEventsLabel")}</div>
+    <div class="landing-event-grid">
+      ${events.map(renderLandingEventCard).join("")}
+    </div>
+  `;
+}
+
+function getLandingEventsForYear(year) {
+  return (HISTORY_DATA.events || [])
+    .filter((event) => event.year === year)
+    .sort(compareLandingEvents)
+    .slice(0, 6);
+}
+
+function compareLandingEvents(a, b) {
+  const score = (event) => {
+    let total = 0;
+    if (event.detailLevel === "full") total += 40;
+    if (event.importance === "core") total += 24;
+    if (event.image || getEventImageEnhancement(event).image) total += 12;
+    if (event.primaryTrackId) total += 4;
+    if (event.primaryLensId) total += 2;
+    return total;
+  };
+  const scoreDelta = score(b) - score(a);
+  if (scoreDelta) return scoreDelta;
+  return String(a.id).localeCompare(String(b.id));
+}
+
+function renderLandingEventCard(event) {
+  const place = localizedPlaceTitle(getEventPrimaryPlaceId(event)) || localizedRegionName(event.region);
+  const trackId = getEventPrimaryTrackId(event);
+  const lensId = getEventPrimaryLensId(event);
+  const lensLabel = trackId ? localizedTrackTitle(trackId) : localizedLensTitle(lensId);
+  const summary = localizedItemSummary(event);
+  return `
+    <button class="landing-event-card" type="button" data-landing-event-id="${escapeHtml(event.id)}" aria-label="${escapeHtml(`${t("landingOpenEvent")}: ${localizedItemTitle(event)}`)}">
+      <span class="landing-event-year">${formatYearLabel(event.year)}</span>
+      <strong>${escapeHtml(localizedItemTitle(event))}</strong>
+      <span class="landing-event-meta">${[place, lensLabel].filter(Boolean).map(escapeHtml).join(" · ")}</span>
+      ${summary ? `<span class="landing-event-summary">${escapeHtml(summary)}</span>` : ""}
+    </button>
+  `;
+}
+
+function activateLandingEvent(eventId) {
+  const event = HISTORY_DATA.events.find((item) => item.id === eventId);
+  if (!event) return;
+  state.view = "time-slice";
+  state.isOpeningYear = false;
+  state.timelineActive = false;
+  state.landingTimelineDragging = false;
+  selectEvent(event.id, { openDeepDive: false });
 }
 
 function showLandingTimeline() {
@@ -1106,24 +1238,46 @@ function hideLandingTimelineSoon() {
   if (state.isOpeningYear) return;
   if (landingHideTimer) window.clearTimeout(landingHideTimer);
   landingHideTimer = window.setTimeout(() => {
-    state.timelineActive = false;
+    state.timelineActive = true;
     renderLanding();
   }, 520);
 }
 
-function handleLandingTimelineMove(event) {
+function handleLandingTimelineClick(event) {
   if (state.isOpeningYear) return;
-  showLandingTimeline();
-  const rect = els.landingTimeline.getBoundingClientRect();
-  const ratio = Math.max(0, Math.min(1, (event.clientX - rect.left) / rect.width));
-  state.activeLandingYear = getNearestAnchorYear(ratio);
-  renderLanding();
+  if (event.target === els.landingActivePoint) return;
+  setLandingYearFromPointer(event.clientX);
+}
+
+function handleLandingPointPointerDown(event) {
+  if (state.isOpeningYear) return;
+  event.preventDefault();
+  event.stopPropagation();
+  if (landingHideTimer) window.clearTimeout(landingHideTimer);
+  state.landingTimelineDragging = true;
+  state.timelineActive = true;
+  els.landingLayer.classList.add("timeline-dragging");
+  setLandingYearFromPointer(event.clientX);
+}
+
+function handleLandingPointPointerMove(event) {
+  if (!state.landingTimelineDragging) return;
+  event.preventDefault();
+  setLandingYearFromPointer(event.clientX);
+}
+
+function handleLandingPointPointerUp(event) {
+  if (!state.landingTimelineDragging) return;
+  event.preventDefault();
+  state.landingTimelineDragging = false;
+  els.landingLayer.classList.remove("timeline-dragging");
+  setLandingYear(getNearestLandingYearForValue(state.activeLandingYear));
 }
 
 function handleLandingKeydown(event) {
   if (!["ArrowLeft", "ArrowRight", "Enter", " "].includes(event.key)) return;
   event.preventDefault();
-  const years = getTimelineYears();
+  const years = getLandingTimelineYears();
   const currentIndex = Math.max(0, years.indexOf(state.activeLandingYear));
   if (event.key === "ArrowLeft") {
     showLandingTimeline();
@@ -1134,30 +1288,24 @@ function handleLandingKeydown(event) {
     state.activeLandingYear = years[Math.min(years.length - 1, currentIndex + 1)];
     renderLanding();
   } else {
-    openLandingYear(state.activeLandingYear);
+    const eventToOpen = getLandingEventsForYear(state.activeLandingYear)[0];
+    if (eventToOpen) activateLandingEvent(eventToOpen.id);
   }
 }
 
-function openLandingYear(year) {
-  const capsule = getYearCapsule(year);
-  ensureTimelineRangeIncludesYear(year);
-  state.year = year;
-  state.activeLandingYear = year;
-  state.isOpeningYear = true;
-  state.timelineActive = true;
-  state.selectedItem = null;
-  state.selectedEventId = null;
-  state.detail = { type: "empty" };
-  renderAll();
-  const delay = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 120 : OPENING_DURATION_MS;
-  window.setTimeout(() => {
-    state.isOpeningYear = false;
-    state.view = "capsule";
-    setSelectedLensIds([]);
-    state.region = capsule && capsule.relatedRegions[0] ? capsule.relatedRegions[0] : "Europe";
-    state.deepDiveOpen = false;
-    renderAll();
-  }, delay);
+function getNearestLandingYear(ratio) {
+  const domain = getActiveTimelineDomain();
+  const year = domain.min + ratio * (domain.max - domain.min);
+  return getNearestLandingYearForValue(year);
+}
+
+function getNearestLandingYearForValue(year) {
+  const domain = getActiveTimelineDomain();
+  const years = getLandingTimelineYears().filter((candidate) => candidate >= domain.min && candidate <= domain.max);
+  if (!years.length) return clampYearToActiveTimelineRange(Math.round(year));
+  return years.reduce((nearest, candidate) => (
+    Math.abs(candidate - year) < Math.abs(nearest - year) ? candidate : nearest
+  ), years[0]);
 }
 
 function renderYearCapsule() {
@@ -1829,8 +1977,10 @@ function updateFloatingRegionHeader() {
   if (!shouldShow) return;
 
   const matrixRect = els.timeSliceMatrix.getBoundingClientRect();
-  const left = Math.round(matrixRect.left + cornerWidth);
-  const width = Math.max(0, Math.round(matrixRect.width - cornerWidth));
+  const visibleLeft = Math.max(matrixRect.left, gridRect.left);
+  const visibleRight = Math.min(matrixRect.right, gridRect.right);
+  const left = Math.round(visibleLeft + cornerWidth);
+  const width = Math.max(0, Math.round(visibleRight - visibleLeft - cornerWidth));
   floatingHeader.style.top = `${topBarBottom}px`;
   floatingHeader.style.left = `${left}px`;
   floatingHeader.style.width = `${width}px`;

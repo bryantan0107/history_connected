@@ -97,75 +97,77 @@ body.lens-drawer-open .workspace-body > main {
   position: fixed;
   inset: 0;
   z-index: 100;
-  display: block;
-  overflow: hidden;
-  padding: clamp(24px, 5vw, 72px);
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr);
+  align-content: center;
+  gap: clamp(28px, 4vw, 46px);
+  overflow: auto;
+  padding: clamp(22px, 5vw, 64px);
   color: #eef4ff;
   background:
-    radial-gradient(circle at 50% 50%, rgba(47, 109, 246, 0.18), transparent 26rem),
-    radial-gradient(circle at 20% 30%, rgba(15, 159, 127, 0.12), transparent 18rem),
-    linear-gradient(180deg, #03050a 0%, #070b14 48%, #020308 100%);
+    radial-gradient(circle at 50% 48%, rgba(47, 109, 246, 0.2), transparent 28rem),
+    radial-gradient(circle at 20% 28%, rgba(15, 159, 127, 0.13), transparent 18rem),
+    linear-gradient(180deg, #03050a 0%, #070b14 50%, #020308 100%);
 }
 
 .landing-layer[hidden] {
   display: none;
 }
 
-.cosmic-field {
-  position: absolute;
+.landing-layer::before {
+  content: "";
+  position: fixed;
   inset: 0;
-  opacity: 0.7;
+  opacity: 0.62;
+  pointer-events: none;
   background-image:
     radial-gradient(circle, rgba(255, 255, 255, 0.45) 0 1px, transparent 1px),
     radial-gradient(circle, rgba(120, 160, 255, 0.34) 0 1px, transparent 1px);
   background-position: 0 0, 40px 70px;
   background-size: 120px 120px, 190px 190px;
   mask-image: radial-gradient(circle at center, black, transparent 78%);
-  animation: starDrift 28s linear infinite;
 }
 
 .landing-copy {
-  position: absolute;
-  top: 24vh;
-  left: 50%;
+  position: relative;
   z-index: 1;
-  width: min(560px, 86vw);
-  max-width: 560px;
+  width: min(760px, 92vw);
+  max-width: 760px;
+  margin: 0 auto;
   text-align: center;
-  transform: translate(-50%, -50%);
 }
 
 .landing-brand {
   margin-bottom: 10px;
-  color: rgba(238, 244, 255, 0.64);
-  font-size: 10px;
+  color: rgba(120, 160, 255, 0.92);
+  font-size: 11px;
   font-weight: 760;
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 
 .landing-copy h1 {
-  font-size: clamp(22px, 3.1vw, 40px);
+  margin: 0;
+  font-size: clamp(28px, 4.8vw, 64px);
   font-weight: 650;
   line-height: 1.06;
   letter-spacing: 0;
 }
 
 .landing-copy p {
-  margin-top: 11px;
-  color: rgba(238, 244, 255, 0.66);
-  font-size: clamp(12px, 1.4vw, 15px);
+  margin: 12px auto 0;
+  max-width: 520px;
+  color: rgba(238, 244, 255, 0.68);
+  font-size: clamp(14px, 1.5vw, 18px);
 }
 
 .landing-timeline {
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  position: relative;
   z-index: 1;
-  width: min(860px, 82vw);
-  height: 116px;
+  width: min(980px, 92vw);
+  height: 118px;
+  margin: 0 auto;
   outline: none;
-  transform: translate(-50%, -50%);
 }
 
 .landing-line {
@@ -173,42 +175,57 @@ body.lens-drawer-open .workspace-body > main {
   left: 0;
   right: 0;
   top: 52px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, rgba(238, 244, 255, 0.38), transparent);
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(238, 244, 255, 0.06), rgba(47, 109, 246, 0.74), rgba(238, 244, 255, 0.06));
   box-shadow: 0 0 32px rgba(47, 109, 246, 0.5);
 }
 
 .landing-active-point {
   position: absolute;
+  z-index: 4;
   left: var(--point-x);
   top: 52px;
   width: 16px;
   height: 16px;
+  border: 2px solid var(--accent);
   border-radius: 999px;
   background: #eaf2ff;
   box-shadow: 0 0 18px rgba(255, 255, 255, 0.9), 0 0 52px rgba(47, 109, 246, 0.95);
+  cursor: grab;
+  opacity: 1;
+  touch-action: none;
   transform: translate(-50%, -50%);
-  opacity: 0;
   transition: left 220ms ease, opacity 600ms ease, transform 600ms ease;
 }
 
 .landing-active-point::after {
   content: "";
   position: absolute;
-  inset: -28px;
+  inset: -22px;
   border: 1px solid rgba(238, 244, 255, 0.18);
   border-radius: 999px;
 }
 
+.landing-layer.timeline-dragging .landing-active-point {
+  cursor: grabbing;
+  transform: translate(-50%, -50%) scale(1.08);
+  transition: opacity 160ms ease, transform 160ms ease;
+}
+
+.landing-layer.timeline-dragging .landing-active-year {
+  transition: none;
+}
+
 .landing-anchor {
   position: absolute;
+  z-index: 2;
   top: 52px;
   border: 0;
   padding: 0;
-  color: rgba(238, 244, 255, 0.52);
+  color: rgba(238, 244, 255, 0.56);
   background: transparent;
-  opacity: 0;
-  pointer-events: none;
+  opacity: 1;
   transform: translate(-50%, -50%);
 }
 
@@ -223,9 +240,7 @@ body.lens-drawer-open .workspace-body > main {
 }
 
 .landing-anchor span {
-  display: block;
-  transform: translateY(16px);
-  font-size: 13px;
+  display: none;
 }
 
 .landing-anchor.active {
@@ -239,65 +254,80 @@ body.lens-drawer-open .workspace-body > main {
   color: #fff;
   font-size: 14px;
   font-weight: 720;
-  text-shadow: 0 0 20px rgba(47, 109, 246, 0.85);
-  opacity: 0;
-  transform: translateX(-50%) translateY(8px) scale(0.96);
+  opacity: 1;
+  transform: translateX(-50%) translateY(0) scale(1);
   transition: left 180ms ease, transform 180ms ease, opacity 180ms ease;
 }
 
-.landing-layer.timeline-active .landing-active-point,
-body.is-opening-year .landing-active-point {
-  opacity: 1;
-  animation: pointPulse 1.5s ease-in-out infinite;
-}
-
-.landing-layer.timeline-active .landing-active-year,
-body.is-opening-year .landing-active-year {
-  opacity: 1;
-  transform: translateX(-50%) translateY(0) scale(1);
-}
-
-.landing-keywords {
-  position: absolute;
-  left: 50%;
-  top: 62%;
+.landing-event-choices {
+  position: relative;
   z-index: 1;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  width: min(980px, 92vw);
+  min-height: 190px;
+  margin: 0 auto;
+}
+
+.landing-event-label {
+  margin-bottom: 10px;
+  color: rgba(238, 244, 255, 0.68);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.landing-event-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
-  max-width: 820px;
-  min-height: 68px;
-  width: min(820px, 86vw);
-  transform: translateX(-50%);
 }
 
-.landing-keywords span {
-  border: 1px solid rgba(238, 244, 255, 0.14);
-  border-radius: 999px;
-  padding: 8px 11px;
-  color: rgba(238, 244, 255, 0.86);
-  background: rgba(255, 255, 255, 0.06);
-  animation: keywordRise 2600ms ease both;
-  animation-delay: calc(650ms + var(--keyword-index) * 180ms);
+.landing-event-card {
+  display: grid;
+  min-height: 148px;
+  border: 1px solid rgba(238, 244, 255, 0.16);
+  border-radius: 8px;
+  padding: 14px;
+  color: #eef4ff;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.07);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(12px);
 }
 
-.landing-hint {
-  position: absolute;
-  left: 50%;
-  bottom: 28px;
-  z-index: 1;
-  color: rgba(238, 244, 255, 0.48);
-  font-size: 13px;
-  transform: translateX(-50%);
+.landing-event-card:hover,
+.landing-event-card:focus-visible {
+  border-color: rgba(120, 160, 255, 0.62);
+  background: rgba(255, 255, 255, 0.11);
+  outline: none;
+  transform: translateY(-1px);
 }
 
-body.is-opening-year .landing-layer {
-  animation: portalZoom 3900ms ease both;
+.landing-event-year {
+  color: #78a0ff;
+  font-size: 12px;
+  font-weight: 800;
 }
 
-body.is-opening-year .landing-active-point {
-  animation: portalPoint 3900ms ease both;
+.landing-event-card strong {
+  margin-top: 7px;
+  font-size: 16px;
+  line-height: 1.22;
+}
+
+.landing-event-meta,
+.landing-event-summary {
+  margin-top: 8px;
+  color: rgba(238, 244, 255, 0.68);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.landing-event-summary {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .compact-year-navigator {
@@ -657,6 +687,11 @@ h3 {
 
 .locale-toggle {
   min-width: 50px;
+  white-space: nowrap;
+}
+
+.landing-return-btn {
+  min-width: 64px;
   white-space: nowrap;
 }
 
@@ -1752,7 +1787,6 @@ input[type="range"] {
   display: grid;
   grid-template-columns: var(--matrix-row-header-width) repeat(var(--matrix-cols), minmax(var(--matrix-col-width), var(--matrix-col-width)));
   width: max-content;
-  min-width: 100%;
   border: 1px solid var(--line);
   border-radius: 8px;
   overflow: visible;
@@ -3373,46 +3407,8 @@ input[type="range"] {
   margin-top: 18px;
 }
 
-@keyframes starDrift {
-  from { transform: translate3d(0, 0, 0); }
-  to { transform: translate3d(-120px, -120px, 0); }
-}
-
-@keyframes pointPulse {
-  0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.9; }
-  50% { transform: translate(-50%, -50%) scale(1.35); opacity: 1; }
-}
-
-@keyframes keywordRise {
-  0% { opacity: 0; transform: translateY(18px) scale(0.96); }
-  28% { opacity: 1; transform: translateY(0) scale(1); }
-  82% { opacity: 1; transform: translateY(0) scale(1); }
-  100% { opacity: 0; transform: translateY(-8px) scale(0.98); }
-}
-
-@keyframes portalZoom {
-  0% { filter: blur(0); transform: scale(1); opacity: 1; }
-  24% { filter: blur(0); transform: scale(1.01); opacity: 1; }
-  76% { filter: blur(2px); transform: scale(1.04); opacity: 1; }
-  100% { filter: blur(12px); transform: scale(1.14); opacity: 0; }
-}
-
-@keyframes portalPoint {
-  0% { transform: translate(-50%, -50%) scale(1); }
-  25% { transform: translate(-50%, -50%) scale(3); opacity: 1; }
-  70% { transform: translate(-50%, -50%) scale(8); opacity: 0.45; }
-  100% { transform: translate(-50%, -50%) scale(18); opacity: 0; }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .cosmic-field,
   .landing-active-point,
-  .landing-keywords span,
-  body.is-opening-year .landing-layer,
-  body.is-opening-year .landing-active-point {
-    animation: none;
-  }
-
   .deep-dive-content,
   .landing-active-year {
     transition: none;
@@ -3502,7 +3498,6 @@ input[type="range"] {
   }
 
   .landing-copy {
-    top: 24vh;
     width: 84vw;
   }
 
@@ -3518,8 +3513,12 @@ input[type="range"] {
     font-size: 11px;
   }
 
-  .landing-keywords {
-    top: 60%;
+  .landing-event-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-event-choices {
+    min-height: auto;
   }
 
   .compact-year-navigator,
@@ -3779,4 +3778,1201 @@ input[type="range"] {
     opacity: 1;
     transform: none;
   }
+}
+
+/* Workspace cosmic visual system */
+body:not(.is-landing) {
+  color-scheme: dark;
+  --bg: #05070d;
+  --paper: rgba(13, 20, 34, 0.72);
+  --paper-solid: #0b1220;
+  --ink: #eef4ff;
+  --muted: #9aa8bf;
+  --line: rgba(180, 204, 255, 0.16);
+  --dark: #07101f;
+  --dark-2: #0f1d32;
+  --accent: #6ea0ff;
+  --accent-2: #2dd4bf;
+  --accent-soft: rgba(110, 160, 255, 0.14);
+  --thread: rgba(110, 160, 255, 0.28);
+  --warm: #f5a55a;
+  --danger: #f0788d;
+  --shadow: 0 22px 70px rgba(0, 0, 0, 0.42);
+  --shadow-soft: 0 14px 42px rgba(0, 0, 0, 0.28);
+  --cosmic-bg: #05070d;
+  --cosmic-panel: rgba(10, 18, 32, 0.74);
+  --cosmic-panel-soft: rgba(13, 24, 42, 0.56);
+  --cosmic-panel-strong: rgba(7, 14, 27, 0.92);
+  --cosmic-line: rgba(174, 199, 255, 0.17);
+  --cosmic-text: #eef4ff;
+  --cosmic-muted: #9aa8bf;
+  --cosmic-glow: 0 0 34px rgba(84, 132, 255, 0.22);
+  background:
+    radial-gradient(circle at 20% 0%, rgba(47, 109, 246, 0.22), transparent 30rem),
+    radial-gradient(circle at 86% 14%, rgba(45, 212, 191, 0.13), transparent 24rem),
+    radial-gradient(circle at 48% 70%, rgba(120, 160, 255, 0.10), transparent 34rem),
+    radial-gradient(circle, rgba(255, 255, 255, 0.18) 0 1px, transparent 1px),
+    radial-gradient(circle, rgba(120, 160, 255, 0.18) 0 1px, transparent 1px),
+    linear-gradient(180deg, #03050a 0%, #07101f 46%, #04070d 100%);
+  background-position: 0 0, 0 0, 0 0, 0 0, 38px 72px, 0 0;
+  background-size: auto, auto, auto, 122px 122px, 196px 196px, auto;
+  background-attachment: fixed;
+}
+
+body:not(.is-landing) .app-shell {
+  background: transparent;
+}
+
+body:not(.is-landing) .top-control-center,
+body:not(.is-landing) .time-slice-section,
+body:not(.is-landing) .lineage-preview-card,
+body:not(.is-landing) .deep-dive-panel,
+body:not(.is-landing) .map-card,
+body:not(.is-landing) .snapshot-card,
+body:not(.is-landing) .lens-tree-drawer,
+body:not(.is-landing) .section-navigator-panel {
+  border: 1px solid var(--cosmic-line);
+  color: var(--cosmic-text);
+  background:
+    linear-gradient(180deg, rgba(17, 29, 50, 0.82), rgba(8, 15, 28, 0.72)),
+    rgba(8, 14, 26, 0.72);
+  box-shadow: var(--shadow), var(--cosmic-glow);
+  backdrop-filter: blur(18px);
+}
+
+body:not(.is-landing) .top-control-center {
+  position: sticky;
+  top: 8px;
+  z-index: 80;
+}
+
+body:not(.is-landing) .command-bar {
+  background: transparent;
+}
+
+body:not(.is-landing) .brand-mark {
+  color: #fff;
+  background: linear-gradient(135deg, rgba(110, 160, 255, 0.95), rgba(45, 212, 191, 0.7));
+  box-shadow: 0 0 24px rgba(84, 132, 255, 0.35);
+}
+
+body:not(.is-landing) .brand-block h1,
+body:not(.is-landing) .panel-heading h2,
+body:not(.is-landing) .lineage-preview-card-header h2,
+body:not(.is-landing) .lineage-preview-heading h3,
+body:not(.is-landing) .deep-dive-panel h2,
+body:not(.is-landing) .event-card h3,
+body:not(.is-landing) .matrix-axis-title,
+body:not(.is-landing) .phase-modal-card h2 {
+  color: var(--cosmic-text);
+}
+
+body:not(.is-landing) .brand-block p,
+body:not(.is-landing) .panel-heading p,
+body:not(.is-landing) .lineage-preview-heading p,
+body:not(.is-landing) .event-card p,
+body:not(.is-landing) .event-card span,
+body:not(.is-landing) .matrix-cell span:last-child,
+body:not(.is-landing) .matrix-axis-phase-empty,
+body:not(.is-landing) #eventsHint,
+body:not(.is-landing) .phase-modal-summary,
+body:not(.is-landing) .phase-modal-section p {
+  color: var(--cosmic-muted);
+}
+
+body:not(.is-landing) #searchInput,
+body:not(.is-landing) .timeline-range-editor,
+body:not(.is-landing) .search-results,
+body:not(.is-landing) .range-editor-controls input,
+body:not(.is-landing) .range-editor-controls select {
+  border-color: var(--cosmic-line);
+  color: var(--cosmic-text);
+  background: rgba(5, 10, 20, 0.78);
+  box-shadow: none;
+}
+
+body:not(.is-landing) #searchInput::placeholder {
+  color: rgba(238, 244, 255, 0.42);
+}
+
+body:not(.is-landing) #searchInput:focus {
+  border-color: rgba(110, 160, 255, 0.65);
+  box-shadow: 0 0 0 4px rgba(110, 160, 255, 0.16);
+}
+
+body:not(.is-landing) .search-result {
+  color: var(--cosmic-text);
+}
+
+body:not(.is-landing) .search-result:hover {
+  background: rgba(110, 160, 255, 0.14);
+}
+
+body:not(.is-landing) .year-pill {
+  border-color: rgba(110, 160, 255, 0.28);
+  background: rgba(4, 9, 18, 0.92);
+  box-shadow: 0 0 28px rgba(47, 109, 246, 0.20);
+}
+
+body:not(.is-landing) .chip,
+body:not(.is-landing) .secondary-btn,
+body:not(.is-landing) .primary-btn,
+body:not(.is-landing) .timeline-boundary-btn,
+body:not(.is-landing) .section-navigator-toggle,
+body:not(.is-landing) .lens-tree-open-btn,
+body:not(.is-landing) .lens-tree-clear,
+body:not(.is-landing) .lens-tree-track-all {
+  border-color: var(--cosmic-line);
+  color: var(--cosmic-text);
+  background: rgba(12, 23, 40, 0.72);
+}
+
+body:not(.is-landing) .chip:hover,
+body:not(.is-landing) .secondary-btn:hover,
+body:not(.is-landing) .primary-btn:hover,
+body:not(.is-landing) .timeline-boundary-btn:hover,
+body:not(.is-landing) .section-navigator-toggle:hover,
+body:not(.is-landing) .section-navigator-toggle:focus-visible {
+  border-color: rgba(110, 160, 255, 0.52);
+  background: rgba(110, 160, 255, 0.16);
+  color: #fff;
+  box-shadow: 0 0 22px rgba(110, 160, 255, 0.16);
+}
+
+body:not(.is-landing) .chip.active,
+body:not(.is-landing) .chip.spotlight,
+body:not(.is-landing) .primary-btn,
+body:not(.is-landing) .lens-tree-open-btn.active,
+body:not(.is-landing) .lens-tree-select.active,
+body:not(.is-landing) .lens-tree-track .lens-tree-select.active,
+body:not(.is-landing) .place-tree-place .lens-tree-select.active,
+body:not(.is-landing) .lens-tree-track-all.active,
+body:not(.is-landing) .section-navigator-panel button.active {
+  border-color: rgba(110, 160, 255, 0.55);
+  color: #f8fbff;
+  background: linear-gradient(135deg, rgba(47, 109, 246, 0.9), rgba(15, 159, 127, 0.72));
+  box-shadow: 0 0 26px rgba(47, 109, 246, 0.25);
+}
+
+body:not(.is-landing) .time-slice-section {
+  border-left: 0;
+  padding: 18px;
+}
+
+body:not(.is-landing) .matrix-grid {
+  border-color: var(--cosmic-line);
+  background: rgba(5, 11, 22, 0.6);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+}
+
+body:not(.is-landing) .matrix-corner,
+body:not(.is-landing) .matrix-region-heading,
+body:not(.is-landing) .matrix-lens-heading,
+body:not(.is-landing) .matrix-floating-region-header {
+  border-color: var(--cosmic-line);
+  color: var(--cosmic-text);
+  background:
+    linear-gradient(180deg, rgba(15, 27, 47, 0.96), rgba(7, 14, 27, 0.94));
+}
+
+body:not(.is-landing) .matrix-floating-region-header {
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.36), 0 0 24px rgba(84, 132, 255, 0.16);
+}
+
+body:not(.is-landing) .matrix-lens-heading::after {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.34), transparent);
+}
+
+body:not(.is-landing) .matrix-axis-phase-btn,
+body:not(.is-landing) .matrix-context-count,
+body:not(.is-landing) .matrix-axis-more {
+  border-color: rgba(110, 160, 255, 0.38);
+  color: #cfe0ff;
+  background: rgba(47, 109, 246, 0.14);
+}
+
+body:not(.is-landing) .matrix-axis-phase-btn:hover,
+body:not(.is-landing) .matrix-axis-phase-btn:focus-visible {
+  border-color: rgba(110, 160, 255, 0.68);
+  background: rgba(47, 109, 246, 0.24);
+  box-shadow: 0 0 20px rgba(47, 109, 246, 0.18);
+}
+
+body:not(.is-landing) .matrix-cell,
+body:not(.is-landing) .matrix-mobile-row {
+  border-color: var(--cosmic-line);
+  color: var(--cosmic-text);
+  background: rgba(8, 15, 28, 0.48);
+}
+
+body:not(.is-landing) .matrix-cell:hover,
+body:not(.is-landing) .matrix-cell:focus-visible,
+body:not(.is-landing) .matrix-mobile-row:hover,
+body:not(.is-landing) .matrix-mobile-row:focus-visible {
+  border-color: rgba(110, 160, 255, 0.56);
+  background: rgba(20, 35, 61, 0.72);
+  box-shadow: inset 0 0 0 1px rgba(110, 160, 255, 0.22), 0 0 24px rgba(47, 109, 246, 0.18);
+}
+
+body:not(.is-landing) .matrix-cell.empty,
+body:not(.is-landing) .matrix-mobile-row.empty {
+  color: rgba(203, 213, 225, 0.58);
+  background: rgba(8, 15, 28, 0.28);
+}
+
+body:not(.is-landing) .matrix-cell.empty strong,
+body:not(.is-landing) .matrix-cell.empty .matrix-cell-type {
+  color: rgba(203, 213, 225, 0.62);
+}
+
+body:not(.is-landing) .matrix-cell.exact-event,
+body:not(.is-landing) .event-card.exact-event,
+body:not(.is-landing) .event-card.track-exact-event {
+  border-color: rgba(245, 165, 90, 0.42);
+  background: linear-gradient(180deg, rgba(245, 165, 90, 0.12), rgba(11, 19, 34, 0.62));
+}
+
+body:not(.is-landing) .matrix-cell.exact-event .matrix-cell-type,
+body:not(.is-landing) .event-type-pill,
+body:not(.is-landing) .phase-modal-kicker {
+  color: #ffd8a8;
+  background: rgba(245, 165, 90, 0.16);
+}
+
+body:not(.is-landing) .lineage-preview-segment,
+body:not(.is-landing) .event-card,
+body:not(.is-landing) .local-context-group-grid .event-card,
+body:not(.is-landing) .empty-state {
+  border-color: var(--cosmic-line);
+  color: var(--cosmic-text);
+  background: rgba(10, 18, 32, 0.58);
+  box-shadow: none;
+}
+
+body:not(.is-landing) .lineage-preview-segment:hover,
+body:not(.is-landing) .lineage-preview-segment:focus-visible,
+body:not(.is-landing) .lineage-preview-segment:focus-within,
+body:not(.is-landing) .lineage-preview-segment.active,
+body:not(.is-landing) .lineage-preview-segment.event-linked,
+body:not(.is-landing) .lineage-preview-segment.jump-highlight {
+  border-color: rgba(110, 160, 255, 0.72);
+  background: rgba(47, 109, 246, 0.18);
+  box-shadow: inset 0 0 0 1px rgba(110, 160, 255, 0.22), 0 0 26px rgba(47, 109, 246, 0.22);
+}
+
+body:not(.is-landing) .lineage-preview-segment span,
+body:not(.is-landing) .lineage-preview-eyebrow,
+body:not(.is-landing) .local-context-group > h3,
+body:not(.is-landing) .local-context-subgroup h4,
+body:not(.is-landing) .lens-tree-group-label {
+  color: var(--cosmic-muted);
+}
+
+body:not(.is-landing) .event-card.active {
+  border-color: rgba(110, 160, 255, 0.75);
+  background: rgba(47, 109, 246, 0.18);
+  box-shadow: inset 0 0 0 1px rgba(110, 160, 255, 0.22), 0 0 28px rgba(47, 109, 246, 0.22);
+}
+
+body:not(.is-landing) .event-card.dimmed {
+  opacity: 0.52;
+}
+
+body:not(.is-landing) .type-pill,
+body:not(.is-landing) .matrix-cell-type,
+body:not(.is-landing) .matrix-empty-state strong,
+body:not(.is-landing) .chip.muted,
+body:not(.is-landing) .event-modal-chip,
+body:not(.is-landing) .phase-modal-meta span,
+body:not(.is-landing) .phase-modal-footer span {
+  color: #cfe0ff;
+  background: rgba(110, 160, 255, 0.12);
+}
+
+body:not(.is-landing) .lens-tree-node,
+body:not(.is-landing) .lens-tree-row,
+body:not(.is-landing) .lens-tree-select,
+body:not(.is-landing) .lens-tree-expander,
+body:not(.is-landing) .section-navigator-panel button {
+  border-color: var(--cosmic-line);
+  color: var(--cosmic-text);
+  background: rgba(8, 15, 28, 0.42);
+}
+
+body:not(.is-landing) .lens-tree-node.selected,
+body:not(.is-landing) .lens-tree-select:hover,
+body:not(.is-landing) .lens-tree-select:focus-visible,
+body:not(.is-landing) .section-navigator-panel button:hover,
+body:not(.is-landing) .section-navigator-panel button:focus-visible {
+  border-color: rgba(110, 160, 255, 0.45);
+  background: rgba(47, 109, 246, 0.12);
+}
+
+body:not(.is-landing) .lens-tree-backdrop {
+  background: rgba(2, 6, 14, 0.42);
+  backdrop-filter: blur(8px);
+}
+
+body:not(.is-landing) .phase-modal-backdrop {
+  background:
+    radial-gradient(circle at 50% 32%, rgba(47, 109, 246, 0.18), transparent 28rem),
+    rgba(2, 6, 14, 0.72);
+  backdrop-filter: blur(14px);
+}
+
+body:not(.is-landing) .phase-modal-card {
+  border-color: var(--cosmic-line);
+  color: var(--cosmic-text);
+  background:
+    linear-gradient(180deg, rgba(17, 29, 50, 0.94), rgba(7, 14, 27, 0.92));
+  box-shadow: 0 34px 90px rgba(0, 0, 0, 0.58), 0 0 46px rgba(47, 109, 246, 0.18);
+}
+
+body:not(.is-landing) .phase-modal-close {
+  border-color: var(--cosmic-line);
+  color: var(--cosmic-text);
+  background: rgba(8, 15, 28, 0.82);
+}
+
+body:not(.is-landing) .phase-modal-close:hover,
+body:not(.is-landing) .phase-modal-close:focus-visible {
+  border-color: rgba(110, 160, 255, 0.55);
+  background: rgba(47, 109, 246, 0.18);
+  color: #fff;
+}
+
+body:not(.is-landing) .phase-modal-section {
+  border-top-color: var(--cosmic-line);
+}
+
+body:not(.is-landing) .phase-modal-image {
+  border-color: var(--cosmic-line);
+  background: rgba(5, 10, 20, 0.72);
+}
+
+body:not(.is-landing) .phase-modal-image figcaption {
+  color: var(--cosmic-muted);
+}
+
+body:not(.is-landing) a {
+  color: #9ec0ff;
+}
+
+/* Cosmic readability fixes: keep the dark system, restore text contrast. */
+body:not(.is-landing) .matrix-cell strong,
+body:not(.is-landing) .matrix-mobile-row strong,
+body:not(.is-landing) .matrix-axis-title,
+body:not(.is-landing) .lineage-preview-segment strong,
+body:not(.is-landing) .event-card h3,
+body:not(.is-landing) .compact-event-card h3,
+body:not(.is-landing) .detail-box h3,
+body:not(.is-landing) .node-card h3,
+body:not(.is-landing) .lineage-node-card h3,
+body:not(.is-landing) .phase-event-card strong,
+body:not(.is-landing) .path-row h3,
+body:not(.is-landing) .thread-label,
+body:not(.is-landing) .context-bar strong,
+body:not(.is-landing) .selected-event strong,
+body:not(.is-landing) .mechanism-callout,
+body:not(.is-landing) .phase-modal-section strong,
+body:not(.is-landing) .phase-modal-section li,
+body:not(.is-landing) .phase-modal-card h2,
+body:not(.is-landing) .phase-modal-card h3 {
+  color: #f8fbff;
+}
+
+body:not(.is-landing) .matrix-cell.exact-event strong,
+body:not(.is-landing) .event-card.exact-event h3,
+body:not(.is-landing) .event-card.track-exact-event h3 {
+  color: #fff5df;
+}
+
+body:not(.is-landing) .matrix-cell.empty strong,
+body:not(.is-landing) .matrix-mobile-row.empty strong {
+  color: rgba(226, 232, 240, 0.78);
+}
+
+body:not(.is-landing) .lineage-preview-segment span,
+body:not(.is-landing) .matrix-cell span:last-child,
+body:not(.is-landing) .matrix-mobile-row span,
+body:not(.is-landing) .event-card p,
+body:not(.is-landing) .event-card span,
+body:not(.is-landing) .compact-event-card .compact-local-meta,
+body:not(.is-landing) .meta-line,
+body:not(.is-landing) .summary-text,
+body:not(.is-landing) .detail-box p,
+body:not(.is-landing) .detail-field,
+body:not(.is-landing) .node-summary,
+body:not(.is-landing) .context-summary,
+body:not(.is-landing) .path-header p,
+body:not(.is-landing) .phase-event-card small,
+body:not(.is-landing) .phase-modal-summary,
+body:not(.is-landing) .phase-modal-section p,
+body:not(.is-landing) .phase-section-heading-row span,
+body:not(.is-landing) .phase-modal-image figcaption,
+body:not(.is-landing) .phase-modal-image figcaption small {
+  color: #b8c5da;
+}
+
+body:not(.is-landing) .detail-field strong,
+body:not(.is-landing) #detailKicker,
+body:not(.is-landing) .local-context-group > h3,
+body:not(.is-landing) .local-context-subgroup h4,
+body:not(.is-landing) .local-nearby-heading h3,
+body:not(.is-landing) .panel-heading .eyebrow,
+body:not(.is-landing) .lineage-preview-eyebrow {
+  color: #8fb6ff;
+}
+
+body:not(.is-landing) .context-bar,
+body:not(.is-landing) .selected-event,
+body:not(.is-landing) .detail-box,
+body:not(.is-landing) .detail-panel,
+body:not(.is-landing) .path-row,
+body:not(.is-landing) .node-card,
+body:not(.is-landing) .lineage-node-card,
+body:not(.is-landing) .arrow-btn,
+body:not(.is-landing) .arrow-preview,
+body:not(.is-landing) .node-why,
+body:not(.is-landing) .phase-event-card,
+body:not(.is-landing) .mechanism-callout,
+body:not(.is-landing) .why-matters,
+body:not(.is-landing) .local-nearby-panel,
+body:not(.is-landing) .local-context-subgroup,
+body:not(.is-landing) .empty-state {
+  border-color: var(--cosmic-line);
+  color: var(--cosmic-text);
+  background:
+    linear-gradient(180deg, rgba(14, 26, 46, 0.82), rgba(7, 14, 27, 0.72)),
+    rgba(7, 14, 27, 0.72);
+  box-shadow: none;
+}
+
+body:not(.is-landing) .context-bar {
+  border-color: rgba(110, 160, 255, 0.38);
+  box-shadow: 0 0 28px rgba(47, 109, 246, 0.14);
+}
+
+body:not(.is-landing) .selected-event {
+  border-left-color: rgba(110, 160, 255, 0.88);
+  background:
+    linear-gradient(90deg, rgba(47, 109, 246, 0.2), rgba(7, 14, 27, 0.72)),
+    rgba(7, 14, 27, 0.72);
+}
+
+body:not(.is-landing) .detail-box,
+body:not(.is-landing) .detail-panel {
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.22);
+}
+
+body:not(.is-landing) .why-matters {
+  border-left-color: rgba(45, 212, 191, 0.82);
+  background: rgba(45, 212, 191, 0.08);
+}
+
+body:not(.is-landing) .why-matters strong {
+  color: #67e8d5;
+}
+
+body:not(.is-landing) .why-matters span {
+  color: #c7d2e5;
+}
+
+body:not(.is-landing) .source-indicator,
+body:not(.is-landing) .event-card .source-indicator,
+body:not(.is-landing) .detail-box .source-indicator {
+  border-color: rgba(45, 212, 191, 0.28);
+  color: #9ff3e7;
+  background: rgba(45, 212, 191, 0.1);
+}
+
+body:not(.is-landing) .phase-segment-detail-btn,
+body:not(.is-landing) .phase-event-card span,
+body:not(.is-landing) .local-nearby-tabs button,
+body:not(.is-landing) .arrow-btn {
+  color: #dbeafe;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+body:not(.is-landing) .phase-segment-detail-btn:hover,
+body:not(.is-landing) .phase-segment-detail-btn:focus-visible,
+body:not(.is-landing) .local-nearby-tabs button:hover,
+body:not(.is-landing) .local-nearby-tabs button:focus-visible,
+body:not(.is-landing) .arrow-btn:hover,
+body:not(.is-landing) .arrow-btn:focus-visible {
+  color: #fff;
+  background: rgba(110, 160, 255, 0.18);
+}
+
+body:not(.is-landing) .local-nearby-tabs button.active {
+  color: #f8fbff;
+  background: rgba(47, 109, 246, 0.32);
+}
+
+body:not(.is-landing) .phase-modal-meta span,
+body:not(.is-landing) .phase-modal-footer span,
+body:not(.is-landing) .event-modal-chip {
+  border-color: rgba(174, 199, 255, 0.18);
+  color: #dbeafe;
+  background: rgba(110, 160, 255, 0.12);
+}
+
+body:not(.is-landing) .event-modal-chip.lens {
+  color: #dbeafe;
+  background: rgba(47, 109, 246, 0.24);
+}
+
+body:not(.is-landing) .event-modal-chip.track {
+  color: #ccfbf1;
+  background: rgba(45, 212, 191, 0.13);
+}
+
+body:not(.is-landing) .event-modal-chip.phase {
+  color: #fed7aa;
+  background: rgba(245, 165, 90, 0.14);
+}
+
+body:not(.is-landing) .phase-modal-section h3 {
+  color: #9fb7d8;
+}
+
+body:not(.is-landing) .phase-modal-image img {
+  background: #07101f;
+}
+
+/* Cosmic drawer and matrix contrast polish. */
+body:not(.is-landing) .time-slice-matrix::after {
+  content: none;
+  display: none;
+}
+
+body:not(.is-landing) .matrix-top-right {
+  border-top-right-radius: 0;
+}
+
+body:not(.is-landing) .lens-tree-header {
+  border-bottom-color: var(--cosmic-line);
+  color: var(--cosmic-text);
+  background:
+    linear-gradient(180deg, rgba(18, 31, 54, 0.94), rgba(8, 15, 28, 0.9)),
+    rgba(8, 15, 28, 0.9);
+}
+
+body:not(.is-landing) .lens-tree-header h2 {
+  color: #f8fbff;
+}
+
+body:not(.is-landing) .lens-tree-header p,
+body:not(.is-landing) .place-reference-note {
+  color: #aebbd2;
+}
+
+body:not(.is-landing) .knowledge-tree-tabs button {
+  border-color: rgba(174, 199, 255, 0.18);
+  color: #cbd8ee;
+  background: rgba(5, 11, 22, 0.72);
+}
+
+body:not(.is-landing) .knowledge-tree-tabs button:hover,
+body:not(.is-landing) .knowledge-tree-tabs button:focus-visible {
+  outline: none;
+  border-color: rgba(110, 160, 255, 0.52);
+  color: #f8fbff;
+  background: rgba(47, 109, 246, 0.16);
+}
+
+body:not(.is-landing) .knowledge-tree-tabs button.active {
+  border-color: rgba(110, 160, 255, 0.7);
+  color: #ffffff;
+  background: linear-gradient(135deg, rgba(47, 109, 246, 0.9), rgba(35, 83, 175, 0.78));
+  box-shadow: 0 0 22px rgba(47, 109, 246, 0.2);
+}
+
+body:not(.is-landing) .lens-tree-clear,
+body:not(.is-landing) .lens-tree-node,
+body:not(.is-landing) .lens-tree-row,
+body:not(.is-landing) .lens-tree-select,
+body:not(.is-landing) .lens-tree-expander,
+body:not(.is-landing) .lens-tree-track-all {
+  border-color: rgba(174, 199, 255, 0.16);
+  color: #dbe7fb;
+  background: rgba(6, 13, 25, 0.66);
+}
+
+body:not(.is-landing) .lens-tree-node {
+  background:
+    linear-gradient(180deg, rgba(13, 24, 42, 0.62), rgba(6, 13, 25, 0.58)),
+    rgba(6, 13, 25, 0.58);
+}
+
+body:not(.is-landing) .lens-tree-select span,
+body:not(.is-landing) .lens-tree-clear,
+body:not(.is-landing) .lens-tree-expander {
+  color: #e9f1ff;
+}
+
+body:not(.is-landing) .lens-tree-expander:disabled {
+  color: rgba(174, 187, 210, 0.48);
+  background: rgba(6, 13, 25, 0.28);
+}
+
+body:not(.is-landing) .lens-tree-clear:hover,
+body:not(.is-landing) .lens-tree-clear:focus-visible,
+body:not(.is-landing) .lens-tree-select:hover,
+body:not(.is-landing) .lens-tree-select:focus-visible,
+body:not(.is-landing) .lens-tree-expander:hover:not(:disabled),
+body:not(.is-landing) .lens-tree-expander:focus-visible:not(:disabled),
+body:not(.is-landing) .lens-tree-track-all:hover,
+body:not(.is-landing) .lens-tree-track-all:focus-visible {
+  outline: none;
+  border-color: rgba(110, 160, 255, 0.52);
+  color: #ffffff;
+  background: rgba(47, 109, 246, 0.16);
+}
+
+body:not(.is-landing) .lens-tree-node.selected {
+  border-color: rgba(110, 160, 255, 0.42);
+  background:
+    linear-gradient(180deg, rgba(47, 109, 246, 0.16), rgba(9, 20, 38, 0.68)),
+    rgba(9, 20, 38, 0.68);
+}
+
+body:not(.is-landing) .lens-tree-select.active,
+body:not(.is-landing) .lens-tree-track .lens-tree-select.active,
+body:not(.is-landing) .place-tree-place .lens-tree-select.active,
+body:not(.is-landing) .lens-tree-clear.active,
+body:not(.is-landing) .lens-tree-track-all.active {
+  border-color: rgba(110, 160, 255, 0.62);
+  color: #ffffff;
+  background: linear-gradient(135deg, rgba(47, 109, 246, 0.94), rgba(15, 159, 127, 0.74));
+  box-shadow: 0 0 24px rgba(47, 109, 246, 0.2);
+}
+
+body:not(.is-landing) .lens-tree-clear.partial,
+body:not(.is-landing) .lens-tree-track-all.partial {
+  border-color: rgba(110, 160, 255, 0.42);
+  color: #cfe0ff;
+  background: rgba(47, 109, 246, 0.12);
+}
+
+body:not(.is-landing) .lens-tree-group-label,
+body:not(.is-landing) .lens-tree-group-header {
+  color: #9fb0ca;
+}
+
+body:not(.is-landing) .matrix-corner,
+body:not(.is-landing) .matrix-region-heading,
+body:not(.is-landing) .matrix-lens-heading {
+  color: #f4f8ff;
+  background:
+    linear-gradient(180deg, rgba(17, 31, 55, 0.98), rgba(7, 14, 27, 0.96)),
+    rgba(7, 14, 27, 0.96);
+}
+
+body:not(.is-landing) .matrix-region-heading .matrix-axis-title,
+body:not(.is-landing) .matrix-lens-heading .matrix-axis-title,
+body:not(.is-landing) .matrix-corner {
+  color: #ffffff;
+}
+
+body:not(.is-landing) .matrix-axis-phase-btn {
+  border-color: rgba(110, 160, 255, 0.46);
+  color: #dce9ff;
+  background: rgba(47, 109, 246, 0.18);
+}
+
+body:not(.is-landing) .matrix-axis-phase-empty {
+  border-color: rgba(174, 199, 255, 0.14);
+  color: rgba(190, 204, 226, 0.68);
+  background: rgba(203, 213, 225, 0.08);
+}
+
+body:not(.is-landing) .matrix-cell {
+  color: #e8f0ff;
+}
+
+body:not(.is-landing) .matrix-cell.empty {
+  color: rgba(206, 218, 236, 0.7);
+}
+
+body:not(.is-landing) .matrix-cell.empty .matrix-cell-type {
+  color: rgba(219, 226, 238, 0.76);
+  background: rgba(203, 213, 225, 0.1);
+}
+
+body:not(.is-landing) .matrix-cell.empty strong {
+  color: rgba(233, 240, 250, 0.78);
+}
+
+body:not(.is-landing) .matrix-cell.exact-event {
+  border-color: rgba(245, 165, 90, 0.58);
+  background:
+    linear-gradient(180deg, rgba(245, 165, 90, 0.18), rgba(8, 15, 28, 0.62)),
+    rgba(8, 15, 28, 0.62);
+}
+
+body:not(.is-landing) .matrix-cell.exact-event span:last-child {
+  color: #c5d2e7;
+}
+
+/* Cosmic light / dark theme system. The dark workspace rules above remain the
+   default; this layer gives the same visual language a readable light mode. */
+body.theme-cosmic-dark {
+  color-scheme: dark;
+}
+
+.theme-toggle {
+  min-width: 58px;
+}
+
+body.theme-cosmic-light {
+  color-scheme: light;
+  --bg: #eef5ff;
+  --paper: rgba(255, 255, 255, 0.78);
+  --paper-solid: #ffffff;
+  --ink: #111827;
+  --muted: #5c6880;
+  --muted-2: #7a869a;
+  --line: rgba(48, 76, 130, 0.18);
+  --dark: #172033;
+  --dark-soft: #26324a;
+  --blue: #2f6df6;
+  --blue-2: #1f8fdd;
+  --cosmic-bg: #f2f7ff;
+  --cosmic-panel: rgba(255, 255, 255, 0.78);
+  --cosmic-panel-soft: rgba(247, 251, 255, 0.68);
+  --cosmic-panel-strong: rgba(255, 255, 255, 0.94);
+  --cosmic-line: rgba(47, 89, 160, 0.18);
+  --cosmic-text: #111827;
+  --cosmic-muted: #5f6d84;
+  --cosmic-glow: 0 22px 58px rgba(47, 109, 246, 0.14);
+  background:
+    radial-gradient(circle at 12% 8%, rgba(124, 184, 255, 0.34), transparent 32%),
+    radial-gradient(circle at 88% 12%, rgba(82, 221, 193, 0.18), transparent 30%),
+    radial-gradient(circle at 50% 102%, rgba(111, 143, 255, 0.16), transparent 38%),
+    linear-gradient(180deg, #f8fbff 0%, #edf4ff 52%, #eaf2ff 100%);
+  color: var(--cosmic-text);
+}
+
+body.theme-cosmic-light::before {
+  opacity: 0.45;
+  background-image:
+    radial-gradient(circle at 18% 18%, rgba(47, 109, 246, 0.3) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 78% 28%, rgba(16, 185, 129, 0.22) 0 1px, transparent 1.7px),
+    radial-gradient(circle at 42% 72%, rgba(59, 130, 246, 0.2) 0 1px, transparent 1.5px);
+  background-size: 110px 110px, 150px 150px, 190px 190px;
+}
+
+body.theme-cosmic-light.is-landing {
+  background: #f6faff;
+  color: #111827;
+}
+
+body.theme-cosmic-light .landing-layer {
+  color: #111827;
+  background:
+    radial-gradient(circle at 18% 22%, rgba(116, 178, 255, 0.38), transparent 34%),
+    radial-gradient(circle at 82% 20%, rgba(62, 209, 185, 0.22), transparent 30%),
+    radial-gradient(circle at 50% 100%, rgba(47, 109, 246, 0.14), transparent 40%),
+    linear-gradient(180deg, #fbfdff 0%, #f4f8ff 55%, #eef5ff 100%);
+}
+
+body.theme-cosmic-light .landing-layer::before {
+  opacity: 0.55;
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(47, 109, 246, 0.24) 0 1px, transparent 1.7px),
+    radial-gradient(circle at 58% 44%, rgba(20, 184, 166, 0.2) 0 1px, transparent 1.8px),
+    radial-gradient(circle at 82% 70%, rgba(99, 102, 241, 0.18) 0 1px, transparent 1.6px);
+}
+
+body.theme-cosmic-light .landing-brand {
+  color: #2f6df6;
+  text-shadow: none;
+}
+
+body.theme-cosmic-light .landing-copy h1 {
+  color: #101827;
+}
+
+body.theme-cosmic-light .landing-copy p,
+body.theme-cosmic-light .landing-events h2,
+body.theme-cosmic-light .landing-event-card p {
+  color: #667085;
+}
+
+body.theme-cosmic-light .landing-track {
+  background: rgba(47, 109, 246, 0.14);
+}
+
+body.theme-cosmic-light .landing-track-fill {
+  background: linear-gradient(90deg, rgba(47, 109, 246, 0.2), rgba(47, 109, 246, 0.74));
+}
+
+body.theme-cosmic-light .landing-anchor {
+  background: rgba(47, 109, 246, 0.28);
+  box-shadow: 0 0 22px rgba(47, 109, 246, 0.14);
+}
+
+body.theme-cosmic-light .landing-active-point {
+  border-color: rgba(47, 109, 246, 0.86);
+  background: #ffffff;
+  box-shadow: 0 0 0 14px rgba(47, 109, 246, 0.12), 0 14px 34px rgba(47, 109, 246, 0.18);
+}
+
+body.theme-cosmic-light .landing-active-year {
+  color: #2f6df6;
+  text-shadow: none;
+}
+
+body.theme-cosmic-light .landing-event-card {
+  border-color: rgba(47, 89, 160, 0.14);
+  background: rgba(255, 255, 255, 0.82);
+  color: #111827;
+  box-shadow: 0 22px 70px rgba(47, 68, 110, 0.12);
+}
+
+body.theme-cosmic-light:not(.is-landing) {
+  color-scheme: light;
+  color: var(--cosmic-text);
+  background:
+    radial-gradient(circle at 10% 6%, rgba(124, 184, 255, 0.32), transparent 30%),
+    radial-gradient(circle at 86% 14%, rgba(78, 222, 196, 0.18), transparent 30%),
+    radial-gradient(circle at 50% 105%, rgba(47, 109, 246, 0.14), transparent 38%),
+    linear-gradient(180deg, #f8fbff 0%, #eef5ff 52%, #e9f2ff 100%);
+}
+
+body.theme-cosmic-light:not(.is-landing) .app-shell {
+  background: transparent;
+}
+
+body.theme-cosmic-light:not(.is-landing) .top-control-center,
+body.theme-cosmic-light:not(.is-landing) .time-slice-section,
+body.theme-cosmic-light:not(.is-landing) .lineage-preview-card,
+body.theme-cosmic-light:not(.is-landing) .deep-dive-panel,
+body.theme-cosmic-light:not(.is-landing) .connections-card,
+body.theme-cosmic-light:not(.is-landing) .year-capsule-section,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-drawer,
+body.theme-cosmic-light:not(.is-landing) .section-navigator-panel {
+  border-color: var(--cosmic-line);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.86), rgba(246, 250, 255, 0.72)),
+    rgba(255, 255, 255, 0.76);
+  color: var(--cosmic-text);
+  box-shadow: 0 22px 70px rgba(38, 67, 112, 0.12);
+}
+
+body.theme-cosmic-light:not(.is-landing) .top-control-center {
+  backdrop-filter: blur(18px);
+}
+
+body.theme-cosmic-light:not(.is-landing) .brand-lockup strong,
+body.theme-cosmic-light:not(.is-landing) h1,
+body.theme-cosmic-light:not(.is-landing) h2,
+body.theme-cosmic-light:not(.is-landing) h3,
+body.theme-cosmic-light:not(.is-landing) .time-slice-title h2,
+body.theme-cosmic-light:not(.is-landing) .lineage-preview-title h2,
+body.theme-cosmic-light:not(.is-landing) .event-card-title,
+body.theme-cosmic-light:not(.is-landing) .matrix-axis-title {
+  color: #101827;
+}
+
+body.theme-cosmic-light:not(.is-landing) .brand-lockup span,
+body.theme-cosmic-light:not(.is-landing) .section-kicker,
+body.theme-cosmic-light:not(.is-landing) .time-slice-title p,
+body.theme-cosmic-light:not(.is-landing) .lineage-preview-title p,
+body.theme-cosmic-light:not(.is-landing) .deep-dive-panel p,
+body.theme-cosmic-light:not(.is-landing) .matrix-cell span,
+body.theme-cosmic-light:not(.is-landing) .event-card-meta,
+body.theme-cosmic-light:not(.is-landing) .selected-context-bar {
+  color: #667085;
+}
+
+body.theme-cosmic-light:not(.is-landing) .search-shell input,
+body.theme-cosmic-light:not(.is-landing) .timeline-range-popover,
+body.theme-cosmic-light:not(.is-landing) .year-pill,
+body.theme-cosmic-light:not(.is-landing) .secondary-btn,
+body.theme-cosmic-light:not(.is-landing) .quick-btn {
+  border-color: rgba(47, 89, 160, 0.16);
+  background: rgba(255, 255, 255, 0.74);
+  color: #172033;
+}
+
+body.theme-cosmic-light:not(.is-landing) .search-shell input::placeholder {
+  color: rgba(92, 104, 128, 0.72);
+}
+
+body.theme-cosmic-light:not(.is-landing) .year-pill {
+  background: linear-gradient(180deg, #172033, #0f172a);
+  color: #ffffff;
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.15);
+}
+
+body.theme-cosmic-light:not(.is-landing) .secondary-btn:hover,
+body.theme-cosmic-light:not(.is-landing) .secondary-btn:focus-visible,
+body.theme-cosmic-light:not(.is-landing) .quick-btn:hover,
+body.theme-cosmic-light:not(.is-landing) .quick-btn:focus-visible {
+  border-color: rgba(47, 109, 246, 0.42);
+  background: rgba(239, 246, 255, 0.94);
+  color: #1d4ed8;
+}
+
+body.theme-cosmic-light:not(.is-landing) .timeline-track {
+  background: rgba(47, 89, 160, 0.14);
+}
+
+body.theme-cosmic-light:not(.is-landing) .timeline-fill {
+  background: linear-gradient(90deg, rgba(47, 109, 246, 0.22), rgba(47, 109, 246, 0.82));
+}
+
+body.theme-cosmic-light:not(.is-landing) .timeline-thumb {
+  background: #ffffff;
+  border-color: rgba(47, 109, 246, 0.18);
+}
+
+body.theme-cosmic-light:not(.is-landing) .timeline-current-label,
+body.theme-cosmic-light:not(.is-landing) .time-slice-badge,
+body.theme-cosmic-light:not(.is-landing) .same-moment-chip,
+body.theme-cosmic-light:not(.is-landing) .selected-chip,
+body.theme-cosmic-light:not(.is-landing) .matrix-axis-phase-btn {
+  border-color: rgba(47, 109, 246, 0.24);
+  background: rgba(239, 246, 255, 0.82);
+  color: #1e3a8a;
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-shell,
+body.theme-cosmic-light:not(.is-landing) .matrix-grid {
+  border-color: rgba(47, 89, 160, 0.18);
+  background: rgba(255, 255, 255, 0.54);
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-corner,
+body.theme-cosmic-light:not(.is-landing) .matrix-region-heading,
+body.theme-cosmic-light:not(.is-landing) .matrix-lens-heading {
+  color: #101827;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(242, 247, 255, 0.93)),
+    rgba(255, 255, 255, 0.94);
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-corner,
+body.theme-cosmic-light:not(.is-landing) .matrix-region-heading .matrix-axis-title,
+body.theme-cosmic-light:not(.is-landing) .matrix-lens-heading .matrix-axis-title {
+  color: #0f172a;
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-cell {
+  border-color: rgba(47, 89, 160, 0.14);
+  background: rgba(255, 255, 255, 0.44);
+  color: #101827;
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-cell.empty {
+  color: #667085;
+  background: rgba(248, 251, 255, 0.46);
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-cell.empty .matrix-cell-type {
+  background: rgba(226, 232, 240, 0.9);
+  color: #64748b;
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-cell.empty strong {
+  color: #6b7280;
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-cell.exact-event,
+body.theme-cosmic-light:not(.is-landing) .event-card.exact-event {
+  border-color: rgba(217, 119, 6, 0.36);
+  background:
+    linear-gradient(180deg, rgba(255, 247, 237, 0.9), rgba(255, 255, 255, 0.72)),
+    rgba(255, 255, 255, 0.78);
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-cell.exact-event strong,
+body.theme-cosmic-light:not(.is-landing) .event-card.exact-event .event-card-title {
+  color: #111827;
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-cell.exact-event span:last-child,
+body.theme-cosmic-light:not(.is-landing) .event-card-summary {
+  color: #5c6880;
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-cell-type.exact,
+body.theme-cosmic-light:not(.is-landing) .card-type.exact {
+  color: #92400e;
+  background: rgba(255, 237, 213, 0.92);
+}
+
+body.theme-cosmic-light:not(.is-landing) .matrix-floating-region-header {
+  border-color: rgba(47, 89, 160, 0.18);
+  background: rgba(248, 251, 255, 0.94);
+  box-shadow: 0 18px 34px rgba(38, 67, 112, 0.14);
+}
+
+body.theme-cosmic-light:not(.is-landing) .lineage-preview-segment,
+body.theme-cosmic-light:not(.is-landing) .region-phase-segment {
+  border-color: rgba(47, 89, 160, 0.14);
+  background: rgba(255, 255, 255, 0.68);
+  color: #111827;
+}
+
+body.theme-cosmic-light:not(.is-landing) .lineage-preview-segment .segment-year,
+body.theme-cosmic-light:not(.is-landing) .region-phase-segment .segment-year {
+  color: #667085;
+}
+
+body.theme-cosmic-light:not(.is-landing) .lineage-preview-segment.active,
+body.theme-cosmic-light:not(.is-landing) .region-phase-segment.active,
+body.theme-cosmic-light:not(.is-landing) .lineage-preview-segment.jump-highlight,
+body.theme-cosmic-light:not(.is-landing) .region-phase-segment.jump-highlight {
+  border-color: rgba(47, 109, 246, 0.58);
+  background: rgba(239, 246, 255, 0.92);
+  box-shadow: 0 0 0 1px rgba(47, 109, 246, 0.14), 0 16px 38px rgba(47, 109, 246, 0.12);
+}
+
+body.theme-cosmic-light:not(.is-landing) .event-card,
+body.theme-cosmic-light:not(.is-landing) .detail-panel,
+body.theme-cosmic-light:not(.is-landing) .connection-path,
+body.theme-cosmic-light:not(.is-landing) .local-events-panel {
+  border-color: rgba(47, 89, 160, 0.16);
+  background: rgba(255, 255, 255, 0.68);
+  color: #111827;
+}
+
+body.theme-cosmic-light:not(.is-landing) .event-card.active {
+  border-color: rgba(47, 109, 246, 0.56);
+  background: rgba(239, 246, 255, 0.9);
+  box-shadow: 0 0 0 1px rgba(47, 109, 246, 0.12), 0 18px 42px rgba(47, 109, 246, 0.14);
+}
+
+body.theme-cosmic-light:not(.is-landing) .local-nearby-tabs button {
+  border-color: rgba(47, 89, 160, 0.16);
+  background: rgba(255, 255, 255, 0.72);
+  color: #334155;
+}
+
+body.theme-cosmic-light:not(.is-landing) .local-nearby-tabs button.active {
+  color: #1e3a8a;
+  background: rgba(239, 246, 255, 0.95);
+}
+
+body.theme-cosmic-light:not(.is-landing) .lens-tree-header {
+  border-bottom-color: rgba(47, 89, 160, 0.16);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(242, 247, 255, 0.9)),
+    rgba(255, 255, 255, 0.94);
+  color: #111827;
+}
+
+body.theme-cosmic-light:not(.is-landing) .lens-tree-header h2,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-select span,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-clear,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-expander {
+  color: #172033;
+}
+
+body.theme-cosmic-light:not(.is-landing) .lens-tree-header p,
+body.theme-cosmic-light:not(.is-landing) .place-reference-note,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-group-label,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-group-header {
+  color: #64748b;
+}
+
+body.theme-cosmic-light:not(.is-landing) .knowledge-tree-tabs button,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-clear,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-node,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-row,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-select,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-expander,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-track-all {
+  border-color: rgba(47, 89, 160, 0.14);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(248, 251, 255, 0.68)),
+    rgba(255, 255, 255, 0.72);
+  color: #172033;
+}
+
+body.theme-cosmic-light:not(.is-landing) .knowledge-tree-tabs button.active,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-select.active,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-track .lens-tree-select.active,
+body.theme-cosmic-light:not(.is-landing) .place-tree-place .lens-tree-select.active,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-clear.active,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-track-all.active {
+  border-color: rgba(47, 109, 246, 0.56);
+  color: #ffffff;
+  background: linear-gradient(135deg, rgba(47, 109, 246, 0.95), rgba(20, 184, 166, 0.78));
+  box-shadow: 0 16px 34px rgba(47, 109, 246, 0.16);
+}
+
+body.theme-cosmic-light:not(.is-landing) .lens-tree-clear.partial,
+body.theme-cosmic-light:not(.is-landing) .lens-tree-track-all.partial {
+  color: #1e3a8a;
+  background: rgba(239, 246, 255, 0.86);
+}
+
+body.theme-cosmic-light:not(.is-landing) .phase-modal,
+body.theme-cosmic-light:not(.is-landing) .event-modal {
+  background:
+    radial-gradient(circle at 20% 12%, rgba(124, 184, 255, 0.16), transparent 34%),
+    rgba(229, 237, 250, 0.48);
+}
+
+body.theme-cosmic-light:not(.is-landing) .phase-modal-card,
+body.theme-cosmic-light:not(.is-landing) .event-modal-card {
+  border-color: rgba(47, 89, 160, 0.18);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 251, 255, 0.9)),
+    rgba(255, 255, 255, 0.94);
+  color: #111827;
+  box-shadow: 0 24px 80px rgba(30, 51, 88, 0.22);
+}
+
+body.theme-cosmic-light:not(.is-landing) .phase-modal-close,
+body.theme-cosmic-light:not(.is-landing) .event-modal-close,
+body.theme-cosmic-light:not(.is-landing) .phase-segment-detail-btn,
+body.theme-cosmic-light:not(.is-landing) .arrow-btn {
+  border-color: rgba(47, 89, 160, 0.14);
+  background: rgba(255, 255, 255, 0.78);
+  color: #334155;
+}
+
+body.theme-cosmic-light:not(.is-landing) .phase-modal-meta span,
+body.theme-cosmic-light:not(.is-landing) .phase-modal-footer span,
+body.theme-cosmic-light:not(.is-landing) .event-modal-chip {
+  border-color: rgba(47, 109, 246, 0.18);
+  color: #1e3a8a;
+  background: rgba(239, 246, 255, 0.88);
+}
+
+body.theme-cosmic-light:not(.is-landing) .event-modal-chip.track {
+  color: #0f766e;
+  background: rgba(204, 251, 241, 0.74);
+}
+
+body.theme-cosmic-light:not(.is-landing) .event-modal-chip.phase {
+  color: #92400e;
+  background: rgba(255, 237, 213, 0.82);
+}
+
+body.theme-cosmic-light:not(.is-landing) .phase-modal-section h3 {
+  color: #56657c;
+}
+
+body.theme-cosmic-light:not(.is-landing) .phase-modal-image img,
+body.theme-cosmic-light:not(.is-landing) .event-modal-image img {
+  background: #eef5ff;
+}
+
+body.theme-cosmic-light:not(.is-landing) .time-slice-matrix::after,
+body.theme-cosmic-dark:not(.is-landing) .time-slice-matrix::after {
+  content: none !important;
+  display: none !important;
+  box-shadow: none !important;
+}
+
+body:not(.is-landing) .matrix-region-heading.matrix-top-right,
+body:not(.is-landing) .matrix-top-right {
+  border-top-right-radius: 0 !important;
+  overflow: hidden;
 }

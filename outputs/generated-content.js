@@ -2,10 +2,11 @@
 // Only approved content should be emitted here. Candidates and rejected content are never loaded by the app.
 globalThis.HISTORY_GENERATED_CONTENT = {
   "metadata": {
-    "generatedAt": "2026-06-23T18:52:25.286Z",
+    "generatedAt": "2026-06-30T09:29:16.712Z",
     "sourceFiles": [
       "content/approved/ai-ml/core-events.json",
       "content/approved/art-visual-media/core-events.json",
+      "content/approved/barcelona-foundation/core-events.json",
       "content/approved/recovered-2000/core-events.json",
       "content/approved/slice-packs/malaysia-foundation/core-events.json",
       "content/approved/slice-packs/modern-global-slice-pack-01/core-events.json",
@@ -13,9 +14,9 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "content/approved/software-os/core-events.json",
       "content/approved/war-global-conflicts/core-events.json"
     ],
-    "eventCount": 162,
+    "eventCount": 175,
     "detailLevelCounts": {
-      "full": 94,
+      "full": 107,
       "slice": 68,
       "needs-review": 0,
       "missing": 0
@@ -1595,6 +1596,758 @@ globalThis.HISTORY_GENERATED_CONTENT = {
       "detailLevel": "full",
       "reviewStatus": "approved",
       "batchId": "art-visual-media-core-events-20260622"
+    },
+    {
+      "id": "event-barcelona-cathedral-gothic-construction-1298",
+      "year": 1298,
+      "title": "Gothic Barcelona Cathedral construction begins",
+      "titleZh": "巴塞罗那主教座堂哥特式工程开工",
+      "summary": "Construction began on the Gothic Barcelona Cathedral, anchoring episcopal power, urban craft, and sacred architecture in the medieval city.",
+      "summaryZh": "巴塞罗那主教座堂的哥特式工程开工，把主教权威、城市工艺与神圣建筑固定在中世纪城市中心。",
+      "eventIntro": "In 1298, work began on the Gothic rebuilding of Barcelona Cathedral, dedicated to the Holy Cross and Saint Eulalia. The project grew over centuries, but its start marks a medieval city investing stone, labor, liturgy, and civic identity into a monumental sacred center.",
+      "eventIntroZh": "1298 年，巴塞罗那开始重建哥特式主教座堂，奉献给圣十字和圣欧拉利亚。工程延续数百年，但开工本身已经显示中世纪城市把石材、劳动、礼仪和城市身份投入一座纪念性宗教中心。",
+      "whyMatters": "The cathedral helps explain Barcelona before modern tourism: it was a Mediterranean city where church authority, guild labor, urban wealth, and public ritual were physically organized through Gothic architecture.",
+      "whyMattersZh": "这座主教座堂有助于理解现代旅游之前的巴塞罗那：它是一座地中海城市，教会权威、行会劳动、城市财富和公共仪式通过哥特式建筑被组织起来。",
+      "phaseRelation": "The event belongs to Romanesque and Gothic sacred architecture because it shows how medieval urban centers used cathedrals to structure worship, civic prestige, and the skyline.",
+      "phaseRelationZh": "它属于“罗曼式与哥特式宗教建筑”阶段，因为它展示中世纪城市如何用主教座堂组织礼拜、城市声望和天际线。",
+      "connectionHint": "It connects to medieval Iberian kingdoms, urban craft economies, pilgrimage, relic devotion, and later Barcelona layers that would build modern identity around older sacred cores.",
+      "connectionHintZh": "它可以连接到中世纪伊比利亚诸王国、城市工艺经济、朝圣、圣物崇敬，以及后来巴塞罗那围绕古老宗教核心建构现代身份的过程。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Catalonia",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "architecture",
+        "religion-belief",
+        "state-empire"
+      ],
+      "phaseIds": [
+        "architecture-04"
+      ],
+      "primaryLensId": "architecture",
+      "primaryPhaseId": "architecture-04",
+      "regionPhaseIds": [
+        "iberia-medieval-cities"
+      ],
+      "primaryRegionPhaseId": "iberia-medieval-cities",
+      "eventType": "construction-begins",
+      "importance": "core",
+      "scope": "urban",
+      "sourceRefs": [
+        "barcelona-cathedral",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "Barcelona Cathedral's Gothic building campaign is commonly dated from 1298, with later facade work completed much later."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Catedral%20de%20Barcelona%20-%20Fa%C3%A7ana.jpg",
+      "imageAlt": "The Gothic facade of Barcelona Cathedral.",
+      "imageCaption": "Barcelona Cathedral stands as a medieval sacred and civic landmark in the old city.",
+      "imageCaptionZh": "巴塞罗那主教座堂是老城中的中世纪宗教与城市地标。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Barcelona_-_Fa%C3%A7ana.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-santa-maria-del-mar-construction-1329",
+      "year": 1329,
+      "title": "Santa Maria del Mar construction begins",
+      "titleZh": "海上圣母圣殿开工",
+      "summary": "Construction began on Santa Maria del Mar, a Catalan Gothic church closely tied to Barcelona's maritime quarter and merchant society.",
+      "summaryZh": "海上圣母圣殿开工，这座加泰罗尼亚哥特式教堂与巴塞罗那海港街区和商人社会紧密相连。",
+      "eventIntro": "In 1329, building began on Santa Maria del Mar in Barcelona's Ribera district. Unlike royal monuments, the church became associated with merchants, dock workers, parish life, and a maritime urban community facing the Mediterranean.",
+      "eventIntroZh": "1329 年，巴塞罗那里贝拉区开始建造海上圣母圣殿。它不像王室纪念建筑那样只属于统治者，而是与商人、码头劳动者、堂区生活和面向地中海的城市共同体相连。",
+      "whyMatters": "The church gives Barcelona's Gothic landscape a social dimension: sacred architecture was not only episcopal authority, but also neighborhood identity, trade wealth, and collective urban labor.",
+      "whyMattersZh": "这座教堂让巴塞罗那的哥特景观具有社会维度：宗教建筑不仅代表主教权威，也代表街区身份、贸易财富和集体城市劳动。",
+      "phaseRelation": "It belongs to Gothic sacred architecture, but it is especially useful because it shows a Mediterranean commercial city translating maritime prosperity into a clear, spacious, communal church.",
+      "phaseRelationZh": "它属于哥特式宗教建筑阶段，但尤其有价值，因为它显示一座地中海商业城市如何把海上繁荣转化为清晰、宽阔、共同体式的教堂空间。",
+      "connectionHint": "It connects architecture to port trade, guild labor, medieval urban autonomy, and the later memory of Barcelona as a city built through neighborhoods as much as dynasties.",
+      "connectionHintZh": "它把建筑连接到港口贸易、行会劳动、中世纪城市自治，以及后来巴塞罗那作为由街区而不只是王朝塑造的城市记忆。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Catalonia",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "architecture",
+        "economy-trade",
+        "religion-belief"
+      ],
+      "phaseIds": [
+        "architecture-04"
+      ],
+      "primaryLensId": "architecture",
+      "primaryPhaseId": "architecture-04",
+      "regionPhaseIds": [
+        "iberia-medieval-cities"
+      ],
+      "primaryRegionPhaseId": "iberia-medieval-cities",
+      "eventType": "construction-begins",
+      "importance": "core",
+      "scope": "urban",
+      "sourceRefs": [
+        "santa-maria-del-mar",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "Santa Maria del Mar's construction is traditionally dated to 1329-1383 and is a major example of Catalan Gothic architecture."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Maria%20del%20Mar%20Barcelona.jpg",
+      "imageAlt": "Santa Maria del Mar in Barcelona.",
+      "imageCaption": "Santa Maria del Mar is closely associated with Barcelona's medieval maritime and merchant world.",
+      "imageCaptionZh": "海上圣母圣殿与巴塞罗那中世纪的海港和商人世界密切相关。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Mar_Barcelona.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-sagrada-familia-construction-begins-1882",
+      "year": 1882,
+      "title": "Sagrada Familia construction begins",
+      "titleZh": "圣家堂开工",
+      "summary": "Construction began on the Sagrada Familia, the long-running Barcelona basilica later transformed by Antoni Gaudi into a landmark of Catalan modernisme.",
+      "summaryZh": "圣家堂开工，这座长期建造的巴塞罗那圣殿后来被安东尼·高迪转化为加泰罗尼亚现代主义地标。",
+      "eventIntro": "In 1882, construction began on the Temple Expiatori de la Sagrada Familia. Gaudi took over the project soon afterward and gradually redirected it from a neo-Gothic church into an experimental fusion of liturgy, structure, natural form, craft, and urban symbolism.",
+      "eventIntroZh": "1882 年，赎罪圣家堂开始建设。高迪不久后接手工程，并逐步把它从新哥特式教堂转向融合礼仪、结构、自然形态、工艺和城市象征的实验性建筑。",
+      "whyMatters": "The Sagrada Familia matters because it makes Barcelona's modern identity visible as a very long architectural process rather than a single completed monument. It links industrial-era urban expansion to Catholic devotion, Catalan cultural politics, tourism, and contemporary construction technology.",
+      "whyMattersZh": "圣家堂重要，因为它把巴塞罗那的现代身份呈现为一个极长的建筑过程，而不是单一完成的纪念碑。它连接工业时代城市扩张、天主教虔敬、加泰罗尼亚文化政治、旅游和当代建造技术。",
+      "phaseRelation": "This belongs to Industrial materials and modern cities: Barcelona's Eixample-era growth created the urban, financial, and technical conditions for a vast modern religious project.",
+      "phaseRelationZh": "它属于“工业材料与现代城市”阶段：巴塞罗那扩展区时代的增长，为一项巨大的现代宗教工程创造了城市、资金和技术条件。",
+      "connectionHint": "It connects to Gothic revival, Art Nouveau, Catalan nationalism, modern engineering, religious patronage, heritage tourism, and debates over when a living construction project becomes a historical monument.",
+      "connectionHintZh": "它连接到哥特复兴、新艺术运动、加泰罗尼亚民族主义、现代工程、宗教赞助、遗产旅游，以及一个仍在建设的项目何时成为历史纪念物的争论。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Catalonia",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "architecture",
+        "religion-belief",
+        "art"
+      ],
+      "phaseIds": [
+        "architecture-06"
+      ],
+      "primaryLensId": "architecture",
+      "primaryPhaseId": "architecture-06",
+      "regionPhaseIds": [
+        "iberia-liberal-industrial-catalonia"
+      ],
+      "primaryRegionPhaseId": "iberia-liberal-industrial-catalonia",
+      "eventType": "construction-begins",
+      "importance": "core",
+      "scope": "urban",
+      "sourceRefs": [
+        "sagrada-familia-official",
+        "unesco",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "The Sagrada Familia began in 1882; Gaudi became its architect soon after and reshaped the project over the following decades."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sagrada%20Familia%2001.jpg",
+      "imageAlt": "The Sagrada Familia basilica in Barcelona.",
+      "imageCaption": "The Sagrada Familia turns Barcelona's modern urban and religious identity into a continuing construction project.",
+      "imageCaptionZh": "圣家堂把巴塞罗那的现代城市与宗教身份转化为仍在延续的建造工程。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sagrada_Familia_01.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-barcelona-universal-exposition-opens-1888",
+      "year": 1888,
+      "title": "Barcelona Universal Exposition opens",
+      "titleZh": "巴塞罗那万国博览会开幕",
+      "summary": "The 1888 Barcelona Universal Exposition turned parks, monuments, industry, and civic spectacle into a statement of modern urban ambition.",
+      "summaryZh": "1888 年巴塞罗那万国博览会把公园、纪念建筑、工业和城市奇观转化为现代城市抱负的宣言。",
+      "eventIntro": "In 1888, Barcelona opened its Universal Exposition in and around the Parc de la Ciutadella. The event used exhibition halls, the Arc de Triomf, public space, and infrastructure improvements to present Barcelona as an industrial and cosmopolitan city.",
+      "eventIntroZh": "1888 年，巴塞罗那在城堡公园及周边举办万国博览会。展览通过展馆、凯旋门、公共空间和基础设施改善，把巴塞罗那呈现为工业化且世界性的城市。",
+      "whyMatters": "The exposition matters because it shows Barcelona using international spectacle to remake its urban image. It connected local industry, civic pride, tourism, and planning at a moment when Catalonia's industrial culture was becoming more visible.",
+      "whyMattersZh": "这次博览会重要，因为它显示巴塞罗那利用国际奇观重塑城市形象。它把本地工业、市民自豪感、旅游和规划连接在一起，当时加泰罗尼亚的工业文化正变得更加可见。",
+      "phaseRelation": "It belongs to Industrial materials and modern cities because exposition urbanism used infrastructure, display architecture, and public circulation to advertise modernity.",
+      "phaseRelationZh": "它属于“工业材料与现代城市”阶段，因为博览会式城市建设利用基础设施、展示建筑和公共流线来宣传现代性。",
+      "connectionHint": "It connects to later Barcelona mega-events, including the 1929 exposition and 1992 Olympics, where urban transformation and global visibility again worked together.",
+      "connectionHintZh": "它连接到后来巴塞罗那的大型事件，包括 1929 年博览会和 1992 年奥运会；这些事件同样把城市改造和全球能见度结合起来。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Catalonia",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "architecture",
+        "economy-trade",
+        "entertainment-media"
+      ],
+      "phaseIds": [
+        "architecture-06",
+        "economy-trade-06"
+      ],
+      "primaryLensId": "architecture",
+      "primaryPhaseId": "architecture-06",
+      "regionPhaseIds": [
+        "iberia-liberal-industrial-catalonia"
+      ],
+      "primaryRegionPhaseId": "iberia-liberal-industrial-catalonia",
+      "eventType": "exposition-opens",
+      "importance": "core",
+      "scope": "urban",
+      "sourceRefs": [
+        "barcelona-history-museum",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "The 1888 Universal Exposition is a key moment in Barcelona's modern urban redevelopment around Ciutadella Park."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arc%20de%20Triomf%20Barcelona.jpg",
+      "imageAlt": "The Arc de Triomf in Barcelona, built as the 1888 exposition entrance.",
+      "imageCaption": "The Arc de Triomf served as a ceremonial gateway for Barcelona's 1888 Universal Exposition.",
+      "imageCaptionZh": "巴塞罗那凯旋门曾是 1888 年万国博览会的仪式性入口。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomf_Barcelona.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-park-guell-development-begins-1900",
+      "year": 1900,
+      "title": "Park Guell development begins",
+      "titleZh": "桂尔公园开发开始",
+      "summary": "Work began on Park Guell, an unrealized garden-city development that became one of Gaudi's clearest experiments in landscape, craft, structure, and fantasy.",
+      "summaryZh": "桂尔公园开发开始，这个未完成的花园城市项目后来成为高迪在景观、工艺、结构和幻想方面最鲜明的实验之一。",
+      "eventIntro": "Around 1900, Eusebi Guell and Antoni Gaudi began developing Park Guell as a planned residential garden estate on Barcelona's hills. The commercial housing project failed, but its viaducts, terraces, ceramic surfaces, and organic forms made it a major modernisme landscape.",
+      "eventIntroZh": "约 1900 年，欧塞比·桂尔与安东尼·高迪开始在巴塞罗那山坡上开发桂尔公园，原本设想为住宅花园社区。商业住宅计划失败了，但高架道、平台、陶瓷表面和有机形态让它成为重要的现代主义景观。",
+      "whyMatters": "Park Guell matters because it shows modern architecture expanding beyond buildings into terrain, infrastructure, ornament, housing speculation, and public experience.",
+      "whyMattersZh": "桂尔公园重要，因为它显示现代建筑如何从单体建筑扩展到地形、基础设施、装饰、住宅投机和公共体验。",
+      "phaseRelation": "It belongs to Industrial materials and modern cities because it emerged from Barcelona's expanding metropolitan edge and from experiments in engineered, marketable urban living.",
+      "phaseRelationZh": "它属于“工业材料与现代城市”阶段，因为它来自巴塞罗那大都市边缘的扩张，也来自对工程化、可销售城市生活的实验。",
+      "connectionHint": "It connects architecture to real estate, garden-city ideas, ceramic craft, tourism, and the transformation of failed private development into public heritage.",
+      "connectionHintZh": "它把建筑连接到房地产、花园城市理念、陶瓷工艺、旅游，以及失败私人开发转化为公共遗产的过程。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Catalonia",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "architecture",
+        "art",
+        "economy-trade"
+      ],
+      "phaseIds": [
+        "architecture-06"
+      ],
+      "primaryLensId": "architecture",
+      "primaryPhaseId": "architecture-06",
+      "regionPhaseIds": [
+        "iberia-liberal-industrial-catalonia"
+      ],
+      "primaryRegionPhaseId": "iberia-liberal-industrial-catalonia",
+      "eventType": "urban-development",
+      "importance": "core",
+      "scope": "urban",
+      "sourceRefs": [
+        "park-guell-official",
+        "unesco",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "Park Guell was developed from 1900 under Gaudi's design for Eusebi Guell, later becoming a public park and UNESCO-listed Gaudi work."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Park%20Guell%20Dragon.jpg",
+      "imageAlt": "The mosaic dragon fountain at Park Guell in Barcelona.",
+      "imageCaption": "Park Guell turns infrastructure, ceramic craft, and landscape into an urban fantasy.",
+      "imageCaptionZh": "桂尔公园把基础设施、陶瓷工艺和景观转化为城市幻想。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Park_Guell_Dragon.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-casa-batllo-renovation-completed-1906",
+      "year": 1906,
+      "title": "Casa Batllo renovation completed",
+      "titleZh": "巴特罗之家改造完成",
+      "summary": "Gaudi completed the renovation of Casa Batllo, turning an Eixample house into a dense modernisme surface of light, color, structure, and myth.",
+      "summaryZh": "高迪完成巴特罗之家改造，把扩展区住宅转化为由光、色彩、结构和神话构成的密集现代主义表面。",
+      "eventIntro": "In 1906, Antoni Gaudi completed his renovation of Casa Batllo on Passeig de Gracia. Rather than merely updating a facade, he reorganized light wells, rooms, surfaces, balconies, roof forms, and decorative craft into an integrated urban artwork.",
+      "eventIntroZh": "1906 年，安东尼·高迪完成格拉西亚大道巴特罗之家的改造。他并非只更新立面，而是把采光井、房间、表面、阳台、屋顶形态和装饰工艺组织成一件整体城市艺术品。",
+      "whyMatters": "Casa Batllo matters because it makes domestic architecture perform like visual media: the house becomes something to inhabit, display, photograph, narrate, and identify with Barcelona.",
+      "whyMattersZh": "巴特罗之家重要，因为它让住宅建筑像视觉媒介一样发挥作用：房子既可居住，也可展示、拍摄、叙述，并与巴塞罗那身份绑定。",
+      "phaseRelation": "It belongs to Industrial materials and modern cities because the Eixample's urban grid and bourgeois housing market gave modernisme a stage for experimentation.",
+      "phaseRelationZh": "它属于“工业材料与现代城市”阶段，因为扩展区的城市网格和资产阶级住宅市场给现代主义建筑实验提供了舞台。",
+      "connectionHint": "It connects to Catalan modernisme, urban middle-class culture, craft revival, tourism, and architecture as a branded image of the city.",
+      "connectionHintZh": "它连接到加泰罗尼亚现代主义、城市中产文化、工艺复兴、旅游，以及建筑作为城市品牌图像的功能。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Catalonia",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "architecture",
+        "art",
+        "fashion-daily-life"
+      ],
+      "phaseIds": [
+        "architecture-06"
+      ],
+      "primaryLensId": "architecture",
+      "primaryPhaseId": "architecture-06",
+      "regionPhaseIds": [
+        "iberia-liberal-industrial-catalonia"
+      ],
+      "primaryRegionPhaseId": "iberia-liberal-industrial-catalonia",
+      "eventType": "building-completed",
+      "importance": "core",
+      "scope": "urban",
+      "sourceRefs": [
+        "casa-batllo-official",
+        "unesco",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "Casa Batllo was remodeled by Gaudi between 1904 and 1906 and is one of the major works associated with Barcelona modernisme."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Casa%20Batllo%20Overview%20Barcelona%20Spain%20cut.jpg",
+      "imageAlt": "The facade of Casa Batllo in Barcelona.",
+      "imageCaption": "Casa Batllo turns an Eixample residence into a modernisme landmark of surface, light, and fantasy.",
+      "imageCaptionZh": "巴特罗之家把扩展区住宅转化为由表面、光线和幻想构成的现代主义地标。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_Batllo_Overview_Barcelona_Spain_cut.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-palau-musica-catalana-opens-1908",
+      "year": 1908,
+      "title": "Palau de la Musica Catalana opens",
+      "titleZh": "加泰罗尼亚音乐宫开放",
+      "summary": "The Palau de la Musica Catalana opened as a modernisme concert hall that linked architecture, music, civic culture, and Catalan identity.",
+      "summaryZh": "加泰罗尼亚音乐宫开放，这座现代主义音乐厅把建筑、音乐、市民文化和加泰罗尼亚身份连接起来。",
+      "eventIntro": "In 1908, the Palau de la Musica Catalana opened in Barcelona, designed by Lluis Domenech i Montaner for the Orfeo Catala choral society. Its glass, iron, tile, sculpture, and floral ornament turned a concert hall into a civic statement.",
+      "eventIntroZh": "1908 年，路易斯·多梅内克-蒙塔内尔为加泰罗尼亚合唱团设计的加泰罗尼亚音乐宫在巴塞罗那开放。玻璃、铁、瓷砖、雕塑和花卉装饰让音乐厅成为一种市民宣言。",
+      "whyMatters": "The building matters because it shows cultural nationalism operating through performance space. Music, architecture, language, and association life became part of how Catalan civil society represented itself.",
+      "whyMattersZh": "这座建筑重要，因为它显示文化民族主义如何通过表演空间运作。音乐、建筑、语言和社团生活成为加泰罗尼亚市民社会自我呈现的一部分。",
+      "phaseRelation": "It belongs to Industrial materials and modern cities because it combines new materials, dense urban construction, public performance, and modern civic institutions.",
+      "phaseRelationZh": "它属于“工业材料与现代城市”阶段，因为它结合了新材料、密集城市建造、公共表演和现代市民机构。",
+      "connectionHint": "It connects architecture to music, language politics, cultural associations, and later heritage tourism around Barcelona's modernisme landmarks.",
+      "connectionHintZh": "它把建筑连接到音乐、语言政治、文化社团，以及后来围绕巴塞罗那现代主义地标形成的遗产旅游。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Catalonia",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "architecture",
+        "entertainment-media",
+        "art"
+      ],
+      "phaseIds": [
+        "architecture-06",
+        "entertainment-media-05"
+      ],
+      "primaryLensId": "architecture",
+      "primaryPhaseId": "architecture-06",
+      "regionPhaseIds": [
+        "iberia-liberal-industrial-catalonia"
+      ],
+      "primaryRegionPhaseId": "iberia-liberal-industrial-catalonia",
+      "eventType": "venue-opens",
+      "importance": "core",
+      "scope": "urban",
+      "sourceRefs": [
+        "palau-musica-official",
+        "unesco",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "The Palau de la Musica Catalana opened in 1908 and is a UNESCO-listed modernisme concert hall by Domenech i Montaner."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Palau%20de%20la%20M%C3%BAsica%20Catalana%20-%20Interior.jpg",
+      "imageAlt": "Interior of the Palau de la Musica Catalana.",
+      "imageCaption": "The Palau de la Musica Catalana joins concert culture with modernisme architecture and Catalan civic identity.",
+      "imageCaptionZh": "加泰罗尼亚音乐宫把音乐会文化、现代主义建筑和加泰罗尼亚市民身份结合起来。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Palau_de_la_M%C3%BAsica_Catalana_-_Interior.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-casa-mila-la-pedrera-completed-1912",
+      "year": 1912,
+      "title": "Casa Mila / La Pedrera completed",
+      "titleZh": "米拉之家 / 采石场完成",
+      "summary": "Gaudi completed Casa Mila, a Barcelona apartment building whose stone facade, roofscape, and structural logic pushed urban housing into sculptural modern architecture.",
+      "summaryZh": "高迪完成米拉之家，这座巴塞罗那公寓楼以石质立面、屋顶景观和结构逻辑把城市住宅推向雕塑化现代建筑。",
+      "eventIntro": "In 1912, Casa Mila, also known as La Pedrera, was completed on Passeig de Gracia. Gaudi used a free-plan structure, undulating stone facade, iron balconies, courtyards, and a surreal roofscape to rethink apartment living.",
+      "eventIntroZh": "1912 年，格拉西亚大道上的米拉之家（又称采石场）完成。高迪使用自由平面结构、波浪形石立面、铁艺阳台、庭院和超现实屋顶景观，重新思考公寓生活。",
+      "whyMatters": "Casa Mila matters because it shows modern urban housing as a field for structural and visual experimentation, not only a container for private life.",
+      "whyMattersZh": "米拉之家重要，因为它显示现代城市住宅不仅是私人生活的容器，也可以是结构和视觉实验的场域。",
+      "phaseRelation": "It belongs to Industrial materials and modern cities: the building depends on modern urban real estate, new structural thinking, and a dense metropolitan audience.",
+      "phaseRelationZh": "它属于“工业材料与现代城市”阶段：这座建筑依赖现代城市房地产、新结构思维和密集大都市观众。",
+      "connectionHint": "It connects to apartment culture, Eixample urbanism, Art Nouveau, reinforced structural experimentation, and the later museumization of residential architecture.",
+      "connectionHintZh": "它连接到公寓文化、扩展区城市主义、新艺术运动、结构实验，以及后来住宅建筑被博物馆化的过程。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Catalonia",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "architecture",
+        "art",
+        "fashion-daily-life"
+      ],
+      "phaseIds": [
+        "architecture-06"
+      ],
+      "primaryLensId": "architecture",
+      "primaryPhaseId": "architecture-06",
+      "regionPhaseIds": [
+        "iberia-liberal-industrial-catalonia"
+      ],
+      "primaryRegionPhaseId": "iberia-liberal-industrial-catalonia",
+      "eventType": "building-completed",
+      "importance": "core",
+      "scope": "urban",
+      "sourceRefs": [
+        "la-pedrera-official",
+        "unesco",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "Casa Mila was completed in 1912 and is one of Gaudi's major Barcelona works."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Casa%20Mila%20-%20Barcelona%2C%20Spain%20-%20Jan%202007.jpg",
+      "imageAlt": "Casa Mila, La Pedrera, in Barcelona.",
+      "imageCaption": "Casa Mila turns urban apartment architecture into a sculptural and structural experiment.",
+      "imageCaptionZh": "米拉之家把城市公寓建筑转化为雕塑性与结构性的实验。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_Mila_-_Barcelona,_Spain_-_Jan_2007.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-barcelona-international-exposition-opens-1929",
+      "year": 1929,
+      "title": "Barcelona International Exposition opens",
+      "titleZh": "巴塞罗那国际博览会开幕",
+      "summary": "The 1929 International Exposition reshaped Montjuic and staged Barcelona through infrastructure, spectacle, national pavilions, and modern urban planning.",
+      "summaryZh": "1929 年国际博览会重塑蒙特惠奇山，并通过基础设施、奇观、国家展馆和现代城市规划展示巴塞罗那。",
+      "eventIntro": "In 1929, Barcelona opened the International Exposition on Montjuic. The event produced monumental axes, plazas, fountains, exhibition buildings, and transport improvements while presenting the city as both Spanish and internationally modern.",
+      "eventIntroZh": "1929 年，巴塞罗那在蒙特惠奇山举办国际博览会。它创造了纪念性轴线、广场、喷泉、展馆和交通改善，同时把这座城市呈现为既属于西班牙又具有国际现代性的城市。",
+      "whyMatters": "The exposition matters because it made urban display a tool of modernization. Barcelona used a world-event format to reshape public space and to make a city image that later tourism and mega-events could reuse.",
+      "whyMattersZh": "这次博览会重要，因为它把城市展示变成现代化工具。巴塞罗那用世界性活动重塑公共空间，并制造出后来旅游和大型活动可以反复使用的城市形象。",
+      "phaseRelation": "It sits at the edge of Industrial materials and modern cities and Modernism: exposition planning still used monumental civic space, but it also opened the door for radical modern architecture such as the Barcelona Pavilion.",
+      "phaseRelationZh": "它处在“工业材料与现代城市”和“现代主义”之间：博览会规划仍使用纪念性市民空间，但也为巴塞罗那馆这样的激进现代建筑打开舞台。",
+      "connectionHint": "It connects to tourism, national representation, urban infrastructure, modernist design, and the recurring Barcelona pattern of using global events to remake the city.",
+      "connectionHintZh": "它连接到旅游、国家展示、城市基础设施、现代主义设计，以及巴塞罗那反复利用全球活动改造城市的模式。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Montjuic",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "architecture",
+        "economy-trade",
+        "entertainment-media",
+        "state-empire"
+      ],
+      "phaseIds": [
+        "architecture-06",
+        "architecture-07"
+      ],
+      "primaryLensId": "architecture",
+      "primaryPhaseId": "architecture-06",
+      "regionPhaseIds": [
+        "iberia-liberal-industrial-catalonia"
+      ],
+      "primaryRegionPhaseId": "iberia-liberal-industrial-catalonia",
+      "eventType": "exposition-opens",
+      "importance": "core",
+      "scope": "urban",
+      "sourceRefs": [
+        "barcelona-history-museum",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "The 1929 Barcelona International Exposition was held on Montjuic and left major urban and architectural traces."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barcelona%20-%20Palau%20Nacional.jpg",
+      "imageAlt": "Palau Nacional on Montjuic in Barcelona.",
+      "imageCaption": "The 1929 exposition reshaped Montjuic with monumental civic space and exhibition architecture.",
+      "imageCaptionZh": "1929 年博览会以纪念性市民空间和展览建筑重塑蒙特惠奇山。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Palau_Nacional.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-barcelona-pavilion-opens-1929",
+      "year": 1929,
+      "title": "Barcelona Pavilion opens",
+      "titleZh": "巴塞罗那馆开放",
+      "summary": "Mies van der Rohe's Barcelona Pavilion opened as a temporary German pavilion that became a canonical image of modernist architectural space.",
+      "summaryZh": "密斯·凡德罗的巴塞罗那馆作为德国临时展馆开放，后来成为现代主义建筑空间的经典图像。",
+      "eventIntro": "In 1929, the German Pavilion designed by Ludwig Mies van der Rohe and Lilly Reich opened at the Barcelona International Exposition. Its planes of marble, glass, steel, water, and open circulation turned a diplomatic pavilion into an experiment in modern spatial abstraction.",
+      "eventIntroZh": "1929 年，由路德维希·密斯·凡德罗和莉莉·赖希设计的德国馆在巴塞罗那国际博览会开放。大理石、玻璃、钢、水面和开放流线把一座外交展馆变成现代空间抽象实验。",
+      "whyMatters": "The pavilion matters because it became one of the clearest demonstrations of modernist architecture as a spatial system: not a decorated box, but an arrangement of planes, materials, movement, and perception.",
+      "whyMattersZh": "巴塞罗那馆重要，因为它成为现代主义建筑作为空间系统的最清晰示范之一：它不是装饰盒子，而是平面、材料、移动和感知的组织。",
+      "phaseRelation": "It belongs directly to Modernism and international style, where architecture rejected historical ornament and sought clarity through structure, material precision, and open space.",
+      "phaseRelationZh": "它直接属于“现代主义与国际风格”阶段：建筑拒绝历史装饰，通过结构、材料精确性和开放空间追求清晰性。",
+      "connectionHint": "It connects to Weimar Germany, exposition diplomacy, furniture design, corporate modernism, and the later reconstruction of destroyed modernist icons as heritage.",
+      "connectionHintZh": "它连接到魏玛德国、博览会外交、家具设计、企业现代主义，以及后来重建已消失现代主义地标作为遗产的过程。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Montjuic",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "architecture",
+        "art",
+        "state-empire"
+      ],
+      "phaseIds": [
+        "architecture-07"
+      ],
+      "primaryLensId": "architecture",
+      "primaryPhaseId": "architecture-07",
+      "regionPhaseIds": [
+        "iberia-liberal-industrial-catalonia"
+      ],
+      "primaryRegionPhaseId": "iberia-liberal-industrial-catalonia",
+      "eventType": "pavilion-opens",
+      "importance": "core",
+      "scope": "transregional",
+      "sourceRefs": [
+        "mies-foundation",
+        "moma",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "The Barcelona Pavilion opened in 1929 as the German Pavilion for the International Exposition; the present structure is a later reconstruction."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barcelona%20Pavilion.jpg",
+      "imageAlt": "The Barcelona Pavilion by Mies van der Rohe.",
+      "imageCaption": "The Barcelona Pavilion became a canonical example of modernist planes, materials, and open space.",
+      "imageCaptionZh": "巴塞罗那馆成为现代主义平面、材料和开放空间的经典案例。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Barcelona_Pavilion.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-fundacio-joan-miro-opens-1975",
+      "year": 1975,
+      "title": "Fundacio Joan Miro opens",
+      "titleZh": "胡安·米罗基金会开放",
+      "summary": "The Fundacio Joan Miro opened on Montjuic, giving modern Catalan art a public institution at the moment Spain moved out of dictatorship.",
+      "summaryZh": "胡安·米罗基金会在蒙特惠奇山开放，在西班牙走出独裁的时刻为现代加泰罗尼亚艺术提供公共机构。",
+      "eventIntro": "In 1975, the Fundacio Joan Miro opened in Barcelona in a building designed by Josep Lluis Sert. It brought Miro's work, contemporary art, exhibition culture, and architectural modernism together just as Spain entered a new political era.",
+      "eventIntroZh": "1975 年，胡安·米罗基金会在巴塞罗那开放，建筑由何塞普·路易斯·塞尔特设计。它把米罗作品、当代艺术、展览文化和建筑现代主义结合在一起，而西班牙也正进入新的政治时代。",
+      "whyMatters": "The foundation matters because it made modern art a civic institution rather than only a private collection or international market object. In Barcelona, it also connected avant-garde memory to democratic cultural renewal.",
+      "whyMattersZh": "这座基金会重要，因为它让现代艺术成为市民机构，而不只是私人收藏或国际市场物件。在巴塞罗那，它还把先锋艺术记忆连接到民主文化更新。",
+      "phaseRelation": "It belongs to Contemporary global visual art because it shows modernist work being institutionalized through museums, foundations, archives, education, and urban cultural policy.",
+      "phaseRelationZh": "它属于“当代全球视觉艺术”阶段，因为它显示现代主义作品如何通过博物馆、基金会、档案、教育和城市文化政策被制度化。",
+      "connectionHint": "It connects to Catalan identity, post-Franco cultural opening, museum architecture, tourism, and the role of artist foundations in shaping art history.",
+      "connectionHintZh": "它连接到加泰罗尼亚身份、后佛朗哥时代的文化开放、博物馆建筑、旅游，以及艺术家基金会塑造艺术史的作用。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Montjuic",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "art",
+        "architecture",
+        "state-empire"
+      ],
+      "trackIds": [
+        "painting-visual-art"
+      ],
+      "phaseIds": [
+        "painting-visual-art-08",
+        "architecture-08"
+      ],
+      "primaryLensId": "art",
+      "primaryTrackId": "painting-visual-art",
+      "primaryPhaseId": "painting-visual-art-08",
+      "regionPhaseIds": [
+        "iberia-franco-democracy-contemporary"
+      ],
+      "primaryRegionPhaseId": "iberia-franco-democracy-contemporary",
+      "eventType": "museum-opens",
+      "importance": "core",
+      "scope": "urban",
+      "sourceRefs": [
+        "fundacio-joan-miro",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "The Fundacio Joan Miro opened in 1975 in Barcelona and remains a major institution for Miro and contemporary art."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fundaci%C3%B3%20Joan%20Mir%C3%B3%20Barcelona.jpg",
+      "imageAlt": "The Fundacio Joan Miro in Barcelona.",
+      "imageCaption": "The Fundacio Joan Miro turned modern Catalan art into a public cultural institution.",
+      "imageCaptionZh": "胡安·米罗基金会把现代加泰罗尼亚艺术转化为公共文化机构。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fundaci%C3%B3_Joan_Mir%C3%B3_Barcelona.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-barcelona-olympics-open-1992",
+      "year": 1992,
+      "title": "Barcelona Olympic Games open",
+      "titleZh": "巴塞罗那奥运会开幕",
+      "summary": "The 1992 Olympic Games opened in Barcelona, turning sport, media, waterfront redevelopment, and democratic Spain into a global urban showcase.",
+      "summaryZh": "1992 年巴塞罗那奥运会开幕，把体育、媒体、滨水区更新和民主西班牙转化为全球城市展示。",
+      "eventIntro": "In 1992, Barcelona opened the Summer Olympic Games. The event was not only a sports spectacle: it reorganized waterfront access, transport, public space, telecommunications, tourism, and the global image of a post-Franco democratic city.",
+      "eventIntroZh": "1992 年，巴塞罗那夏季奥运会开幕。它不只是体育奇观，也重组了滨水可达性、交通、公共空间、通信、旅游和后佛朗哥民主城市的全球形象。",
+      "whyMatters": "The Olympics matter because they became a model for using mega-events as urban redevelopment strategy. Barcelona's success story shaped how cities later imagined branding, infrastructure, and public space through global media events.",
+      "whyMattersZh": "这届奥运会重要，因为它成为利用大型活动推动城市再开发的范例。巴塞罗那的成功叙事影响后来城市如何通过全球媒体事件想象品牌、基础设施和公共空间。",
+      "phaseRelation": "It belongs to Video games and cable-era media because the Olympics were a global broadcast event, while also fitting contemporary Spain's democratic, touristic, and urban redevelopment phase.",
+      "phaseRelationZh": "它属于“电子游戏与有线电视时代媒介”阶段，因为奥运会是全球广播事件；同时它也契合当代西班牙的民主化、旅游化和城市更新阶段。",
+      "connectionHint": "It connects entertainment media to architecture, tourism, state image-making, infrastructure, and the politics of who benefits from urban transformation.",
+      "connectionHintZh": "它把娱乐媒体连接到建筑、旅游、国家形象塑造、基础设施，以及城市转型中谁受益的政治问题。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Catalonia",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "entertainment-media",
+        "architecture",
+        "state-empire",
+        "economy-trade"
+      ],
+      "phaseIds": [
+        "entertainment-media-07",
+        "architecture-08",
+        "state-empire-08"
+      ],
+      "primaryLensId": "entertainment-media",
+      "primaryPhaseId": "entertainment-media-07",
+      "regionPhaseIds": [
+        "iberia-franco-democracy-contemporary"
+      ],
+      "primaryRegionPhaseId": "iberia-franco-democracy-contemporary",
+      "eventType": "sports-event-opens",
+      "importance": "core",
+      "scope": "global",
+      "sourceRefs": [
+        "olympics",
+        "barcelona-city-council",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "The 1992 Summer Olympics are widely associated with Barcelona's waterfront redevelopment and global repositioning after Spain's democratic transition."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadi%20Ol%C3%ADmpic%20Llu%C3%ADs%20Companys%20Barcelona.jpg",
+      "imageAlt": "Estadi Olimpic Lluis Companys in Barcelona.",
+      "imageCaption": "The 1992 Olympics helped make Barcelona a model of event-led urban transformation.",
+      "imageCaptionZh": "1992 年奥运会帮助巴塞罗那成为大型活动驱动城市转型的范例。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys_Barcelona.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
+    },
+    {
+      "id": "event-macba-opens-1995",
+      "year": 1995,
+      "title": "MACBA opens",
+      "titleZh": "巴塞罗那当代艺术博物馆开馆",
+      "summary": "MACBA opened in the Raval, using contemporary art and Richard Meier's architecture as part of Barcelona's post-Olympic cultural and urban renewal.",
+      "summaryZh": "巴塞罗那当代艺术博物馆在拉瓦尔区开馆，以当代艺术和理查德·迈耶的建筑参与后奥运时代的文化与城市更新。",
+      "eventIntro": "In 1995, the Museu d'Art Contemporani de Barcelona opened in the Raval district. Designed by Richard Meier, the museum made contemporary art, bright modern architecture, neighborhood redevelopment, and Barcelona's cultural branding part of the same urban project.",
+      "eventIntroZh": "1995 年，巴塞罗那当代艺术博物馆在拉瓦尔区开馆。博物馆由理查德·迈耶设计，把当代艺术、明亮的现代建筑、街区再开发和巴塞罗那文化品牌纳入同一城市项目。",
+      "whyMatters": "MACBA matters because it shows how late twentieth-century cities used contemporary art institutions to reshape neighborhoods, attract visitors, and signal cultural modernity.",
+      "whyMattersZh": "MACBA 重要，因为它显示二十世纪晚期城市如何利用当代艺术机构重塑街区、吸引访客并传达文化现代性。",
+      "phaseRelation": "It belongs to Contemporary global visual art: art appears here through museums, urban policy, global architects, curatorial networks, and cultural regeneration.",
+      "phaseRelationZh": "它属于“当代全球视觉艺术”阶段：艺术在这里通过博物馆、城市政策、全球建筑师、策展网络和文化再生来呈现。",
+      "connectionHint": "It connects visual art to architecture, gentrification, post-industrial urban policy, tourism, and debates over whether culture-led renewal serves residents or visitors.",
+      "connectionHintZh": "它把视觉艺术连接到建筑、绅士化、后工业城市政策、旅游，以及文化驱动更新究竟服务居民还是游客的争论。",
+      "region": "iberia-spain",
+      "place": "Barcelona / Raval",
+      "placeIds": [
+        "iberia-spain"
+      ],
+      "primaryPlaceId": "iberia-spain",
+      "lensIds": [
+        "art",
+        "architecture",
+        "economy-trade"
+      ],
+      "trackIds": [
+        "painting-visual-art"
+      ],
+      "phaseIds": [
+        "painting-visual-art-08",
+        "architecture-08"
+      ],
+      "primaryLensId": "art",
+      "primaryTrackId": "painting-visual-art",
+      "primaryPhaseId": "painting-visual-art-08",
+      "regionPhaseIds": [
+        "iberia-franco-democracy-contemporary"
+      ],
+      "primaryRegionPhaseId": "iberia-franco-democracy-contemporary",
+      "eventType": "museum-opens",
+      "importance": "core",
+      "scope": "urban",
+      "sourceRefs": [
+        "macba",
+        "wikidata",
+        "wikimedia-commons"
+      ],
+      "sourceNotes": [
+        "MACBA opened in 1995 in Barcelona's Raval district and is a major institution for contemporary art in Spain."
+      ],
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/MACBA%20Barcelona%20-%20panoramio.jpg",
+      "imageAlt": "MACBA, Barcelona Museum of Contemporary Art.",
+      "imageCaption": "MACBA links contemporary art, museum architecture, and Barcelona's post-Olympic urban renewal.",
+      "imageCaptionZh": "MACBA 把当代艺术、博物馆建筑和巴塞罗那后奥运城市更新连接起来。",
+      "imageCredit": "Image: Wikimedia Commons",
+      "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:MACBA_Barcelona_-_panoramio.jpg",
+      "detailLevel": "full",
+      "reviewStatus": "approved",
+      "batchId": "barcelona-foundation-20260630"
     },
     {
       "id": "event-dot-com-bubble-bursts-2000",

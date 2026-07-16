@@ -4,24 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>History Connected</title>
-    <link rel="stylesheet" href="styles.css?v=timeline-default-1000bce-20260623">
+    <link rel="stylesheet" href="styles.css?v=cosmic-theme-system-20260628">
   </head>
-  <body class="is-workspace">
-    <section id="landingLayer" class="landing-layer" aria-label="Cinematic timeline landing" tabindex="0">
-      <div class="cosmic-field" aria-hidden="true"></div>
+  <body class="is-landing theme-cosmic-dark">
+    <section id="landingLayer" class="landing-layer" aria-label="Timeline event landing" tabindex="0">
       <div class="landing-copy">
         <div class="landing-brand">History Connected</div>
         <h1>Every point in time contains a world.</h1>
-        <p>A timeline where every moment opens into the world.</p>
+        <p data-i18n="landingSubtitle">Choose a moment, then open the world around it.</p>
       </div>
-      <div id="landingTimeline" class="landing-timeline" role="slider" aria-label="Choose a year" aria-valuemin="1453" aria-valuemax="1914" aria-valuenow="1453" tabindex="0">
+      <div id="landingTimeline" class="landing-timeline" role="slider" aria-label="Choose a year" aria-valuemin="-1000" aria-valuemax="2026" aria-valuenow="2000" tabindex="0">
         <div class="landing-line"></div>
-        <div id="landingActivePoint" class="landing-active-point" style="--point-x: 0%"></div>
+        <div id="landingActivePoint" class="landing-active-point" style="--point-x: 99%"></div>
         <div id="landingAnchors" class="landing-anchors"></div>
-        <div id="landingActiveYear" class="landing-active-year" style="--point-x: 0%">1453</div>
+        <div id="landingActiveYear" class="landing-active-year" style="--point-x: 99%">2000</div>
       </div>
-      <div id="landingKeywords" class="landing-keywords" aria-live="polite"></div>
-      <div class="landing-hint">Move along the line. Click a year to open it.</div>
+      <div id="landingEventChoices" class="landing-event-choices" aria-live="polite"></div>
     </section>
 
     <div class="app-shell">
@@ -59,6 +57,8 @@
               <span data-i18n="year">Year</span>
               <strong id="currentYearLabel">1453</strong>
             </div>
+            <button id="backToLandingTopBtn" class="secondary-btn small landing-return-btn" type="button" data-i18n="landingButton">Landing</button>
+            <button id="themeToggle" class="secondary-btn small theme-toggle" type="button" aria-label="Switch theme">Light</button>
             <button id="localeToggle" class="secondary-btn small locale-toggle" type="button" aria-label="Switch language">中文</button>
           </div>
         </header>
@@ -287,8 +287,8 @@
       </article>
     </div>
 
-    <script src="generated-content.js?v=war-global-conflicts-20260622"></script>
-    <script src="data.js?v=war-global-conflicts-20260622"></script>
-    <script src="app.js?v=timeline-default-1000bce-20260623"></script>
+    <script src="generated-content.js?v=barcelona-foundation-20260630"></script>
+    <script src="data.js?v=barcelona-foundation-20260630"></script>
+    <script src="app.js?v=cosmic-theme-system-20260628"></script>
   </body>
 </html>
