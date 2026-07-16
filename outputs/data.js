@@ -2445,7 +2445,7 @@ function inferPlaceIdsForEvent(event) {
     ["low-countries", ["netherlands", "dutch", "amsterdam", "rotterdam", "low countries", "rembrandt", "night watch", "burgundian"]],
     ["switzerland-alps", ["switzerland", "swiss", "geneva", "cern", "ipcc", "world wide web proposed", "web proposed"]],
     ["ireland", ["ireland", "irish", "newgrange"]],
-    ["iberia-spain", ["spain", "iberia", "portugal", "spanish", "caribbean / spanish", "madrid", "lisbon", "barcelona", "catalonia", "catalan", "gaudi", "gaudí", "sagrada familia", "eixample", "montjuic", "montjuïc", "miró", "miro", "mies pavilion", "barcelona pavilion"]],
+    ["iberia-spain", ["spain", "iberia", "portugal", "spanish", "caribbean / spanish", "madrid", "lisbon", "barcelona", "catalonia", "catalan", "gaudi", "gaudí", "sagrada familia", "eixample", "montjuic", "montjuïc", "miró", "miro", "mies pavilion", "barcelona pavilion", "els quatre gats", "fc barcelona", "generalitat", "castells", "guernica", "picasso museum"]],
     ["russia", ["russia", "russian", "soviet", "moscow", "petrograd", "ukraine"]],
     ["united-states", ["united states", "new york", "st. louis", "highland park", "menlo park", "ncs", "america", "americas", "cuba", "washington", "california", "online ai systems"]],
     ["mexico-mesoamerica", ["mexico", "mesoamerica", "aztec", "mexica", "tenochtitlan"]],
