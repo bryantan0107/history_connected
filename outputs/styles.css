@@ -4976,3 +4976,196 @@ body:not(.is-landing) .matrix-top-right {
   border-top-right-radius: 0 !important;
   overflow: hidden;
 }
+
+/* Light theme readability pass: keep the cosmic material, remove dark-panel leftovers. */
+body.theme-cosmic-light:not(.is-landing) .context-bar,
+body.theme-cosmic-light:not(.is-landing) .selected-context-bar,
+body.theme-cosmic-light:not(.is-landing) .selected-event,
+body.theme-cosmic-light:not(.is-landing) .detail-box,
+body.theme-cosmic-light:not(.is-landing) .detail-panel,
+body.theme-cosmic-light:not(.is-landing) .path-row,
+body.theme-cosmic-light:not(.is-landing) .node-card,
+body.theme-cosmic-light:not(.is-landing) .lineage-node-card,
+body.theme-cosmic-light:not(.is-landing) .node-why,
+body.theme-cosmic-light:not(.is-landing) .arrow-preview,
+body.theme-cosmic-light:not(.is-landing) .mechanism-callout,
+body.theme-cosmic-light:not(.is-landing) .why-matters,
+body.theme-cosmic-light:not(.is-landing) .local-nearby-panel,
+body.theme-cosmic-light:not(.is-landing) .local-context-subgroup,
+body.theme-cosmic-light:not(.is-landing) .empty-state {
+  border-color: rgba(47, 89, 160, 0.16);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(246, 250, 255, 0.76)),
+    rgba(255, 255, 255, 0.78);
+  color: #111827;
+  box-shadow: 0 18px 42px rgba(38, 67, 112, 0.1);
+}
+
+body.theme-cosmic-light:not(.is-landing) .context-bar,
+body.theme-cosmic-light:not(.is-landing) .selected-context-bar,
+body.theme-cosmic-light:not(.is-landing) .selected-event {
+  border-color: rgba(47, 109, 246, 0.28);
+  background:
+    linear-gradient(90deg, rgba(239, 246, 255, 0.96), rgba(255, 255, 255, 0.82)),
+    rgba(255, 255, 255, 0.86);
+  color: #172033;
+}
+
+body.theme-cosmic-light:not(.is-landing) .selected-event {
+  border-left-color: rgba(47, 109, 246, 0.72);
+}
+
+body.theme-cosmic-light:not(.is-landing) .empty-state {
+  border-style: dashed;
+  background: rgba(248, 251, 255, 0.82);
+  color: #56657c;
+}
+
+body.theme-cosmic-light:not(.is-landing) .local-context-group-grid .empty-state,
+body.theme-cosmic-light:not(.is-landing) .local-nearby-panel .empty-state {
+  background: rgba(241, 246, 255, 0.86);
+  color: #56657c;
+}
+
+body.theme-cosmic-light:not(.is-landing) .context-bar strong,
+body.theme-cosmic-light:not(.is-landing) .selected-context-bar strong,
+body.theme-cosmic-light:not(.is-landing) .selected-event strong,
+body.theme-cosmic-light:not(.is-landing) .detail-box h3,
+body.theme-cosmic-light:not(.is-landing) .detail-panel h3,
+body.theme-cosmic-light:not(.is-landing) .node-card h3,
+body.theme-cosmic-light:not(.is-landing) .lineage-node-card h3,
+body.theme-cosmic-light:not(.is-landing) .path-row h3,
+body.theme-cosmic-light:not(.is-landing) .path-header h3,
+body.theme-cosmic-light:not(.is-landing) .mechanism-callout,
+body.theme-cosmic-light:not(.is-landing) .phase-modal-card h2,
+body.theme-cosmic-light:not(.is-landing) .phase-modal-card h3,
+body.theme-cosmic-light:not(.is-landing) .event-modal-card h2,
+body.theme-cosmic-light:not(.is-landing) .event-modal-card h3,
+body.theme-cosmic-light:not(.is-landing) .phase-modal-section strong,
+body.theme-cosmic-light:not(.is-landing) .phase-modal-section li {
+  color: #111827;
+}
+
+body.theme-cosmic-light:not(.is-landing) .deep-dive-panel p,
+body.theme-cosmic-light:not(.is-landing) .context-bar,
+body.theme-cosmic-light:not(.is-landing) .selected-context-bar,
+body.theme-cosmic-light:not(.is-landing) .selected-event,
+body.theme-cosmic-light:not(.is-landing) .event-card p,
+body.theme-cosmic-light:not(.is-landing) .event-card span,
+body.theme-cosmic-light:not(.is-landing) .compact-event-card .compact-local-meta,
+body.theme-cosmic-light:not(.is-landing) .meta-line,
+body.theme-cosmic-light:not(.is-landing) .summary-text,
+body.theme-cosmic-light:not(.is-landing) .detail-box p,
+body.theme-cosmic-light:not(.is-landing) .detail-field,
+body.theme-cosmic-light:not(.is-landing) .node-summary,
+body.theme-cosmic-light:not(.is-landing) .context-summary,
+body.theme-cosmic-light:not(.is-landing) .path-header p,
+body.theme-cosmic-light:not(.is-landing) .phase-event-card small,
+body.theme-cosmic-light:not(.is-landing) .phase-modal-summary,
+body.theme-cosmic-light:not(.is-landing) .phase-modal-section p,
+body.theme-cosmic-light:not(.is-landing) .phase-section-heading-row span,
+body.theme-cosmic-light:not(.is-landing) .phase-modal-image figcaption,
+body.theme-cosmic-light:not(.is-landing) .phase-modal-image figcaption small,
+body.theme-cosmic-light:not(.is-landing) .event-modal-image figcaption,
+body.theme-cosmic-light:not(.is-landing) .event-modal-image figcaption small {
+  color: #5f6d84;
+}
+
+body.theme-cosmic-light:not(.is-landing) .detail-field strong,
+body.theme-cosmic-light:not(.is-landing) #detailKicker,
+body.theme-cosmic-light:not(.is-landing) .local-context-group > h3,
+body.theme-cosmic-light:not(.is-landing) .local-context-group-heading h3,
+body.theme-cosmic-light:not(.is-landing) .local-context-subgroup h4,
+body.theme-cosmic-light:not(.is-landing) .local-nearby-heading h3,
+body.theme-cosmic-light:not(.is-landing) .panel-heading .eyebrow,
+body.theme-cosmic-light:not(.is-landing) .lineage-preview-eyebrow,
+body.theme-cosmic-light:not(.is-landing) .phase-modal-section h3 {
+  color: #38557f;
+}
+
+body.theme-cosmic-light:not(.is-landing) .local-context-group + .local-context-group,
+body.theme-cosmic-light:not(.is-landing) .local-context-subgroup,
+body.theme-cosmic-light:not(.is-landing) .local-nearby-panel {
+  border-color: rgba(47, 89, 160, 0.14);
+}
+
+body.theme-cosmic-light:not(.is-landing) .local-nearby-heading {
+  border-bottom-color: rgba(47, 89, 160, 0.14);
+}
+
+body.theme-cosmic-light:not(.is-landing) .local-nearby-tabs button,
+body.theme-cosmic-light:not(.is-landing) .arrow-btn,
+body.theme-cosmic-light:not(.is-landing) .phase-segment-detail-btn {
+  border-color: rgba(47, 89, 160, 0.16);
+  background: rgba(255, 255, 255, 0.8);
+  color: #334155;
+}
+
+body.theme-cosmic-light:not(.is-landing) .local-nearby-tabs button:hover,
+body.theme-cosmic-light:not(.is-landing) .local-nearby-tabs button:focus-visible,
+body.theme-cosmic-light:not(.is-landing) .arrow-btn:hover,
+body.theme-cosmic-light:not(.is-landing) .arrow-btn:focus-visible,
+body.theme-cosmic-light:not(.is-landing) .phase-segment-detail-btn:hover,
+body.theme-cosmic-light:not(.is-landing) .phase-segment-detail-btn:focus-visible {
+  border-color: rgba(47, 109, 246, 0.42);
+  background: rgba(239, 246, 255, 0.95);
+  color: #1d4ed8;
+}
+
+body.theme-cosmic-light:not(.is-landing) .local-nearby-tabs button.active,
+body.theme-cosmic-light:not(.is-landing) .arrow-btn.active {
+  border-color: rgba(47, 109, 246, 0.5);
+  background: rgba(219, 234, 254, 0.9);
+  color: #1e3a8a;
+}
+
+body.theme-cosmic-light:not(.is-landing) .source-indicator,
+body.theme-cosmic-light:not(.is-landing) .event-card .source-indicator,
+body.theme-cosmic-light:not(.is-landing) .detail-box .source-indicator {
+  border-color: rgba(15, 118, 110, 0.18);
+  background: rgba(204, 251, 241, 0.72);
+  color: #0f766e;
+}
+
+body.theme-cosmic-light:not(.is-landing) .why-matters {
+  border-left-color: rgba(15, 118, 110, 0.54);
+  background:
+    linear-gradient(180deg, rgba(240, 253, 250, 0.92), rgba(255, 255, 255, 0.78)),
+    rgba(240, 253, 250, 0.78);
+}
+
+body.theme-cosmic-light:not(.is-landing) .why-matters strong {
+  color: #0f766e;
+}
+
+body.theme-cosmic-light:not(.is-landing) .why-matters span {
+  color: #475569;
+}
+
+body.theme-cosmic-light:not(.is-landing) .candidate-note {
+  border-color: rgba(217, 119, 6, 0.22);
+  background: rgba(255, 247, 237, 0.86);
+  color: #92400e;
+}
+
+body.theme-cosmic-light:not(.is-landing) .detail-panel {
+  box-shadow: 0 22px 60px rgba(38, 67, 112, 0.12);
+}
+
+body.theme-cosmic-light:not(.is-landing) .detail-panel .empty-state,
+body.theme-cosmic-light:not(.is-landing) #detailContent .empty-state {
+  background: rgba(248, 251, 255, 0.9);
+  color: #5f6d84;
+}
+
+body.theme-cosmic-light:not(.is-landing) .phase-modal-card,
+body.theme-cosmic-light:not(.is-landing) .event-modal-card {
+  color: #111827;
+}
+
+body.theme-cosmic-light:not(.is-landing) .phase-modal-card p,
+body.theme-cosmic-light:not(.is-landing) .event-modal-card p,
+body.theme-cosmic-light:not(.is-landing) .event-modal-summary,
+body.theme-cosmic-light:not(.is-landing) .event-modal-section p {
+  color: #4b5563;
+}
